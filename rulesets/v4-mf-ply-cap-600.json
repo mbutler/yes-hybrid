@@ -1,0 +1,9 @@
+{
+  "name": "v4-mf-ply-cap-600",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "customPiece9": "m:WfcF"
+  },
+  "maxPlies": 600
+}

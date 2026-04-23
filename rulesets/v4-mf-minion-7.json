@@ -1,0 +1,9 @@
+{
+  "name": "v4-mf-minion-7",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "customPiece9": "m:WfcF"
+  },
+  "startFen": "4abtba3/2mubmbum3/12/3*4*3/4**6/12/12/3XCLSD4 w - - 0 1"
+}

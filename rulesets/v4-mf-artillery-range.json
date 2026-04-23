@@ -1,0 +1,9 @@
+{
+  "name": "v4-mf-artillery-range",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "customPiece7": "a:mR2cK",
+    "customPiece9": "m:WfcF"
+  }
+}

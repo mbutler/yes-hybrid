@@ -26,6 +26,15 @@ public sealed class RuleSet
     [JsonPropertyName("flags")]        public Dictionary<string, bool> Flags { get; init; } = new();
     [JsonPropertyName("overrides")]    public Dictionary<string, string> Overrides { get; init; } = new();
 
+    /// <summary>
+    /// Optional per-ruleset overrides of the global harness search params.
+    /// When present these replace the sweep-wide <c>--depth</c> / <c>--max-plies</c>
+    /// for this rule set only, so a single sweep can mix e.g. a depth-6
+    /// baseline and a depth-8 probe and still share opening book + workers.
+    /// </summary>
+    [JsonPropertyName("searchDepth")]  public int? SearchDepth { get; init; }
+    [JsonPropertyName("maxPlies")]     public int? MaxPlies { get; init; }
+
     [JsonIgnore] public bool Bloodied => Flags.TryGetValue("bloodied", out var v) && v;
 
     [JsonIgnore]

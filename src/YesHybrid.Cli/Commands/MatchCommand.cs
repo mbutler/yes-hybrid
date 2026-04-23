@@ -45,10 +45,15 @@ internal static class MatchCommand
         int openingCount = o.Openings ?? o.Games;
         int openingPlies = o.OpeningPlies ?? 6;
         int parallel = Math.Max(1, o.Parallel);
+        // Rule-set overrides take precedence over the global sweep params so
+        // depth / ply-cap probes can coexist in one report folder.
+        int effDepth    = rules.SearchDepth ?? o.Depth;
+        int effMaxPlies = rules.MaxPlies    ?? o.MaxPlies;
 
         if (printHeader)
         {
-            outStream.WriteLine($"Match: rule-set '{rules.Name}'  games={o.Games}  depth={o.Depth}  "
+            outStream.WriteLine($"Match: rule-set '{rules.Name}'  games={o.Games}  depth={effDepth}  "
+                              + $"max-plies={effMaxPlies}  "
                               + $"openings={openingCount}x{openingPlies}plies  seed={seed}  "
                               + $"parallel={parallel}"
                               + $"{(rules.Bloodied ? "  +bloodied" : "")}");
@@ -87,8 +92,8 @@ internal static class MatchCommand
 
             var loop = new GameLoop(engine)
             {
-                Depth = o.Depth,
-                MaxPlies = o.MaxPlies,
+                Depth = effDepth,
+                MaxPlies = effMaxPlies,
                 BloodiedEnabled = rules.Bloodied,
             };
 
@@ -117,7 +122,7 @@ internal static class MatchCommand
                         Tags: new Dictionary<string, string>
                         {
                             ["Round"]   = gi.ToString(),
-                            ["Depth"]   = o.Depth.ToString(),
+                            ["Depth"]   = effDepth.ToString(),
                             ["RuleSet"] = rules.Name,
                             ["Rules"]   = rules.Bloodied ? "bloodied" : "baseline",
                             ["Opening"] = string.Join(' ', opening.PliesPlayed),

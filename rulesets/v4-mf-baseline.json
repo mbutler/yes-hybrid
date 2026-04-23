@@ -1,0 +1,8 @@
+{
+  "name": "v4-mf-baseline",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "customPiece9": "m:WfcF"
+  }
+}

@@ -1,0 +1,8 @@
+rank,ruleset,games,party_wins,horde_wins,unfinished,decisive_pct,party_share_decisive_pct,imbalance_pct,composite,party_ci_lo,party_ci_hi,median_plies,elapsed_sec
+1,v4-mf-ply-cap-600,150,59,32,59,60.7,64.8,29.7,0.427,54.6,73.9,222,674.5
+2,v4-mf-minion-9,150,32,41,77,48.7,43.8,12.3,0.427,33.0,55.2,190,564.4
+3,v4-mf-baseline,150,46,31,73,51.3,59.7,19.5,0.413,48.6,70.0,200,538.5
+4,v4-mf-striker-range,150,59,28,63,58.0,67.8,35.6,0.373,57.4,76.7,167,471.6
+5,v4-mf-minion-7,150,57,27,66,56.0,67.9,35.7,0.360,57.3,76.9,186,476.3
+6,v4-mf-artillery-range,150,46,24,80,46.7,65.7,31.4,0.320,54.0,75.8,160,504.3
+7,v4-mf-depth-8,150,14,39,97,35.3,26.4,47.2,0.187,16.4,39.6,226,603.4
