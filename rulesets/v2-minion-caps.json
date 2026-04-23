@@ -1,0 +1,8 @@
+{
+  "name": "minion-caps",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "customPiece9": "m:WcF"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "flag-only",
+  "variantsIni": "variants/yeshybrid-flag.ini",
+  "flags": { "bloodied": false },
+  "overrides": {}
+}

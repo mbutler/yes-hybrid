@@ -1,0 +1,8 @@
+rank,ruleset,games,party_wins,horde_wins,unfinished,decisive_pct,party_share_decisive_pct,imbalance_pct,composite,party_ci_lo,party_ci_hi,median_plies,elapsed_sec
+1,minion-caps,100,23,17,60,40.0,57.5,15.0,0.340,42.2,71.5,181,285.8
+2,bloodied,100,61,13,26,74.0,82.4,64.9,0.260,72.2,89.4,159,224.3
+3,baseline,100,39,8,53,47.0,83.0,66.0,0.160,69.9,91.1,157,252.9
+4,promo-only,100,39,8,53,47.0,83.0,66.0,0.160,69.9,91.1,157,260.4
+5,flag-only,100,0,10,90,10.0,0.0,100.0,0.000,0.0,27.8,178,309.5
+6,flag+promo,100,0,10,90,10.0,0.0,100.0,0.000,0.0,27.8,178,318.0
+7,all-in,100,0,16,84,16.0,0.0,100.0,0.000,0.0,19.4,164,311.4

@@ -93,12 +93,10 @@ public sealed class GameLoop
 
             OnPly?.Invoke(new PlyInfo(ply + 1, fen, move, triggered, bloodiedFrom));
 
-            // Quick outcome check on material, independent of engine verdict.
-            var material = prev.EvaluateOutcome();
-            if (material == GameOutcome.PartyWinsByCapturingTreasure)
-                return new Outcome(GameResult.PartyWins, "Treasure captured", moves.Count, moves, fen);
-            if (material == GameOutcome.HordeWinsByExtinction)
-                return new Outcome(GameResult.HordeWins, "Party extinct", moves.Count, moves, fen);
+            // No ruleset-specific outcome check here.  The engine's
+            // `bestmove (none)` signal on the loser's next turn is the sole
+            // authority for terminal states - this works uniformly for
+            // checkmate (royal king), extinction, and flag wins.
         }
 
         return new Outcome(GameResult.Unfinished, $"ply cap ({MaxPlies})", moves.Count, moves, fen);

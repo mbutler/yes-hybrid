@@ -1,0 +1,10 @@
+{
+  "name": "flag+promo",
+  "variantsIni": "variants/yeshybrid-flag.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "promotionPieceTypes": "b",
+    "promotionRegionBlack": "*1",
+    "promotionRegionWhite": "-"
+  }
+}

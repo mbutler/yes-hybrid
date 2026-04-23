@@ -25,6 +25,9 @@ internal sealed class Options
     public string? RulesPath { get; set; }
     public int? Openings { get; set; }
     public int? OpeningPlies { get; set; }
+    public int Parallel { get; set; } = 1;
+    public string? SweepOutDir { get; set; }
+    public List<string> RulesList { get; } = new();
 
     public static Options Parse(string[] args)
     {
@@ -53,6 +56,9 @@ internal sealed class Options
                 case "--rules":       o.RulesPath = Next(); break;
                 case "--openings":    o.Openings = int.Parse(Next()); break;
                 case "--opening-plies": o.OpeningPlies = int.Parse(Next()); break;
+                case "--parallel":    o.Parallel = int.Parse(Next()); break;
+                case "--out":         o.SweepOutDir = Next(); break;
+                case "--add-rules":   o.RulesList.Add(Next()); break;
                 default:
                     throw new ArgumentException($"unknown option: {a}");
             }

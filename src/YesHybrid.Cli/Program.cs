@@ -22,6 +22,7 @@ internal static class Program
                 "play"     => await PlayCommand.RunAsync(rest),
                 "batch"    => await BatchCommand.RunAsync(rest),
                 "match"    => await MatchCommand.RunAsync(rest),
+                "sweep"    => await SweepCommand.RunAsync(rest),
                 "bestmove" => await BestMoveCommand.RunAsync(rest),
                 "info"     => InfoCommand.Run(rest),
                 _          => Unknown(command),

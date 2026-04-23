@@ -27,7 +27,30 @@ public sealed class RuleSet
     [JsonPropertyName("overrides")]    public Dictionary<string, string> Overrides { get; init; } = new();
 
     [JsonIgnore] public bool Bloodied => Flags.TryGetValue("bloodied", out var v) && v;
-    [JsonIgnore] public string EffectiveStartFen => StartFen ?? Variant.DefaultStartFen;
+
+    [JsonIgnore]
+    public string EffectiveStartFen =>
+        StartFen                             // explicit override in the ruleset JSON
+        ?? ReadStartFenFromIni(VariantsIni)  // whatever the base INI declares
+        ?? Variant.DefaultStartFen;          // last-resort fallback
+
+    private static string? ReadStartFenFromIni(string iniPath)
+    {
+        if (!File.Exists(iniPath)) return null;
+        foreach (var rawLine in File.ReadLines(iniPath))
+        {
+            var line = rawLine.TrimStart();
+            if (line.StartsWith(";") || line.StartsWith("#") || line.Length == 0) continue;
+            if (!line.StartsWith("startFen", StringComparison.Ordinal)) continue;
+            int eq = line.IndexOf('=');
+            if (eq <= 0) continue;
+            var val = line[(eq + 1)..];
+            int semi = val.IndexOf(';'); // strip trailing ini-style comment
+            if (semi >= 0) val = val[..semi];
+            return val.Trim();
+        }
+        return null;
+    }
 
     public static RuleSet Load(string path)
     {
