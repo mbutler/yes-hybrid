@@ -1,0 +1,73 @@
+Match: rule-set 'bloodied'  games=50  depth=6  openings=50x6plies  seed=42  +bloodied
+  variants : /var/folders/rs/77r0skzs579fgb60prc23_mr0000gn/T/yes-hybrid/variants-bloodied-57835-2cba3f96aae047f0839a608d0072ac0e.ini
+  startFen : 4abtba3/2mubmbumm2/12/3*4*3/4**6/12/12/3XCLSD4 w - - 0 1
+  openings : 50 distinct (requested 50)
+
+  #1    1-0     Treasure checkmated or captured      99 plies    4.2s  open=[d1b1 h8h6 g1f2 d7e5 f2d2 e8c8]
+  #2    *       ply cap (300)                       300 plies   12.6s  open=[d1c1 d7b6 g1g2 c7b7 g2h2 e8b8]
+  #3    1-0     Treasure checkmated or captured      97 plies    4.1s  open=[f1e2 i8j8 e1c1 e8d8 e2e1 e7e5]
+  #4    *       ply cap (300)                       300 plies   12.6s  open=[d1d2 d7b8 e1e5 h8h6 g1f2 c7c6]
+  #5    1-0     Treasure checkmated or captured      29 plies    1.2s  open=[d1d2 d7f6 h1h2 c7c6 h2h3 j7j6]
+  #6    *       ply cap (300)                       300 plies   12.6s  open=[d1c1 d7b6 g1h2 g7g5 h2h3 b6c8]
+  #7    1-0     Treasure checkmated or captured      71 plies    3.0s  open=[d1e2 e7e5 f1g2 c7c8 e2d2 e8d8]
+  #8    1-0     Treasure checkmated or captured     233 plies    9.8s  open=[g1g2 e7e5 h1i1 c7b7 f1g1 g7g5]
+  #9    1-0     Treasure checkmated or captured     199 plies    8.4s  open=[g1e3 c7b7 e3c3 h7j6 c3b2 e7c7]
+  #10   1-0     Treasure checkmated or captured     293 plies   12.3s  open=[f1g2 d7b6 h1h2 b6a4 d1c1 h7j6]
+  #11   1-0     Treasure checkmated or captured     171 plies    7.2s  open=[g1h2 e7e5 h2i3 h8j8 h1h2 h7j6]
+  #12   1-0     Treasure checkmated or captured      91 plies    3.8s  open=[h1h2 d7e5 h2h1 c7d7 e1e5 h7g5]
+  #13   1-0     Treasure checkmated or captured     215 plies    9.1s  open=[e1j6 e7e5 d1d2 e5e3 h1i1 e3c3]
+  #14   *       ply cap (300)                       300 plies   12.6s  open=[d1b1 g7g5 b1b3 j7k7 f1f2 i8k8]
+  #15   1-0     Treasure checkmated or captured      59 plies    2.5s  open=[f1g2 g7g5 e1e5 f8d8 e5b8 f7g7]
+  #16   1-0     Treasure checkmated or captured     207 plies    8.7s  open=[f1e2 i8l8 g1g3 i7i8 e1h4 c7c6]
+  #17   1-0     Treasure checkmated or captured     187 plies    7.9s  open=[h1i1 i7i6 d1d3 i8j8 d3e2 f8d8]
+  #18   1-0     Treasure checkmated or captured     223 plies    9.4s  open=[g1f2 d7e5 f2f3 c7d7 f3f2 h8h6]
+  #19   1-0     Treasure checkmated or captured     129 plies    5.4s  open=[g1h2 h7g5 e1g1 c7c8 d1e1 d7c5]
+  #20   *       ply cap (300)                       300 plies   12.6s  open=[d1c1 e8d8 f1f2 j7j8 c1a1 e7e5]
+  #21   1-0     Treasure checkmated or captured     199 plies    8.4s  open=[g1i3 j7j6 h1g1 e8b8 i3g3 g7g5]
+  #22   1-0     Treasure checkmated or captured      53 plies    2.3s  open=[g1h2 h7g5 h2j4 f8d8 d1f3 h8h6]
+  #23   *       ply cap (300)                       300 plies   12.6s  open=[g1f2 i8j8 f2f3 c7b7 d1c2 e7e5]
+  #24   1-0     Treasure checkmated or captured     131 plies    5.5s  open=[h1i1 f7f6 d1b3 e8c8 b3c4 c7b7]
+  #25   *       ply cap (300)                       300 plies   12.6s  open=[g1g3 d7f6 f1g1 h7j6 g3h2 i8j8]
+  #26   0-1     Party extinct                       220 plies    9.2s  open=[g1h2 e7e5 h2i2 j7j6 d1f3 j6j7]
+  #27   1-0     Treasure checkmated or captured       1 plies    0.1s  open=[g1f2 i7i6 f2e2 i8i7 e1e3 h7g5]
+  #28   1-0     Treasure checkmated or captured     175 plies    7.4s  open=[d1c1 f8d8 f1g2 d7c5 c1a3 c5a6]
+  #29   *       ply cap (300)                       300 plies   12.6s  open=[g1i3 j7k7 i3j4 d7b8 d1d3 i7i6]
+  #30   1-0     Treasure checkmated or captured     163 plies    6.9s  open=[g1f2 f8d8 h1g1 h8f8 d1d3 c7b7]
+  #31   1-0     Treasure checkmated or captured       0 plies    0.0s  open=[e1c1 h7g5 c1g5]
+  #32   *       ply cap (300)                       300 plies   12.7s  open=[g1f2 j7j6 d1d3 c7c8 f2e2 i8k8]
+  #33   0-1     Party has no legal response         178 plies    7.5s  open=[f1e2 h7g5 d1d3 f7f6 d3b3 i8l8]
+  #34   1-0     Treasure checkmated or captured      25 plies    1.1s  open=[g1i3 d7f6 d1c1 e8c8 c1d2 h7j6]
+  #35   *       ply cap (300)                       300 plies   12.6s  open=[g1h2 e8d8 h2i2 f7f6 f1g1 h8h6]
+  #36   1-0     Treasure checkmated or captured     117 plies    5.0s  open=[e1e5 c7c8 d1e2 j7j6 e2c4 c8b8]
+  #37   1-0     Treasure checkmated or captured      59 plies    2.5s  open=[e1j6 i7i6 d1f3 h8h6 f3d1 f8d8]
+  #38   1-0     Treasure checkmated or captured      55 plies    2.3s  open=[f1g2 d7b6 d1c1 f8d8 c1c2 i8l8]
+  #39   1-0     Treasure checkmated or captured      69 plies    2.9s  open=[f1e2 h7j8 g1h2 j8i6 d1c1 d7c5]
+  #40   *       ply cap (300)                       300 plies   12.6s  open=[g1h2 j7k7 h1i1 g7g5 h2g2 e8c8]
+  #41   0-1     Party extinct                       178 plies    7.5s  open=[g1g2 e8d8 g2i2 i7i6 i2k4 i8k8]
+  #42   *       ply cap (300)                       300 plies   12.6s  open=[e1e5 c7b7 f1g2 j7j8 e5c5 i7i6]
+  #43   1-0     Treasure checkmated or captured     243 plies   10.3s  open=[g1g3 h8j8 d1d3 d7b8 f1g2 i8h8]
+  #44   1-0     Treasure checkmated or captured     285 plies   12.0s  open=[d1f3 f8f6 f1f2 j7j6 e1g3 g7g5]
+  #45   1-0     Treasure checkmated or captured     203 plies    8.6s  open=[d1b3 i7i6 h1i1 i8i7 b3b1 e7e5]
+  #46   1-0     Treasure checkmated or captured     275 plies   11.5s  open=[d1b3 i8l8 b3b2 h7f6 b2d4 l8l5]
+  #47   1-0     Treasure checkmated or captured      57 plies    2.4s  open=[d1d3 c7c6 h1i1 i8j8 d3d2 e7c7]
+  #48   *       ply cap (300)                       300 plies   12.6s  open=[d1c1 d7f6 e1b1 i8j8 g1e3 h7g5]
+  #49   1-0     Treasure checkmated or captured      65 plies    2.7s  open=[d1b1 h7g5 g1i3 d7f6 i3g1 h8j8]
+  #50   1-0     Treasure checkmated or captured     189 plies    7.9s  open=[d1e2 e8d8 e2g4 i8k8 h1i1 d7b8]
+
+========================================================
+  Rule set    : bloodied
+  Games       : 50
+--------------------------------------------------------
+  Party wins  :   34  ( 68.0%)
+  Horde wins  :    3  (  6.0%)
+  Unfinished  :   13  ( 26.0%)
+--------------------------------------------------------
+  Decisive      :  74.0%
+  Party(decisive):  91.9%   95% CI [ 78.7% ..  97.2%]
+  Imbalance     :  83.8%   (0% = perfectly balanced decisive games)
+  Median plies  : 163  (decisive games)
+
+  COMPOSITE SCORE : 0.120   (1.0 = balanced & decisive)
+========================================================
+  total time : 400.2s  (8.00s / game)
+  pgn        : games/bloodied-50.pgn

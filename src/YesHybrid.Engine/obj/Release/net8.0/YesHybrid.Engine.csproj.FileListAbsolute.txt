@@ -1,0 +1,11 @@
+/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/bin/Release/net8.0/YesHybrid.Engine.deps.json
+/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/bin/Release/net8.0/YesHybrid.Engine.dll
+/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/bin/Release/net8.0/YesHybrid.Engine.pdb
+/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.AssemblyInfoInputs.cache
+/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.AssemblyInfo.cs
+/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.csproj.CoreCompileInputs.cache
+/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.dll
+/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/refint/YesHybrid.Engine.dll
+/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.pdb
+/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/ref/YesHybrid.Engine.dll

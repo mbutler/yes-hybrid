@@ -1,0 +1,6 @@
+{
+  "name": "baseline",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {}
+}

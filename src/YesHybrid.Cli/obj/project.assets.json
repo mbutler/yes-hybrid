@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "YesHybrid.Engine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/YesHybrid.Engine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YesHybrid.Engine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "YesHybrid.Engine/1.0.0": {
+      "type": "project",
+      "path": "../YesHybrid.Engine/YesHybrid.Engine.csproj",
+      "msbuildProject": "../YesHybrid.Engine/YesHybrid.Engine.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "YesHybrid.Engine >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/var/folders/rs/77r0skzs579fgb60prc23_mr0000gn/T/cursor-sandbox-cache/81456185e6ff514724f343a26495ad4f/nuget": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
+      "projectName": "yes-hybrid",
+      "projectPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
+      "packagesPath": "/var/folders/rs/77r0skzs579fgb60prc23_mr0000gn/T/cursor-sandbox-cache/81456185e6ff514724f343a26495ad4f/nuget",
+      "outputPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Cli/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/mbutler/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj": {
+              "projectPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.420/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
