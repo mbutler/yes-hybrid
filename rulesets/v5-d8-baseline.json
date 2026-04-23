@@ -1,0 +1,10 @@
+{
+  "name": "v5-d8-baseline",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "customPiece9": "m:WfcF"
+  },
+  "searchDepth": 8,
+  "maxPlies": 600
+}

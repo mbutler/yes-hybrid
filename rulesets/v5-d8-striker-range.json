@@ -1,0 +1,11 @@
+{
+  "name": "v5-d8-striker-range",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "customPiece2": "s:mK3cF",
+    "customPiece9": "m:WfcF"
+  },
+  "searchDepth": 8,
+  "maxPlies": 600
+}

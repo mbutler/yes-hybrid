@@ -1,0 +1,2 @@
+rank,ruleset,games,party_wins,horde_wins,unfinished,decisive_pct,party_share_decisive_pct,imbalance_pct,composite,party_ci_lo,party_ci_hi,median_plies,elapsed_sec
+1,v5-d8-baseline,300,18,122,160,46.7,12.9,74.3,0.120,8.3,19.4,294,1605.1

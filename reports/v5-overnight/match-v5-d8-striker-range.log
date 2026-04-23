@@ -1,0 +1,18 @@
+Match: rule-set 'v5-d8-striker-range'  games=300  depth=8  max-plies=600  openings=300x6plies  seed=20260424  parallel=2
+  variants : /var/folders/gb/ns03xtr53539qh0kc35fzv8dxfq40g/T/yes-hybrid/variants-v5-d8-striker-range-18538-41387236965648798b6e234564e78f9d.ini
+  startFen : 4abtba3/2mubmbumm2/12/3*4*3/4**6/12/12/3XCLSD4 w - - 0 1
+  openings : 300 distinct (requested 300)
+
+  [w0]  #1    *       ply cap (600)                       600 plies   25.5s  (1/300)
+  [w1]  #2    *       ply cap (600)                       600 plies   25.7s  (2/300)
+  [w0]  #3    1-0     Treasure checkmated or captured     585 plies   24.9s  (3/300)
+  [w1]  #4    *       ply cap (600)                       600 plies   25.6s  (4/300)
+  [w0]  #5    0-1     Party extinct                       594 plies   25.5s  (5/300)
+  [w1]  #6    *       ply cap (600)                       600 plies   25.5s  (6/300)
+  [w0]  #7    1-0     Treasure checkmated or captured     357 plies   15.2s  (7/300)
+  [w0]  #9    0-1     Party extinct                       220 plies    9.5s  (8/300)
+  [w1]  #8    *       ply cap (600)                       600 plies   25.4s  (9/300)
+  [w0]  #11   *       ply cap (600)                       600 plies   25.5s  (10/300)
+  [w1]  #10   *       ply cap (600)                       600 plies   25.5s  (11/300)
+  [w1]  #12   0-1     Party extinct                       312 plies   13.2s  (12/300)
+  [w1]  #14   1-0     Treasure checkmated or captured       1 plies    0.1s  (13/300)

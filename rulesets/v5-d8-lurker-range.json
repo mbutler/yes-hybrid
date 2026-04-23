@@ -1,0 +1,11 @@
+{
+  "name": "v5-d8-lurker-range",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "customPiece8": "u:NN",
+    "customPiece9": "m:WfcF"
+  },
+  "searchDepth": 8,
+  "maxPlies": 600
+}
