@@ -15,8 +15,8 @@ All games at **depth=8, maxPlies=600, seed=20260424, parallel=2 or 4**.
 | `v5-d8-minion-9`      | 229/300    |     7 |   106 |   116 |    49.3% |        **6.2%** | 87.6% |     0.061 |
 | `v5-d8-minion-7`      | 209/300    |    20 |    88 |   101 |    51.7% |       **18.5%** | 63.0% |     0.191 |
 | `v5-d8-minion-6`      | 261/300    |    36 |    96 |   129 |    50.6% |       **27.3%** | 45.4% |     0.276 |
-| `v5-d8-striker-range` | 13/300     |     3 |     3 |     7 |    46.2% |       50.0% (n=6) | —   |     —     |
-| `v5-d8-lurker-range`  | 0/300      |     — |     — |     — |      —   |              —  |    — |     —     |
+| `v5-d8-striker-range` | **300/300** |    32 |   118 |   150 |    50.0% |       **21.3%** | 57.3% |     0.213 |
+| `v5-d8-lurker-range`  | **300/300** |    28 |   188 |    84 |    72.0% |       **13.0%** | 74.1% |     0.187 |
 
 (Minion-9, minion-7, and minion-6 all stopped with FSF pipe breaks
 mid-match; minion-6 had a successful `kill -TERM` during the machine
@@ -55,12 +55,63 @@ Striker-range was interrupted cleanly on the move.)
    certainly resolves to Horde wins, pulling the true Party% even
    lower).
 
-4. **Striker range probe is inconclusive.**  13 games with a 3-3
-   P/H split is nowhere near statistically meaningful; to be
-   clear, we are **not** claiming +1 Striker range pulls Party% to
-   50%.  We just don't have a useful read yet.
+4. **Striker range is a real but insufficient Party buff at depth
+   8.**  Full 300-game re-run on the new machine: +1 Striker range
+   moves Party%(dec) from **12.9% (baseline) to 21.3%**, a +8.4pp
+   shift.  95% CIs don't overlap (baseline [8.3, 19.4], striker
+   [15.5, 28.6]).  Imbalance drops from 74% to 57%; composite nearly
+   doubles (0.120 -> 0.213).  The v4 gradient of "+10pp per +1 Striker
+   range" survived the move to depth 8 at roughly the same magnitude.
+   **BUT** 21.3% is still deep in Horde territory: a single +1 range
+   buff does not pull the design into the [40, 60] window.
 
-5. **Lurker range was not tested at all.**
+5. **Lurker range (`N` -> `NN`) is a decisiveness lever, NOT a balance
+   lever.**  Full 300-game re-run:
+
+       Baseline      (N):   P%(dec) 12.9%, Unfinished 53.3%, Decisive 46.7%
+       Lurker-range (NN):   P%(dec) 13.0%, Unfinished 28.0%, Decisive 72.0%
+
+   The 95% CIs on Party%(dec) overlap completely ([8.3, 19.4] vs
+   [9.1, 18.1]) - nightrider Lurker does NOT shift who wins.  But
+   it dramatically resolves previously-unfinished games: unfinished
+   drops 25pp, and the newly-decisive games are ~90% Horde wins
+   (Horde-absolute jumps from 40.7% to 62.7%).
+
+   **Confirmation of a v4/PARTIAL-FINDINGS hypothesis:** the 600-ply
+   cap was biasing Party%(dec) *upward* by converting would-be
+   Horde wins into "unfinished".  The true Party%(dec) of the
+   depth-8 baseline - revealed by forcing decisiveness via the
+   Horde buff - is ~13%, virtually identical to what the ply-cap-biased
+   baseline reported.  That means **we slightly overestimated Party%
+   in every prior rule set with high Unfinished rates, but not by
+   much.**  The directional reads (striker-range > baseline, minion-6 >
+   minion-7 > baseline) are still valid.
+
+   **Design implication:** Lurker range is not the right lever to
+   pull to buff Party - reducing it would just push more games
+   into the ply cap without shifting P%(dec).  Drop this as a
+   candidate balance knob.
+
+### Cross-rule-set read (final for v5; 3 complete + 3 partial)
+
+Ordered by Party%(dec) - **bold** rows are complete 300-game runs:
+
+       minion-9 (M+1):            6.2%  (partial, 229/300)
+       **baseline (M+0):          12.9%** (complete, 300/300)
+       **lurker-range (NN):       13.0%** (complete, 300/300)
+       minion-7 (M-1):           18.5%  (partial, 209/300)
+       **striker-range (+1rng):   21.3%** (complete, 300/300)
+       minion-6 (M-2):           27.3%  (partial, 261/300)
+
+Striker-range (+8.4pp over baseline) is the strongest single lever
+found at depth 8.  It is slightly stronger than removing one Minion
+(+5.6pp for minion-7 vs baseline) and delivers it with the *best*
+Imbalance (57% vs baseline's 74%) and *best* Composite (0.213) of
+any v5 rule set.  Neither single knob comes close to 40% Party(dec).
+Direction of travel suggests a stacked approach (striker-range +
+minion-6 or -7, or striker-range + a second Party buff like +2 range
+or Bloodied promotion) is the next place to probe - but that's v6
+work, not v5.
 
 ### What this suggests (not settled, needs v5.1 to confirm)
 
@@ -156,7 +207,13 @@ new one:
 - `match-v5-d8-minion-9.{log,pgn}` - partial, 229/300, crashed.
 - `match-v5-d8-minion-7.{log,pgn}` - partial, 209/300, crashed.
 - `match-v5-d8-minion-6.{log,pgn}` - partial, 261/300, crashed.
-- `match-v5-d8-striker-range.{log,pgn}` - 13/300, interrupted for machine move.
+- `match-v5-d8-striker-range.{log,pgn}` - **complete, 300/300** on new
+  machine after applying the per-game FSF restart patch; zero engine
+  crashes in 1535s of run time.  The 13-game partial was overwritten.
+- `match-v5-d8-lurker-range.{log,pgn}` - **complete, 300/300** on new
+  machine; zero engine crashes in 1382s of run time.  First ever run
+  of this rule set.
 - `sweep-summary.{md,csv}` and `sweep.log` - from the initial
-  sweep invocation that aborted after rule set 2.  These reflect
-  only the baseline; do not trust them as a v5 summary.
+  sweep invocation that aborted after rule set 2.  The `.md` / `.csv`
+  files have been manually updated to include striker-range and
+  lurker-range rows; `sweep.log` is the original baseline-only capture.

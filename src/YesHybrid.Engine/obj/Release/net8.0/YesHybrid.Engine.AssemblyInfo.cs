@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YesHybrid.Engine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea0dcb864bea7b0871b9bd45b6030ccb11bbc16a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("YesHybrid.Engine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YesHybrid.Engine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

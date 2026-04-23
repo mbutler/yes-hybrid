@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/mtbutler/.nuget/packages/": {}
+    "/Users/mbutler/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
+      "projectUniqueName": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
       "projectName": "yes-hybrid",
-      "projectPath": "/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
-      "packagesPath": "/Users/mtbutler/.nuget/packages/",
-      "outputPath": "/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Cli/obj/",
+      "projectPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
+      "packagesPath": "/Users/mbutler/.nuget/packages/",
+      "outputPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Cli/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/mtbutler/.nuget/NuGet/NuGet.Config"
+        "/Users/mbutler/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj": {
-              "projectPath": "/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj"
+            "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj": {
+              "projectPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj"
             }
           }
         }
@@ -87,7 +87,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/mtbutler/.dotnet/sdk/8.0.420/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.420/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

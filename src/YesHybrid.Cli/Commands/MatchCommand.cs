@@ -85,24 +85,55 @@ internal static class MatchCommand
         var totalSw = Stopwatch.StartNew();
         int completed = 0;
 
+        // Fresh FSF per game: mitigates the broken-pipe / bogus-mate failure
+        // mode observed in v5-overnight runs at depth 8 / 600 plies after
+        // ~100-200 consecutive searches on a single FSF process.  Cost is one
+        // UCI handshake per game (~50 ms); acceptable vs the search budget.
+        // A per-game IOException / Win32Exception / TimeoutException is
+        // recorded as an "engine_crash" Unfinished outcome rather than
+        // tearing down the whole match, so a single crashed worker can't
+        // tank the run anymore.
         var workers = chunks.Select((chunk, wi) => Task.Run(async () =>
         {
-            await using var engine = await UciEngine.StartAsync(o.EnginePath, variantsPath, Variant.Name);
-            engine.Verbose = false; // never verbose inside a worker; would scramble stdout
-
-            var loop = new GameLoop(engine)
-            {
-                Depth = effDepth,
-                MaxPlies = effMaxPlies,
-                BloodiedEnabled = rules.Bloodied,
-            };
-
             foreach (var gi in chunk)
             {
                 var opening = openings[(gi - 1) % openings.Count];
                 var sw = Stopwatch.StartNew();
-                var outcome = await loop.RunAsync(opening.Fen);
+                GameLoop.Outcome? outcome = null;
+                string? errorTag = null;
+
+                try
+                {
+                    await using var engine = await UciEngine.StartAsync(o.EnginePath, variantsPath, Variant.Name);
+                    engine.Verbose = false; // never verbose inside a worker; would scramble stdout
+
+                    var loop = new GameLoop(engine)
+                    {
+                        Depth = effDepth,
+                        MaxPlies = effMaxPlies,
+                        BloodiedEnabled = rules.Bloodied,
+                    };
+
+                    outcome = await loop.RunAsync(opening.Fen);
+                }
+                catch (Exception ex) when (
+                    ex is IOException
+                       or System.ComponentModel.Win32Exception
+                       or InvalidOperationException
+                       or TimeoutException)
+                {
+                    var firstLine = ex.Message.Split('\n', 2)[0];
+                    errorTag = $"{ex.GetType().Name}: {firstLine}";
+                    if (errorTag.Length > 90) errorTag = errorTag[..90];
+                }
                 sw.Stop();
+
+                outcome ??= new GameLoop.Outcome(
+                    Result: GameLoop.GameResult.Unfinished,
+                    Termination: $"engine_crash ({errorTag})",
+                    Plies: 0,
+                    Moves: Array.Empty<string>(),
+                    FinalFen: opening.Fen);
 
                 lock (statsLock) stats.Record(outcome);
                 int done = Interlocked.Increment(ref completed);
