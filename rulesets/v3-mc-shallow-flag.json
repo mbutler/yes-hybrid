@@ -1,0 +1,9 @@
+{
+  "name": "v3-mc-shallow-flag",
+  "variantsIni": "variants/yeshybrid-flag.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "customPiece9": "m:WcF",
+    "flagRegionWhite": "*6"
+  }
+}

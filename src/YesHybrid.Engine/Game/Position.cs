@@ -28,22 +28,32 @@ public sealed class Position
         HalfmoveClock = half; FullmoveNumber = full;
     }
 
-    public static Position Parse(string fen, int expectedFiles = 12, int expectedRanks = 8)
+    /// <summary>
+    /// Parse a FEN.  If <paramref name="expectedFiles"/> / <paramref name="expectedRanks"/>
+    /// are null, the board shape is inferred from the FEN itself (number of
+    /// '/'-separated ranks, and the max run-length within any rank).  Pass
+    /// non-null values to assert a specific shape.
+    /// </summary>
+    public static Position Parse(string fen, int? expectedFiles = null, int? expectedRanks = null)
     {
         var parts = fen.Split(' ', StringSplitOptions.RemoveEmptyEntries);
         if (parts.Length < 4)
             throw new FormatException($"FEN must have at least 4 fields: '{fen}'.");
 
         var rankStrings = parts[0].Split('/');
-        if (rankStrings.Length != expectedRanks)
+        int ranks = expectedRanks ?? rankStrings.Length;
+        if (rankStrings.Length != ranks)
             throw new FormatException(
-                $"FEN board has {rankStrings.Length} ranks, expected {expectedRanks}.");
+                $"FEN board has {rankStrings.Length} ranks, expected {ranks}.");
 
-        var squares = new char[expectedFiles, expectedRanks];
-        for (int rIdx = 0; rIdx < expectedRanks; rIdx++)
+        // Auto-detect file count from the widest rank if not asserted.
+        int files = expectedFiles ?? MeasureRankWidth(rankStrings[0]);
+
+        var squares = new char[files, ranks];
+        for (int rIdx = 0; rIdx < ranks; rIdx++)
         {
             // FEN ranks listed top-down; convert to internal y where y=0 is rank 1.
-            int y = expectedRanks - 1 - rIdx;
+            int y = ranks - 1 - rIdx;
             var row = rankStrings[rIdx];
             int x = 0, i = 0;
             while (i < row.Length)
@@ -56,23 +66,23 @@ public sealed class Position
                     int run = int.Parse(row[i..j]);
                     for (int k = 0; k < run; k++)
                     {
-                        if (x >= expectedFiles)
-                            throw new FormatException($"FEN rank '{row}' overflows {expectedFiles} files.");
+                        if (x >= files)
+                            throw new FormatException($"FEN rank '{row}' overflows {files} files.");
                         squares[x++, y] = '.';
                     }
                     i = j;
                 }
                 else
                 {
-                    if (x >= expectedFiles)
-                        throw new FormatException($"FEN rank '{row}' overflows {expectedFiles} files.");
+                    if (x >= files)
+                        throw new FormatException($"FEN rank '{row}' overflows {files} files.");
                     squares[x++, y] = ch;
                     i++;
                 }
             }
-            if (x != expectedFiles)
+            if (x != files)
                 throw new FormatException(
-                    $"FEN rank '{row}' has {x} squares, expected {expectedFiles}.");
+                    $"FEN rank '{row}' has {x} squares, expected {files}.");
         }
 
         char stm = parts[1].Length > 0 ? parts[1][0] : 'w';
@@ -81,7 +91,30 @@ public sealed class Position
         int half = parts.Length > 4 && int.TryParse(parts[4], out var h) ? h : 0;
         int full = parts.Length > 5 && int.TryParse(parts[5], out var f) ? f : 1;
 
-        return new Position(expectedFiles, expectedRanks, squares, stm, castling, ep, half, full);
+        return new Position(files, ranks, squares, stm, castling, ep, half, full);
+    }
+
+    /// <summary>Count the squares a single rank string represents.</summary>
+    private static int MeasureRankWidth(string row)
+    {
+        int count = 0, i = 0;
+        while (i < row.Length)
+        {
+            char ch = row[i];
+            if (char.IsDigit(ch))
+            {
+                int j = i;
+                while (j < row.Length && char.IsDigit(row[j])) j++;
+                count += int.Parse(row[i..j]);
+                i = j;
+            }
+            else
+            {
+                count++;
+                i++;
+            }
+        }
+        return count;
     }
 
     public string ToFen()

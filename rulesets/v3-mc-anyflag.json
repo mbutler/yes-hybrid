@@ -1,0 +1,9 @@
+{
+  "name": "v3-mc-anyflag",
+  "variantsIni": "variants/yeshybrid-flag.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "customPiece9": "m:WcF",
+    "flagPiece": "l c s x d"
+  }
+}

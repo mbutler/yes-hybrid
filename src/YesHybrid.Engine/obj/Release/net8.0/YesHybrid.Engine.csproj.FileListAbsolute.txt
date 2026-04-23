@@ -9,3 +9,15 @@
 /Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/refint/YesHybrid.Engine.dll
 /Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.pdb
 /Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/ref/YesHybrid.Engine.dll
+/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/bin/Release/net8.0/YesHybrid.Engine.deps.json
+/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/bin/Release/net8.0/YesHybrid.Engine.dll
+/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/bin/Release/net8.0/YesHybrid.Engine.pdb
+/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.AssemblyInfoInputs.cache
+/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.AssemblyInfo.cs
+/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.csproj.CoreCompileInputs.cache
+/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.sourcelink.json
+/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.dll
+/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/refint/YesHybrid.Engine.dll
+/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/YesHybrid.Engine.pdb
+/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/obj/Release/net8.0/ref/YesHybrid.Engine.dll

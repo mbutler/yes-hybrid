@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "/var/folders/rs/77r0skzs579fgb60prc23_mr0000gn/T/cursor-sandbox-cache/81456185e6ff514724f343a26495ad4f/nuget": {}
+    "/Users/mtbutler/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
+      "projectUniqueName": "/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
       "projectName": "yes-hybrid",
-      "projectPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
-      "packagesPath": "/var/folders/rs/77r0skzs579fgb60prc23_mr0000gn/T/cursor-sandbox-cache/81456185e6ff514724f343a26495ad4f/nuget",
-      "outputPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Cli/obj/",
+      "projectPath": "/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
+      "packagesPath": "/Users/mtbutler/.nuget/packages/",
+      "outputPath": "/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Cli/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/mbutler/.nuget/NuGet/NuGet.Config"
+        "/Users/mtbutler/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj": {
-              "projectPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj"
+            "/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj": {
+              "projectPath": "/Users/mtbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj"
             }
           }
         }
@@ -87,7 +87,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.420/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/mtbutler/.dotnet/sdk/8.0.420/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

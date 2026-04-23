@@ -1,0 +1,8 @@
+rank,ruleset,games,party_wins,horde_wins,unfinished,decisive_pct,party_share_decisive_pct,imbalance_pct,composite,party_ci_lo,party_ci_hi,median_plies,elapsed_sec
+1,v3-mc-minion-fc,150,50,42,58,61.3,54.3,8.7,0.560,44.2,64.1,187,468.4
+2,v3-mc-baseline,150,40,30,80,46.7,57.1,14.3,0.400,45.5,68.1,213,526.3
+3,v3-mc-bloodied,150,57,26,67,55.3,68.7,37.3,0.347,58.1,77.6,198,494.6
+4,v3-mc-denser-horde,150,25,51,74,50.7,32.9,34.2,0.333,23.4,44.1,205,539.4
+5,v3-mc-shallow-flag,150,17,39,94,37.3,30.4,39.3,0.227,19.9,43.3,90,524.6
+6,v3-mc-compact,150,9,103,38,74.7,8.0,83.9,0.120,4.3,14.6,140,387.8
+7,v3-mc-anyflag,150,0,30,120,20.0,0.0,100.0,0.000,0.0,11.4,216,615.5
