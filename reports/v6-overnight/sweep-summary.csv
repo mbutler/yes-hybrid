@@ -1,0 +1,7 @@
+rank,ruleset,games,party_wins,horde_wins,unfinished,decisive_pct,party_share_decisive_pct,imbalance_pct,composite,party_ci_lo,party_ci_hi,median_plies,elapsed_sec
+1,v6-d8-stall-rule,300,119,146,35,88.3,44.9,10.2,0.793,39.0,50.9,186,873.3
+2,v6-d8-minion-6-lurker-n-plus,300,168,62,70,76.7,73.0,46.1,0.413,67.0,78.4,215,1354.7
+3,v6-d8-minion-6-striker-range,300,60,88,152,49.3,40.5,18.9,0.400,33.0,48.6,269,1473.1
+4,v6-d8-minion-6-shortcap,300,59,72,169,43.7,45.0,9.9,0.393,36.8,53.6,210,1169.8
+5,v6-d8-minion-placement-a7-only,300,46,102,152,49.3,31.1,37.8,0.307,24.2,38.9,260,1613.9
+6,v6-d8-minion-placement-j7-only,300,34,129,137,54.3,20.9,58.3,0.227,15.3,27.7,314,1564.7

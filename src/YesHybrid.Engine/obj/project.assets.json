@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj",
+      "projectUniqueName": "/Users/mbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj",
       "projectName": "YesHybrid.Engine",
-      "projectPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj",
+      "projectPath": "/Users/mbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj",
       "packagesPath": "/Users/mbutler/.nuget/packages/",
-      "outputPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/obj/",
+      "outputPath": "/Users/mbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mbutler/.nuget/NuGet/NuGet.Config"

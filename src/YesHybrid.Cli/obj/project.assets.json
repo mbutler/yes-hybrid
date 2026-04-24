@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
+      "projectUniqueName": "/Users/mbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
       "projectName": "yes-hybrid",
-      "projectPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
+      "projectPath": "/Users/mbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Cli/YesHybrid.Cli.csproj",
       "packagesPath": "/Users/mbutler/.nuget/packages/",
-      "outputPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Cli/obj/",
+      "outputPath": "/Users/mbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Cli/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mbutler/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj": {
-              "projectPath": "/Users/mbutler/Desktop/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj"
+            "/Users/mbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj": {
+              "projectPath": "/Users/mbutler/Documents/GitHub/yes-hybrid/src/YesHybrid.Engine/YesHybrid.Engine.csproj"
             }
           }
         }
