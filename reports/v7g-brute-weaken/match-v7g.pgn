@@ -1,0 +1,3133 @@
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "2"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2u1abtb4/2m1bmbu4/9C2/3*4*3/4**6/8S3/7D4/3X8 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "33"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1i3 h8i7 e1j6 i7h8 h1h2 d7c8"]
+[TimeMs "1729"]
+
+1. d1f3 h7i6 2. j6h4 i6h6 3. h2h3 f7f6 4. f3e3 c8d7 5. i3i4 e7d6 6. e3f3 h8h7 7. h4j4
+ f6g6 8. f3g3 f8f7 9. h3h4 d6c5 10. h4g4 e8e6 11. g3h4 g8f8 12. j4h6 f8e8 13. h6h8
+ d7e7 14. g4g5 g6g5 15. h4g5 g7f6 16. g5g6 e8d8 17. g6e8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "4"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "1au2btb4/2m1b1bu4/5m6/3*4*3/4**6/6S5/12/4CX1D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "35"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1g3 e8b8 d1e2 f7f6 e2f1 d7c8"]
+[TimeMs "1933"]
+
+1. f1h3 f6g6 2. e1e5 g7f6 3. h3j5 h7i7 4. h1h2 e7d6 5. g3f3 c8d7 6. f3h5 f8f7 7. h5g6
+ g8f8 8. j5h5 f8e8 9. h5f7 e8d8 10. f7f6 d8c8 11. g6e8 b8b7 12. e8d7 c8b8 13. f6d8
+ b8a8 14. e5c7 d6e5 15. c7e7 e5e6 16. d7c6 b7c7 17. d8c7 e6e5 18. c6b7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "8"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt1b3/2mub1bu4/12/3*m3*3/4**6/12/12/1X4S1D3 w - - 2 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "15"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1b1 f7f6 e1e5 f6e5 h1i1 h8i8"]
+[TimeMs "964"]
+
+1. b1d3 h7g6 2. d3f3 g6g5 3. f3h3 e5e6 4. h3j5 g5h6 5. j5j6 h6h7 6. j6j7 h7i7 7. j7i7
+ e7d6 8. i7g7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "6"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2a2btb4/2mubmb1u3/12/2S*4*3/4**6/12/12/2CX3D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "163"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1e3 e8d8 e3c5 d8c8 e1c1 h7i7"]
+[TimeMs "7141"]
+
+1. d1f3 i7h6 2. f3g4 g7g6 3. c1i1 d7e6 4. h1h2 e7f6 5. h2h3 c7d7 6. h3h4 f8e8 7. h4h5
+ h6h7 8. g4g5 f7g7 9. c5e3 g8f8 10. e3g3 e8e7 11. g5g4 g6f7 12. h5g5 h8i7 13. g3f2
+ c8c6 14. f2g1 e7d6 15. i1f1 d6c5 16. g1e3 d7d6 17. e3d4 e6e5 18. d4f2 d6e6 19. f1f3
+ f6e7 20. g4h3 e6f6 21. g5g4 h7g6 22. h3g3 f6f5 23. g4h4 e5f6 24. h4h3 f5g5 25. g3e3
+ g6f5 26. e3e2 c6d6 27. f2d4 d6b6 28. h3g3 g7g6 29. d4f2 f8e8 30. f2h2 f6e5 31. h2g2
+ b6b3 32. g2f2 b3b4 33. e2d2 b4c4 34. d2e2 c4d4 35. f2h2 g6f6 36. h2j4 i7h7 37. e2g2
+ f5g6 38. j4j5 d4d2 39. j5k4 e8d8 40. k4i6 d8c8 41. g2f2 d2d3 42. i6j5 c8c7 43. f3f1
+ e5f5 44. f2f3 d3d4 45. j5i4 d4d2 46. f3f2 d2d3 47. f2f3 d3d2 48. f3f2 d2d3 49. f2f3
+ d3d2 50. f3f2 d2d3 51. f2f3 d3d2 52. i4h3 f5e5 53. f3g2 e7e6 54. g2f2 d2d3 55. f2f3
+ d3d4 56. h3j5 c7c8 57. f3g2 d4d3 58. g2i4 e5f5 59. i4g2 f5e5 60. g2f3 e5d4 61. f3f2
+ g6h6 62. f2g2 g5h5 63. j5h3 e6e5 64. h3j5 d3e3 65. j5j3 e3e1 66. f1h3 h6g5 67. g2h2
+ d4e3 68. j3j5 h5h6 69. j5j3 h6h5 70. j3k4 g5g4 71. g3g4 h5g4 72. h3h1 h7g7 73. k4i2
+ g4g5 74. h2j4 g5g6 75. j4j5 g6h6 76. j5j6 h6h7 77. j6h4 f6e6 78. h4h5 e1g1 79. h5f7
+ e6e7 80. f7f8 c8c7 81. f8d8 c7c6 82. d8b6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "12"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2m1abtb4/5mbu4/4ub6/3*4*3/4**6/12/1X5D4/4C1S5 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "169"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1h2 e7f6 d1b3 c7c8 b3b2 d7e6"]
+[TimeMs "7378"]
+
+1. b2d4 c8c7 2. d4f2 e6f5 3. f2f3 f5g5 4. h2h3 c7d7 5. f3g3 h7h6 6. h3h4 g5g6 7. h4g4
+ f8e7 8. g3e3 h8h7 9. e3f2 e7d6 10. e1g3 e8e6 11. f2g2 h7i7 12. g1e3 i7i6 13. e3d3
+ g8f8 14. d3d4 f8e8 15. g2e2 g7h7 16. d4c5 h7g7 17. c5e3 i6h5 18. e3c5 d6c6 19. c5e3
+ g7h7 20. g4h4 h5i6 21. h4g4 i6j5 22. e2f3 j5i6 23. f3e2 i6j5 24. e2f3 j5i6 25. e3d3
+ e8d8 26. d3c3 d8c8 27. c3d4 c6d6 28. d4c3 d6e7 29. f3h3 h7g7 30. c3d4 e6c6 31. d4e5
+ f6g5 32. e5f5 f7f6 33. f5g6 f6g6 34. g3i3 g5f6 35. h3g3 d7d6 36. g3f3 d6e6 37. f3e3
+ c6c4 38. e3f3 e7d6 39. f3e3 d6c5 40. e3e2 c4b4 41. e2d2 b4c4 42. d2e2 c4d4 43. g4h4
+ i6i7 44. e2f3 e6e5 45. h4g4 f6e6 46. f3g3 e5f5 47. g3f2 f5e5 48. f2g3 g6f6 49. g4h4
+ c8c7 50. g3f3 f6g6 51. f3g3 e6f6 52. g3f3 i7h7 53. h4h3 f6f5 54. h3h4 f5e6 55. f3g3
+ g7f7 56. g3f2 e6f5 57. f2g3 f5f6 58. g3f2 f6f5 59. f2g3 f5g5 60. i3f3 c5c6 61. h4g4
+ g5f6 62. g3h4 c6d6 63. h4g3 d6c5 64. g3h4 d4b4 65. h4f2 b4d4 66. f2g3 c5b4 67. g3h4
+ b4c3 68. h4i3 c3d3 69. i3g3 d3e2 70. g3f2 e2e3 71. g4g3 h6g5 72. f2d2 d4c4 73. d2e3
+ g5f5 74. g3g4 f6g5 75. g4f5 e5f5 76. e3d2 g6f6 77. d2c2 c4b4 78. c2b2 b4c4 79. b2a3
+ c7d7 80. a3a5 c4c6 81. a5a6 c6c7 82. a6a7 c7c8 83. a7b6 d7e7 84. b6d6 e7e8 85. d6e7
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "10"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3b1btb4/1m1u1mbu4/4a7/3*4*3/4**6/12/8D3/3XC2S4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "49"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1h2 c7b7 g1h1 e7d8 h2i2 e8e6"]
+[TimeMs "2366"]
+
+1. i2h2 d8c7 2. d1f3 f8e7 3. h2h3 d7d6 4. h3h4 h8i7 5. h1h3 d6e5 6. h4g4 h7h6 7. f3f2
+ f7f6 8. e1g3 b7b6 9. h3h5 g8f8 10. f2h4 h6h7 11. h4j4 f6f5 12. g4h4 e5d4 13. h5j3
+ d4e3 14. h4h5 i7j7 15. h5h6 e3f3 16. g3j6 h7g8 17. h6g6 f8e8 18. j4h6 g8f7 19. g6f7
+ e6f7 20. h6h5 f7f6 21. h5h7 e8d8 22. h7g8 f6f7 23. g8f7 d8c8 24. f7d7 c8b8 25. d7c8
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "16"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4ab1tb3/2mu1mbu4/5b6/3*4*3/4**6/8S3/2X9/4C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "79"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1b1 h8i8 b1c2 g8h8 g1i3 e7f6"]
+[TimeMs "3597"]
+
+1. c2e2 g7g6 2. i3g5 e8e6 3. e2g4 f7g7 4. e1j6 h8g8 5. h1h2 f6f5 6. h2h3 f8f7 7. h3g3
+ g6h6 8. g4h5 e6g6 9. h5g4 i8i7 10. g5h5 h6g5 11. g4h4 h7h6 12. h5g6 g7g6 13. g3g4
+ d7e6 14. h4h3 f5e5 15. h3i4 e6f6 16. j6h4 i7i6 17. i4j4 f6g7 18. h4k4 g8f8 19. k4i4
+ f8e8 20. j4h2 e8d8 21. g4h4 g6f6 22. h2g3 g7g6 23. g3i3 c7d7 24. i3h3 f6f5 25. h3f3
+ i6i7 26. f3d3 h6g7 27. d3b5 d7c7 28. b5c5 c7d7 29. c5b6 d8e8 30. b6b7 e8f8 31. b7d7
+ f8g8 32. i4i6 g8h8 33. d7e7 i7i8 34. h4h5 g6f6 35. h5h6 i8h7 36. h6g7 h8i8 37. e7f8
+ f6g7 38. f8g7 i8j8 39. g7h8 j8j7 40. h8j8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "1"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2m1bmbu4/4u7/3*4*3/2X1**6/12/12/4C1SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "345"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1b3 c7b7 b3c3 b7c7 c3c4 d7e6"]
+[TimeMs "14832"]
+
+1. g1f2 e7f6 2. e1g3 h7g6 3. c4e2 g6g5 4. e2g2 g7g6 5. g2i4 g5h6 6. h1h2 f6f5 7. h2h3
+ f8e7 8. i4k6 h6h7 9. k6j5 f7g7 10. h3h4 g8f8 11. j5h3 g6f7 12. h3f3 e6f6 13. f2f1
+ g7g6 14. g3e3 h7h6 15. f3g3 h8h7 16. f1h3 f7g7 17. h4g4 c7d7 18. h3h4 e7d6 19. g3g2
+ d7e7 20. g2f2 e7f7 21. f2g3 e8e7 22. e3h3 f5e6 23. h3f3 f8e8 24. f3h3 e7c7 25. g3e3
+ c7c4 26. e3e2 c4c7 27. e2e3 c7c4 28. e3e2 c4c3 29. e2e3 c3c4 30. e3e2 c4c3 31. e2e3
+ c3c4 32. e3g3 h7i6 33. g3e3 i6j5 34. e3e2 c4c7 35. e2e3 c7c4 36. e3e2 c4c7 37. e2e3
+ c7c4 38. e3g3 e8d8 39. h3f3 c4b4 40. g3f2 b4c4 41. f2e3 j5k5 42. e3e2 c4c3 43. e2e3
+ c3c4 44. e3e2 c4c7 45. e2e3 c7c4 46. e3e2 c4c7 47. e2e3 c7c4 48. e3e2 c4c3 49. h4j4
+ k5j5 50. j4i4 j5j6 51. e2e3 c3c4 52. g4h4 e6f5 53. e3e2 c4c5 54. e2e3 c5c4 55. h4h3
+ d8e8 56. e3e2 c4c7 57. h3g3 g6g5 58. e2g2 e8d8 59. g2h3 j6i7 60. i4j4 f6g6 61. j4i3
+ f7f6 62. g3g2 f5e5 63. i3i4 c7c5 64. g2g3 d6e6 65. h3g2 c5c7 66. g2e2 g6f5 67. i4j5
+ e6f7 68. j5j4 f7e6 69. e2e3 c7d7 70. e3d3 e6f7 71. f3c3 h6h5 72. d3b5 f5e6 73. c3f6
+ g5g4 74. g3g2 d8e8 75. j4j6 i7h7 76. j6h8 h5g5 77. f6d4 g5g6 78. h8j6 g7f6 79. g2f2
+ f6g5 80. d4g1 f7f6 81. j6j5 g5h4 82. j5i4 e8f8 83. b5c4 f6g5 84. c4e2 e6f5 85. f2f3
+ g4f3 86. e2f3 g5f6 87. f3h3 g6g5 88. h3j5 d7g7 89. i4i3 f5g4 90. i3h3 g4g3 91. h3i3
+ f8e8 92. g1j4 h4g4 93. j5i4 h7g6 94. i4j5 e5d4 95. i3j3 g3h4 96. j3k4 f6e6 97. j5j3
+ g4f3 98. k4j5 e6f5 99. j5h3 g7i7 100. j4j2 i7h7 101. h3h2 h7h6 102. h2f2 h4g4 103. j3h1
+ d4d3 104. h1f1 e8f8 105. f1d3 h6h7 106. j2e2 h7f7 107. d3f1 f7h7 108. f1d3 h7f7
+109. d3e3 f8g8 110. f2g2 f3g3 111. g2h2 g5h4 112. h2f2 g3h2 113. e3d3 f7f6 114. d3d4
+ f6f7 115. d4e5 g8h8 116. e5d4 h2h3 117. e2e5 f5g5 118. f2e2 h8h7 119. e5c5 h4g3
+120. c5e3 h3g2 121. d4d6 g4f5 122. d6d4 f7f8 123. d4d6 f8f7 124. d6d4 h7i7 125. d4d3
+ f5f6 126. d3f1 f7h7 127. e2f3 h7h4 128. f3g2 h4h2 129. f1d3 h2g2 130. d3d4 f6e6
+131. d4c4 e6f6 132. c4d4 f6e6 133. e3g5 g3h4 134. g5e3 h4h5 135. d4c4 e6f5 136. c4c5
+ g6g5 137. c5d6 h5h6 138. d6d4 h6g6 139. d4c3 g2e2 140. e3b3 g6f6 141. c3c2 e2h2
+142. c2c3 f5g4 143. c3c5 g4f5 144. c5d4 h2e2 145. d4b4 f6f7 146. b3b5 e2g2 147. b4d6
+ g2f2 148. d6d4 f2g2 149. d4e3 f7f6 150. e3e2 g2g1 151. e2c4 g1g4 152. b5d3 g5h5
+153. c4e2 f6g5 154. e2f2 h5g6 155. f2e3 g4h4 156. d3d6 h4h3 157. d6d4 h3h4 158. e3c5
+ g5f6 159. d4b6 i7i6 160. c5d6 g6g5 161. d6f8 h4h7 162. f8d6 h7h4 163. d6f8 h4h7
+164. f8d6 f6e5 165. d6c5 e5f6 166. c5e3 h7h4 167. e3d4 f6g6 168. d4e3 i6j6 169. b6f2
+ j6j5 170. e3g1 h4h3 171. g1i1 g6f7 172. i1k3 g5g4 173. k3j4 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "14"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mu1mb5/7u4/3*1b2*3/4**6/4S7/7D4/3XC7 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "109"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1h2 e7f6 g1g3 f6f5 g3e3 h7h6"]
+[TimeMs "4922"]
+
+1. e3f2 f7f6 2. d1f3 f8f7 3. h2h3 f6g6 4. e1g3 h6g5 5. g3e3 g5h6 6. h3h4 h8i7 7. f2g2
+ e8e6 8. h4g4 g8h8 9. f3g3 d7e7 10. g2f3 c7d7 11. f3f2 h8g8 12. g3h4 g8f8 13. f2f3
+ e7f6 14. e3g3 f8e8 15. f3d3 e8d8 16. d3f3 d8c8 17. f3e3 e6e5 18. e3f3 i7i6 19. f3f2
+ e5e8 20. f2d4 f6g5 21. g4g5 h6g5 22. h4j6 g5h5 23. j6i7 h5h4 24. g3e5 d7d6 25. e5c3
+ h4h5 26. d4e3 h5h6 27. i7i8 g7h7 28. e3g3 i6h5 29. c3h3 f5e5 30. g3g2 c8c7 31. i8g8
+ e8e7 32. g8h8 h6g7 33. h8i7 d6e6 34. g2g4 h5h6 35. g4i6 e7e8 36. i7j7 e8h8 37. i6i7
+ h8e8 38. i7i6 e8g8 39. i6g4 g6g5 40. g4i4 g5g4 41. h3j5 g4g5 42. j7i6 g8h8 43. i4g2
+ e6f6 44. g2h3 h7i7 45. j5g2 h6h5 46. i6i4 h8h6 47. i4i2 f6f5 48. g2j2 h5g6 49. i2g2
+ c7b7 50. g2f3 i7h7 51. f3e2 b7b8 52. e2c4 h7i6 53. c4c5 e5d4 54. c5c7 b8a8 55. c7a7
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "5"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3babtb4/2m2m1u4/2u3b5/3*4*3/4**6/4C7/4X2D4/6S5 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "33"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1e2 d7c6 e1e3 g7g6 h1h2 e7d8"]
+[TimeMs "1689"]
+
+1. g1g3 g6f5 2. e2f3 e8e6 3. h2h3 c6d6 4. h3h4 d6e5 5. g3g5 d8d7 6. e3g3 h8i7 7. f3h5
+ f7g7 8. g5g6 f8e7 9. g6h7 g8f8 10. h7g6 e5f6 11. g6h6 i7h8 12. h4g4 f6g6 13. h6g7
+ g6g7 14. g4f5 e6h6 15. f5f6 g7f6 16. h5h6 f8f7 17. h6f6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "20"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2a2btb4/2mu1mb1u3/5b6/3*4*3/3X**6/12/12/4C1S1D3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "75"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1d3 e7f6 d3d4 e8c8 h1i1 h7i7"]
+[TimeMs "3444"]
+
+1. g1f2 g7g6 2. i1i2 i7h6 3. d4e3 d7e6 4. i2h2 e6f5 5. h2h3 f5g5 6. f2h4 g5h5 7. h4g4
+ c8e8 8. g4h5 h6h5 9. e3f3 h5g5 10. f3g3 g5h5 11. h3h4 h5h6 12. g3g4 c7d7 13. h4h5
+ h6h7 14. h5g5 f7g7 15. g4h5 f8f7 16. g5f6 e8e6 17. f6f5 h7h6 18. h5f3 e6f5 19. f3f5
+ d7d6 20. f5g4 g6h5 21. g4e2 h6g5 22. e2g2 g7h7 23. g2i2 d6e6 24. i2h2 h8g7 25. h2f2
+ h7h6 26. f2e2 h6g6 27. e1e3 h5g4 28. e2c4 e6d6 29. c4d4 d6d7 30. d4f2 f7e6 31. f2g3
+ g5h5 32. g3h3 e6d6 33. h3j5 h5h6 34. j5j7 g8f8 35. j7i8 h6h7 36. i8h7 f8e8 37. h7f7
+ e8d8 38. f7d7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "18"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4ubtbu3/2m1b1b5/5m6/3*4*3/4**6/12/12/2X3SD4 w - - 2 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "87"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1e5 f7f6 e5e8 d7e8 d1c1 h7i8"]
+[TimeMs "3986"]
+
+1. c1e3 g7g6 2. g1g2 i8i7 3. h1h2 h8h7 4. g2g3 e8f7 5. h2h3 f6f5 6. g3g5 g6h5 7. e3g3
+ f7g6 8. h3h4 f8f7 9. h4g4 c7d7 10. g3h4 f5g4 11. h4g4 g6g7 12. g4f5 g8h8 13. f5d7
+ h7g8 14. d7e7 i7h7 15. g5i7 h8i8 16. i7i6 h7g6 17. i6h5 g6f6 18. e7d6 f6g5 19. d6e7
+ g5f6 20. e7d6 f6g5 21. d6e7 g5f6 22. e7d6 f6g5 23. d6e7 g5h6 24. e7e5 f7f6 25. e5f5
+ f6f7 26. f5g4 h6h7 27. g4h4 h7i7 28. h5g5 i8h8 29. h4h5 h8i8 30. h5h4 g8h7 31. h4g4
+ h7i6 32. g5g6 i7h6 33. g4i4 h6i7 34. i4k6 i8h8 35. k6k7 i7i8 36. k7j6 h8g8 37. j6i6
+ g8f8 38. i6i8 f8e8 39. g6f6 e8d8 40. f6g7 d8c8 41. i8g8 c8b8 42. g8e6 b8b7 43. e6c6
+ b7b8 44. c6b7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "22"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2m2m1u4/3bub6/3*4*3/4**6/12/12/3XC1SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "49"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1c2 d7e6 c2b1 e7d6 b1d1 g7f6"]
+[TimeMs "2358"]
+
+1. d1f3 h7h6 2. f3h3 f6g5 3. g1f2 f7g7 4. e1g3 f8f7 5. h1h2 e6f6 6. f2d4 e8e6 7. h3i4
+ g8f8 8. h2h3 g7g6 9. i4j4 f6g7 10. d4d3 g5f5 11. d3f3 h8h7 12. j4i3 g6g5 13. i3h2
+ c7d7 14. g3e3 f8e8 15. h3i3 e8d8 16. f3h3 g7f6 17. h2f2 f6e5 18. f2g3 d8c8 19. e3e5
+ g5g4 20. h3g4 e6f6 21. e5e3 h7g7 22. g3f2 h6g6 23. f2d4 g6h7 24. d4b6 f5e5 25. b6b8
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "24"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3a1btb4/2mu1mbu4/3b8/3*C3*3/4**6/12/2X2S6/7D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "131"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1f2 e7d6 e1e5 e8b8 d1c2 b8d8"]
+[TimeMs "5797"]
+
+1. c2e2 f7f6 2. e5g3 g7f7 3. e2g4 d7e6 4. g4h3 h7i7 5. h1h2 f6f5 6. f2f3 e6f6 7. h3h5
+ h8h7 8. h5h3 d6c5 9. h3j5 f6g5 10. j5k5 g5h6 11. k5j5 f8e7 12. j5h3 f5g5 13. h3g2
+ d8d6 14. g2f2 h6g6 15. f2e3 i7h6 16. h2h3 g6f5 17. e3c3 g8f8 18. g3e3 h6h5 19. c3d3
+ c7d7 20. f3f2 d6e6 21. d3b5 c5c6 22. b5a6 e7f6 23. h3h2 g5g4 24. a6c4 h5h4 25. c4a6
+ f6g5 26. a6c8 e6e7 27. c8b7 c6d6 28. b7b6 e7e6 29. b6b7 g5h5 30. b7b5 h5g5 31. h2g2
+ g5h5 32. b5c4 d6e5 33. c4c5 e5f6 34. c5d4 h5i4 35. d4c3 f6g5 36. c3c4 g5f6 37. c4c3
+ h7h6 38. c3d3 f5g5 39. d3f1 f6f5 40. f1d3 f7f6 41. g2g1 h6h7 42. d3f1 d7e7 43. g1g2
+ f6f7 44. e3g1 e6h6 45. f1e1 f8g8 46. f2d2 g8h8 47. e1f1 h8i8 48. f1f2 e7e6 49. f2h2
+ h6i6 50. h2j4 i8h8 51. d2e3 i6i7 52. g2h2 g4g3 53. h2g3 h4g3 54. j4i4 g3f3 55. e3e1
+ e6f6 56. i4i3 f3g2 57. g1j4 h7g7 58. e1e3 i7h7 59. i3k5 f5g4 60. k5j5 h7i7 61. j5k5
+ i7i6 62. k5k7 h8g8 63. k7j8 i6i7 64. j8i7 g8f8 65. i7h8 f8e8 66. h8f8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "3"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3a1btb4/2m1bm1u4/4ub6/3*4*3/4**6/12/3X8/6SD4 w - - 0 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1j6 e8d8 d1d2 g7f6 j6e6 d7e6"]
+[TimeMs "25461"]
+
+1. h1h2 h7g6 2. h2h3 e6f5 3. h3h4 e7d6 4. d2d3 f5e6 5. d3f3 g6h7 6. f3g4 d6c5 7. h4h5
+ d8d6 8. h5g5 f7g7 9. g1g3 f8e7 10. g3h3 g8f8 11. h3h5 e6f7 12. h5i6 h7g8 13. i6g6
+ h8h7 14. g6f7 g8f7 15. g4h5 f8e8 16. h5h4 e8d8 17. g5f5 c5c4 18. h4g5 d8c8 19. f5e5
+ d6c6 20. e5e6 f7e6 21. g5g7 c6d6 22. g7h7 d6d8 23. h7h5 d8d7 24. h5g4 c7c6 25. g4e2
+ c4c5 26. e2c2 f6g5 27. c2d3 e7f7 28. d3e3 e6f6 29. e3d3 c8d8 30. d3c4 f7g6 31. c4a6
+ c6d6 32. a6c4 d7e7 33. c4d3 e7f7 34. d3c2 f7e7 35. c2c4 g6g7 36. c4c2 e7e5 37. c2c4
+ d8d7 38. c4a6 d7e7 39. a6c8 f6f7 40. c8a6 c5d4 41. a6c4 f7f6 42. c4d3 e7e6 43. d3c4
+ e6e7 44. c4d3 e7f7 45. d3e2 d4c5 46. e2f3 f7e7 47. f3g4 g5g6 48. g4e2 f6g5 49. e2c4
+ e7f7 50. c4e2 f7f6 51. e2f2 g5g4 52. f2g2 e5g5 53. g2f2 g5e5 54. f2e3 g6h5 55. e3e2
+ g4g5 56. e2f3 g5h4 57. f3e3 c5d4 58. e3g1 h4h3 59. g1f2 g7f7 60. f2f3 h3h4 61. f3f2
+ h4h3 62. f2f3 h3h4 63. f3g2 h5h6 64. g2h2 h4h5 65. h2g1 d4c5 66. g1g3 e5g5 67. g3h3
+ h5g4 68. h3g2 f7e6 69. g2f2 g5e5 70. f2e2 g4g3 71. e2e3 g3g4 72. e3e2 e5g5 73. e2e3
+ g5e5 74. e3e2 e5g5 75. e2d2 g5e5 76. d2e2 e5g5 77. e2f2 g5e5 78. f2e2 g4g3 79. e2e3
+ g3g4 80. e3e2 e5g5 81. e2e3 g5e5 82. e3e2 g4g3 83. e2e3 g3g4 84. e3f2 c5d4 85. f2e3
+ e6d7 86. e3e2 e5g5 87. e2d3 g5e5 88. d3b5 d4c5 89. b5b6 f6f5 90. b6d8 e5e6 91. d8e8
+ g4g5 92. e8d8 c5d4 93. d8c7 d4e3 94. c7a5 f5f6 95. a5c3 g5g4 96. c3e3 e6e5 97. e3e2
+ e5g5 98. e2e3 g5e5 99. e3e2 e5g5 100. e2e3 g5e5 101. e3e2 e5g5 102. e2e3 g5e5 103. e3e2
+ e5g5 104. e2e3 g5e5 105. e3e2 e5g5 106. e2e3 g5e5 107. e3e2 e5f5 108. e2d3 f5e5
+109. d3e2 e5g5 110. e2e3 g5e5 111. e3e2 e5g5 112. e2e3 f6f7 113. e3d4 d6e6 114. d4b6
+ g4f5 115. b6d8 g5g7 116. d8d7 f7f6 117. d7b5 h6g5 118. b5d3 g7g6 119. d3f3 g5g4
+120. f3f2 g6g5 121. f2f3 e6e5 122. f3g2 g5g6 123. g2f2 e5e6 124. f2h4 f6f7 125. h4j6
+ g6g7 126. j6h4 e6f6 127. h4f2 g7g5 128. f2g2 g4h5 129. g2g3 g5g6 130. g3f2 g6g5
+131. f2e3 f6e6 132. e3d4 f7e7 133. d4b6 e7f7 134. b6c5 g5g7 135. c5e3 e6f6 136. e3c3
+ g7g5 137. c3c5 f6e6 138. c5e3 f7f6 139. e3e2 g5g3 140. e2e3 g3g4 141. e3e2 f5g5
+142. e2c4 g5f5 143. c4c6 h5h4 144. c6b7 g4g5 145. b7b6 f6g6 146. b6d8 g5h5 147. d8d7
+ h5h6 148. d7f7 g6g5 149. f7f8 f5g6 150. f8g8 e6f6 151. g8f8 h4g4 152. f8e7 g5f5
+153. e7d7 f5g5 154. d7b5 h6h4 155. b5c5 g5h5 156. c5e3 g6g5 157. e3f3 h5h6 158. f3g2
+ h6g6 159. g2h2 f6e6 160. h2h1 e6f6 161. h1j3 f6f7 162. j3h1 h4h6 163. h1j3 h6h4
+164. j3h1 f7e7 165. h1h2 e7f7 166. h2j4 h4h7 167. j4h2 h7h6 168. h2j4 h6h7 169. j4h2
+ h7h6 170. h2i3 g6f6 171. i3g3 h6h4 172. g3g1 h4h6 173. g1g2 h6h4 174. g2f2 f6g6
+175. f2h2 h4h5 176. h2j4 h5h6 177. j4i3 g4f5 178. i3k3 g6f6 179. k3i3 f5g4 180. i3j4
+ h6h3 181. j4j3 h3g3 182. j3i3 g5h4 183. i3k5 f6e6 184. k5j5 h4g5 185. j5h7 g5g6
+186. h7g8 e6e5 187. g8e8 g6f6 188. e8c6 e5f5 189. c6c4 g3e3 190. c4c3 e3e2 191. c3c5
+ f5g5 192. c5d4 g5g6 193. d4c3 e2h2 194. c3e3 h2h5 195. e3g3 f6g5 196. g3i3 h5h4
+197. i3j4 g6f6 198. j4h2 h4h5 199. h2h3 f6g6 200. h3j5 h5h6 201. j5i4 g6f6 202. i4i3
+ h6h5 203. i3j2 h5h6 204. j2i3 h6h5 205. i3h3 f6g6 206. h3j5 h5h6 207. j5j4 g6f6
+208. j4i3 g4f5 209. i3h2 h6h5 210. h2j4 f5g4 211. j4h2 f6g6 212. h2j4 g6f6 213. j4i3
+ h5h6 214. i3h3 f6g6 215. h3i4 g6f6 216. i4j4 f6e6 217. j4h2 h6h4 218. h2f2 e6f6
+219. f2h2 h4h6 220. h2j4 f7e7 221. j4h2 e7f7 222. h2i2 g4g3 223. i2h3 g3g4 224. h3i3
+ g4f5 225. i3g3 f5g4 226. g3h3 h6h4 227. h3h2 f6e6 228. h2f2 e6f6 229. f2h2 f7e7
+230. h2g1 e7f7 231. g1h2 g4f3 232. h2g2 f3g4 233. g2h2 h4h6 234. h2j4 f7g7 235. j4h2
+ f6g6 236. h2h3 h6h5 237. h3i3 g7f7 238. i3j4 g6f6 239. j4h2 f6g6 240. h2j4 g6f6
+241. j4h2 f6g6 242. h2h3 g6f6 243. h3g3 g4f5 244. g3h2 h5h4 245. h2g2 f7g7 246. g2h2
+ f6g6 247. h2j4 g7h7 248. j4j6 g6f6 249. j6j7 h7g7 250. j7i7 g7g8 251. i7i6 h4h7
+252. i6i4 h7h6 253. i4g2 h6h4 254. g2e2 f6g6 255. e2g2 g6f6 256. g2f2 f5g4 257. f2h2
+ g8g7 258. h2f2 g4g3 259. f2h2 g3g4 260. h2j4 g7g6 261. j4h2 g6g7 262. h2j4 h4h6
+263. j4h2 g4f5 264. h2j4 f5g4 265. j4h2 g7f7 266. h2f2 f6g6 267. f2g2 h6h4 268. g2i2
+ f7f6 269. i2g2 f6f5 270. g2h2 h4i4 271. h2g2 g5h4 272. g2f2 h4g5 273. f2g2 i4j4
+274. g2f2 j4j7 275. f2f3 j7h7 276. f3h3 h7i7 277. h3i3 g6f6 278. i3g3 i7g7 279. g3h3
+ g7h7 280. h3j5 h7i7 281. j5h3 i7h7 282. h3j5 h7i7 283. j5h3 i7h7 284. h3j5 h7i7
+285. j5h3 f6e6 286. h3j5 g5h4 287. j5k5 i7i6 288. k5j4 h4g5 289. j4h2 i6h6 290. h2h3
+ h6h7 291. h3h2 h7h4 292. h2f2 e6f6 293. f2d4 f6g6 294. d4c5 f5f6 295. c5d4 h4h7
+296. d4f2 f6e6 297. f2h2 g6f6 298. h2j4 h7h6 299. j4j5 g5h4 300. j5j4 h4g5 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "28"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt1u3/2mubmb5/9b2/3*4*3/4**6/12/12/4CXSD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "93"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1f1 h8i7 f1g1 i7j6 d1f1 h7i8"]
+[TimeMs "4244"]
+
+1. e1j6 i8i7 2. j6h4 g7g6 3. f1h3 f7g7 4. h3g3 i7h6 5. h1h2 g6f5 6. h2h3 e7d6 7. h4f2
+ g7g6 8. h3h4 f5f6 9. g1g2 d7e6 10. g2h2 e6f5 11. h4g4 f5g4 12. g3g4 e8e7 13. g4h4
+ c7d7 14. h4j6 e7g7 15. h2g2 g6g5 16. j6j4 g5g4 17. f2f5 d6e5 18. g2e2 d7e7 19. e2c4
+ e7e6 20. f5d3 f6f5 21. c4c2 e6f6 22. c2e2 f8f7 23. j4k5 g4g5 24. e2f3 f7g6 25. k5i3
+ h6h5 26. i3g3 g7f7 27. g3g2 f5g4 28. f3h3 h5h4 29. h3g3 h4h5 30. g2h3 g8f8 31. h3g2
+ f7e7 32. g3h3 g4h4 33. h3i4 h5g4 34. i4h3 f6f5 35. h3f3 e5f6 36. f3h3 e7g7 37. h3g4
+ f5g4 38. g2i4 g7h7 39. i4j5 h7h6 40. d3d6 f8e8 41. j5j7 g4g3 42. d6g3 h6h8 43. j7i6
+ e8d8 44. i6h6 d8d7 45. h6f6 d7c7 46. f6d8 c7c6 47. d8b6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "9"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt2b2/2mu1mbu4/5b3C2/1X1*4*3/4**6/12/12/6SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "289"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1d3 h8i7 d3b5 e7f6 e1j6 i7j8"]
+[TimeMs "12440"]
+
+1. j6h4 h7g6 2. g1g3 g6g5 3. h4f2 f6g6 4. b5c5 f7f6 5. h1h2 g6f5 6. h2h3 f8e7 7. h3h4
+ c7c6 8. c5e3 g5h6 9. g3g4 h6g6 10. g4i6 d7e6 11. h4h5 g8f8 12. e3g3 g6f7 13. g3h4
+ e8b8 14. h4h6 f8e8 15. h6j8 f6g6 16. h5h4 f5g5 17. j8i8 e7d6 18. i6g8 e8e7 19. g8f7
+ e6f7 20. i8i6 b8e8 21. i6g4 f7f6 22. g4g3 d6e6 23. g3f3 e8f8 24. f3e3 f6f5 25. h4g4
+ f8f6 26. e3f3 e6e5 27. g4f5 f6f5 28. f3e2 c6b6 29. e2c4 f5f6 30. f2a7 e5f5 31. c4d4
+ b6c6 32. a7e3 e7d7 33. d4c4 c6c7 34. c4e2 d7d8 35. e2g4 g6h6 36. g4h4 f6g6 37. h4f2
+ c7d7 38. f2d4 d8e8 39. d4c4 g5h5 40. c4c3 g6f6 41. c3d4 h6g6 42. d4c4 f5e5 43. c4d4
+ e5f5 44. d4f2 f6e6 45. f2d2 d7e7 46. d2f2 h5g5 47. f2f3 g5h5 48. f3f2 e7f7 49. f2d4
+ g7h7 50. d4b6 e6e7 51. b6b5 f7f6 52. b5d3 h7g7 53. d3b5 f5g4 54. b5c6 e8f8 55. c6b5
+ e7f7 56. b5d3 g6g5 57. d3e2 f6g6 58. e3e5 g7f6 59. e2e3 g5f5 60. e5g3 f7d7 61. g3d3
+ f8e8 62. e3e2 f5g5 63. e2e3 e8f8 64. d3f3 f8f7 65. e3e5 h5h6 66. e5e3 f7e7 67. f3d3
+ h6i7 68. e3g3 i7h6 69. g3h3 e7e8 70. d3i3 g5f5 71. h3f3 d7f7 72. f3d3 e8f8 73. i3i6
+ f7h7 74. d3d4 h7e7 75. i6g6 f6e5 76. g6i6 g4g5 77. d4c4 f5f6 78. c4c5 e7f7 79. c5e3
+ f7g7 80. e3g3 f8e8 81. g3g4 e8d8 82. i6f3 g7f7 83. g4e2 h6g6 84. e2g4 d8e8 85. f3h5
+ f7h7 86. g4g3 h7g7 87. g3e3 g6h6 88. e3c5 g7d7 89. c5d4 f6e6 90. d4d3 e6f6 91. d3d4
+ d7e7 92. d4c5 e7d7 93. c5d4 f6g6 94. h5h7 g6g7 95. h7d3 e5f6 96. d3f5 g7g6 97. f5c5
+ f6f5 98. c5e5 g5h5 99. e5e3 e8e7 100. e3e5 e7f7 101. d4d3 f7f8 102. d3e3 d7g7 103. e3c5
+ g7d7 104. c5e3 g6f6 105. e5g3 f6g6 106. g3d3 d7f7 107. e3g3 f8e8 108. d3h3 h6g5
+109. h3f3 f5e6 110. g3e3 h5h6 111. f3d3 h6h7 112. d3d6 h7g7 113. e3f3 e6e5 114. f3e3
+ g6f6 115. d6d4 e5e6 116. e3c5 e8f8 117. c5e3 f8e8 118. d4f2 f6g6 119. e3g3 e8f8
+120. f2h4 f8g8 121. g3h2 g7h6 122. h2h3 g8f8 123. h4h2 f7f6 124. h2h4 f6f7 125. h3j5
+ f8e8 126. j5h7 f7g7 127. h7i6 e8e7 128. h4j6 g7f7 129. i6g4 h6g7 130. g4h3 f7f6
+131. h3g4 g7h7 132. g4i6 g6g7 133. i6g4 g7g6 134. j6h4 f6f7 135. g4g3 g6f6 136. g3e3
+ e7e8 137. e3d4 f7e7 138. h4f6 h7h6 139. f6f3 e8f8 140. d4e5 e7f7 141. f3f5 f8g8
+142. e5g5 e6f6 143. f5f7 g8f8 144. g5h6 f8e8 145. h6f8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "32"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt5/2m1bmbb4/2u5u3/3*4*3/4**6/4S7/12/3XC2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "89"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1i1 h7i6 i1h1 d7c6 g1e3 h8h7"]
+[TimeMs "4092"]
+
+1. d1f3 h7h6 2. f3g4 i6i7 3. g4g5 i7h7 4. g5h5 h7i7 5. e3g3 g7g6 6. e1e5 e7f6 7. g3g5
+ c6d6 8. e5g3 f7g7 9. g5f5 h6g5 10. h5g5 i7h7 11. g3g6 g8h8 12. g6g4 e8e5 13. h1i1
+ e5f5 14. g5f5 f8f7 15. f5g5 f7g6 16. i1i2 h8g8 17. i2h2 h7h6 18. g5f5 g8f8 19. h2h3
+ g6h7 20. h3h4 h6g6 21. f5f3 c7c6 22. h4h5 d6e5 23. h5h4 h7h6 24. g4i4 c6d6 25. h4h5
+ d6e6 26. i4g6 e5f5 27. g6i6 h6h7 28. f3h3 f8f7 29. h3j5 f7e7 30. j5j6 e7d7 31. j6i7
+ g7f7 32. i7h7 f7f8 33. h5h6 d7c7 34. h6g6 f5e5 35. h7h6 f8e8 36. h6g5 e5d6 37. g5e3
+ c7c8 38. e3c3 f6g5 39. c3a5 c8d8 40. a5b6 d8d7 41. g6g5 d7e7 42. i6d6 e6e5 43. b6c5
+ e7f7 44. g5g6 f7f8 45. g6g7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "26"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mu2b5/4bm1u4/3*4*3/4**6/12/5S6/3XC2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "213"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1g2 f7f6 g2g1 e7e6 g1f2 h7h6"]
+[TimeMs "9216"]
+
+1. e1g3 g7f7 2. d1f3 e6e5 3. f3h3 h6i7 4. h3j5 e5f5 5. h1h2 f8e7 6. h2h3 d7e6 7. h3h4
+ e7d6 8. j5k5 i7h7 9. f2f3 g8f8 10. h4g4 h7g7 11. k5i7 f6g6 12. g4g5 e8e7 13. g5g6
+ g7g6 14. i7h8 f8e8 15. h8g8 e8d8 16. g8g6 e6f6 17. g6h6 c7d7 18. f3h5 d8c8 19. h5h4
+ c8c7 20. h4g4 e7e6 21. h6h5 c7c8 22. h5f3 f5g6 23. f3e3 c8d8 24. e3c5 f7g7 25. c5d4
+ d6c6 26. d4e3 d8c8 27. g4h5 g6f5 28. e3c5 c8d8 29. c5e3 d8e8 30. h5g4 e8d8 31. e3d4
+ f5g5 32. d4b6 d8e8 33. b6b5 e8f8 34. b5d3 f8e8 35. g3c3 g7f7 36. c3e3 g5f5 37. g4h5
+ e8d8 38. d3c4 d8e8 39. h5g4 f5g5 40. c4e2 d7e7 41. e2c4 e7d7 42. c4d4 g5f5 43. d4d2
+ e8d8 44. d2f2 e6e8 45. f2d4 e8e6 46. d4f2 e6e8 47. f2f3 f5g5 48. f3g3 e8e6 49. g3h4
+ c6c5 50. h4g3 d8e8 51. g3h4 e8d8 52. h4h6 d8c8 53. h6h5 c5b5 54. g4h4 g5f5 55. h4g4
+ f5g5 56. h5f3 b5c6 57. g4h4 g5f5 58. f3d3 c8d8 59. d3f3 d8e8 60. e3g3 f5g5 61. f3h5
+ g5f5 62. h5h6 e6e7 63. h4g5 f6e6 64. g5g6 e8d8 65. g6g5 d7d6 66. g3j6 e6e5 67. g5g6
+ d6e6 68. j6h4 d8c8 69. g6g7 f5g4 70. h6h5 e5f5 71. g7g6 f5g6 72. h5g6 g4f5 73. g6g4
+ f7f6 74. h4j6 f6f7 75. g4g5 e7d7 76. g5e3 c8d8 77. e3c5 d8e8 78. c5b5 d7c7 79. b5c4
+ c7d7 80. j6h4 c6d6 81. c4b5 d7c7 82. b5c4 c7d7 83. c4b5 d7c7 84. b5a6 f7g7 85. a6a7
+ c7f7 86. a7b7 e8f8 87. b7d7 f7e7 88. d7c7 g7h6 89. c7a5 e7f7 90. a5b5 f8g8 91. b5c5
+ f5g4 92. c5c6 d6e5 93. c6c4 h6i6 94. c4b5 g8h8 95. b5d7 e6f6 96. d7c7 h8i8 97. c7c5
+ e5e6 98. c5e3 g4f5 99. e3g3 e6d6 100. g3i3 f7i7 101. i3k5 i7j7 102. k5j5 j7i7 103. j5k6
+ i8h8 104. k6k7 h8g8 105. k7i7 g8f8 106. i7h6 f8f7 107. h6f6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "7"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/1m2bmb5/4u2u4/3*4*3/4**6/12/8S3/2CX3D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "167"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1c1 c7b7 g1h2 d7e6 h2i2 h7h6"]
+[TimeMs "7355"]
+
+1. d1f3 g7g6 2. f3h3 f7g7 3. c1i1 e7d6 4. h1h2 f8f7 5. h2g2 h6g5 6. i2i3 e6f6 7. i1i4
+ e8e5 8. i3h4 g5h6 9. g2g3 h8i7 10. h4h5 b7b6 11. g3g4 g6g5 12. h3g3 g8f8 13. h5j7
+ b6b5 14. g3i3 g5g6 15. j7h5 g6g5 16. h5j7 g7g6 17. j7j6 f8e8 18. j6j5 e8d8 19. j5i6
+ d8c8 20. i3h4 e5e7 21. i6j6 g5f5 22. j6j5 b5b4 23. j5j3 d6c5 24. j3i3 b4c4 25. i3h3
+ f7e6 26. i4g2 i7i6 27. h4f2 f6e5 28. f2e3 e5d4 29. e3f3 f5f6 30. g2i4 e7h7 31. f3g3
+ h7j7 32. h3g2 j7g7 33. g4h4 c5b4 34. g2f3 e6f5 35. g3h3 g7d7 36. h3g3 d7d6 37. h4g4
+ f5e6 38. f3g2 b4c5 39. g4h4 d6d7 40. g2f3 d7d6 41. f3e2 d4e5 42. h4g4 c5b4 43. e2f2
+ c4c5 44. f2g2 b4c4 45. i4f1 f6f7 46. g3h4 c4b4 47. f1h3 b4c4 48. g2g3 e6f6 49. g3f2
+ f6g7 50. f2g3 e5f6 51. g3f3 f7e6 52. h4j6 c4b4 53. j6j4 c8c7 54. j4j6 d6d8 55. f3g3
+ c5c4 56. h3f3 b4c5 57. g3h3 d8g8 58. h3i4 g8f8 59. i4g2 i6h5 60. j6h4 h6g5 61. h4h3
+ c4d4 62. g4g5 f6g5 63. g2g4 h5h4 64. f3i3 f8f6 65. h3g3 d4c4 66. g3f3 c5b4 67. f3h3
+ b4c3 68. h3g3 c3d3 69. g3h3 h4h5 70. h3g3 e6e5 71. i3f3 d3c2 72. g4h3 f6f5 73. g3f2
+ c2b3 74. f2e2 c4c5 75. e2d3 f5f6 76. d3b3 f6c6 77. b3c3 g6f6 78. c3a5 c7d7 79. a5a7
+ g5g4 80. h3g4 d7e7 81. a7b8 e7e6 82. b8c8 e6d6 83. c8d8 d6e6 84. d8f6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "36"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3a1btb4/2mub1bu4/12/3*1m2*3/4**6/12/4S7/1X2C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "109"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1b1 f7f6 g1f1 e8d8 f1e2 f6f5"]
+[TimeMs "4907"]
+
+1. h1h2 h7g6 2. b1d3 f8f7 3. e1e3 d7e6 4. d3f3 f5g5 5. h2h3 d8d6 6. f3g3 e6f5 7. e2g2
+ g6h5 8. g3i3 h8i8 9. i3k5 h5i6 10. e3i3 i6h7 11. g2f3 i8i7 12. f3e3 d6g6 13. e3f3
+ g6d6 14. k5j5 d6g6 15. j5j6 e7d6 16. i3g3 g6i6 17. j6h4 h7h6 18. h4i4 g8f8 19. i4k4
+ c7d7 20. g3i3 i6j6 21. i3g3 j6i6 22. g3i3 i6j6 23. i3g3 h6i6 24. g3i3 i6h5 25. i3g3
+ h5i6 26. g3i3 j6j5 27. k4l4 i6h5 28. l4j2 h5i4 29. h3i4 j5i4 30. i3e3 i7i6 31. j2l4
+ i4h4 32. l4j6 h4h7 33. j6j7 f5g6 34. e3g5 i6h5 35. g5e3 d7e7 36. f3g4 h7h6 37. j7j6
+ g6h7 38. j6h4 h7g6 39. h4j6 g6h7 40. j6h4 h5i6 41. g4f5 i6j7 42. f5g5 h6g6 43. g5h5
+ g6h6 44. h5f5 h7i6 45. f5f6 f8e8 46. f6e7 h6e6 47. h4g4 e6e7 48. g4i6 e8d8 49. i6i7
+ e7d7 50. i7g7 f7f6 51. g7f6 d8c8 52. f6f7 d7c7 53. f7e7 c8b8 54. e7c7 b8a8 55. c7a7
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "11"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt1b3/2mubm6/5bu5/3*4*3/4**6/12/4S7/3XC3D3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "141"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1f2 g7f6 f2e2 h8i8 h1i1 h7g6"]
+[TimeMs "6210"]
+
+1. d1f3 g6h6 2. f3g3 f7g7 3. i1i2 f8f7 4. e1e3 e7d6 5. i2i3 g7g6 6. i3i4 i8h7 7. g3h4
+ g8f8 8. e2f3 f6f5 9. h4j6 e8e7 10. i4h4 c7c6 11. j6j5 d7e6 12. h4g4 e6f6 13. j5j4
+ d6c5 14. f3h3 c6d6 15. h3f3 h7i6 16. f3e2 i6h7 17. e2f3 h7i6 18. j4h4 f8e8 19. f3h3
+ c5b5 20. e3i3 b5c4 21. h3f3 e8d8 22. h4f2 c4c5 23. f2d4 d8e8 24. f3h3 i6j7 25. h3i4
+ j7i6 26. i4j5 g6g5 27. i3f6 g5g4 28. f6c3 i6h5 29. j5j4 h6g6 30. d4c4 g6f6 31. j4j2
+ f7g7 32. j2i1 c5c6 33. i1i3 g4g5 34. c4d3 d6e6 35. c3e3 g5g4 36. d3c4 c6d6 37. c4e2
+ f6g5 38. i3h3 g4h3 39. e3g5 h3h4 40. g5e3 g7h7 41. e3g5 e7f7 42. g5e3 f7e7 43. e2f2
+ h4g4 44. f2e2 g4g3 45. e2c4 e7f7 46. c4c5 e8f8 47. c5c7 g3g4 48. c7b6 f8g8 49. b6c6
+ h5h4 50. c6b5 e6f6 51. b5c5 d6e6 52. e3b6 e6e7 53. b6d4 g4g5 54. d4b6 h7i6 55. b6d4
+ e7e6 56. c5e3 g5g4 57. e3g1 f6g6 58. g1g2 g4g5 59. g2f2 f5g4 60. d4g1 g5h5 61. g1e3
+ e6f6 62. f2g3 f7i7 63. e3h3 h5g5 64. h3f3 i6h6 65. g3g2 i7h7 66. g2h3 g8f8 67. f3i3
+ f8e8 68. h3g3 h7f7 69. g3e5 h4g3 70. e5d6 g3f2 71. d6d8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "15"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3uabtb4/2m1bm1u4/7b4/3*4*3/4**S5/5X6/12/4C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "13"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1g3 g7g6 d1f3 g6h6 g3g4 d7d8"]
+[TimeMs "840"]
+
+1. f3h5 f7g7 2. g4g6 h7i7 3. h5g5 i7h7 4. g6h7 g7h7 5. g5f5 f8g7 6. f5h7 g8f8 7. h7g7
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "13"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mubm1u4/6b5/3*C3*3/4**6/6S5/12/3X3D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "263"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1e5 h7i8 g1e1 g7g6 e1g3 i8h7"]
+[TimeMs "11342"]
+
+1. d1f3 f7g7 2. f3h5 d7e6 3. e5e3 f8f7 4. h5h4 g6f5 5. h1g1 g7g6 6. g3g4 e6f6 7. g4f3
+ h7g7 8. h4j6 e7d6 9. g1g2 g8f8 10. g2g3 h8h7 11. j6h4 g7h6 12. h4j6 h6g7 13. g3g4
+ e8e6 14. j6j4 d6c5 15. j4i4 c7d7 16. i4h4 g7h6 17. e3g3 f8e8 18. f3e3 e8d8 19. e3f2
+ d8c8 20. f2d4 d7d6 21. h4j6 h6h5 22. g4h5 g6h5 23. d4f2 e6e7 24. f2f3 f6g7 25. j6j5
+ h5h4 26. g3e3 g7h6 27. j5j6 h6h5 28. j6h8 h7i6 29. h8g7 d6e6 30. g7h7 c5d6 31. h7i7
+ i6j5 32. f3e2 j5i4 33. i7g7 h4g4 34. e2c4 g4g5 35. c4d4 h5g6 36. g7i7 e6f6 37. d4c5
+ e7c7 38. i7h8 c7e7 39. h8i7 f7g7 40. i7i6 g6h5 41. i6h7 g5g6 42. e3b6 i4h4 43. b6d4
+ f6e6 44. h7j5 h5g4 45. j5i6 g4g5 46. i6i4 e7c7 47. d4h8 g7h6 48. c5d4 c7d7 49. h8c3
+ h4h5 50. i4h3 d7e7 51. d4c5 c8d8 52. c5e3 f5f6 53. h3g3 g5f5 54. e3c5 g6g5 55. g3f3
+ d6e5 56. c5e3 f5g4 57. f3g2 f6f5 58. e3f3 g4h4 59. f3g3 h4g4 60. g3f3 g4h4 61. g2f2
+ e7d7 62. f3g3 h4g4 63. g3f3 g4h4 64. f3g3 h4g4 65. g3f3 g4h4 66. f2e2 d7e7 67. e2c4
+ e6d6 68. c4d4 e5f6 69. d4e3 h5i4 70. e3d3 d8e8 71. f3e2 e8f8 72. c3e3 d6e6 73. d3c3
+ f8g8 74. e2f1 g5g4 75. c3c5 g8h8 76. f1e2 h8h7 77. e2c2 h4g3 78. c2d3 h7i7 79. e3b6
+ g3f3 80. d3e3 i7j7 81. e3d2 i4h3 82. d2c3 e7d7 83. c3c2 d7d6 84. c5b4 d6d7 85. b6b3
+ h6h5 86. c2c3 j7i7 87. b4b5 d7e7 88. b5d3 i7j7 89. c3e1 g4g3 90. e1g1 e7f7 91. g1i3
+ f6g7 92. i3j4 h5g5 93. j4j5 j7j6 94. d3c3 f3e2 95. j5k5 j6i6 96. k5k6 e6f6 97. c3c2
+ g3f3 98. k6j5 i6j6 99. j5k5 j6i6 100. k5j5 i6i7 101. j5j6 i7h7 102. j6h6 h3g2 103. c2c3
+ f6g6 104. h6i6 h7i7 105. i6j6 i7j7 106. j6k6 j7i7 107. k6j6 i7i6 108. j6j7 i6h6
+109. c3b4 e2f2 110. b4b5 g6f6 111. j7h7 h6h5 112. b3b6 f2g3 113. b5c5 g3f2 114. h7i6
+ h5h4 115. c5c7 h4h3 116. b6d8 f2g3 117. c7c5 f7d7 118. d8d6 d7d6 119. c5d6 f6f7
+120. i6g8 h3h2 121. g8f7 g7h8 122. d6e6 g2h3 123. e6f5 g5h4 124. f7h5 h2h1 125. h5g4
+ h3i4 126. g4f3 h8g8 127. f3g4 i4j5 128. f5g5 g3h2 129. g5h4 h2i2 130. g4h3 j5i4
+131. h3i2 h1g1 132. h4f2 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "30"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt5/2mu1mbu4/4b2b4/3*4*3/4**6/12/7D4/3XCS6 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "231"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1f2 h8i7 f2f1 i7h6 h1h2 e7e6"]
+[TimeMs "10023"]
+
+1. d1f3 f7f6 2. h2g2 f6g6 3. g2g3 g7f6 4. e1h4 h7i6 5. g3g4 e8e7 6. f1g2 e7h7 7. g2i4
+ d7d6 8. f3h3 c7d7 9. g4g3 e6e5 10. g3g4 f8f7 11. i4j5 i6i7 12. j5j6 i7i6 13. h3g3
+ d6e6 14. j6k5 h6g5 15. h4f2 h7h6 16. k5i3 i6h5 17. i3h3 g8h8 18. g4h4 h5h4 19. f2h4
+ h6h5 20. h4f2 e6f5 21. g3i3 g5g4 22. i3k5 h5h7 23. k5j6 h8g8 24. j6j7 h7g7 25. h3g4
+ f5g5 26. j7i6 g8f8 27. i6i4 g5h6 28. i4j4 g6g5 29. g4e2 d7d6 30. e2f3 h6h5 31. j4h2
+ g5g4 32. f3e2 d6e6 33. h2g1 f6g5 34. g1e3 f7g6 35. e2c4 g5h4 36. f2d4 g7f7 37. d4f2
+ g4g5 38. f2d4 e5f5 39. e3f2 f8g8 40. c4d3 g5g4 41. d3d2 g8h8 42. d4g1 h8h7 43. f2h2
+ f7g7 44. d2f2 h7h8 45. g1e3 e6f6 46. h2j4 h8g8 47. j4j5 h5g5 48. j5i4 h4h3 49. f2g2
+ g8f8 50. i4i6 f8e8 51. g2e2 g6h5 52. e2c4 e8e7 53. c4d3 e7d7 54. i6j6 g4g3 55. j6j5
+ h3g2 56. j5i4 g7f7 57. d3d4 g5g4 58. d4d3 f6g6 59. d3d4 f7f6 60. d4c5 d7c7 61. e3b6
+ g6g5 62. c5d6 c7b7 63. d6c6 b7a7 64. c6b5 f6f7 65. i4i6 g3f3 66. b6j6 f7g7 67. i6i7
+ g5g6 68. i7k5 a7b7 69. b5c6 b7c7 70. k5j4 f3g3 71. j6j3 h5h4 72. j3j5 g6g5 73. c6c5
+ g2f2 74. j4j3 c7d7 75. j5j2 f2f3 76. j3i3 g3h3 77. c5c6 d7d8 78. i3k5 f5f6 79. k5i7
+ g5g6 80. i7j6 h3g3 81. c6c5 d8d7 82. j2j7 f6f5 83. j6j5 f3f2 84. j5j4 g7i7 85. j7j3
+ g6g5 86. j3j5 i7g7 87. j4i4 f5f6 88. i4j4 g7g8 89. j4i4 d7c7 90. c5b6 c7c6 91. b6d8
+ g8g7 92. d8b6 g7e7 93. b6a6 c6c7 94. a6b5 e7g7 95. b5c6 g7e7 96. c6c5 c7d7 97. i4j3
+ f2e3 98. j5j2 e7g7 99. j3i4 e3f3 100. i4i3 f3g2 101. i3i4 f6f5 102. i4j5 g7i7 103. j5i4
+ i7g7 104. i4j5 g7i7 105. j5j3 h4h5 106. j3i3 i7g7 107. c5d6 g3f3 108. d6e5 f5f6
+109. i3g1 g4f5 110. e5c7 f5g4 111. c7c6 d7e7 112. g1e1 g4f5 113. c6e8 f3g3 114. e1c3
+ e7e6 115. c3c5 g2f1 116. c5d6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "34"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2a2btbu3/2m1bmb5/3u8/3*1S2*3/4**6/12/12/3XC2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "9"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1g3 h7i8 g3g4 e8c8 g4f5 d7d6"]
+[TimeMs "681"]
+
+1. d1f3 d6e5 2. e1e5 f7f6 3. f3h5 f8f7 4. h5i6 g8f8 5. i6g8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "19"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "1m2abtb4/4bmbu4/3u8/2S*4*3/4**6/12/12/3XC3D3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "59"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1e3 c7b7 e3c5 d7d6 h1i1 b7b8"]
+[TimeMs "2784"]
+
+1. c5d6 h7h6 2. i1h1 g7g6 3. h1h2 e7f6 4. d1f3 e8e6 5. d6b4 b8b7 6. h2h3 f8e7 7. h3h4
+ g6f5 8. h4h5 h6g7 9. f3g4 g8f8 10. b4c3 b7c7 11. c3d3 f6g6 12. d3e3 g6h7 13. g4i6
+ f8e8 14. h5h6 e6g6 15. h6g7 g6g7 16. e3g3 c7d7 17. g3g4 f5g6 18. e1e5 e8d8 19. g4g5
+ d7d6 20. e5h5 g6h6 21. g5h6 e7e8 22. h6g7 f7g7 23. i6i7 g7g8 24. i7i8 g8g7 25. i8h8
+ d8c8 26. h8g7 d6d7 27. g7f8 c8b8 28. f8e8 d7c7 29. e8d8 b8b7 30. d8c7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "38"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2a2btb4/2mubm1bu3/12/3*4*3/2X1**6/12/12/4CS1D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "29"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1e2 h7i7 g1f1 g7h7 e2c4 e8c8"]
+[TimeMs "1522"]
+
+1. e1e5 d7e6 2. e5g3 h7g6 3. h1h2 h8h7 4. c4e2 i7h6 5. h2h3 e6f5 6. h3h4 f7f6 7. e2g2
+ f8g7 8. g2i4 h7h8 9. i4k6 h6i7 10. k6k7 i7i6 11. k7j8 i6h7 12. j8j7 g8f8 13. j7h7
+ f8e8 14. h7g8 e8d8 15. g8e8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "17"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/1m1ub2u4/5mb5/3*4*3/4**6/12/2X9/2C3SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "99"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1c1 g7g6 d1b3 c7b7 b3c2 f7f6"]
+[TimeMs "4425"]
+
+1. h1h2 e7d6 2. h2h3 h7h6 3. h3h4 f8f7 4. c2d3 g8f8 5. d3f3 h8h7 6. h4h5 h6h5 7. f3h5
+ e8e7 8. h5h7 f8e8 9. c1h1 e8d8 10. g1g3 d7e6 11. g3h3 g6g5 12. h3i4 b7b6 13. h7h6
+ e6f5 14. i4h5 f7f8 15. h5f3 f5g6 16. h6h4 e7g7 17. h4h3 d8c8 18. h1h4 d6e5 19. h4h2
+ b6c6 20. h2h4 c6d6 21. f3h5 g6h5 22. h3h5 d6c6 23. h5f3 g5g4 24. f3f2 g7g5 25. h4e1
+ e5d6 26. f2d4 g5g7 27. d4f2 g4g5 28. e1g3 d6e5 29. f2d4 e5d6 30. g3j6 f6g6 31. j6h4
+ d6e6 32. d4f2 e6f5 33. h4e1 g6f6 34. e1g3 c6c5 35. f2e2 g7h7 36. g3j6 h7i7 37. j6h4
+ g5h6 38. e2c2 c8d8 39. c2c3 c5b5 40. c3d3 b5c5 41. d3c3 c5b5 42. c3d3 b5c5 43. d3c3
+ c5b5 44. c3d4 f6e6 45. d4d3 i7f7 46. d3b5 f7c7 47. b5c5 c7d7 48. c5e7 d8c8 49. e7d7
+ c8b8 50. d7b7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "40"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3uabtC4/3m1mbu4/5b6/3*4*3/4**6/12/3X8/6SD4 w - - 1 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "227"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1d2 d7d8 e1e5 c7d7 e5h8 e7f6"]
+[TimeMs "9798"]
+
+1. h8f6 f7f6 2. h1h2 h7g6 3. d2f2 e8e5 4. h2h3 d8e7 5. h3h4 f6f5 6. f2g3 e7f6 7. g3h3
+ g6h7 8. h3j5 h7i7 9. j5k5 i7h7 10. k5k7 g7g6 11. g1g3 e5e6 12. k7j7 f6g7 13. j7j5
+ f8f7 14. j5j3 g6f6 15. g3i3 g8f8 16. j3i4 f8e8 17. i3g3 f6e5 18. g3f2 e8d8 19. h4h5
+ d8c8 20. i4h3 f5f6 21. h3g3 f6g6 22. h5h4 g7h6 23. f2f3 e6f6 24. g3e3 h7g7 25. e3d3
+ c8d8 26. d3c4 d8e8 27. f3g3 g6g5 28. c4b5 d7e7 29. h4i4 e8f8 30. b5b6 e5f5 31. g3f2
+ f5g4 32. i4i3 h6h5 33. i3h3 f8g8 34. b6c5 g4f5 35. c5e3 g8h8 36. e3f3 h8h7 37. f2g3
+ h7i7 38. g3g4 h5i6 39. f3g2 i6j5 40. h3g3 f5e5 41. g2h2 f6h6 42. h2h3 j5i6 43. h3i4
+ i7h7 44. i4k6 i6i7 45. k6j5 h7h8 46. g4i2 g5h5 47. i2i3 g7f6 48. j5h3 f6g5 49. i3h4
+ g5f6 50. h4j4 f6g5 51. j4i3 e7e6 52. i3h4 h5h4 53. g3h4 g5g6 54. h4g4 i7h7 55. h3h4
+ e6f6 56. h4h3 h7g7 57. h3f3 e5d4 58. f3h3 f7e6 59. h3f3 d4e5 60. f3h3 e6e7 61. h3f3
+ h8i8 62. f3g3 f6f5 63. g4f5 g6f5 64. g3h4 i8h8 65. h4g3 f5f6 66. g3g4 h8h7 67. g4i2
+ f6g5 68. i2k4 e5f5 69. k4j5 h7h8 70. j5i4 h8g8 71. i4k2 f5g4 72. k2k4 g8f8 73. k4k5
+ f8f7 74. k5i3 f7f6 75. i3g1 h6h4 76. g1f1 f6g6 77. f1f3 e7e6 78. f3h1 g4g3 79. h1h2
+ e6f5 80. h2g1 f5e5 81. g1h2 e5f5 82. h2g1 g5g4 83. g1h2 f5g5 84. h2g1 g7f7 85. g1f1
+ h4h3 86. f1h1 g6h6 87. h1j3 f7g7 88. j3k4 h6g6 89. k4j5 g3f2 90. j5i6 g6f6 91. i6j6
+ f6e6 92. j6i6 e6d6 93. i6j6 d6c6 94. j6i7 h3h6 95. i7k5 h6h3 96. k5i7 h3h6 97. i7j6
+ c6c5 98. j6j4 h6h3 99. j4j5 c5c4 100. j5k5 g5f5 101. k5i7 g7f6 102. i7h6 f6f7 103. h6h7
+ f7e6 104. h7g7 f5g6 105. g7g6 e6e5 106. g6g7 e5e6 107. g7g6 e6e5 108. g6g7 e5e6
+109. g7f8 h3h4 110. f8d8 e6d7 111. d8d7 c4c3 112. d7e6 c3c2 113. e6c4 c2c1 114. c4c2
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "42"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "1a3btb4/2m1bm1u4/3u2b5/3*4*3/4**6/12/12/2X1CS1D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "71"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1g2 g7g6 d1c1 d7d6 g2f1 e8b8"]
+[TimeMs "3318"]
+
+1. f1f2 h7h6 2. c1e3 f7f6 3. e3g3 d6e6 4. g3h4 h6i7 5. h1h2 e6f5 6. e1g3 f5g5 7. h4i4
+ f8f7 8. h2h3 g8f8 9. f2g2 h8h7 10. h3h4 b8b6 11. g2f3 b6d6 12. f3g4 g5h6 13. i4h3
+ f8e8 14. h3f3 g6g5 15. f3e3 h6g6 16. g4h5 g6f5 17. h5g4 i7h6 18. g4f5 f6f5 19. e3f3
+ d6g6 20. g3e3 e7d6 21. f3h3 g5f6 22. h3g3 e8d8 23. g3i3 d8c8 24. i3g3 c7d7 25. g3i3
+ d6c5 26. i3g3 c8c7 27. h4h3 d7d6 28. g3f2 f5e5 29. f2e1 c7d7 30. e1c3 f6g5 31. c3a5
+ d6c6 32. a5a6 c6c7 33. a6a7 c7c8 34. a7c5 g6e6 35. c5c6 d7d8 36. c6c8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "23"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3a2tb4/2mubmbu4/6b5/3*4*3/4**6/4C7/12/3X2SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "137"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1e2 g7g6 e1e3 e8d8 e2d1 f8g7"]
+[TimeMs "6046"]
+
+1. d1f3 f7f6 2. f3h5 h7i7 3. g1g3 g6g5 4. e3g5 g8f8 5. g3g4 d7e6 6. g5g3 e6f7 7. g4f5
+ h8h7 8. h1h2 d8e8 9. f5g4 f7g6 10. h5j5 e7e6 11. h2h3 f6f5 12. g4f3 f5g5 13. f3g2
+ g6h6 14. j5k5 e6f5 15. g3e5 g5h5 16. k5i3 g7f7 17. h3g3 e8e6 18. e5e3 c7d7 19. g2e2
+ f8e8 20. e2c4 e8d8 21. g3g2 h6g6 22. c4c3 i7h6 23. c3c4 g6g5 24. g2g3 f5g4 25. c4d3
+ d7e7 26. g3h3 g5f6 27. i3g3 g4f5 28. d3e2 e6d6 29. e2f2 h6g6 30. g3i3 d6c6 31. i3h2
+ g6g5 32. h3g3 c6c4 33. e3h3 g5g4 34. g3g4 h5g4 35. h3h1 c4c3 36. f2g1 c3f3 37. h2j4
+ f6g6 38. j4j6 f7f6 39. j6h8 e7e8 40. h8g8 g6f7 41. g8h7 f5g5 42. h1h8 e8e7 43. g1f1
+ f6e6 44. h7h6 f3h3 45. f1g1 h3h4 46. h6h7 h4h3 47. g1e3 d8c8 48. e3c5 c8c7 49. c5b6
+ c7b7 50. b6a6 b7c7 51. h7f5 c7c8 52. f5e5 e7d7 53. e5c5 c8d8 54. a6c8 f7e7 55. c5e5
+ h3j3 56. e5f5 e6f7 57. f5g4 d7d6 58. g4h5 d6e6 59. h5j3 e7f8 60. j3h5 f8g7 61. h8h4
+ e6f6 62. h5g4 f7f8 63. c8c7 d8d7 64. g4e2 d7e7 65. e2c4 e7f7 66. c4c6 g7h7 67. c6e8
+ f7g7 68. e8f8 g7g6 69. f8f6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "21"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2m1a1tb4/3ubmbu4/7b4/3*4*3/4**6/8S3/5X6/4C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "137"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1f1 c7c8 f1f2 g7h6 g1i3 f8g7"]
+[TimeMs "6025"]
+
+1. i3g5 g7g6 2. h1g1 f7g7 3. e1g3 g6f5 4. f2f3 g7g6 5. f3g4 e8f8 6. g5h4 f8f6 7. g1g2
+ c8c7 8. h4h3 g8f8 9. h3i4 e7f7 10. i4h4 h7g7 11. g2f2 h8h7 12. f2f3 d7e6 13. h4j4
+ c7d7 14. g4h3 f8e8 15. j4j6 g6g5 16. j6i6 f5e5 17. g3e3 e6f5 18. h3j5 h7g6 19. j5i4
+ d7e7 20. f3g3 h6i7 21. e3h3 g7h6 22. i6j6 h6h5 23. i4j5 h5h6 24. j5i4 h6h5 25. i4j5
+ h5h6 26. j5i4 h6h5 27. i4j5 h5h6 28. h3k6 g5g4 29. j5j4 h6h7 30. j4j5 h7h6 31. g3g4
+ f5g4 32. j5j7 i7h8 33. j6i7 h6g7 34. j7i8 h8h7 35. i7i6 h7h6 36. i6h7 h6h5 37. h7h6
+ f7e6 38. h6g7 f6g7 39. i8i7 e7f7 40. i7i6 g4g5 41. i6i7 g5g4 42. i7i6 g4g5 43. i6i7
+ g5h6 44. i7j6 f7f6 45. j6j4 h6g5 46. j4i4 h5g4 47. i4g2 g7h7 48. k6f1 h7g7 49. g2f2
+ e8f8 50. f2g1 f8g8 51. g1g2 g7h7 52. g2f2 e6f7 53. f1f3 h7h4 54. f2d4 h4h7 55. d4d2
+ h7h6 56. d2f2 h6h3 57. f2d4 f6e6 58. d4b6 g5f6 59. b6c6 f6e7 60. c6c4 g8g7 61. c4d3
+ h3h6 62. d3f1 e7f6 63. f1h3 f6g5 64. h3j5 e5d4 65. j5k6 h6h8 66. k6j7 g6h7 67. j7j8
+ d4c3 68. j8h8 g7g6 69. h8g7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "44"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3ab1t5/2mubmbub3/12/2C*4*3/4**6/12/12/4X1SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "151"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1e5 e8d8 d1e1 f8e8 e5c5 h8i7"]
+[TimeMs "6715"]
+
+1. c5e5 d7d6 2. e5g3 g8f8 3. e1e2 e8d7 4. e2g4 g7g6 5. g1i3 d7c6 6. h1h2 d6e6 7. h2h3
+ c6b5 8. h3h4 g6f5 9. g4h5 f7g7 10. h5f3 d8d6 11. h4g4 g7g6 12. f3e3 h7h6 13. i3h3
+ e6f6 14. g3i3 f6g5 15. e3f3 h6h5 16. i3g3 f8f7 17. g3e3 d6f6 18. f3g2 i7h6 19. h3f3
+ c7d7 20. g2h3 h6h7 21. h3j5 g5h6 22. g4h5 g6h5 23. j5j4 b5c5 24. f3e2 h6g6 25. j4j6
+ h5g5 26. e2f2 c5c4 27. j6j5 g6h6 28. j5h3 c4b5 29. h3f3 b5c6 30. f3d3 f6e6 31. f2f1
+ f7g7 32. f1f2 g7f7 33. e3g1 h6h5 34. d3c4 f5g4 35. g1e3 e7f6 36. f2g2 f6f5 37. c4d4
+ g4h4 38. g2i2 c6d6 39. i2j3 g5g4 40. j3j4 g4g3 41. j4j6 g3f3 42. e3c5 h7h6 43. d4d3
+ f3g3 44. j6j4 d6e5 45. d3c4 f5g4 46. c5c3 e5f5 47. c4d4 g4h3 48. d4d3 h3h2 49. j4j6
+ h6i6 50. j6i7 i6j5 51. i7g7 h4g5 52. c3e3 h2g2 53. g7h7 g2h2 54. h7g8 f7g7 55. g8h8
+ g7h7 56. h8g8 h7i7 57. g8h8 i7j7 58. h8i8 j7k7 59. i8j8 k7j7 60. j8i8 j7j6 61. i8i7
+ j6k6 62. i7j7 k6k5 63. j7j6 k5k4 64. d3f1 h5h4 65. f1h1 h4i3 66. h1i1 i3j3 67. i1g3
+ k4l4 68. e3g5 e6h6 69. j6k5 l4l3 70. g5j5 d7d8 71. k5k4 l3l2 72. k4j3 h2g1 73. g3h4
+ l2l3 74. h4h6 g1f1 75. h6j4 f1e1 76. j4l2 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "46"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "1a3bt1b3/2mubmb5/6u5/3*4*3/4**6/3S8/12/3XC2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "147"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1g3 h7g6 g3f3 h8i8 f3d3 e8b8"]
+[TimeMs "6513"]
+
+1. d1f3 g6g5 2. f3h3 g7f6 3. h3i4 g5h6 4. i4h4 f7g7 5. e1e5 d7d6 6. e5g3 f6g6 7. d3e2
+ e7f6 8. e2g4 f6g5 9. h4j6 g7h7 10. j6j8 h6i7 11. j8k7 g5f6 12. h1h2 d6e6 13. h2h3
+ b8b6 14. h3h4 b6d6 15. h4h5 e6f7 16. k7k6 f6e5 17. h5g5 d6f6 18. g5f6 f7f6 19. k6i4
+ i7h6 20. i4k6 h7i7 21. k6k5 f8f7 22. k5j4 c7d7 23. j4i4 d7e7 24. i4i3 i8h7 25. i3i2
+ e7e6 26. i2h3 g8h8 27. h3f3 f6g5 28. g3e3 g6h5 29. f3g3 g5g6 30. g4i4 e6f6 31. i4h3
+ h8i8 32. g3i3 i8h8 33. i3g3 e5d6 34. h3h4 h8i8 35. h4h3 i8h8 36. h3h4 f6f5 37. g3f2
+ g6f6 38. f2d4 d6e6 39. d4d6 h6g7 40. d6c5 i7i6 41. h4f2 i6h6 42. f2e1 h6g6 43. e1g3
+ g6g5 44. g3i1 g5g4 45. i1i3 h8i8 46. i3k5 g7g6 47. c5d6 g4g3 48. d6d4 g3f3 49. e3c5
+ i8i7 50. d4d6 h5g4 51. d6f8 g6g7 52. f8d6 f3g3 53. k5j6 i7i6 54. j6j5 i6h6 55. d6d4
+ g3f3 56. d4d3 f3f2 57. d3e3 f2g2 58. e3f3 g7g6 59. f3g2 g6h5 60. g2f3 f5g5 61. f3e3
+ g5f5 62. e3d4 f7g7 63. d4d6 f6f7 64. d6d4 h7g6 65. d4f2 f5g5 66. f2h2 g6h7 67. h2j4
+ h6g6 68. j4j6 g5f5 69. j6i7 f7g8 70. i7i8 g6g5 71. i8g8 g4f3 72. g8f7 g5g4 73. f7f5
+ g4g3 74. f5f3 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "48"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/3m1mbu4/2u2b6/3*2S1*3/4**6/12/12/4CX1D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "17"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1f1 e7f6 g1i3 d7c6 i3g5 c7d7"]
+[TimeMs "1010"]
+
+1. f1h3 h7i7 2. h3h5 g7g6 3. g5h6 f8e7 4. h6i7 f7g7 5. i7h8 e7e6 6. h5i6 g8f8 7. h8g7
+ f8f7 8. i6g6 f7e7 9. g6e8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "50"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3babtbu3/2m2mb5/2u9/3*4*3/4**6/12/12/2CX3DS3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "87"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1c1 h7i8 g1g3 d7c6 g3i1 e7d8"]
+[TimeMs "4033"]
+
+1. d1f3 i8i7 2. f3f5 e8e6 3. f5g4 e6g6 4. i1i3 c7d7 5. i3g5 g7f6 6. c1i1 f6f5 7. g5h5
+ i7h6 8. h5g6 f7g6 9. g4h4 f8f7 10. h1h2 g8f8 11. h4j6 h6h7 12. i1g3 c6d6 13. j6j5
+ h7i7 14. j5i4 g6g5 15. h2h3 d6e6 16. i4i3 e6f6 17. i3i2 h8h7 18. g3i3 d7e7 19. h3g3
+ i7h6 20. i2i4 g5h5 21. i4j4 d8c7 22. j4j6 f8e8 23. g3g4 f7g6 24. g4f5 f6f7 25. j6h8
+ h6g7 26. h8i7 g7h6 27. i7h8 c7d6 28. i3d8 h7g7 29. d8f8 g7f6 30. f8i8 e8d8 31. h8j6
+ e7e6 32. f5e6 f7e6 33. j6h8 e6f7 34. h8j8 h6h7 35. i8c8 h7i6 36. j8k8 h5h6 37. k8k6
+ g6h5 38. k6i4 i6h7 39. i4g4 h7g6 40. g4e2 d6e7 41. e2c4 f7e8 42. c8e8 h5g4 43. c4c6
+ g4f3 44. c6c7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "52"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2m1abtb4/3u1mb5/5b1u4/3*4*3/4**6/12/12/CX3S1D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "111"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1f1 h7h6 d1b1 e7f6 e1a1 c7c8"]
+[TimeMs "4991"]
+
+1. b1d3 h8i7 2. a1g1 g7g6 3. d3f5 c8c7 4. f1h3 d7d6 5. f5g4 e8e6 6. g4i4 i7j8 7. i4h4
+ f7g7 8. h4j6 g7h7 9. j6j8 h6i7 10. j8l6 c7d7 11. h3g4 f6f5 12. h1h2 f8f7 13. l6j4
+ i7i6 14. j4i4 h7h6 15. g4g5 g6h5 16. h2h3 i6h7 17. h3h4 e6g6 18. g5g3 d6e6 19. g3g4
+ g8f8 20. g4h5 g6h5 21. h4h5 h6h5 22. i4h5 h7g7 23. h5h4 f8e8 24. h4f2 g7g6 25. f2e2
+ e6f6 26. e2e3 g6g5 27. e3d3 d7e7 28. d3b5 f7g6 29. b5b6 e7d7 30. b6b5 f6e7 31. b5c5
+ e8f8 32. c5e3 e7f6 33. e3c5 f8f7 34. g1b6 d7e7 35. b6d4 g6h5 36. c5c7 e7e8 37. c7c6
+ e8d8 38. c6d6 d8e8 39. d6c5 f5g4 40. c5c6 e8d8 41. c6d6 d8e8 42. d6c6 f6e7 43. c6b6
+ e7e6 44. b6c7 h5i4 45. c7c5 e8e7 46. c5e3 e6f5 47. d4f2 e7e6 48. e3g3 e6f6 49. g3e3
+ f5e5 50. e3c5 e5e6 51. c5d4 e6e5 52. d4b6 f7g7 53. b6d8 f6f7 54. d8e8 f7f8 55. e8f8
+ g7g6 56. f8g7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "27"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mu1m1u4/7b1C2/3*b3*3/4**6/12/6S5/1X5D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "247"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1g2 g7h6 e1j6 e7f6 d1b1 f6e5"]
+[TimeMs "10760"]
+
+1. b1d3 e8e6 2. h1h2 h7i6 3. j6h4 i6h5 4. h4h1 e6g6 5. h2h3 f7f6 6. g2g4 h5g5 7. d3f3
+ f8f7 8. f3g2 h8g7 9. g4h4 f6f5 10. g2i4 g5h5 11. i4g2 c7c6 12. h4i4 f5g5 13. h1f3
+ h5i6 14. f3i3 e5f5 15. i4j3 i6h7 16. h3g3 g8f8 17. i3f3 f8e8 18. g2h2 f5e5 19. h2h3
+ e8d8 20. h3i4 h6i7 21. f3h3 d7e6 22. j3k4 g6h6 23. h3f3 h7g6 24. i4g2 e6f6 25. g2e2
+ g6h5 26. k4j5 c6c5 27. j5h3 f6f5 28. e2d3 h6e6 29. d3c3 e6b6 30. c3c2 b6e6 31. c2e2
+ e6d6 32. e2d3 d6e6 33. h3h2 e5d4 34. f3c3 f7g6 35. h2j4 e6b6 36. c3e3 b6b4 37. d3e2
+ d4e5 38. e2g2 g5g4 39. g3g4 h5g4 40. g2f2 i7j6 41. e3g1 g7f7 42. j4j5 j6k7 43. f2g2
+ c5c4 44. g2i4 d8c8 45. i4i6 b4b7 46. i6j7 k7l8 47. j5j4 f7f8 48. j7j6 l8k8 49. j6i6
+ k8l8 50. i6k8 e5f6 51. k8l8 b7e7 52. l8k7 f8f7 53. k7i7 e7e8 54. i7h7 f6e5 55. j4i4
+ g4g5 56. i4h4 g5f6 57. h7g8 e8e7 58. g8i6 c4c3 59. i6h5 g6g7 60. h4g4 f5g6 61. h5i4
+ c3d3 62. g4g2 e7c7 63. g1g3 g6g5 64. g2f2 f7g6 65. f2h2 g6f7 66. h2h4 g5h6 67. h4i3
+ d3e3 68. i3h3 c7c4 69. g3i3 f6g5 70. h3g4 e3d3 71. g4e6 g5f6 72. i4h4 h6g6 73. e6g4
+ e5d4 74. g4h5 g6f5 75. h5g4 f5e6 76. g4g5 f6e7 77. h4h6 g7f8 78. h6g6 c8c7 79. i3i6
+ f7f6 80. g5f5 e6d7 81. f5e5 f6e6 82. e5f6 e7d6 83. g6f7 f8e8 84. f6d8 c7c6 85. d8c8
+ d7e7 86. f7f5 c6b6 87. c8d8 e7d7 88. d8c8 d7e7 89. c8d8 e7d7 90. d8c8 d7c6 91. c8d8
+ c6d7 92. d8f6 c4c2 93. f6f7 e8f8 94. f7g7 f8g8 95. g7h7 g8f8 96. h7g7 f8e7 97. g7e5
+ d6c7 98. f5g4 e7e8 99. i6f3 b6b7 100. f3f5 e8e7 101. g4g5 e6d6 102. g5f6 d6c6 103. f5f7
+ d7e8 104. f7f5 e8d7 105. f5f7 d7e8 106. f7f5 c7d7 107. e5d4 c2c4 108. d4c5 e7f7
+109. c5d6 f7g8 110. f6g6 g8f7 111. f5h7 e8f8 112. d6e6 d7e7 113. g6f5 c4d4 114. f5g6
+ b7b6 115. e6f6 f7e8 116. f6e7 f8e7 117. g6g7 e7d6 118. g7f6 d6d7 119. f6f7 d7d6
+120. f7e8 d6c7 121. e8e7 c7d7 122. e7d7 b6a6 123. d7c6 a6a5 124. c6b5 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "25"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4a1tb4/3ubmbu4/2m2b6/3*4*3/4**6/12/6S5/3XC3D3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "211"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1f1 e7f6 f1g2 c7c6 h1i1 f8e7"]
+[TimeMs "9198"]
+
+1. d1f3 h7h6 2. f3h3 g7g6 3. h3h4 f7g7 4. g2g4 g6g5 5. e1e5 h8i7 6. h4j6 h6h7 7. e5e3
+ g5h6 8. e3g5 g8f8 9. g4i6 h7i8 10. i6j7 i8h7 11. j7i6 h7i8 12. j6k6 i8j8 13. k6j6
+ j8i8 14. j6k6 i8j8 15. i6g4 d7e6 16. i1h1 e6f7 17. g5g3 f7g6 18. k6i4 j8j7 19. g4i6
+ j7k7 20. i4g4 c6d6 21. i6h5 g6h7 22. h1h2 e7f7 23. h5i6 h7g6 24. i6h5 g6h7 25. h5i6
+ h7g6 26. i6h5 g6h7 27. h2h3 k7j7 28. h3h4 i7j6 29. h5f5 j7i6 30. f5h5 i6i7 31. h4h3
+ e8e5 32. h5f5 j6j5 33. g4g5 e5e8 34. g5g4 e8d8 35. f5h5 j5k5 36. g3g5 d8d7 37. h5j3
+ d6e6 38. j3j4 k5j6 39. h3g3 f6e5 40. g4f3 e6f6 41. g5e3 f8e8 42. f3d3 d7e7 43. j4i3
+ j6j5 44. g3g4 g7g6 45. d3f3 h7g7 46. i3i4 j5j4 47. f3h3 j4k5 48. h3f3 e7e6 49. f3d3
+ f6f5 50. d3c4 e6e7 51. g4g3 g7f6 52. c4d4 e5d6 53. e3c5 e7c7 54. c5e3 h6h5 55. e3c5
+ e8f8 56. c5e3 g6g5 57. g3f3 i7h6 58. i4h3 c7e7 59. f3g3 h5i6 60. d4f2 f8e8 61. f2g1
+ h6h5 62. g1g2 e7c7 63. h3i4 c7c4 64. i4h5 g5h5 65. g2h2 c4d4 66. e3h3 h5g5 67. h2i3
+ i6h6 68. i3j4 f6g7 69. j4k5 e8d8 70. h3f3 d8d7 71. k5i7 g7g8 72. i7h6 f7f6 73. f3h3
+ d7c7 74. g3f3 d6c5 75. h6i6 g8g7 76. i6i4 f6e5 77. i4g2 f5f6 78. g2f2 d4d3 79. f2f1
+ d3d2 80. f1g2 g7g6 81. f3g3 g6h5 82. h3f1 d2d3 83. f1h3 h5h4 84. h3f3 h4h5 85. f3h1
+ d3e3 86. g3f3 e3d3 87. g2f2 c7d7 88. f2g2 h5h4 89. g2f1 d3c3 90. h1e1 c5b6 91. f1f2
+ c3d3 92. f2f1 d3d2 93. e1g1 g5g4 94. f1f2 d2d3 95. f3e3 d3c3 96. f2e1 c3c4 97. e1e2
+ c4c5 98. e3d3 f6e6 99. e2e3 c5c6 100. d3d4 e5f6 101. d4c4 e6d6 102. e3d4 h4g5 103. c4c5
+ d7d8 104. c5d6 b6a5 105. d4b6 c6b6 106. d6d7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "56"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2m1bm1u4/6b5/2u*2C1*3/4**6/12/12/3X2S1D3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "93"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1i1 d7d6 e1c1 d6c5 c1g5 g7g6"]
+[TimeMs "4252"]
+
+1. g5c5 f7f6 2. g1f2 h7h6 3. c5g1 h8h7 4. d1f3 e7d6 5. f3h3 e8e7 6. h3h4 h6i7 7. i1i2
+ h7h6 8. i2i3 g6f5 9. h4h5 g8h8 10. i3h3 e7g7 11. g1e3 i7h7 12. h3g3 f8f7 13. g3g4
+ f5e5 14. g4g5 h7i7 15. h5h4 f6g5 16. h4g5 i7h7 17. g5e7 c7c6 18. e7e6 c6b6 19. e6d6
+ b6b7 20. e3e5 h8i8 21. d6d7 b7b6 22. d7c7 b6b5 23. c7c6 b5b4 24. c6c5 b4a4 25. c5c4
+ a4a5 26. c4c5 a5a6 27. c5c6 a6a5 28. c6b6 a5a4 29. b6b5 h7g6 30. b5a4 g6f5 31. e5e3
+ f5g4 32. f2e2 g4f5 33. a4b4 i8i7 34. b4c5 h6h5 35. c5e7 f5f6 36. e7e8 i7i6 37. e2g4
+ h5h4 38. g4g5 i6j6 39. g5f6 g7h7 40. e8f7 h7h6 41. f7f5 h4i3 42. f5h3 h6i6 43. e3i3
+ j6j7 44. i3i6 j7j8 45. h3j5 j8k8 46. j5l7 k8j8 47. l7j7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "60"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3uabtb4/2m2m1u4/5bb5/3*4*3/4**6/8S3/3X8/7DC3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "109"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1d2 e7f6 g1i3 g7g6 e1i1 d7d8"]
+[TimeMs "4864"]
+
+1. h1h2 d8d7 2. d2e2 f6f5 3. e2f3 e8e6 4. i3g5 f8e8 5. i1g3 g8f8 6. h2h3 g6g7 7. g5g4
+ h7g6 8. h3h4 e8e7 9. f3h3 f8e8 10. g4g5 h8i7 11. h4h5 g6h7 12. h3j5 e6g6 13. h5g6
+ h7g6 14. g5g4 i7h6 15. g4h5 g6f6 16. j5i6 h6g6 17. h5g5 f6e6 18. g5g4 f5e5 19. g4g5
+ e8d8 20. i6h7 c7c6 21. h7h5 d8c8 22. h5f3 g7g8 23. f3e3 e6f5 24. g5i3 g8g7 25. e3c3
+ g6g5 26. c3d3 f7f6 27. i3h3 g5h4 28. d3e3 f5g6 29. h3i3 h4h5 30. i3h3 g6f5 31. e3f3
+ f5g5 32. g3e3 f6f5 33. f3d3 e7f7 34. d3c4 e5f6 35. c4d3 d7d6 36. d3f3 d6e5 37. f3f2
+ c8c7 38. f2g3 e5e6 39. e3g5 f5g5 40. g3g5 c6d6 41. g5h5 e6e7 42. h5g5 d6e6 43. g5g7
+ c7c6 44. g7g5 e7d6 45. g5h5 f7e8 46. h5g6 e6e7 47. g6h5 e8d8 48. h5g5 e7e6 49. g5e3
+ e6e5 50. e3e2 c6c7 51. e2c4 c7d7 52. c4a6 d7e7 53. a6c8 e7f7 54. c8e8 f7g7 55. e8g6
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "54"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "a3bbtb4/2mu1mbu4/9C2/3*4*3/4**6/3X8/12/6S1D3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "237"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1d3 e8b8 e1j6 e7e8 h1i1 b8a8"]
+[TimeMs "10238"]
+
+1. d3f5 h7g6 2. f5h3 g6h6 3. h3j5 h6i7 4. j5h5 d7e7 5. j6h4 e7f6 6. i1i2 f6g6 7. h5h3
+ g6g5 8. h4h2 g7g6 9. g1g3 f7f6 10. g3h4 a8d8 11. h4g5 f6g5 12. h3g3 g5f5 13. g3h3
+ f5g5 14. h3i3 g5h5 15. i3g3 d8d6 16. g3h3 h5g5 17. h3i3 d6f6 18. h2j2 g6h5 19. i2h2
+ f8f7 20. i3g3 g5f5 21. g3h4 f6g6 22. j2g2 e8d7 23. h2h3 i7h7 24. h4h2 g8f8 25. h3h4
+ f5g5 26. h4h3 d7d6 27. h2f2 h7g7 28. f2h2 g7f6 29. h2i3 c7d7 30. i3j3 h8h7 31. h3g3
+ d7e7 32. j3i2 f8e8 33. i2i4 e8d8 34. g2j5 g6j6 35. j5h3 d6e5 36. g3f3 d8c8 37. i4j4
+ j6g6 38. j4i4 c8c7 39. f3g3 e5f5 40. h3f3 f7f8 41. i4i6 f8f7 42. i6i4 c7d7 43. i4i6
+ f5e5 44. g3h3 f6g7 45. i6i4 e7e6 46. h3g3 d7d8 47. f3h3 d8c8 48. i4g2 e6e7 49. g2e2
+ c8d8 50. e2c4 d8e8 51. c4c5 g6e6 52. c5b6 e8f8 53. b6d4 e5f5 54. h3f3 e6g6 55. g3h3
+ e7e6 56. d4f2 g6j6 57. f2h2 e6f6 58. h2f2 j6g6 59. f2g3 g6j6 60. g3f2 h7i7 61. h3g3
+ i7h7 62. f2e2 f8e8 63. e2f2 g7f8 64. g3g2 f8e7 65. g2g3 e8f8 66. f2h2 f8e8 67. h2f2
+ e8f8 68. f2e3 f5e5 69. e3d4 f8e8 70. d4c5 e7d7 71. c5b5 d7d6 72. b5b6 d6e7 73. b6c6
+ e8f8 74. c6c5 f6e6 75. c5e3 e7f6 76. f3h3 f6f5 77. e3c5 f5f6 78. c5c6 f6e7 79. c6c5
+ f8g8 80. c5e3 e7f6 81. e3f2 g8f8 82. f2d4 f6e7 83. d4f2 e7f6 84. f2d4 j6g6 85. h3f3
+ g6j6 86. d4c3 f8e8 87. c3e3 e8f8 88. e3f2 e5f5 89. f2e3 j6h6 90. e3d4 f5e5 91. f3h3
+ h6j6 92. h3f3 f6e7 93. f3h3 e7f6 94. d4b6 f8g8 95. b6c6 f6e7 96. c6c5 g8f8 97. c5e3
+ e7f6 98. e3e2 h5i4 99. e2c4 f6e7 100. c4d4 i4h5 101. d4e3 e7f6 102. h3f3 f7g7 103. e3f2
+ f6f5 104. f2h2 g5g4 105. h2j4 j6i6 106. j4i4 i6i7 107. i4h5 f5f6 108. g3g4 f8e8
+109. h5h4 e8d8 110. h4f2 f6e7 111. g4g5 h7i6 112. g5g6 i7l7 113. f2d4 e7d7 114. d4b6
+ d8e8 115. g6g7 e6e7 116. b6b7 e5d4 117. g7f7 e7f7 118. b7d7 e8f8 119. d7f7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "64"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2m1bmbu4/2u9/3*4*3/4**1C4/12/12/1X4SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "137"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1b1 d7e6 e1j6 e6d7 j6h4 d7c6"]
+[TimeMs "6051"]
+
+1. h1h2 h7g6 2. g1g3 g7f6 3. b1c2 h8i7 4. h4f2 e7d6 5. h2h3 f7g7 6. c2e2 g7h7 7. e2g2
+ e8e5 8. g2i4 h7h6 9. h3h4 f8f7 10. i4j5 g8f8 11. j5j6 g6h7 12. g3g5 h6g6 13. j6j5
+ h7g7 14. h4g4 f8e8 15. j5j6 i7h6 16. j6i6 e8d8 17. g5h5 g6h5 18. g4h5 c6d7 19. i6i7
+ g7f8 20. i7h6 e5e7 21. h6h4 f7g7 22. h4g3 d7e6 23. h5h6 f8f7 24. g3g5 g7g8 25. g5g4
+ c7c6 26. g4h4 f6g7 27. h4g3 d6c5 28. g3h3 e6f6 29. h3g3 d8d7 30. h6h5 g7g6 31. g3h4
+ c6d6 32. h4h3 e7e5 33. h5h6 d6e6 34. h3f1 e6d6 35. f1f3 g8f8 36. f3d3 g6f5 37. d3e2
+ f5g6 38. e2g4 d6e6 39. g4h5 e6d6 40. h5g4 d6e6 41. g4h5 f8g7 42. h5f3 g6f5 43. f3h5
+ e6d6 44. h5g4 e5e8 45. g4f3 f5g6 46. f3e2 f7e6 47. f2d2 e6e5 48. h6h5 e8e6 49. e2c4
+ d7e7 50. c4b5 c5d4 51. b5b6 d6d7 52. b6c5 e7f7 53. c5e3 f6f5 54. h5g5 f7e7 55. e3f2
+ f5f6 56. g5g4 e7e8 57. f2e2 e6c6 58. g4g5 d7e7 59. e2c4 c6e6 60. g5f6 e6f6 61. c4d3
+ e7d7 62. d3b5 d7e7 63. b5d3 e7e6 64. d3b5 e6d6 65. b5b6 d6d7 66. b6b7 d7e7 67. b7c7
+ e8f8 68. c7d8 f8f7 69. d8f8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "29"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2a1ubtb4/2m2mbu4/3b8/3*4*3/4**6/12/7S4/3X3D4 w - - 2 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "345"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1e5 e8c8 e5e8 d7e8 g1h2 e7d6"]
+[TimeMs "14868"]
+
+1. d1f3 g7f6 2. f3f5 h7g6 3. f5g4 g6h7 4. h2h4 e8e7 5. g4g5 e7e6 6. h4g4 f7g7 7. g5h5
+ e6f7 8. h5j7 h8i7 9. g4i6 h7h8 10. h1h2 f7g6 11. h2h3 g6g5 12. j7j6 g7h7 13. h3h4
+ g5h6 14. h4h5 h6g7 15. h5g5 c8e8 16. i6h6 g7f7 17. j6h4 f6g6 18. h4h5 f8e7 19. g5f5
+ e7f6 20. h6i6 h7g7 21. i6h6 g8f8 22. h6g5 e8e7 23. h5i4 c7c6 24. g5g4 h8h7 25. g4h5
+ d6c5 26. f5g5 c6d6 27. i4g4 f6e5 28. h5i6 h7g8 29. i6j6 g8h8 30. j6k6 d6e6 31. k6j6
+ e6f6 32. g5h5 g6f5 33. g4f3 g7g6 34. h5g6 f7g6 35. j6j4 h8g7 36. j4i4 g7f7 37. f3e3
+ c5d6 38. e3f3 e5d4 39. f3f2 e7e5 40. i4h3 f7g8 41. h3f3 g8g7 42. f3e3 d4c4 43. f2e2
+ c4b3 44. e2c2 i7h6 45. c2b3 h6h5 46. b3a4 g7f7 47. e3f2 g6g5 48. a4c2 f8g8 49. c2d3
+ g8g7 50. d3e3 g5h4 51. f2g2 f7g6 52. g2g3 h4g4 53. g3f2 g6g5 54. f2f3 g4h3 55. e3f2
+ e5e6 56. f3g2 h3h4 57. g2g1 g7h7 58. g1e1 d6e7 59. f2h2 h4i4 60. h2i2 i4j4 61. e1g3
+ f5g6 62. g3i3 j4j5 63. i2h3 j5i6 64. h3g2 f6f5 65. g2i4 g5h6 66. i3h2 h5g5 67. h2h3
+ h7g7 68. i4k6 g6f7 69. k6k4 i6h5 70. h3f3 g5h4 71. k4k5 e6g6 72. k5k6 h6h7 73. f3h3
+ f5g5 74. k6j5 g5g4 75. h3f1 e7f6 76. f1g2 f6f5 77. j5j3 g6h6 78. j3j4 h4g3 79. j4i3
+ h7g6 80. i3h2 g6g5 81. h2j4 h5g6 82. j4h2 h6h4 83. h2g1 g7h7 84. g1h2 h4k4 85. h2i2
+ k4h4 86. i2k4 h7g7 87. k4j5 g3f3 88. j5i6 h4h7 89. i6j5 f3f2 90. g2i4 f2f3 91. j5j6
+ f5e6 92. i4j5 g5h6 93. j6j4 h6g5 94. j5i4 h7h6 95. i4g2 g4g3 96. g2e2 e6f5 97. e2d3
+ f7f6 98. d3e2 f3g2 99. e2d2 f5g4 100. j4i3 h6h4 101. i3g1 g7h7 102. d2f2 g3h3 103. f2f1
+ g2h2 104. g1e3 f6f7 105. f1d3 h7i7 106. e3e5 g6f6 107. e5d6 i7i6 108. d6f8 h4h7
+109. f8d6 f7g7 110. d3c3 g5f5 111. c3b4 h2g2 112. d6c5 h7h4 113. b4d2 g4g5 114. d2e1
+ h3g3 115. c5d6 g5g4 116. e1d2 g2f2 117. d6d4 g4g5 118. d2c3 g7f7 119. c3e1 f2g2
+120. d4d6 f5g6 121. e1e2 h4h7 122. e2c4 g6f5 123. c4b4 g2f2 124. b4c3 h7h4 125. d6d7
+ f6e6 126. d7e8 h4h7 127. c3d4 f2g2 128. e8c6 h7h4 129. c6c4 e6f6 130. d4c3 f5g4
+131. c4d4 f6e6 132. d4c4 g4f5 133. c3e1 f7g6 134. c4c5 g3f3 135. e1c3 h4h7 136. c5d4
+ f5g4 137. d4c4 h7f7 138. c4c5 g2g3 139. c5d4 g3f2 140. c3c4 f2f1 141. c4c3 f3g3
+142. c3e3 f1g2 143. e3e1 g3f3 144. e1g1 g2g3 145. g1h1 g3f2 146. h1j3 f2g2 147. j3j5
+ i6j6 148. j5i6 e6f5 149. d4c5 f3g3 150. c5e3 f7i7 151. i6h5 g3f3 152. e3d3 i7f7
+153. h5g4 f5g4 154. d3f1 g2h2 155. f1h1 g4h5 156. h1f3 h5h4 157. f3f5 f7i7 158. f5g6
+ h2g3 159. g6f6 h4i4 160. f6g5 i7h7 161. g5g3 h7h6 162. g3g4 i4i3 163. g4e6 h6h7
+164. e6f6 j6k6 165. f6g5 i3i4 166. g5g4 h7h5 167. g4i2 i4j4 168. i2h2 j4i4 169. h2j2
+ k6k7 170. j2l4 k7k8 171. l4k5 k8j8 172. k5k7 j8i8 173. k7i7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "58"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mu1mb1u3/3b8/3*4*3/4**6/3X8/7S4/4C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "189"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1h2 h7h6 d1c2 e7d6 c2d3 h6i7"]
+[TimeMs "8263"]
+
+1. d3f5 e8e6 2. f5g4 e6h6 3. h2f2 d7e6 4. e1g3 g7f6 5. f2g2 f6g6 6. h1h2 f7f6 7. g4i4
+ f6f5 8. h2h3 g6f6 9. g2i2 f8f7 10. i4g2 f5g5 11. i2h2 g8f8 12. g2f2 h8h7 13. f2g2
+ f8e8 14. h2i2 e6f5 15. i2i4 h6g6 16. g2f3 i7i6 17. f3e3 c7c6 18. g3d3 e8f8 19. e3d4
+ d6c5 20. d4c4 c6b6 21. c4d4 b6c6 22. d4c4 c6b6 23. c4d4 b6c6 24. d4c4 c6b6 25. h3g3
+ g5h5 26. i4h3 f6g5 27. c4b4 b6c6 28. b4a5 f5e5 29. a5a7 g6d6 30. a7b8 d6d7 31. b8b7
+ c6d6 32. b7a8 i6h6 33. h3i3 h6g6 34. a8a6 g5f5 35. a6c4 d7e7 36. c4e2 f7g7 37. e2g2
+ g6g5 38. d3h3 e5f6 39. h3f3 f8e8 40. g2e2 g7f7 41. e2f2 f6e5 42. f2e3 g5g6 43. i3h2
+ h5g5 44. e3d3 f5g4 45. h2f2 g4h4 46. f2d4 e5f6 47. d4c5 d6c5 48. d3c3 c5b5 49. c3d2
+ e7c7 50. d2e3 h4h5 51. f3i6 g6f5 52. e3f3 c7c4 53. f3g2 h7h8 54. i6i4 h8h7 55. i4f1
+ e8e7 56. g2i4 h7g7 57. f1j5 e7d7 58. i4i6 h5g4 59. i6g8 c4c7 60. g8i6 c7c8 61. i6g8
+ c8c7 62. g8i6 c7c8 63. i6i4 f6g6 64. j5h3 g4h5 65. i4i3 g5g4 66. g3g4 f5g4 67. h3j3
+ g4f5 68. j3h3 g6g5 69. h3j3 c8e8 70. i3i4 f5g4 71. i4i6 e8h8 72. i6j6 h8i8 73. j6k6
+ i8h8 74. k6j5 g7f6 75. j3j6 f6f5 76. j6j4 h8g8 77. j5i6 g8h8 78. i6j5 d7e7 79. j5j6
+ h8h7 80. j6j7 g5h6 81. j7j6 h6i6 82. j6k6 g4h3 83. k6l5 h3i4 84. l5l4 h5g5 85. l4j2
+ h7h6 86. j4j1 h6h3 87. j2k3 i4i3 88. j1g4 h3g4 89. k3i3 f7g8 90. i3g1 g4g2 91. g1g2
+ i6h5 92. g2g3 e7e8 93. g3e5 e8d8 94. e5e7 d8c8 95. e7c7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "33"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/1m1ubmb5/12/3*3u*3/4**6/4S7/12/2X1C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "93"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1c1 c7b7 g1g3 h7g6 g3e3 g6h5"]
+[TimeMs "4213"]
+
+1. c1d1 g7g6 2. d1f3 h5h6 3. f3g3 g6g5 4. h1h2 e7d6 5. h2h3 f7g7 6. h3h4 g7g6 7. e3f2
+ h8i7 8. g3h3 f8g7 9. h3j5 e8e7 10. j5i4 e7f7 11. e1e5 d7e6 12. e5e3 b7c7 13. f2f3
+ g8f8 14. i4g2 e6f6 15. g2h3 g5f5 16. h4g4 c7c6 17. h3h4 c6c5 18. f3g3 f8e8 19. g3h3
+ c5c4 20. e3i3 g7h7 21. h4j6 f7g7 22. h3h2 g6g5 23. g4g3 g5g6 24. i3f3 g6g5 25. h2j4
+ e8d8 26. f3h3 h6h5 27. h3f3 g7g6 28. j6h8 f6g7 29. h8i7 g7f6 30. j4j3 g5g4 31. f3h5
+ g4g3 32. h5j5 g3g4 33. j3h5 g4g5 34. h5g6 g5g6 35. i7h7 f6g7 36. h7i6 g6g5 37. i6i4
+ d6e6 38. i4g2 d8d7 39. j5f1 g7g6 40. g2e2 c4d4 41. e2c2 d7e7 42. c2a4 f5g4 43. a4b5
+ e7f7 44. b5d7 f7g7 45. d7e6 g7h7 46. e6g8 h7h6 47. g8i6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "62"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2m2mb5/2ub3u4/3*4*3/4**6/3X8/12/2C1S2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "75"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1c1 d7c6 g1e1 h7h6 d1d3 e7d6"]
+[TimeMs "3471"]
+
+1. h1h2 c7d7 2. c1f1 g7f6 3. d3f3 f7g7 4. f3g4 e8e5 5. g4h4 f8f7 6. h2h3 h8i7 7. e1g3
+ e5g5 8. h4j6 g7h7 9. j6k6 g8f8 10. h3h4 g5g6 11. g3g4 f8e8 12. k6i8 h6g7 13. h4h5
+ i7h6 14. h5g6 h7g6 15. i8i6 d7e7 16. g4e2 c6d7 17. i6g4 f6g5 18. g4h3 d7e6 19. f1d3
+ e6f6 20. e2g2 g5f5 21. d3i3 g6g5 22. h3f3 h6h5 23. f3e3 g5g4 24. i3d3 e8f8 25. g2e2
+ d6e5 26. e2d2 e7e6 27. e3e2 f6g5 28. d2c3 g7f6 29. c3d4 f8g8 30. e2f2 g5h4 31. f2h2
+ h4i4 32. h2i2 i4h4 33. i2k4 g8f8 34. k4i6 f6g7 35. i6i7 f8e8 36. i7g7 e8d8 37. g7f8
+ d8d7 38. f8d8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "66"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/1m2bm1u4/4u1b5/3*4*3/4**6/3X8/7S4/4C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "35"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1h2 c7b7 d1f3 g7g6 f3d3 d7e6"]
+[TimeMs "1776"]
+
+1. h1g1 f7f6 2. d3f3 e6f5 3. f3h5 h7i7 4. h2h4 g6g5 5. h5h3 f8f7 6. g1g2 e7d6 7. g2g3
+ e8e5 8. h4g4 i7h6 9. g4f5 e5f5 10. e1h4 h8h7 11. g3g2 b7b6 12. g2g3 g8f8 13. g3g4
+ h6g6 14. g4f5 g6f5 15. h3h5 f8e8 16. h5h6 e8d8 17. h6f8 d8d7 18. f8d6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "31"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mubm3u2/7b4/3*4*3/4**6/12/3X3D4/2C3S5 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "589"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1h2 h7i8 e1c1 g7h6 d1d2 i8j7"]
+[TimeMs "25042"]
+
+1. d2f2 d7e6 2. f2h4 f7g7 3. g1f1 g7g6 4. h4i4 e6f6 5. c1g1 e7d6 6. i4j5 j7i7 7. j5k6
+ e8e7 8. f1g2 g6g5 9. h2h3 e7h7 10. g2h2 f8f7 11. h3g3 f6f5 12. k6i4 i7i6 13. i4i2
+ h8g7 14. i2h3 g8f8 15. g1i3 g7f6 16. h2f2 f8e8 17. h3g2 c7c6 18. f2d4 i6h5 19. g2h3
+ f5g4 20. h3j5 h7g7 21. g3g4 h5g4 22. j5k5 g4h5 23. k5i7 h5g6 24. d4e5 c6c7 25. e5c3
+ c7c6 26. c3e1 d6e5 27. i7i6 c6c5 28. e1g3 c5c4 29. g3f3 f6f5 30. i6i4 g6h5 31. i4i2
+ g7g6 32. i3i1 e5d6 33. i2g2 c4d4 34. f3f1 h6h7 35. g2f2 d4c4 36. f2g3 g6f6 37. g3h3
+ f6i6 38. f1f2 h5h4 39. h3j3 h4h5 40. j3k4 i6h6 41. k4k6 h5g6 42. k6k4 e8d8 43. k4j4
+ h6h4 44. j4j6 g6g7 45. i1e5 d8d7 46. f2e3 h4h6 47. j6j4 g5g4 48. e3d2 h6f6 49. e5c7
+ d6e5 50. j4i3 f6c6 51. i3i4 g4g5 52. c7e7 g7f8 53. e7h4 g5h4 54. i4g6 c6d6 55. g6f5
+ d7c7 56. f5f6 f8e7 57. f6h4 h7g7 58. h4g4 c4b4 59. d2e3 d6f6 60. g4e2 b4b5 61. e2d3
+ b5c5 62. e3g3 e7d6 63. d3e3 g7h7 64. e3f3 d6e7 65. f3h5 f7g6 66. g3g5 f6e6 67. g5f5
+ e6f6 68. f5g6 h7g7 69. g6g5 f6e6 70. h5h6 g7f6 71. g5g6 e5d4 72. h6g5 c5c4 73. g6f5
+ e6d6 74. f5e5 d6e6 75. g5e3 d4c5 76. e3e2 c4b4 77. e2e3 b4b5 78. e3d3 e6b6 79. d3e3
+ f6g6 80. e5f5 e7f6 81. f5g6 c5b4 82. g6g5 f6f5 83. g5g6 f5f6 84. g6g5 f6f5 85. g5e7
+ b6c6 86. e3f3 f5g5 87. f3g3 g5f5 88. g3e3 b5c5 89. e3d3 f5e5 90. d3e3 e5f5 91. e3d3
+ f5e5 92. d3e3 e5f5 93. e3d3 f5e5 94. d3e3 e5f5 95. e3d3 f5e5 96. d3e3 e5e6 97. e3g3
+ c7b7 98. g3g5 b7b6 99. e7g7 c6c7 100. g7g6 e6d6 101. g6f5 b4c3 102. f5e5 d6c6 103. e5e6
+ b6b5 104. g5e3 c5c4 105. e6g6 c3d3 106. e3e2 c6c5 107. e2f3 c7d7 108. f3g4 d7e7
+109. g4e2 e7g7 110. e2g4 g7d7 111. g4f5 d7d6 112. f5g5 c5d4 113. g5g4 d4e3 114. g4f5
+ e3d4 115. f5f6 d6d7 116. g6g8 d4c5 117. g8e6 d7c7 118. f6g5 c5d6 119. e6f6 c7d7
+120. f6f5 d7f7 121. f5e5 d6c5 122. g5f5 f7e7 123. e5f6 e7c7 124. f6e5 c7e7 125. e5f6
+ e7c7 126. f6e5 b5b4 127. e5f6 c5d4 128. f5g4 d4c5 129. g4e6 c7c6 130. f6g6 d3e3
+131. e6g4 c5d4 132. g4e6 c6c5 133. e6g4 c4c3 134. g4f3 c3d3 135. f3h5 e3e2 136. g6f6
+ e2f2 137. h5f5 d3e3 138. f5g5 e3f3 139. g5h5 f3e3 140. h5g5 c5c6 141. f6e5 d4d3
+142. e5c3 d3c3 143. g5e3 c6c4 144. e3f2 c3d3 145. f2g3 c4c5 146. g3e5 d3c4 147. e5c7
+ c4b5 148. c7e5 c5c4 149. e5e3 c4c2 150. e3e5 c2c4 151. e5g3 c4c3 152. g3f3 b5c4
+153. f3e3 c3c2 154. e3e5 c2c3 155. e5e6 c4b5 156. e6d7 c3c6 157. d7e6 c6c5 158. e6f5
+ c5c3 159. f5e5 c3c4 160. e5e3 c4c2 161. e3e2 c2c3 162. e2d1 b5c4 163. d1c1 c4b3
+164. c1e3 b3c4 165. e3e5 b4b3 166. e5e6 c4b5 167. e6g6 b5c4 168. g6e8 c4b5 169. e8e6
+ b5c5 170. e6f5 c5d4 171. f5d7 c3c5 172. d7b7 b3c3 173. b7d7 c3b3 174. d7b7 b3c3
+175. b7d7 c3b3 176. d7c7 b3c3 177. c7a5 c3d3 178. a5a3 c5c2 179. a3a2 c2c1 180. a2a1
+ c1c2 181. a1a3 d3e3 182. a3a4 c2c3 183. a4c6 e3d3 184. c6e6 d3d2 185. e6d7 c3d3
+186. d7d8 d4e5 187. d8c7 e5d4 188. c7d7 d2c2 189. d7e6 d3c3 190. e6c6 c3b3 191. c6d6
+ d4d3 192. d6c5 c2d2 193. c5e5 b3c3 194. e5g5 c3c4 195. g5g3 d3e2 196. g3g2 e2e1
+197. g2g1 e1e2 198. g1g2 e2e1 199. g2g1 e1e2 200. g1g2 e2e1 201. g2g3 e1e2 202. g3g2
+ e2e1 203. g2g1 e1e2 204. g1g2 e2e1 205. g2g3 e1e2 206. g3g2 e2e1 207. g2g3 e1e2
+208. g3g2 e2e1 209. g2g3 e1e2 210. g3g2 e2e1 211. g2g1 e1e2 212. g1g2 e2e1 213. g2g3
+ e1e2 214. g3g2 e2e1 215. g2g3 e1e2 216. g3g2 e2e1 217. g2g1 e1e2 218. g1g2 e2e1
+219. g2g1 e1e2 220. g1g2 e2e1 221. g2g3 e1e2 222. g3g2 e2e1 223. g2g1 e1e2 224. g1g2
+ e2e1 225. g2g1 e1e2 226. g1g2 e2e1 227. g2g1 e1e2 228. g1g2 e2e1 229. g2g1 e1e2
+230. g1g2 e2e1 231. g2g1 e1e2 232. g1g2 e2e1 233. g2g1 e1e2 234. g1g2 e2e1 235. g2f3
+ c4d4 236. f3f5 e1f2 237. f5d7 f2e3 238. d7b5 d2e2 239. b5d7 e2f2 240. d7b5 d4d3
+241. b5b4 f2e2 242. b4b5 e3d4 243. b5b3 d3d2 244. b3b5 d4e5 245. b5c4 e2f2 246. c4c5
+ d2d4 247. c5e7 e5f5 248. e7d6 d4d3 249. d6d7 f5g4 250. d7e6 g4g5 251. e6g8 d3f3
+252. g8g7 g5g4 253. g7e5 f2g2 254. e5g7 f3h3 255. g7e5 h3f3 256. e5c5 g2h2 257. c5e5
+ h2h1 258. e5f6 h1h2 259. f6f7 f3h3 260. f7h7 h2g2 261. h7g6 g2h2 262. g6i6 h2g2
+263. i6h6 g2g3 264. h6f6 h3h2 265. f6e6 g4h4 266. e6g6 h2f2 267. g6f5 g3g2 268. f5f6
+ h4g3 269. f6h6 g2g1 270. h6g6 f2g2 271. g6f6 g3h3 272. f6g6 g2g4 273. g6f6 g1h1
+274. f6e5 h1h2 275. e5e3 g4g2 276. e3g5 g2g3 277. g5h6 g3g4 278. h6i6 h2g2 279. i6j5
+ h3i3 280. j5h7 g2g3 281. h7h6 g3h3 282. h6h7 g4g5 283. h7j5 h3g3 284. j5k5 i3h3
+285. k5j5 g5g4 286. j5j3 h3h2 287. j3j2 h2h1 288. j2i3 g3f3 289. i3i4 g4g3 290. i4h5
+ f3f2 291. h5g5 g3f3 292. g5f5 f3e3 293. f5h3 e3e2 294. h3h1 e2e1 295. h1f3 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "37"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2a2btb4/3ubmbu4/3m8/3*4*3/4**1C4/12/7S4/3X3D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "215"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1j6 c7c6 j6h4 e8c8 g1h2 c6d6"]
+[TimeMs "9329"]
+
+1. d1f3 h7h6 2. f3g4 d7e6 3. g4i4 g7g6 4. i4j5 f8e8 5. j5j4 f7g7 6. j4j6 g7h7 7. h2h3
+ h6i6 8. j6j4 i6h5 9. j4j5 h5i6 10. j5k6 h7i7 11. k6i4 e6f5 12. h4h2 i6h6 13. h1g1
+ d6e6 14. g1g2 c8c6 15. g2g3 e6f6 16. g3g4 h8g7 17. h2h4 f5g5 18. h4h2 e7e6 19. i4i3
+ f6f5 20. g4g5 f5g5 21. h2e5 g5f5 22. e5e3 e6e5 23. i3h2 e8e7 24. h2f2 c6c4 25. f2e2
+ c4d4 26. e3e1 h6g5 27. e2f2 d4d3 28. e1g3 i7h7 29. g3e1 h7h6 30. f2f1 d3e3 31. f1g1
+ e3f3 32. g1f1 f3c3 33. f1f3 c3c6 34. f3d3 g6h5 35. d3c4 c6f6 36. c4d4 h6g6 37. d4d6
+ f6f7 38. d6b4 g8h8 39. b4c3 h8i8 40. c3d2 g5h4 41. h3f1 g6g5 42. d2d4 e5e6 43. f1e2
+ h5g4 44. e1e3 g7g6 45. e2g2 h4g3 46. g2f1 g3f3 47. e3c5 e7f8 48. f1h1 g4h4 49. h1h3
+ f8g7 50. h3i3 f7f6 51. i3k5 g6h5 52. k5j6 h4g4 53. d4d6 f6f7 54. j6i6 g4h4 55. i6h7
+ i8i7 56. d6d7 f5f6 57. h7h6 i7h7 58. h6g5 h5g4 59. c5e5 e6f5 60. g5h4 g4h5 61. h4h3
+ g7g6 62. e5c5 h7i7 63. d7d6 i7j7 64. d6d4 f7g7 65. d4d3 f3f2 66. h3g4 h5g5 67. g4f5
+ g7f7 68. f5g4 f2g3 69. g4h5 g6h6 70. d3e3 g3h4 71. h5i6 j7k7 72. e3f2 h4i4 73. f2g2
+ i4j4 74. g2g4 f7i7 75. i6g8 j4j5 76. g8g7 i7i6 77. g7f6 g5h5 78. g4h3 k7k8 79. f6g6
+ j5j6 80. h3g4 j6i7 81. g6h5 i6j6 82. g4g5 j6j7 83. c5e5 j7j6 84. g5h4 k8j8 85. h4j4
+ j8i8 86. e5g3 j6j7 87. h5g5 h6h7 88. g5f6 j7k7 89. f6h6 k7j7 90. h6g7 h7g6 91. j4i4
+ g6h7 92. i4j4 h7g6 93. j4i4 i8j8 94. i4g6 j8k8 95. g6i4 i7j6 96. i4j4 j6k6 97. j4h4
+ j7h7 98. h4i4 k6k5 99. i4g4 h7i7 100. g4h5 k8j8 101. g7h6 k5j6 102. h6i7 j6i7 103. g3e5
+ j8i8 104. h5i4 i7j7 105. i4g6 i8j8 106. g6h7 j7i7 107. h7i7 j8k8 108. i7k7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "70"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2u1abt5/2mb1mbub3/12/3*4*3/4**6/3S8/12/3XC1D5 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "191"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1f1 d7c8 f1d3 h8i7 h1g1 e7d7"]
+[TimeMs "8324"]
+
+1. d1f3 e8e6 2. d3c3 d7c6 3. f3h5 e6g6 4. h5i4 c8d7 5. i4h3 d7e6 6. g1g2 g7f6 7. g2g3
+ c7d7 8. g3g4 f8g7 9. h3h4 f6f5 10. c3d2 f7f6 11. d2e2 d7e7 12. h4h3 g6h6 13. e2f2
+ c6b5 14. h3f1 h7g6 15. e1g3 f5g5 16. f1d3 b5c6 17. d3f3 f6f5 18. g4h4 g8f8 19. g3e3
+ g5h5 20. f3g3 c6d6 21. g3g1 e6f6 22. f2e2 f8e8 23. g1f2 f5g5 24. h4h3 g6f5 25. f2g3
+ h6g6 26. e2c4 g6h6 27. c4c5 e8d8 28. c5c3 h6g6 29. g3f2 g5g4 30. f2d4 d8e8 31. d4b6
+ e7d7 32. b6b7 f6e7 33. h3h2 d6e6 34. b7b5 e8f8 35. c3d2 g4g5 36. d2c3 f5g4 37. h2g2
+ e6f5 38. g2f2 g6e6 39. b5d3 g4h4 40. d3f1 e7f6 41. f1g1 g5g4 42. f2g2 d7e7 43. g1h2
+ h4i4 44. h2i2 i4h4 45. i2k4 i7j8 46. k4i6 f6f7 47. i6h6 f8e8 48. h6j8 h4g5 49. j8j6
+ e8d8 50. c3c4 e6c6 51. g2f2 d8c8 52. j6k5 c6e6 53. c4d3 c8c7 54. k5j6 e6c6 55. d3d2
+ c6c4 56. j6i6 f7f6 57. d2e2 c4d4 58. e3g1 d4c4 59. i6h7 c4c6 60. h7i7 c6c4 61. i7h8
+ c7c8 62. e2d2 h5h4 63. g1e3 e7f7 64. h8i7 h4h5 65. e3g1 g4h4 66. g1e3 g5g4 67. i7i6
+ c8c7 68. i6g8 f6e7 69. g8h7 c4c6 70. d2e2 c6f6 71. h7h6 f6g6 72. h6i7 f7f6 73. f2f3
+ g4g5 74. i7i6 g6h6 75. i6j6 c7d7 76. e2g2 e7f7 77. g2e2 d7d6 78. e2c4 d6d7 79. c4c3
+ f6g6 80. c3c5 g6f6 81. f3f2 h4g4 82. j6j5 g4h4 83. j5j4 f5g4 84. c5c7 f7g6 85. f2g2
+ h5i4 86. g2f2 i4i3 87. c7c5 h6h5 88. f2f3 i3h3 89. f3f2 g4f5 90. f2g2 h3i4 91. j4h2
+ d7e7 92. h2f2 e7e8 93. f2d4 g7f8 94. d4b6 e8e7 95. b6d6 e7e8 96. d6f8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "35"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3uabtb4/3m1mbu4/5b6/3*4*3/4**6/5X6/12/4C1SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "141"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1f1 d7d8 f1e2 e7f6 e2f3 c7d7"]
+[TimeMs "6229"]
+
+1. h1h2 h7h6 2. f3g4 g7g6 3. h2h3 d8c7 4. h3h4 f7g7 5. h4h5 h6h7 6. h5g5 e8e6 7. g1i3
+ f8f7 8. e1j6 g8f8 9. i3h3 f6e5 10. h3h5 g6h6 11. h5i6 e6g6 12. i6j7 g6d6 13. j6h4
+ d7e7 14. j7i6 d6g6 15. i6h7 g6h7 16. g4f5 f8e8 17. f5e5 c7d6 18. e5g3 e7e6 19. g3f2
+ h6i6 20. g5g4 g7g6 21. f2g2 e6f6 22. g2f2 f6f5 23. g4f5 g6f5 24. h4e1 d6e6 25. f2d4
+ f7g6 26. d4c4 h7f7 27. c4e2 f5g5 28. e1e3 e6f5 29. e2g2 i6h5 30. g2f2 f7f6 31. f2d4
+ f5e6 32. d4c4 e6f7 33. c4b5 e8f8 34. b5d3 h8h7 35. d3d2 g6g7 36. d2f2 h5h4 37. f2g2
+ f7g6 38. g2i4 f8e8 39. i4i6 e8d8 40. i6g8 f6f7 41. g8i6 d8d7 42. e3e5 d7d6 43. i6i4
+ f7f5 44. e5e3 f5f7 45. i4g2 g6f5 46. g2f2 d6e6 47. f2d4 f7c7 48. e3g5 c7d7 49. g5g8
+ d7e7 50. d4f2 h4g5 51. g8i6 g7g6 52. f2h4 h7i8 53. h4h3 f5f6 54. h3h4 f6f5 55. h4h6
+ e7f7 56. h6h5 f5f6 57. h5h4 f6f5 58. h4f2 g6h6 59. f2d4 f7d7 60. d4d3 f5f6 61. d3c4
+ e6e7 62. c4b5 f6e6 63. b5d3 e7e8 64. d3f3 e6f6 65. i6e2 d7g7 66. f3g4 g5f5 67. g4h5
+ i8h7 68. e2i6 h7g8 69. i6i4 g7g5 70. h5f7 e8d8 71. f7d7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "74"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mub1bu4/5m6/3*C3*3/4**6/3X8/12/6SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "67"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1f3 f7f6 e1e5 e8c8 f3d3 c8e8"]
+[TimeMs "3182"]
+
+1. e5g3 g7h6 2. g1i3 d7e6 3. h1h2 f8f7 4. d3f3 e6f5 5. h2h3 e7d6 6. h3h4 g8f8 7. i3h3
+ f6g6 8. g3e3 h7g7 9. f3g3 c7d7 10. h4g4 d6c5 11. g3f3 f5f6 12. f3g3 e8e6 13. g3e1
+ e6e5 14. h3f3 d7d6 15. f3f2 h8h7 16. e1c3 h6h5 17. f2d2 g7h6 18. d2d4 e5e7 19. d4c5
+ d6c5 20. c3c5 f8g8 21. g4g3 g6g5 22. g3f3 h6g6 23. c5d4 g6f5 24. f3f2 g8h8 25. d4c4
+ h8i8 26. c4e2 f5g4 27. e2g2 g4h4 28. g2i2 h4i3 29. i2i3 i8j8 30. i3i4 f6e5 31. e3e5
+ g5f5 32. i4h5 j8i8 33. h5j7 i8h8 34. j7h7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "78"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt1b3/4bmbu4/2mu8/3*4*3/4**6/7S4/12/4CX1D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "41"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1g3 d7d6 d1f1 h8i8 g3h3 c7c6"]
+[TimeMs "2051"]
+
+1. f1f3 h7h6 2. f3f5 g7g6 3. h1h2 d6e6 4. f5f3 f8g7 5. h2g2 i8i7 6. f3g4 g6f5 7. g4h4
+ h6i6 8. g2g3 f7f6 9. h4g4 i6h6 10. h3h5 e6f7 11. g4h4 f7g6 12. h5g6 f6g6 13. h4j6
+ h6h7 14. j6j7 g6h6 15. e1h4 g8f8 16. h4h7 f5e6 17. h7d3 g7h8 18. j7i7 h6g6 19. i7h8
+ f8f7 20. h8g8 f7f6 21. g8g6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "68"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtC4/2mubb6/5m2u3/3*4*3/4**6/12/12/3X2SD4 w - - 1 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1j6 f7f6 j6h4 g7f7 h4h8 h7i6"]
+[TimeMs "25483"]
+
+1. d1d3 i6h7 2. d3d4 d7e6 3. d4c5 h7h8 4. c5c7 f7g6 5. g1g3 e6f7 6. h1h2 h8h7 7. h2h3
+ e7d7 8. c7c5 g6f5 9. g3g4 h7h6 10. c5e3 f6g6 11. e3g3 f7f6 12. g3h4 g8g7 13. h4i4
+ g7f7 14. h3g3 g6g5 15. i4h3 f8g7 16. h3f3 g5g4 17. g3g4 f5e5 18. f3e3 h6g6 19. e3d3
+ e8e6 20. d3c3 g7h6 21. c3d3 e6c6 22. g4h4 h6g7 23. d3c4 c6e6 24. h4g4 e6d6 25. c4d4
+ d6e6 26. d4f2 g7h6 27. g4h4 h6g7 28. f2f3 e6c6 29. f3e2 f7e7 30. e2d3 c6c5 31. h4g4
+ c5c6 32. d3d4 e7f7 33. d4c4 c6b6 34. c4d4 b6c6 35. d4c4 c6b6 36. c4d4 b6e6 37. d4c4
+ g7h6 38. c4c6 e6e7 39. c6c4 h6g5 40. c4e2 e7e6 41. g4h4 g5h6 42. e2g4 h6g7 43. g4i6
+ f7e7 44. h4h5 g6f7 45. i6h6 g7g8 46. h5g5 g8g7 47. h6h4 f7g6 48. g5g6 f6g6 49. h4g4
+ g6f6 50. g4h5 d7d6 51. h5h6 e7d7 52. h6h4 e5f5 53. h4g3 f5g5 54. g3e3 d7e7 55. e3c5
+ e7f7 56. c5c7 g5f5 57. c7c6 e6e7 58. c6c5 e7e5 59. c5e3 f5g5 60. e3f3 f7e7 61. f3h5
+ e5f5 62. h5f3 g5g4 63. f3d3 e7e8 64. d3b5 f6e7 65. b5c5 e7d7 66. c5b5 d7e7 67. b5c5
+ f5f6 68. c5d4 e8f8 69. d4f2 f6f5 70. f2h4 e7f7 71. h4h5 f7g6 72. h5i6 g6f7 73. i6h5
+ f7g6 74. h5i6 g6f7 75. i6h5 f7g6 76. h5i6 g6f7 77. i6h5 f7g6 78. h5i6 g6f7 79. i6h5
+ f7g6 80. h5i6 g6f7 81. i6h5 f7g6 82. h5i6 g6f7 83. i6h5 f7g6 84. h5i6 g6f7 85. i6h5
+ f7g6 86. h5i6 g6f7 87. i6h5 f7g6 88. h5i6 g6f7 89. i6h5 f7g6 90. h5i6 g6f7 91. i6h5
+ f7g6 92. h5i6 g6f7 93. i6h5 f7g6 94. h5i6 g6f7 95. i6h5 f7g6 96. h5i6 g6f7 97. i6h7
+ f5f6 98. h7i6 f6f5 99. i6h7 f5f6 100. h7h6 f8e8 101. h6h4 g4g5 102. h4f2 f7e6 103. f2g3
+ e8e7 104. g3e3 e7f7 105. e3d4 e6e7 106. d4d3 d6e5 107. d3f3 e7e6 108. f3h5 f7e7
+109. h5h4 e5f5 110. h4h6 e6f7 111. h6h5 f5e5 112. h5f3 f6g6 113. f3e3 f7e6 114. e3c5
+ e7f7 115. c5c3 e5f5 116. c3b4 g5g4 117. b4b5 f5g5 118. b5c5 g5h5 119. c5e3 e6f5
+120. e3c5 f5e6 121. c5c7 g6f6 122. c7c6 e6e7 123. c6c4 f6g6 124. c4e2 g6g5 125. e2e3
+ e7f6 126. e3g3 g7h6 127. g3g1 h5i4 128. g1g3 i4h5 129. g3e1 h5i4 130. e1e3 g5e5
+131. e3c5 i4i3 132. c5c6 e5e7 133. c6c5 i3i4 134. c5e3 e7e5 135. e3g3 e5g5 136. g3e3
+ i4h4 137. e3g3 g5h5 138. g3f3 h5g5 139. f3e3 g5e5 140. e3g3 e5h5 141. g3f2 h5g5
+142. f2e2 h4i4 143. e2c4 g5e5 144. c4d3 i4h4 145. d3f3 e5g5 146. f3g3 h4i4 147. g3f2
+ i4h4 148. f2e3 h4h5 149. e3d4 g5e5 150. d4f2 e5g5 151. f2e3 h5h4 152. e3f2 h4i4
+153. f2g2 i4h5 154. g2f2 h5h4 155. f2e3 h4i4 156. e3d4 g5e5 157. d4f2 e5g5 158. f2e3
+ g5e5 159. e3c5 i4h4 160. c5e3 e5g5 161. e3c5 f7g7 162. c5e3 g7f7 163. e3g3 h4h5
+164. g3f3 h5h4 165. f3e2 h4i4 166. e2e3 g5e5 167. e3e2 e5g5 168. e2f3 h6g6 169. f3g3
+ g6h6 170. g3e3 i4h5 171. e3g3 h5i4 172. g3f3 i4h5 173. f3e3 h5i4 174. e3g3 i4h5
+175. g3f3 h5i4 176. f3g3 h6g7 177. g3f3 g7h6 178. f3e3 i4h4 179. e3d4 f7g7 180. d4e3
+ h6g6 181. e3f3 g6h6 182. f3f2 f6e7 183. f2f3 e7f6 184. f3g2 h4g3 185. g2g3 g4h4
+186. g3f3 h4g4 187. f3g2 f6g6 188. g2g3 g5f5 189. g3h3 f5h5 190. h3h2 h5g5 191. h2g3
+ g5f5 192. g3h3 f5h5 193. h3f3 h5f5 194. f3g3 g6g5 195. g3h3 g7f7 196. h3j5 g5g6
+197. j5h3 h6g5 198. h3f3 f7g7 199. f3h3 g7f7 200. h3h4 g4h5 201. h4g3 g5f6 202. g3e3
+ f7g7 203. e3g3 f6e6 204. g3h4 g7f7 205. h4j6 f7e7 206. j6h8 f5f7 207. h8j6 e6f5
+208. j6h4 f5g5 209. h4g4 g5f5 210. g4g3 g6f6 211. g3g4 h5g5 212. g4e2 g5h6 213. e2d3
+ h6g6 214. d3d4 e7e8 215. d4d3 f5g5 216. d3d4 g6h6 217. d4d3 g5f5 218. d3d4 h6g6
+219. d4e3 f7g7 220. e3f2 g6h6 221. f2e2 g7f7 222. e2c4 h6g6 223. c4d4 f7e7 224. d4f2
+ g6g5 225. f2f3 e7g7 226. f3e3 g5g6 227. e3f2 g6g5 228. f2e3 f5g6 229. e3c5 g7e7
+230. c5d4 e7e6 231. d4e3 g6f5 232. e3f3 e6e7 233. f3d3 e7g7 234. d3e3 f5g6 235. e3d4
+ g7e7 236. d4f2 g5f5 237. f2e3 g6g5 238. e3c3 e7g7 239. c3e3 g7e7 240. e3f3 e7g7
+241. f3d3 g7e7 242. d3e3 e8f8 243. e3c5 e7g7 244. c5e3 f8g8 245. e3c5 g7f7 246. c5e3
+ g8f8 247. e3c5 f7g7 248. c5d6 f8g8 249. d6d4 g7f7 250. d4d3 f7e7 251. d3e3 e7f7
+252. e3g3 f7g7 253. g3f2 g7h7 254. f2e3 g8f8 255. e3d4 h7e7 256. d4f2 e7g7 257. f2g3
+ g7f7 258. g3g4 f7h7 259. g4f3 f5e6 260. f3h5 h7g7 261. h5f3 e6f5 262. f3f2 f8e8
+263. f2d4 g5h6 264. d4e3 g7e7 265. e3c5 f5g4 266. c5e3 g4f5 267. e3c5 f5e6 268. c5e3
+ h6g5 269. e3f2 e7f7 270. f2e3 f7g7 271. e3d3 e6f5 272. d3d4 g7e7 273. d4e3 g5h6
+274. e3c3 h6g5 275. c3c5 f5g6 276. c5e3 e7f7 277. e3c5 f7e7 278. c5e3 e7e6 279. e3d4
+ e6e7 280. d4c5 e7f7 281. c5d6 f7e7 282. d6d4 e8f8 283. d4e3 e7g7 284. e3f3 f8e8
+285. f3e3 g7f7 286. e3d4 f7g7 287. d4e3 g7f7 288. e3d4 e8f8 289. d4e3 f8e8 290. e3d4
+ e8f8 291. d4c5 f7e7 292. c5e3 e7f7 293. e3d4 f7e7 294. d4e3 f8f7 295. e3f3 e7e5
+296. f3h5 f7e7 297. h5f3 g5h4 298. f3e2 h4g5 299. e2e3 e5e6 300. e3c5 e7f7 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "82"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mu1m1u4/5b6/3*2b1*3/4**6/12/2X9/4C1SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "123"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1e2 g7g6 e2c4 e7f6 c4c2 g6g5"]
+[TimeMs "5617"]
+
+1. g1f2 f6f5 2. c2e2 f7f6 3. e2g4 f6g6 4. h1h2 c7c6 5. h2h3 h7h6 6. h3h4 g5f6 7. g4h3
+ f8e7 8. h4g4 d7e6 9. f2e2 h8h7 10. e1e3 e7d7 11. h3f3 g8f8 12. f3h3 f5e5 13. h3h4
+ c6c5 14. e2d3 f6f7 15. d3b3 e6f6 16. h4j6 e8e7 17. j6j4 f8e8 18. b3d3 e7e6 19. e3c3
+ e8d8 20. d3f3 c5c4 21. c3g3 e5f5 22. f3g2 f5e5 23. j4h4 d8c8 24. g2h3 d7d6 25. h3h2
+ c4b4 26. h2f2 e6e8 27. f2d4 e8e6 28. d4c5 b4b5 29. c5c6 b5b6 30. c6c7 b6b5 31. c7b7
+ c8d8 32. b7c6 b5c5 33. c6b6 c5c4 34. b6b5 c4c5 35. b5b6 c5c4 36. b6c7 d8e8 37. c7c6
+ d6c5 38. c6b5 c4d4 39. b5c6 d4c4 40. c6b5 c4c3 41. h4j6 h6g7 42. b5b4 c3c4 43. b4b5
+ c4b4 44. b5d3 g6g5 45. g3g5 f6g5 46. g4g5 e8e7 47. j6h4 e7d7 48. h4g4 e6f6 49. g5f6
+ g7f6 50. g4h4 f6e7 51. h4g5 e7e6 52. g5g4 e6f6 53. g4h4 f6e7 54. h4g5 e7e6 55. g5g6
+ e6e7 56. g6f5 d7d8 57. f5e5 e7d7 58. e5f6 d8c8 59. f6f7 d7c7 60. f7e7 c8b8 61. e7c7
+ b8a8 62. c7a7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "39"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt1b3/2mubmbu4/12/2X*4*3/4**6/12/12/4C1SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "237"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1c1 d7d6 c1e3 d6d7 e3c5 h8i8"]
+[TimeMs "10327"]
+
+1. c5e5 e7d6 2. e5g5 e8e6 3. g1f2 e6h6 4. g5h4 i8i7 5. e1e5 g7f6 6. h1h2 h7g6 7. h2h3
+ f6g5 8. h4i4 f7f6 9. e5e3 f8f7 10. h3h4 f7g7 11. f2f3 g5f5 12. f3g4 g8f8 13. h4h5
+ d7e6 14. i4h4 g6h5 15. g4h5 h6h7 16. h4j6 e6f7 17. h5i6 h7i6 18. j6i6 f8e8 19. i6i7
+ e8d8 20. i7h7 c7c6 21. h7h5 d8d7 22. h5f3 g7g6 23. e3g3 d7e7 24. f3d3 c6c7 25. d3e3
+ e7e8 26. e3f3 c7d7 27. f3f2 g6g5 28. f2e3 d7e7 29. e3f2 f6g6 30. f2d2 g5h5 31. d2e3
+ e7e6 32. e3c5 e8f8 33. c5e3 f8g8 34. g3d3 f7f6 35. d3f3 g6g5 36. f3d3 g8g7 37. e3f2
+ f6g6 38. f2f3 g7f7 39. d3g3 g6f6 40. f3g2 g5g6 41. g2g4 f7e7 42. g4e2 g6g5 43. e2e3
+ g5g4 44. g3d3 g4h4 45. e3c5 e7f7 46. c5c6 f6e7 47. c6c7 f5g4 48. c7c6 h5g6 49. c6c4
+ f7g7 50. c4e2 e7f6 51. e2f2 f6g5 52. f2e3 h4h5 53. d3f3 g4h4 54. f3d3 d6e5 55. e3f3
+ g5g4 56. f3g2 e6f6 57. g2i2 g7f7 58. i2j3 h5h6 59. j3j5 g6g5 60. j5j6 h6h7 61. j6j7
+ h7g7 62. j7i8 f7e7 63. i8i7 g7g8 64. i7i6 g8g7 65. i6g4 h4i3 66. g4g3 g7g6 67. g3i3
+ g5h6 68. i3h3 h6h5 69. h3g4 e5d4 70. g4f3 f6e6 71. f3e3 e6d6 72. e3d4 d6d7 73. d4f2
+ g6g7 74. f2f3 e7e8 75. f3h5 d7e7 76. h5f5 g7f7 77. d3d6 f7f6 78. f5h7 f6f7 79. h7i6
+ e8d8 80. d6d4 f7f6 81. i6h6 f6f7 82. h6g5 d8e8 83. g5e5 e7d7 84. e5f5 d7e7 85. d4d6
+ f7f6 86. f5h7 f6f7 87. h7i6 e8d8 88. d6g3 f7f6 89. i6h6 f6f7 90. h6g5 e7e6 91. g5g4
+ d8e8 92. g4g5 e8d8 93. g5e3 e6e7 94. g3e5 e7d7 95. e5j5 f7f6 96. e3d4 f6e6 97. d4e3
+ d8e8 98. e3g5 e8d8 99. g5g6 e6e7 100. j5h5 d8c8 101. h5c5 c8b8 102. g6f5 d7c7 103. c5e5
+ b8c8 104. f5h7 c7d7 105. h7g6 d7d6 106. e5g3 d6e6 107. g6g7 e7d7 108. g7g6 e6e7
+109. g6h7 e7e6 110. h7g6 e6e7 111. g3g7 c8b8 112. g6f5 d7d6 113. f5g6 d6e6 114. g6g8
+ e6d6 115. g8f8 d6d7 116. g7d7 e7d7 117. f8e8 b8b7 118. e8d7 b7b6 119. d7b5 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "86"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "1a3btb4/2mubmbu4/12/3*C3*3/4**6/12/4X7/6SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "25"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1c2 e8b8 e1e5 g7h6 c2e2 h6g7"]
+[TimeMs "1363"]
+
+1. e2g4 b8e8 2. e5g3 g7g6 3. g4h5 h7i7 4. g1i3 e7d8 5. i3g5 f7g7 6. g3g6 g7f7 7. g6g4
+ f8g7 8. g5h6 g8f8 9. h6i7 e8e6 10. h5i6 f8e8 11. g4d7 g7f6 12. i6g8 e8e7 13. g8e8
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "41"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3b1btb4/3u1mbu4/2m9/3*a3*3/4**6/7D4/4X7/4C1S5 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "369"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1h2 c7c6 d1e2 e7d8 h2h3 e8e5"]
+[TimeMs "15861"]
+
+1. e2g4 e5e6 2. h3h4 e6g6 3. g1f2 h7h6 4. g4i4 f8e7 5. e1g3 g8f8 6. f2f3 d8c7 7. f3g4
+ h8h7 8. h4h5 g7f6 9. h5h6 g6h6 10. g4f5 c7b7 11. i4h4 f7g7 12. f5g5 h6g6 13. g5h5
+ g6h5 14. h4h5 d7e6 15. h5g5 e6f7 16. g5e5 g7g6 17. e5c3 f7e6 18. c3a5 g6g5 19. a5a7
+ c6d6 20. a7b7 g5g4 21. g3j6 f8f7 22. b7b6 d6d7 23. b6a6 e7d6 24. a6c8 e6e7 25. c8a6
+ e7e6 26. a6c8 e6e7 27. c8a6 f6f5 28. a6c8 d6e5 29. c8a8 h7g7 30. a8a6 e7f6 31. a6b7
+ f6e7 32. b7b5 e7e6 33. b5c4 g4g5 34. c4d4 f5g4 35. d4f2 d7d8 36. f2g2 f7e7 37. g2i4
+ e6f7 38. i4i6 d8e8 39. i6h6 g5f5 40. h6h7 f5f6 41. h7h5 g4f5 42. h5f3 f7g6 43. f3d3
+ e7f7 44. d3b5 f6e6 45. b5c5 f5g4 46. c5c6 e6e7 47. c6b6 g6g5 48. b6b4 g5f5 49. b4d2
+ e7e6 50. d2d3 e6f6 51. d3e3 g4h5 52. e3d4 f6g6 53. d4c5 f5e6 54. c5e3 h5g4 55. j6h4
+ e8e7 56. e3g3 e6f5 57. h4f2 e7d7 58. g3e3 d7e7 59. e3c5 e7d7 60. c5e3 f7e7 61. e3d4
+ e7f7 62. d4e3 e5f6 63. f2d4 g7h6 64. e3d3 f5e5 65. d4d2 d7e7 66. d3e2 e5f5 67. d2f2
+ h6h5 68. e2e3 f7g7 69. e3g3 e7d7 70. g3h3 f5g5 71. h3j5 g5h6 72. j5h3 g4f5 73. h3h4
+ f5g5 74. f2f5 h6i6 75. h4i4 i6h6 76. i4h4 h6i6 77. h4i4 i6h6 78. f5d3 g5f5 79. i4h4
+ h6i6 80. h4g3 i6h6 81. g3g4 f6e7 82. g4h3 e7f6 83. h3i3 h6g5 84. i3i4 g5h6 85. i4k6
+ g7f7 86. k6j7 f6e5 87. j7j5 e5f6 88. j5j6 h6h7 89. j6h4 f7g7 90. h4h3 h7h6 91. d3i3
+ h6g5 92. h3j5 g5h6 93. j5k6 h6i7 94. k6k7 i7h7 95. k7j7 g6h6 96. j7j5 g7f7 97. j5h3
+ h7g6 98. h3f3 f6g7 99. i3e3 f7e7 100. f3f2 g6f6 101. f2h4 h6g6 102. h4g4 g7h7 103. g4i4
+ d7d6 104. i4j5 h7h6 105. j5h3 h6g7 106. h3j5 g7f7 107. j5i6 f6g7 108. i6j5 f5g5
+109. j5i6 g5f5 110. i6g4 g7f6 111. g4g3 f7g8 112. e3h3 g6g5 113. g3f2 d6e6 114. f2e3
+ g5g4 115. h3h6 e7f7 116. e3c5 g4g5 117. c5c4 f6e7 118. c4d3 f7g7 119. d3e2 e7f7
+120. e2g2 f7f6 121. g2i4 g7f7 122. i4i6 f6g7 123. i6i7 g5g6 124. h6e3 g7h6 125. i7i8
+ h6g7 126. i8i6 g6h6 127. i6g4 g7f6 128. g4e2 f6g5 129. e2c4 g5f6 130. c4e2 g8h7
+131. e2f3 f6g6 132. f3g3 f5e5 133. e3h3 h5g5 134. g3f3 h7g7 135. f3e2 h6h5 136. e2c4
+ g6f6 137. h3d7 f7f8 138. d7h7 h5h4 139. h7d3 g5h5 140. c4c5 f8f7 141. c5c3 f7f8
+142. c3c5 f8g8 143. c5c6 f6f7 144. c6c5 h4g4 145. c5c4 g4g5 146. c4e2 f7f6 147. e2f3
+ g7h8 148. f3h3 g5g6 149. h3i4 f6f7 150. i4i6 g8f8 151. i6h7 f7g7 152. h7i6 e5f5
+153. i6g4 g7f7 154. g4g3 f8e8 155. g3f3 g6g5 156. d3g3 h8g7 157. f3h3 e8e7 158. h3f3
+ e7e8 159. g3e3 f7f6 160. f3g3 g5g6 161. e3h3 f6f7 162. g3f3 e6f6 163. f3d3 g6g5
+164. d3f3 g5g6 165. f3d3 g6g5 166. d3f3 f6g6 167. h3e3 f7f6 168. f3d3 e8f8 169. d3b5
+ f6e6 170. b5c6 e6e7 171. c6c7 e7f7 172. c7d7 g6f6 173. e3g5 g7h6 174. d7d6 f8g8
+175. g5i7 g8h8 176. d6d4 h6g5 177. d4f2 h8g8 178. f2h4 f6g6 179. i7i4 f5e6 180. h4j6
+ f7g7 181. i4g6 g8f8 182. j6i7 g7g8 183. i7g5 g8f7 184. g5h6 f8g8 185. h6h8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "72"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt2b2/1m1ubmbu4/12/3*4*3/3S**6/12/12/3XC3D3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "123"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1i1 h8i8 g1f2 i8j8 f2d4 c7b7"]
+[TimeMs "5450"]
+
+1. d1f3 g7h6 2. e1e5 f7g7 3. i1i2 e7f6 4. e5g3 g7g6 5. f3h3 g6g5 6. g3e5 d7e6 7. e5c5
+ e6f5 8. h3j5 f5g6 9. c5e3 g5f5 10. i2h2 j8i7 11. h2h3 b7c7 12. h3h4 f8f7 13. j5h3
+ e8e6 14. h4h5 g6g7 15. d4c3 g8f8 16. h3g3 c7d7 17. e3h3 i7j7 18. c3d3 f8e8 19. d3e3
+ e8d8 20. e3d3 f6e5 21. d3d4 j7i7 22. g3h4 e6f6 23. d4c3 d7e7 24. c3c5 e7d7 25. c5d4
+ h7g6 26. h5g6 f6g6 27. h4i4 g6g3 28. h3j5 g3g6 29. j5h3 i7h7 30. d4c5 g6g4 31. h3j5
+ h6g5 32. c5d4 d7d6 33. d4f2 d6e6 34. f2g2 e6f6 35. g2h2 e5d4 36. i4i3 g4g2 37. h2h3
+ g2d2 38. i3h4 d2e2 39. j5g2 d4e5 40. h3h2 g7g6 41. h2h3 d8d7 42. h4i4 g6h6 43. i4h4
+ f6g6 44. h4h2 e5d4 45. g2i2 h6h5 46. h2g2 e2e3 47. h3f3 d7c7 48. i2e6 f5e5 49. e6g8
+ h5h4 50. f3f2 e3c3 51. g2f3 c3c6 52. f2g3 h4i4 53. f3g4 i4h5 54. g4e2 c6b6 55. e2c4
+ c7d7 56. c4b4 b6c6 57. b4a5 d7d8 58. a5a6 c6c7 59. a6a7 c7c8 60. a7b6 d8e8 61. b6c6
+ e8e7 62. c6e8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "45"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2u1abtb4/2m1b1bu4/4m7/3*4*3/4**6/12/3X3D4/4C1S5 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "85"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1d3 f7f6 h1h2 f6e6 d3d2 d7c8"]
+[TimeMs "3879"]
+
+1. d2f2 e6f6 2. h2h3 c8d7 3. h3h4 f6g6 4. g1i3 g7f6 5. e1g3 e7d6 6. i3j4 h8i7 7. j4i4
+ h7h6 8. i4h3 g6g5 9. h3g4 g5g6 10. f2e3 f8f7 11. g4g5 h6g7 12. g5f5 e8e6 13. e3f3
+ g8f8 14. f5e6 d7e6 15. g3e3 g7h6 16. f3h3 f8e8 17. h3g3 e8d8 18. h4g4 c7c6 19. g3h3
+ d8d7 20. h3f3 c6c5 21. f3g3 i7i6 22. e3h3 d7c7 23. h3f3 d6e5 24. g4h4 i6i7 25. g3e3
+ c5c6 26. e3g3 e6f5 27. h4g4 h6g5 28. g4g5 g6g5 29. g3e3 i7h7 30. e3d4 f6g7 31. d4d3
+ e5f6 32. f3c3 c7c8 33. c3g7 g5g6 34. g7e7 f6g5 35. d3c4 c6b6 36. c4b4 b6c6 37. b4a4
+ c6b6 38. a4b4 b6c6 39. b4a5 c8d8 40. a5a7 d8e8 41. a7b8 e8f8 42. b8d8 f8g8 43. d8f8
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "43"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2m1bubu4/5m6/3*4*3/4**6/12/12/2X3SCD3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "209"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1i1 f7f6 e1h1 d7e6 d1c1 e6f7"]
+[TimeMs "9073"]
+
+1. g1g2 e7d6 2. i1i2 h7h6 3. c1e3 f7g6 4. i2i3 h6h5 5. g2h3 h8i7 6. i3i4 h5g5 7. i4h4
+ f6f5 8. h4g5 f5g5 9. e3f2 f8f7 10. f2g2 g6h5 11. h3j5 i7h7 12. g2h3 g7f6 13. j5j3
+ h5h6 14. h3j5 h6g7 15. h1k4 g8f8 16. j5h3 e8e6 17. k4i2 f6f5 18. h3g2 e6h6 19. j3h3
+ f8e8 20. g2g3 g7f6 21. g3f2 h7g7 22. i2e2 c7c6 23. f2d4 h6g6 24. d4c4 c6c7 25. e2b5
+ e8f8 26. b5d3 c7d7 27. c4b4 d6c6 28. b4d2 g6h6 29. d2f2 d7e7 30. f2h2 h6h5 31. h2j4
+ f8e8 32. h3i4 h5h7 33. i4i3 f6g6 34. j4i4 f5g4 35. i4g2 f7e6 36. g2g3 g6f6 37. g3e3
+ g7g6 38. e3f3 h7h5 39. d3g3 c6c5 40. g3e3 e7d7 41. i3g3 d7e7 42. g3i3 e8f8 43. i3h2
+ h5h4 44. h2g3 h4j4 45. g3h3 g4h5 46. f3f2 c5c4 47. h3f3 c4c5 48. f2d4 f8f7 49. d4b6
+ e7d7 50. b6b7 d7d8 51. b7b8 d8d7 52. b8b7 d7d8 53. b7b8 d8d7 54. b8c8 f6e7 55. e3g5
+ e6f5 56. g5e5 d7d6 57. e5e3 e7d7 58. c8a6 j4h4 59. a6b6 h5i6 60. b6d4 d7e6 61. d4f2
+ h4h5 62. f2g3 e6f6 63. f3g4 h5h8 64. g4g5 f6e6 65. g3g4 f7e7 66. g4g6 h8f8 67. g5g4
+ f8f7 68. g6g5 e7e8 69. g4f5 i6h7 70. f5g6 f7e7 71. g6h7 c5b4 72. h7j5 e7f7 73. j5h3
+ e6f6 74. g5h5 f7c7 75. h5h7 e8d8 76. h7h5 d6e6 77. h3g4 d8d7 78. h5f3 c7c4 79. e3g3
+ c4c3 80. g4i4 f6f5 81. f3h5 f5f6 82. h5f3 f6f5 83. f3h5 e6f6 84. h5i6 f5e6 85. i4g2
+ c3c2 86. g2g1 c2e2 87. i6g4 e2e3 88. g4h5 b4c5 89. h5h3 e6f5 90. g1g2 e3e2 91. g2g1
+ f5g5 92. g3j6 e2c2 93. h3g3 f6f5 94. g3e3 c2c4 95. g1i3 g5g4 96. e3e2 c4c3 97. e2e3
+ c3c4 98. e3d2 d7e7 99. d2c2 c4d4 100. c2b3 g4h4 101. j6h4 e7e6 102. b3b4 e6f6 103. b4d6
+ f6g6 104. d6e6 g6g5 105. e6f5 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "90"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mubm6/6bu4/3*4*3/4**6/12/5S1D4/2CX8 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "239"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1c1 g7f6 h1h2 f6g6 g1f2 h7h6"]
+[TimeMs "10303"]
+
+1. h2h3 h8i7 2. d1f3 g6f6 3. h3h4 f7g7 4. h4h5 h6h7 5. f3g4 f8f7 6. c1g5 g8f8 7. g5g3
+ e7d6 8. g3j6 e8e5 9. f2e2 c7c6 10. e2c2 d6c5 11. c2e2 c6d6 12. e2d3 f8e8 13. h5g5
+ e8d8 14. j6h4 d8c8 15. d3f1 h7h6 16. f1f3 i7h7 17. f3g2 e5e6 18. g2f2 f6e5 19. g5h6
+ g7h6 20. h4e1 h7i6 21. f2d4 i6h5 22. g4f3 d7c6 23. f3d3 c8d8 24. d3c4 c6b6 25. c4c3
+ e5f5 26. c3b4 d6c6 27. b4c4 c6d6 28. c4e2 e6g6 29. e1e3 c5b5 30. d4b4 f7f6 31. e2d3
+ b5c6 32. d3d4 b6c7 33. b4c5 d6d7 34. e3e5 f6f7 35. d4d3 h5g4 36. d3d4 g6e6 37. e5e3
+ h6h5 38. d4c4 d7d6 39. c4d4 d6c5 40. d4c5 c7d7 41. c5d4 d8e8 42. d4d3 d7d6 43. d3e2
+ e6g6 44. e2c4 d6d7 45. c4d4 e8f8 46. d4c5 f7g7 47. c5e5 c6d6 48. e5c5 g6e6 49. c5c4
+ f8f7 50. c4d3 d7e7 51. d3f3 e6g6 52. f3f1 e7f6 53. f1e1 f6g5 54. e1c3 g6e6 55. e3b3
+ g5f6 56. b3d3 g4h4 57. c3c5 d6d7 58. c5e3 f6g6 59. e3f3 h5g5 60. f3e3 g7h7 61. e3g3
+ g6h5 62. g3e3 g5g4 63. e3e2 h5g5 64. d3f1 e6e8 65. f1d3 e8e7 66. e2e1 g5g6 67. e1e2
+ g6g5 68. e2c4 g5f6 69. c4c5 e7e8 70. c5d6 e8e7 71. d3f5 f7g7 72. d6c5 d7e6 73. c5c7
+ e6d7 74. c7c5 h7h6 75. f5d3 d7e6 76. c5c3 g7h7 77. c3e3 h7h8 78. e3e2 f6g5 79. e2g2
+ h8g8 80. g2i4 e7g7 81. i4g2 e6f5 82. g2e2 g7e7 83. d3f1 h6g6 84. e2d3 f5e6 85. d3f3
+ h4g3 86. f3e2 g8g7 87. f1d3 e7c7 88. e2f2 c7e7 89. f2h2 g7g8 90. h2f2 g3h4 91. f2g2
+ h4g3 92. g2i4 g8f8 93. i4g2 f8g8 94. g2i4 e7h7 95. d3d6 h7g7 96. i4g2 g5h4 97. g2e2
+ g7d7 98. d6d4 g3f3 99. e2e3 d7f7 100. e3c5 f3g3 101. c5e3 g3h3 102. e3c3 h3h2 103. c3e5
+ h4g5 104. e5e3 g8h8 105. e3g1 h2h3 106. g1h2 h3g3 107. h2f2 g5h4 108. d4g1 f7f5
+109. g1e3 h8h7 110. f2d4 h4g5 111. d4f2 g5h4 112. f2d4 g3f2 113. d4f2 g6h5 114. f2h2
+ f5f6 115. h2j4 f6i6 116. j4l6 i6i7 117. l6k7 i7i8 118. k7j6 h4g5 119. j6i6 h7h8
+120. i6i8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "49"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/1m1ubm1u4/8b3/3*4*3/3X**6/8S3/12/4C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "133"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1d2 g7h6 d2d4 c7b7 g1i3 h6i6"]
+[TimeMs "5897"]
+
+1. e1e5 h7g6 2. h1h2 d7e6 3. e5g3 e6f5 4. d4f2 f5g4 5. g3i1 f8g7 6. i3h3 g4h5 7. h3j5
+ i6h7 8. j5i6 g7h6 9. i6h5 g6g7 10. f2h4 g8f8 11. h5g5 h6h5 12. h4h5 e7d6 13. g5h6
+ e8e7 14. h6g7 f7g7 15. h5g5 g7f7 16. g5h6 f8e8 17. h6h7 h8g7 18. i1g3 g7g6 19. h2h3
+ f7f6 20. h3h4 e8d8 21. h4g4 b7b6 22. g4h4 e7f7 23. h7j7 b6b5 24. j7h5 d8c8 25. h5f3
+ f7c7 26. h4h5 d6e6 27. g3j6 g6g7 28. h5h6 g7f8 29. f3e3 e6f5 30. h6h7 f6e6 31. h7g7
+ f8e7 32. e3g5 e7d6 33. g7f7 c7d7 34. j6h4 b5c5 35. g5g6 e6e7 36. g6f5 c5c6 37. f7f6
+ c8b8 38. f6g6 c6c5 39. f5e5 c5b5 40. e5f5 d7c7 41. f5e5 c7d7 42. e5e3 b8c8 43. g6g5
+ e7e6 44. e3d3 b5c5 45. d3b3 d7b7 46. b3c2 d6e5 47. c2c3 e6d6 48. c3e3 b7e7 49. g5f5
+ e5d4 50. e3c3 e7b7 51. c3a5 d4c4 52. f5e5 d6c6 53. e5e6 c4b5 54. a5c3 b5c4 55. c3e5
+ b7c7 56. e5f6 c8b8 57. h4e7 c5b5 58. e7g5 b8a8 59. f6f7 a8a7 60. e6f6 c6d6 61. f7g7
+ a7b7 62. g7g6 c7c6 63. g5g7 b5c5 64. g6e8 b7b6 65. e8c8 b6b5 66. c8a6 b5b4 67. a6a4
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "47"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2u1abtb4/2m1bmbu4/12/3*4*3/4**6/12/12/1X2C1S2D2 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "115"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1i1 h7g6 d1b1 d7c8 i1j1 g6h7"]
+[TimeMs "5120"]
+
+1. b1d3 e7f6 2. g1f2 g7g6 3. e1g3 e8e6 4. j1i1 h7h6 5. d3f3 c8d7 6. i1i2 f7g7 7. i2h2
+ h8i7 8. h2h3 f8f7 9. h3h4 f6e5 10. f2d4 e5f5 11. h4h5 g8f8 12. d4e5 f8e8 13. f3g4
+ g6h7 14. h5h6 g7h6 15. e5g7 e6g6 16. g7h6 g6h6 17. g4h4 h6g6 18. h4g4 g6h6 19. g4f5
+ d7e7 20. f5g4 e7f6 21. g4h3 f6g5 22. h3j5 h7g7 23. j5j6 h6h7 24. j6j5 g5g6 25. j5j4
+ i7i6 26. j4h4 h7h5 27. h4j6 h5h7 28. j6h4 c7d7 29. h4j4 e8e7 30. j4i4 d7d6 31. i4g4
+ h7h5 32. g4h3 e7d7 33. g3g7 g6g7 34. h3f5 d7c7 35. f5h5 g7f6 36. h5i6 d6e6 37. i6g4
+ c7d7 38. g4e2 d7e7 39. e2c4 e6d6 40. c4d4 f6e6 41. d4b6 e6d7 42. b6d4 d7e6 43. d4b6
+ e6d7 44. b6d4 d6e6 45. d4f2 e6f6 46. f2h4 f6g6 47. h4j6 e7e6 48. j6h8 e6d6 49. h8f8
+ d6c6 50. f8f7 d7d6 51. f7g6 d6e7 52. g6f5 e7d6 53. f5f7 c6b6 54. f7f6 d6c6 55. f6e6
+ c6b5 56. e6d7 b6a6 57. d7b7 a6a5 58. b7b5 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "94"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "1a3btb4/2mubmbu4/12/3*4*3/4**6/X11/12/4C1SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "109"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1c1 h8i7 c1b2 e8b8 b2a3 i7h8"]
+[TimeMs "4886"]
+
+1. g1f2 g7f6 2. h1h2 d7e6 3. a3c3 h8i7 4. e1g3 h7g6 5. h2h3 c7d7 6. c3e3 e6f5 7. h3h4
+ b8b5 8. e3f3 f6g5 9. f3h3 f8e8 10. h4g4 f5f6 11. h3j5 g6h6 12. j5j6 f6g7 13. j6h4
+ g7g6 14. f2g1 e7e6 15. g1i3 f7f6 16. i3j3 e8f7 17. j3h5 g6g7 18. h4h3 e6e5 19. h5h4
+ d7d6 20. h3f3 b5c5 21. g3e3 g7g6 22. h4h5 g8f8 23. h5g6 f6g6 24. f3f2 f8e8 25. f2g3
+ g6f6 26. g4h4 c5c4 27. g3f3 f6g6 28. e3g3 e8e7 29. g3e3 i7h7 30. h4g4 c4d4 31. e3g3
+ d6e6 32. f3g2 g5f6 33. g2f2 d4d3 34. f2f3 d3d4 35. f3f2 d4c4 36. f2e3 e7d7 37. e3e2
+ c4c6 38. e2c4 e6d6 39. c4a6 c6c7 40. a6a7 d6c6 41. g3e5 g6g5 42. g4g3 h6g6 43. e5c5
+ c7c8 44. a7a8 c8c7 45. a8a7 c7c8 46. a7a8 c8c7 47. a8a7 c7c8 48. a7a6 c8c7 49. a6a7
+ c7c8 50. a7a6 c6c7 51. c5c8 f7f8 52. a6c4 g6f7 53. c4c5 d7d8 54. c5c7 d8e8 55. c7d7
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "76"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2m1bmb5/3u8/3*2u1*3/4**6/12/3X2S5/4C1D5 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "313"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1g2 h7h6 h1g1 h6g5 d1d2 d7d6"]
+[TimeMs "13433"]
+
+1. d2f2 e7e6 2. g2i4 g7h6 3. g1g2 f8e7 4. f2g3 f7f6 5. i4h4 g5f5 6. g3h3 f5g6 7. h3i4
+ g6h7 8. i4j5 h7i7 9. h4g4 e6f5 10. g4i6 f5g5 11. i6j6 e8f8 12. j6i7 f8f7 13. i7h6
+ g8f8 14. j5h7 d6e6 15. h7h8 f8e8 16. h6h5 e8d8 17. h8h6 e7d6 18. h6h7 e6f5 19. g2g3
+ c7c6 20. e1h4 d8c8 21. h4f2 f7c7 22. h7g7 c7d7 23. h5f7 d6e5 24. g7h6 c6d6 25. h6h4
+ f5g6 26. f7g6 f6g6 27. g3g4 g5f6 28. h4h3 d7f7 29. h3f1 c8d8 30. f1d3 f7c7 31. d3f3
+ f6g7 32. f3d3 c7c6 33. d3c4 c6c7 34. c4d4 c7c6 35. g4g5 d8c8 36. g5g6 g7h8 37. d4f6
+ c6c7 38. f2f5 c8b8 39. f6h8 d6e6 40. f5h7 c7e7 41. h8h6 e7c7 42. h7h5 b8b7 43. h6g5
+ c7c6 44. g5g3 b7b8 45. g3g4 e6e7 46. g4f5 e5d6 47. f5d3 b8c8 48. d3d4 e7d7 49. h5f7
+ d6c5 50. d4c4 c6b6 51. g6f6 c8b8 52. f7f5 d7c7 53. c4e6 b8b7 54. f6g6 b6d6 55. e6c4
+ d6b6 56. f5c5 c7d7 57. g6f6 d7c7 58. c5e5 b7a7 59. e5e3 a7b7 60. f6f5 b7b8 61. c4b4
+ b6d6 62. b4a4 d6b6 63. a4c4 b8b7 64. f5f6 c7d7 65. e3e5 d7d6 66. e5e3 b7b8 67. c4b4
+ d6c6 68. b4c4 c6d6 69. f6g6 b8b7 70. c4b3 d6c6 71. b3c4 c6c7 72. e3e5 b7a7 73. e5e3
+ a7b7 74. g6g5 b7b8 75. g5g6 b8a8 76. e3e5 a8a7 77. e5e3 a7b7 78. c4e6 b6d6 79. e6c4
+ d6b6 80. e3g5 b7b8 81. g5g7 b8a8 82. g7g5 a8b8 83. c4b4 b6e6 84. b4c5 e6b6 85. c5c4
+ b8b7 86. g6f6 b7b8 87. c4e6 b8b7 88. g5e3 b7b8 89. e6e7 b8a8 90. f6f5 b6b7 91. f5f6
+ a8a7 92. e7f7 b7b5 93. f7e7 c7c6 94. e7d7 a7a6 95. e3g5 a6a5 96. d7f5 a5a4 97. g5e3
+ a4a5 98. e3g5 a5a6 99. f6g6 c6d6 100. f5f6 d6c6 101. g6h6 a6a7 102. h6h5 a7a6 103. f6e6
+ a6a5 104. e6d7 a5a6 105. h5h4 a6a5 106. h4g4 b5c5 107. d7e6 a5a4 108. e6c8 a4a3
+109. c8a6 c5b5 110. a6c8 c6c5 111. c8c7 c5c4 112. c7d7 b5b4 113. g4h4 c4c5 114. d7f5
+ c5c4 115. g5e5 a3b3 116. h4g4 b4b6 117. f5f3 b6b4 118. e5e3 b3a3 119. e3e5 a3a4
+120. f3h5 b4b6 121. h5f5 b6d6 122. e5g3 c4c3 123. g4g5 c3c4 124. f5f3 d6b6 125. g3e5
+ b6b5 126. f3g4 b5b3 127. g5g6 b3b5 128. g4e2 a4a3 129. e2g4 b5b3 130. e5g3 b3b5
+131. g3e5 b5b6 132. g6g5 b6b4 133. e5h5 a3a4 134. g4f3 b4b5 135. g5g6 a4b4 136. h5f7
+ b4a4 137. f3g4 b5b4 138. g6g5 b4b3 139. g4g6 a4a3 140. f7h5 b3c3 141. h5f5 a3b3
+142. g6e6 b3b2 143. e6g6 c3b3 144. g6e6 b3c3 145. e6f6 c3b3 146. f6e6 b3c3 147. g5g6
+ c3b3 148. e6d7 b3b6 149. d7e6 b6b3 150. e6g4 b3d3 151. g4f3 d3d2 152. f3f2 d2d3
+153. f2e1 b2b3 154. f5d3 b3b4 155. e1d2 b4a4 156. d2c2 a4a3 157. c2a2 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "80"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt5/2mubmb5/6u1b3/3*4*3/4**6/6S5/12/4CX2D3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "95"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1f1 h7g6 h1i1 h8i7 g1g3 i7i6"]
+[TimeMs "4288"]
+
+1. f1f3 g6h6 2. f3h3 g7g6 3. h3h4 f7g7 4. g3g5 h6h7 5. i1i2 d7e6 6. i2i3 g6f5 7. h4h5
+ f8f7 8. i3h3 g8f8 9. e1j6 i6h6 10. h3g3 h6i7 11. g3g4 h7g6 12. h5h3 e8d8 13. g5h5
+ g6f6 14. h3j5 i7h7 15. j5i6 f7g6 16. i6i7 f8e8 17. g4g5 f6f7 18. j6h4 d8a8 19. h5h6
+ g7g8 20. i7i6 g6f6 21. h6g6 g8g7 22. g5f5 a8d8 23. f5e6 f7e6 24. i6i8 d8d7 25. i8h8
+ e8d8 26. h8g7 h7i6 27. g7h7 d8c8 28. h7i6 f6e5 29. i6h5 c7c6 30. g6h6 e7f6 31. h5g5
+ e5d4 32. h4j6 c6d6 33. g5e3 e6e5 34. h6h5 f6f5 35. h5h6 d7f7 36. j6h4 d4c5 37. h6h5
+ c5d4 38. e3c3 c8d8 39. h4h6 f5f6 40. h6e3 d8e8 41. h5g4 f6e6 42. e3e5 d6e5 43. c3e5
+ e8f8 44. e5d6 f8g8 45. d6d7 f7e7 46. d7e7 g8h8 47. e7g7 h8i8 48. g7i7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "84"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/1m1b1mbu4/4u7/3*4*3/4**2X3/12/12/4C1SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "165"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1f1 c7b7 f1g2 d7e6 g2i4 e7d7"]
+[TimeMs "7305"]
+
+1. g1f2 e6f6 2. i4h5 h7i7 3. h1h2 g7g6 4. h2h3 g6f5 5. e1g3 e8e6 6. h5i4 h8h7 7. h3h4
+ f6g6 8. h4g4 g8h8 9. i4h4 f7f6 10. h4h3 f5e5 11. h3i4 g6h6 12. f2d4 f8f7 13. i4i3
+ e5f5 14. i3i4 h6g6 15. d4d3 f5e5 16. d3d4 b7b6 17. g4h4 e5f5 18. h4h5 g6h5 19. i4h5
+ h7h6 20. d4f2 d7d6 21. f2h2 e6e7 22. h2h4 f7e8 23. h4j4 b6b5 24. j4j5 e7h7 25. j5j4
+ i7i6 26. h5h3 e8f8 27. j4i4 h7g7 28. i4j5 i6i7 29. j5j6 i7i6 30. h3i4 g7h7 31. j6j5
+ i6i7 32. j5j6 i7j7 33. j6j5 h6g5 34. i4h5 j7i7 35. j5h3 f8f7 36. h3g4 f5e5 37. g4f3
+ i7h6 38. h5h3 h8i8 39. h3h4 f6e6 40. f3h5 i8h8 41. h5f3 b5b4 42. h4f2 b4c4 43. f2e2
+ c4c3 44. e2e1 c3c4 45. e1e2 c4c5 46. e2d3 d6e7 47. d3c3 e6d6 48. c3a5 c5c6 49. a5a6
+ h6g7 50. g3e3 h7h4 51. a6c8 e7d7 52. c8d8 h8h7 53. d8e7 h4h6 54. f3h5 g5f5 55. h5g5
+ h6g6 56. e7e8 f7f6 57. e8c8 g7f8 58. c8a6 f6f7 59. a6c4 c6c5 60. c4e2 f8g7 61. e2g4
+ g7h6 62. g5h6 g6h6 63. g4f5 h7i7 64. f5f7 i7j7 65. f7f6 h6h7 66. f6d6 c5c4 67. d6d7
+ j7k7 68. e3e5 h7i7 69. d7e6 k7k8 70. e6c4 i7f7 71. c4d3 f7f6 72. e5e3 f6e6 73. d3f3
+ e6h6 74. f3h3 h6k6 75. e3e5 k6k7 76. h3h5 k7i7 77. h5i4 i7k7 78. e5g3 k8l8 79. i4j5
+ k7k6 80. j5i6 k6k7 81. g3j6 k7j7 82. i6j5 j7j6 83. j5l7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "51"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2a1bbtb4/2m2mbu4/2u9/3*C3*3/4**6/12/8S3/3X3D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "381"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1h2 e8c8 e1e5 e7e8 h2i2 d7c6"]
+[TimeMs "16289"]
+
+1. d1f3 g7g6 2. f3f5 h7g7 3. e5h8 f8e7 4. f5h5 g8f8 5. i2k4 e8d7 6. k4i6 f8e8 7. h8h4
+ d7e6 8. i6h6 g7f6 9. h1h2 c6c5 10. h6g5 f6g7 11. h2g2 g6h7 12. h5i6 c5d4 13. g5h6
+ d4e5 14. g2g3 e5f6 15. h6g7 f6g7 16. i6i7 h7h6 17. g3g4 c7d7 18. g4g5 h6g6 19. g5h5
+ c8c6 20. h5h6 g7g8 21. i7i6 f7g7 22. h6g6 e6e5 23. i6h5 c6e6 24. h5g5 g7f7 25. g5h6
+ d7d6 26. h6g5 e7d7 27. g5g4 f7f6 28. g4i4 g8f7 29. g6h6 e5d4 30. i4i6 e6e5 31. h6h5
+ d7e6 32. h4h6 e8d8 33. h6e3 d8d7 34. i6g4 f7g7 35. g4e2 d7e7 36. e2d2 e7f7 37. d2b2
+ e6f5 38. b2c2 g7g6 39. h5h4 f5g5 40. c2d3 d6e6 41. h4h3 f6f5 42. d3f3 e6f6 43. e3g3
+ e5e8 44. f3e2 d4e5 45. e2d3 e8e6 46. d3c4 g5g4 47. c4b5 f5g5 48. b5c4 g4h5 49. c4c6
+ e6e7 50. c6c7 f6e6 51. g3e5 g6f6 52. e5e3 f6f5 53. h3h2 g5g6 54. h2g2 f7g7 55. c7c5
+ g6g5 56. g2f2 g7h7 57. c5c4 g5g4 58. c4e2 h7h8 59. e2g2 g4g5 60. g2i4 e7h7 61. f2f3
+ e6f6 62. i4j5 f5g6 63. e3g3 h5g4 64. g3e3 h8g8 65. f3g3 g8f8 66. j5i4 g6f5 67. i4j5
+ h7g7 68. j5h3 f8e8 69. h3i4 g7h7 70. i4j5 h7g7 71. j5i4 e8d8 72. e3h3 d8e8 73. i4g2
+ f6g6 74. g2f2 g4h5 75. f2g2 g7d7 76. h3f3 d7g7 77. g2e2 e8f8 78. g3h3 f8g8 79. e2g2
+ g8f8 80. h3g3 g6f6 81. f3h3 g7e7 82. g3f3 f8g8 83. f3g3 e7g7 84. g2i2 g8f8 85. h3f3
+ f8e8 86. i2g2 g7e7 87. g3h3 e8f8 88. h3g3 e7f7 89. f3h3 f7i7 90. g3f3 i7f7 91. g2i2
+ h5g6 92. i2g2 f7e7 93. g2e2 e7f7 94. h3e3 g6h6 95. e2g2 h6h5 96. g2i4 f8e8 97. f3g3
+ f7g7 98. e3h3 e8d8 99. h3f3 d8c8 100. f3h3 c8d8 101. i4g2 d8e8 102. g3f3 e8e7 103. f3g3
+ e7e8 104. g3f3 e8f8 105. f3g3 h5g6 106. g2e2 f8e8 107. g3f3 g7h7 108. h3e3 e8f8
+109. f3g3 f8g8 110. g3h3 g8g7 111. h3g3 g7g8 112. g3h3 g8f8 113. e3i3 g6h5 114. e2e3
+ g5g4 115. h3h2 f8g8 116. e3f2 h5g5 117. i3g1 f6g6 118. f2e3 h7h4 119. e3c5 g8h8
+120. h2g2 h8i8 121. c5c6 f5f6 122. g2h2 g4g3 123. h2h1 h4h3 124. c6b6 g3g2 125. h1g2
+ h3g2 126. g1a7 i8i7 127. b6c5 g5g4 128. a7d4 g6g5 129. c5d6 f6f7 130. d6e5 g5g6
+131. e5e3 g2h2 132. e3f3 g6g5 133. f3f2 h2h3 134. d4g1 g4f5 135. f2e3 f7g6 136. e3f2
+ i7i6 137. f2d4 f5g4 138. d4e3 g5f5 139. g1d4 h3h2 140. e3f2 h2h3 141. f2f3 h3h2
+142. d4d6 g6g5 143. f3f2 h2h3 144. f2f3 h3h2 145. f3f2 h2h3 146. f2f3 h3h2 147. f3f2
+ h2h3 148. f2f3 h3h2 149. f3f2 h2h3 150. f2f3 h3h2 151. f3f2 h2h3 152. f2f3 h3i3
+153. d6j6 i3i4 154. f3g3 i4j4 155. g3h3 f5f6 156. j6j3 g4h5 157. j3g3 h5h4 158. h3h2
+ j4i4 159. h2i2 g5h5 160. i2k4 i6h6 161. k4k5 h5i6 162. k5k6 i6i7 163. k6i4 h6h7
+164. i4h4 f6g6 165. h4i3 h7h8 166. i3k5 i7i6 167. k5k7 h8g8 168. k7k6 i6h7 169. k6j5
+ h7h6 170. j5h3 g8f8 171. h3f3 g6f6 172. f3e2 h6g6 173. e2e3 f8g8 174. e3f3 g6h6
+175. f3g2 f6g6 176. g2g4 g6f6 177. g4h4 f6g6 178. h4j6 h6h7 179. j6j5 h7i7 180. j5h3
+ i7h6 181. h3g4 g6f6 182. g4h4 f6g6 183. h4j6 h6h7 184. j6j5 h7h6 185. j5j6 h6h7
+186. j6j5 h7h6 187. j5j7 g8f8 188. j7i8 h6g7 189. g3g7 g6g7 190. i8h8 f8f7 191. h8g7
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "88"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt1b3/1m1ubmb5/8uC2/3*4*3/4**6/12/2X9/6SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "29"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1b3 h7i6 e1j6 h8i8 b3c2 c7b7"]
+[TimeMs "1599"]
+
+1. j6h4 i6h5 2. g1g3 h5g4 3. h1h2 g4h4 4. g3h4 d7e6 5. c2d3 e6f6 6. d3f3 f6g6 7. f3g4
+ g6h7 8. g4h5 h7i7 9. h4g5 g7h8 10. g5h6 f7g7 11. h6i7 f8f7 12. i7h8 f7f6 13. h5i6
+ g8f8 14. h8g7 f8f7 15. i6g8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "55"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2a2btb4/2m1bm1u4/3u3b4/3*4*3/4**6/12/2X4S4/4C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "67"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1b1 d7d6 g1h2 g7h6 b1c2 e8c8"]
+[TimeMs "3132"]
+
+1. c2e2 e7f6 2. h2f2 f8e7 3. e2g4 e7e6 4. h1h2 c8b8 5. e1g3 g8f8 6. h2h3 f8e8 7. h3h4
+ f7g7 8. h4h5 e6f7 9. h5g5 f6e7 10. g4f5 e8d8 11. f2d4 h8i7 12. d4f6 b8b6 13. f6g7
+ h7g7 14. f5h5 d8c8 15. g5g6 g7g6 16. h5g6 d6d7 17. g6f7 b6e6 18. f7g6 i7j7 19. g6h6
+ d7d6 20. h6g6 c8b8 21. g6i6 j7k7 22. i6k8 e6h6 23. g3j6 d6e5 24. k8k7 h6i6 25. j6h4
+ i6g6 26. k7j7 b8b7 27. j7i6 g6g7 28. i6g4 e5f6 29. g4e2 g7g5 30. h4j6 b7b8 31. e2c4
+ b8c8 32. c4c5 c7d7 33. c5b6 e7d6 34. b6b8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "59"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2a2btb4/2mu1m1u4/3b1b6/3*4*3/4**6/12/7S4/5XCD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "7"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1f1 e8c8 g1h2 e7d6 e1g1 g7f6"]
+[TimeMs "588"]
+
+1. f1h3 h7i7 2. h3h5 d7e8 3. h5g5 i7h7 4. g5g7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "92"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3uabtb4/2m1bmbu4/12/3*4*3/4**6/12/2X4S4/4C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "129"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1d2 h7i8 d2c2 i8h7 g1h2 d7d8"]
+[TimeMs "5752"]
+
+1. c2e2 d8d7 2. e2g4 g7g6 3. e1e5 h8i7 4. h2i3 e7d6 5. h1h2 e8e6 6. e5g3 g6f5 7. h2h3
+ e6g6 8. h3h4 h7h6 9. g4h3 d7e6 10. h3j5 f8e7 11. h4g4 g8f8 12. j5h3 e7f6 13. h3f3
+ c7d7 14. i3i2 f8e8 15. f3e3 e8d8 16. i2i3 f6g7 17. i3g5 h6h5 18. g4h5 g6h5 19. g3d3
+ f7f6 20. g5g3 f5g4 21. e3f3 h5g5 22. f3e3 g4h4 23. g3h3 d6e5 24. d3f3 d8e8 25. f3i3
+ h4g4 26. e3d3 g5h5 27. h3g2 h5h2 28. i3i6 h2g2 29. d3e2 g2g3 30. e2e1 g3h3 31. i6f3
+ f6g6 32. e1f2 g6g5 33. f2e3 h3h4 34. e3d4 i7i6 35. d4c3 i6j5 36. c3e3 d7e7 37. e3e1
+ e8d8 38. e1c3 g7g6 39. c3d4 e7d7 40. d4c5 d8e8 41. c5d4 e5f6 42. d4c4 e8f8 43. c4d3
+ f8g8 44. f3c3 d7e7 45. d3f3 g8h8 46. f3f2 e7f7 47. f2h2 h4i4 48. h2i2 i4j4 49. i2g2
+ h8i8 50. g2g3 j4h4 51. g3h2 h4i4 52. h2g2 i4j4 53. g2g3 j4h4 54. g3h2 h4i4 55. h2j2
+ i4k4 56. j2i2 k4k7 57. i2k4 k7j7 58. k4j5 j7i7 59. j5k6 i8h8 60. k6k7 i7g7 61. k7i7
+ h8g8 62. c3g7 g8f8 63. i7h8 f8e8 64. h8g8 e8d8 65. g8e8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "96"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3uabtb4/2m1bmb1u3/12/3*4*3/4**6/12/4X2D4/4C1S5 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "87"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1h2 h7i8 d1f3 d7d8 f3e2 i8i7"]
+[TimeMs "3995"]
+
+1. e2g4 e7f6 2. g4g5 i7i6 3. e1e5 g7g6 4. e5g3 i6h7 5. h2h3 f8e7 6. h3h4 d8d7 7. h4h5
+ g8f8 8. h5h6 h7g8 9. h6g6 e8d8 10. g6f6 d7d6 11. g5h6 f8e8 12. h6h7 d8d7 13. h7g8
+ e8d8 14. f6f7 h8i7 15. g8h7 i7j8 16. f7g7 j8k7 17. h7j7 k7l8 18. j7k7 d6e6 19. k7l8
+ e7d6 20. l8j8 d7f7 21. j8h6 c7d7 22. g7g6 d7e7 23. g6g5 e6f6 24. g5g4 f7g7 25. h6h4
+ g7g6 26. g1e3 f6f5 27. g4f5 g6f5 28. h4h5 f5f8 29. h5h6 f8f7 30. e3f2 e7e6 31. h6g5
+ d6e5 32. g5e3 d8e8 33. f2g2 e5f5 34. g2h3 e6f6 35. h3g4 f5g6 36. e3f3 g6g5 37. g4h3
+ f6g6 38. h3f5 g5h6 39. f5d7 e8f8 40. f3g4 h6i6 41. g4i6 f7g7 42. d7e7 f8f7 43. i6g4
+ g7h7 44. g4e6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "100"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2m1abtb4/4umbu4/4b7/3*4*3/4**6/3X8/6SD4/4C7 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "47"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1d3 c7c8 h1h2 e7e6 g1g2 d7e7"]
+[TimeMs "2281"]
+
+1. d3f5 h7h6 2. g2f2 e7f6 3. f5h3 g7g6 4. h3j5 f8e7 5. e1g3 f6g7 6. h2h3 e8d8 7. h3h4
+ g8f8 8. h4h5 h6h5 9. j5h5 f8e8 10. f2d4 c8c7 11. d4e5 d8d6 12. h5f5 e8d8 13. e5d6
+ c7d6 14. f5d3 d8e8 15. d3b5 h8i7 16. b5b6 e8f8 17. b6d6 f8g8 18. g3g7 g6h7 19. g7i7
+ g8h8 20. d6d7 h8i8 21. d7f7 i8j8 22. f7h7 j8k8 23. h7i8 k8k7 24. i8k8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "63"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2u1a1tb4/2m1bbbu4/5m6/3*C3*3/2X1**6/12/12/6SD4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1e5 f7f6 d1d3 d7c8 d3c4 f8f7"]
+[TimeMs "25477"]
+
+1. e5g3 f7g6 2. c4d4 f6f5 3. d4f2 e8f8 4. f2h4 f8f6 5. g1g2 g6g5 6. h4h5 h7i7 7. g2h3
+ g8f8 8. h3j5 g5h6 9. j5j6 f5g5 10. h5i4 i7h7 11. h1h2 c8d7 12. h2g2 h6h5 13. j6j4
+ d7e6 14. g2h2 h7h6 15. h2h3 e6f5 16. g3i3 h8i7 17. j4j5 c7d7 18. h3g3 d7d6 19. i4j4
+ f6g6 20. j4j6 h6h7 21. j5i6 g6h6 22. i6h7 h6h7 23. i3f3 d6e6 24. j6j5 f5g6 25. j5j3
+ f8e8 26. j3i2 g6f5 27. i2i4 e8d8 28. i4h3 h7h6 29. h3g2 e7f7 30. g2f2 f5e5 31. f3h3
+ h5g4 32. f2h2 d8d7 33. h2f2 g4f5 34. f2e2 d7e7 35. e2c4 e5d6 36. h3e6 e7e8 37. e6e3
+ e8f8 38. c4b4 d6e6 39. b4b6 e6d7 40. b6c5 g5h5 41. e3h3 h6f6 42. c5d4 d7e7 43. d4e3
+ i7i6 44. e3e2 f5e5 45. g3g4 h5g5 46. g4g3 i6h5 47. e2e3 h5i4 48. h3f3 i4j5 49. e3f2
+ j5i4 50. g3h3 i4h5 51. f3i3 e7e6 52. f2d4 f6g6 53. d4b6 e6d7 54. b6c5 e5f5 55. i3g3
+ f8e8 56. c5d4 d7e6 57. d4c5 e6d7 58. c5d4 e8f8 59. d4f2 d7e6 60. f2f3 f8e8 61. g3e3
+ g7h7 62. h3g3 e6e7 63. f3f2 e8f8 64. f2d4 e7e6 65. d4c5 g6f6 66. c5c6 e6e7 67. c6c5
+ f6d6 68. c5d4 d6f6 69. d4f2 f6g6 70. g3f3 e7e6 71. f2g2 f7e7 72. g2h3 e6f6 73. h3g3
+ e7d6 74. g3h2 f8e8 75. h2g3 e8d8 76. g3i3 h5h4 77. i3g3 d8e8 78. g3f2 e8f8 79. f3g3
+ h4h5 80. g3h3 f8g8 81. h3g3 g8f8 82. f2d4 f6e6 83. e3h3 e6e7 84. d4f2 d6e6 85. g3f3
+ e6f7 86. f2d4 g6e6 87. d4f2 e7f6 88. h3e3 e6d6 89. f2g3 g5g6 90. g3g4 f8e8 91. f3g3
+ e8d8 92. e3h3 g6g5 93. g4g2 d6c6 94. g2i4 f6g7 95. g3g4 c6f6 96. g4h5 g5h5 97. i4h5
+ d8e8 98. h5f3 e8f8 99. f3g4 f5g5 100. g4h4 f7e7 101. h4g3 g7f7 102. g3f3 f8e8 103. h3e3
+ g5f5 104. e3g3 f7g7 105. g3e3 f6g6 106. e3e5 e8f8 107. f3g4 g7f6 108. e5g3 f8e8
+109. g4e2 e8f8 110. e2f3 h7h6 111. f3f2 h6h5 112. f2e3 f6f7 113. g3d3 e7f6 114. e3e5
+ f5g5 115. e5g3 f6g7 116. d3h3 g5f5 117. g3e5 f5f6 118. e5g3 f6e6 119. h3f3 h5g5
+120. g3e3 f7f6 121. f3d3 g5h5 122. e3f3 e6f5 123. f3g4 f8e8 124. g4g3 e8f8 125. d3h3
+ f8e8 126. h3f3 g7h6 127. f3h3 e8f8 128. g3e3 h6h7 129. e3g3 h7g7 130. g3h4 h5g5
+131. h3h5 f8e8 132. h5h3 f5e5 133. h4g3 e5f5 134. g3e3 e8f8 135. e3f2 f8g8 136. f2f3
+ g8f8 137. h3e3 g5h5 138. f3g3 f8e8 139. e3h3 f5e6 140. g3h4 h5g5 141. h4f2 e6e7
+142. f2e3 e8f8 143. h3d3 g7h7 144. e3f3 e7e6 145. d3d6 f8f7 146. f3g4 f7e7 147. g4h4
+ e6e5 148. h4g4 f6f7 149. d6d4 g5h5 150. g4i4 e5f5 151. i4g4 e7e8 152. g4g3 f7f6
+153. g3e3 e8f8 154. d4f2 f8g8 155. f2j6 g8h8 156. e3d4 g6g5 157. d4f2 h8g8 158. f2g3
+ g8f8 159. g3e3 f8g8 160. e3g3 g8g7 161. j6e6 f5e5 162. g3i3 e5f5 163. e6e3 g5g6
+164. i3g3 f5e6 165. g3h3 e6d6 166. h3g4 g7f7 167. g4e2 f7f8 168. e2c4 f8g8 169. c4c6
+ g8h8 170. c6d6 h8i8 171. d6d4 i8h8 172. d4c5 h8i8 173. c5d4 i8h8 174. d4f2 h8g8
+175. f2e2 h5g5 176. e2f3 g8f8 177. e3g3 f8e8 178. f3e3 g6g7 179. e3d3 e8f8 180. d3f3
+ f8e8 181. g3e3 h7h6 182. f3g4 g5f5 183. g4g3 g7g6 184. g3h3 h6g5 185. h3g4 e8f8
+186. g4h3 f8f7 187. e3i3 f7f8 188. h3g4 f6f7 189. g4g3 f7f6 190. g3e3 g6g7 191. e3e2
+ f5g6 192. e2f3 g6f5 193. f3e3 f8g8 194. e3f3 g8f8 195. f3h5 f6g6 196. h5h4 g5h6
+197. h4g3 g6f6 198. g3f3 f8f7 199. f3g3 g7g6 200. g3f3 f7f8 201. i3e3 g6g7 202. f3g3
+ g7g6 203. g3h3 f6g7 204. h3g4 h6h5 205. e3e5 g7f6 206. e5e3 f8f7 207. g4i6 f7e7
+208. i6g4 e7f7 209. e3e5 h5h6 210. e5g3 h6h5 211. g3e5 g6h6 212. e5g3 h5g5 213. g4f3
+ h6g6 214. f3e3 g6g7 215. e3c5 f7f8 216. c5d6 f8g8 217. d6d4 g8f8 218. d4f2 g5h6
+219. f2e3 f8e8 220. e3f3 e8e7 221. f3f2 e7e8 222. f2e2 e8f8 223. e2f2 g7d7 224. f2e2
+ d7g7 225. e2f2 g7e7 226. f2e3 f8e8 227. g3d3 e7g7 228. e3c5 g7d7 229. c5e3 d7g7
+230. e3f3 g7g6 231. d3g3 e8f8 232. f3f2 g6g7 233. f2d2 f8e8 234. d2e3 g7e7 235. g3d3
+ e7g7 236. e3c5 g7d7 237. c5e3 d7g7 238. e3f3 g7g5 239. d3g3 e8f8 240. f3e3 g5g7
+241. e3c5 g7e7 242. c5e3 e7f7 243. g3d3 f7g7 244. e3f3 g7g5 245. f3h3 f8f7 246. h3f3
+ f7f8 247. f3h3 f8f7 248. h3f3 h6h5 249. f3e2 f7f8 250. e2f2 h5h4 251. f2d4 g5g7
+252. d4f2 g7g5 253. f2e3 f8g8 254. e3f3 g8f8 255. d3g3 f5g6 256. f3e3 g6h7 257. e3d4
+ f6f7 258. d4f2 h7h6 259. g3e5 f7f6 260. f2d4 f8g8 261. e5e3 f6f5 262. d4f2 g8g7
+263. f2g3 g5g4 264. g3i3 g7g8 265. i3j4 g4g7 266. j4h4 g7g6 267. h4i4 g8f8 268. i4j5
+ f8e8 269. j5i6 g6g7 270. i6h5 f5f6 271. h5f3 h6g6 272. e3g3 g7f7 273. f3e3 e8f8
+274. e3c5 f6e6 275. c5e3 e6f5 276. g3d3 f5f6 277. d3d6 g6f5 278. d6g3 f7g7 279. e3d3
+ g7e7 280. d3d4 f5g5 281. d4e3 e7g7 282. e3f3 f8e8 283. f3g4 g5f5 284. g4h5 f5g5
+285. h5f3 e8d8 286. f3g4 g5g6 287. g4e2 d8e8 288. e2e3 g7h7 289. e3d4 h7e7 290. d4c5
+ e8f8 291. c5e3 e7e6 292. g3d3 f8e8 293. d3f3 e8f8 294. e3f2 f8e8 295. f2e3 g6g5
+296. f3d3 g5g6 297. e3c5 e8f8 298. c5e3 f8f7 299. d3f3 f7f8 300. f3d3 f8f7 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "53"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "5btb4/2muamb5/3b2u5/3*C3*3/4**6/12/12/3X2SD4 w - - 6 4"]
+[Termination "engine timeout"]
+[PlyCount "21"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1d3 h7g6 e1e5 e7d6 d3d1 e8e7"]
+[TimeMs "121165"]
+
+1. d1f3 g7f6 2. f3g4 g6h6 3. g1i3 e7e6 4. e5g3 f6e7 5. i3g5 e6g6 6. g5h6 g6h6 7. g4h4
+ h6i6 8. h4g4 i6h6 9. g4h4 h6i6 10. h4g4 i6i7 11. g4g5 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "98"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2m1m1bu4/3u1b6/3*4*3/4**6/12/4XS6/4C2D4 w - - 6 4"]
+[Termination "engine timeout"]
+[PlyCount "34"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1g2 d7d6 g2f2 e7f6 d1e2 f7e7"]
+[TimeMs "121691"]
+
+1. e2g4 e7f7 2. e1g3 g7g6 3. g4g5 e8e6 4. g5h5 h7i7 5. h1h2 f6f5 6. h5g5 i7h7 7. g5h5
+ h7i7 8. h5g5 i7h7 9. g5h5 h7i7 10. h5g5 i7h7 11. g5h5 h7i7 12. h5g5 i7h7 13. g5h5
+ h7i7 14. h5g5 i7h7 15. g5h5 h7i7 16. h5g5 i7h7 17. g5h5 h7i7 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "67"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "5btbu3/2muamb5/2Cb8/3*4*3/4**6/12/7D4/3X2S5 w - - 6 4"]
+[Termination "engine timeout"]
+[PlyCount "19"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1h2 e7d6 e1j6 h7i8 j6c6 e8e7"]
+[TimeMs "121075"]
+
+1. d1f3 d7c6 2. f3h5 i8i7 3. h5g5 i7h7 4. g5h5 h7i7 5. h5g5 i7h7 6. g5h5 h7i7 7. h5g5
+ i7h7 8. g5h5 h7i7 9. h5g5 i7h7 10. g5h5 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "71"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3uabtbu3/2m2mb5/3b8/3*4*3/4**6/12/2X9/6SCD3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "69"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1i1 h7i8 d1c2 d7d8 e1h1 e7d6"]
+[TimeMs "3195"]
+
+1. c2e2 g7g6 2. g1g2 i8i7 3. e2g4 d8e7 4. g4g5 i7h7 5. g5h5 f7g7 6. g2g4 e7f6 7. h5j7
+ f8e7 8. g4i6 h7i6 9. j7i6 g8f8 10. i6h5 e8b8 11. h5h4 f8e8 12. h1h5 h8g8 13. h4j6
+ e8d8 14. i1i2 g6g5 15. j6h4 f6g6 16. h5h3 g7f7 17. i2i3 g5h6 18. h4g4 b8b5 19. i3i4
+ g6g7 20. i4h4 h6g6 21. h4h5 b5b2 22. h5g5 d6c5 23. g4h4 b2b4 24. g5f5 d8c8 25. h3h5
+ c5c4 26. h4f2 g6h6 27. f2d2 g7g6 28. f5g6 f7g6 29. d2b4 g6h5 30. b4c4 e7f8 31. c4e6
+ c8b8 32. e6e7 c7c8 33. e7d6 b8a8 34. d6c6 a8a7 35. c6a6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "75"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4ab1b4/2mu1mtu4/4bb6/3*4*3/4**6/6S5/12/3XC3D3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "95"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1h2 g7f6 h2g3 g8g7 h1i1 e7e6"]
+[TimeMs "4281"]
+
+1. d1f3 g7g8 2. f3h5 f7g7 3. g3g5 f6e7 4. g5f6 f8f7 5. e1e5 e8b8 6. e5b8 h7g6 7. h5j7
+ g8f8 8. f6g7 g6g7 9. j7i7 f8e8 10. i7g7 e8d8 11. g7h8 f7e8 12. b8e8 d8c8 13. e8b8
+ e7d6 14. h8f6 d6c6 15. i1i2 c6c5 16. i2i3 c5b4 17. i3h3 c7c6 18. b8d8 b4b5 19. d8g5
+ c6d6 20. f6d4 d7c7 21. d4f6 e6e5 22. f6d4 e5e6 23. d4c4 b5c5 24. h3g3 e6f5 25. c4d4
+ f5e6 26. g5c5 d6c6 27. c5e3 c7d6 28. d4f6 d6d7 29. e3h3 c6d6 30. g3g4 d7c7 31. h3f5
+ c8b8 32. f5d3 d6d7 33. d3f5 d7d6 34. f5d3 d6d7 35. d3f5 d7d6 36. g4g5 d6d7 37. f6d4
+ b8c8 38. d4c4 c8d8 39. c4d4 d7e7 40. g5g6 d8e8 41. g6f6 e7d7 42. f6f7 e8d8 43. d4c5
+ d8c8 44. f7e6 c7b7 45. e6d7 c8b8 46. d7c7 b7c7 47. c5a7 b8c8 48. a7c7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "79"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2m1abtb4/3u1mb1u3/3b8/3*4*3/4**6/6S5/12/4CX1D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "25"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1f3 c7c8 f3f1 h7i7 g1g3 e7d6"]
+[TimeMs "1347"]
+
+1. f1h3 e8e6 2. h1g1 h8h7 3. g3f2 f7f6 4. g1g2 d6e5 5. h3h5 g7h6 6. g2g3 c8d8 7. g3g4
+ h7i6 8. h5h4 f8f7 9. e1g3 d8e8 10. f2d4 e8e7 11. g4g5 f6g5 12. h4g5 i7h7 13. g5g7
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "83"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mb1m1u4/2u2b6/3*4*3/3X**6/12/7D4/4C1S5 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "51"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1h2 d7c6 d1d2 g7f6 d2d4 e7d7"]
+[TimeMs "2460"]
+
+1. d4f2 c6b6 2. h2h3 h8i7 3. f2h4 e8e6 4. g1f2 f6f5 5. e1g3 b6b5 6. f2f3 f8e7 7. f3g4
+ i7h6 8. h4h5 e6g6 9. h5j5 f7f6 10. g4h5 h7g7 11. h5g6 f6g6 12. h3h4 g8f8 13. h4h5
+ d7d6 14. j5i6 g6f6 15. h5h6 g7f7 16. h6h7 f8e8 17. i6h6 b5c4 18. h7g7 e8d8 19. g7f6
+ f7e8 20. h6g6 e8f8 21. g6e6 e7d7 22. f6f5 f8f7 23. e6f7 d8c8 24. f7e8 c8b8 25. e8d8
+ b8b7 26. d8c7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "87"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "1a3btb4/2mu1m1u4/4b1b5/3*4*3/4**3S2/5X6/12/4C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "103"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1f3 e8b8 g1i3 e7e6 i3j4 g7g6"]
+[TimeMs "4649"]
+
+1. f3h5 f7g7 2. e1e5 d7d6 3. e5g3 f8e7 4. j4i3 g8f8 5. h5g4 g6h6 6. h1g1 g7g6 7. i3h3
+ f8e8 8. g1g2 e6f5 9. h3h5 g6f6 10. h5g5 f6g6 11. g5i3 e8d8 12. i3h3 h7g7 13. h3j3
+ h6h5 14. g2h2 b8b6 15. h2h3 h5h6 16. h3h4 d8c8 17. j3h5 g6f6 18. h5g5 d6e5 19. g4i6
+ h6g6 20. g5h6 g7f7 21. i6h7 b6d6 22. h7h8 e5e6 23. h6h7 c7c6 24. h7g8 g6g7 25. g8f7
+ e6f7 26. h8h7 f7g6 27. h7i6 c6c5 28. i6g4 d6e6 29. h4h5 g6h7 30. h5h4 e6b6 31. g4h3
+ b6b4 32. h4h5 g7g8 33. h3g4 b4b6 34. g4h4 f6g6 35. h4h3 b6e6 36. h3j5 h7g7 37. h5h4
+ e6f6 38. j5h3 c5c4 39. g3i3 g8h7 40. h3g2 g7f7 41. g2g3 f7g7 42. g3g2 g7h6 43. g2e2
+ c4b4 44. e2d3 c8c7 45. d3d4 f6c6 46. d4b4 c7c8 47. b4c4 c6c7 48. c4e6 c8b8 49. e6e7
+ c7b7 50. e7d7 b7c7 51. d7c7 b8a8 52. c7a7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "91"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3babtbu3/3u1mb5/2m9/3*4*1S1/4**6/12/12/3XC2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "289"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1i3 c7c6 i3k3 h7i8 k3k5 e7d8"]
+[TimeMs "12435"]
+
+1. e1e5 d7d6 2. e5g3 g7h6 3. d1f3 e8e6 4. f3h5 i8i7 5. k5j6 e6g6 6. h5j5 i7h7 7. j6i6
+ h7g7 8. h1h2 f8e7 9. h2h3 g8f8 10. h3h4 d8d7 11. i6g4 d7e6 12. g4h5 e6f5 13. j5h3
+ g7f6 14. h5g6 f7g6 15. h4h5 d6e6 16. h3h4 f6g7 17. h5g5 g6g5 18. h4g5 e6f6 19. g5h4
+ f8e8 20. h4f2 h8h7 21. f2d4 h6h5 22. d4c4 c6c7 23. c4c5 c7d7 24. c5b5 f6e6 25. b5b7
+ g7f7 26. b7b5 e8f8 27. b5d3 f7g6 28. d3f1 g6g5 29. f1h3 e6f6 30. h3i4 d7d6 31. i4i6
+ f6g7 32. i6j7 d6e6 33. j7j8 g5h6 34. j8j6 e6d6 35. j6j4 h6g5 36. j4k5 d6e6 37. k5j6
+ f8e8 38. j6i7 g5h6 39. i7j6 e7f7 40. j6h4 g7g6 41. h4f2 g6f6 42. f2h4 f6g7 43. h4j4
+ e6f6 44. j4h2 h6g5 45. g3i1 g7h6 46. h2g3 f6e6 47. g3e3 g5f6 48. e3c5 e8f8 49. c5c6
+ f6e7 50. c6c4 h5i4 51. c4d3 h6g5 52. d3f1 g5h4 53. i1e1 e7f6 54. f1f2 f6g5 55. f2e2
+ g5f6 56. e1e3 h7h6 57. e2f3 e6d6 58. f3f2 f6g5 59. f2d4 d6d7 60. d4e5 g5g6 61. e5c3
+ h4g3 62. e3e5 g3f3 63. c3d3 f3g2 64. d3e2 g2h3 65. e2f1 h3h4 66. f1f3 d7d6 67. e5e3
+ h4h5 68. f3d3 f7f6 69. d3d4 d6e6 70. d4f2 h5g4 71. f2e2 g4g3 72. e2c4 g6f7 73. c4e2
+ h6h5 74. e3e1 i4h3 75. e2e3 g3g4 76. e1j6 f6g7 77. e3g1 g4g5 78. g1g3 f7g6 79. g3h3
+ e6f6 80. h3j5 g6h6 81. j6j4 f8e8 82. j5j7 g7f7 83. j7j6 f6g6 84. j6k5 e8f8 85. k5i3
+ g6f6 86. j4h2 f5g4 87. i3g3 h6g6 88. g3e3 f8g8 89. e3g3 f6f5 90. g3h3 g8g7 91. h3i4
+ g6h7 92. i4i3 h7g6 93. i3g3 g7g8 94. g3h3 g8g7 95. h3j5 g6h6 96. j5j7 g5g6 97. j7j5
+ h6h7 98. j5h3 g6g5 99. h3i3 h7g6 100. h2j4 f7f6 101. i3h2 f6e6 102. j4g1 f5f6 103. g1i3
+ e6e5 104. h2h3 g7f7 105. h3g3 g6h6 106. g3e3 f7g7 107. e3g3 g4f5 108. g3h3 e5d4
+109. h3g3 f5e6 110. g3e3 d4e5 111. e3g3 h6g6 112. g3h3 e5d4 113. h3i4 g5h6 114. i4h3
+ d4c4 115. i3g3 g6g5 116. h3f3 g7h7 117. g3e3 c4b3 118. f3d3 b3a2 119. d3b3 a2a1
+120. e3a3 h6g6 121. b3b2 h7i7 122. b2a1 h5g4 123. a1c3 i7j7 124. c3e3 g5h4 125. a3f3
+ j7j6 126. f3d3 g6g5 127. e3f3 e6e5 128. f3g2 h4i3 129. d3d6 f6f5 130. g2g3 g5h4
+131. g3i1 i3j3 132. i1g1 j6j7 133. g1e3 j3i4 134. e3c5 j7j6 135. c5e7 j6j5 136. d6f8
+ i4h5 137. e7g7 h5i6 138. g7g8 i6j6 139. g8h7 j5k5 140. h7h6 j6j5 141. h6h4 g4g3
+142. h4h5 j5j6 143. h5j3 k5k6 144. j3l5 k6k7 145. l5l7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "95"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3uabtb4/2m1bmbu4/12/3*C3*3/4**6/12/3X8/6SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "17"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "e1e5 c7c8 d1e1 c8c7 e1d2 d7d8"]
+[TimeMs "1042"]
+
+1. d2f2 d8d7 2. f2h4 g7f6 3. h4j6 f6g5 4. e5h5 h8i7 5. j6j7 f7g7 6. h5j5 i7i6 7. j5h7
+ f8f7 8. j7i8 g8f8 9. i8h8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "99"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/3u1mbu4/4b7/2m*4*3/4**6/7C4/7D4/3X2S5 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "33"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "h1h2 c7c6 e1h1 c6c5 h1h3 e7e6"]
+[TimeMs "1683"]
+
+1. d1f3 g7f6 2. f3h5 f7g7 3. g1g3 e6d6 4. g3g5 e8e5 5. g5g6 f8f7 6. g6h7 g8f8 7. h7h6
+ d7e7 8. h6g7 f8e8 9. g7h8 e5e6 10. h8f8 e8d8 11. f8e7 e6e7 12. h5g5 e7e6 13. g5g7
+ d8c8 14. g7f8 e6e7 15. f8e7 c8b8 16. e7d6 b8b7 17. d6b8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "57"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2m1abtb4/4bm1u4/4ub6/3*4*3/4**6/1X10/12/5SCD4 w - - 6 4"]
+[Termination "engine timeout"]
+[PlyCount "146"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1f1 d7e6 d1b3 c7c8 e1g1 g7f6"]
+[TimeMs "126424"]
+
+1. b3d3 h7h6 2. d3f3 h6g5 3. f3g2 f7g7 4. g2i4 g7h7 5. i4k6 h7i7 6. f1g2 e6f5 7. k6k5
+ i7i6 8. h1h2 c8c7 9. h2h3 e7d6 10. k5l6 e8e7 11. l6j4 e7h7 12. h3h4 g5h4 13. j4h4
+ h7h5 14. h4i3 f8f7 15. g1g3 f5g4 16. g3e5 c7c6 17. i3k5 f6g5 18. k5k6 i6i7 19. g2h3
+ g4f5 20. e5g3 d6c5 21. k6k5 h5h6 22. k5i3 c6d6 23. i3h4 d6e6 24. g3i3 f5e5 25. h3f3
+ c5d6 26. i3g5 e6f6 27. g5e3 f6f5 28. e3g3 h8h7 29. f3h5 e5f6 30. h5f3 f6g5 31. h4h3
+ h6h4 32. h3g2 h4g3 33. g2g3 g8h8 34. g3e3 f5f6 35. e3c5 f6e6 36. c5c6 e6e7 37. c6b6
+ e7e8 38. b6d6 g5f5 39. d6c6 e8d8 40. c6d6 d8e8 41. d6c6 e8d8 42. c6d6 d8e8 43. d6c6
+ e8d8 44. c6d6 d8e8 45. d6c6 e8d8 46. c6d6 d8e8 47. d6c6 e8d8 48. c6d6 d8e8 49. d6c6
+ e8d8 50. c6d6 d8e8 51. d6c6 e8d8 52. c6d6 d8e8 53. d6c6 e8d8 54. c6d6 d8e8 55. d6c6
+ e8d8 56. c6d6 d8e8 57. d6c6 e8d8 58. c6d6 d8e8 59. d6c6 e8d8 60. c6d6 d8e8 61. d6c6
+ e8d8 62. c6d6 d8e8 63. d6c6 e8d8 64. c6d6 d8e8 65. d6c6 e8d8 66. c6d6 d8e8 67. d6c6
+ e8d8 68. c6d6 d8e8 69. d6c6 e8d8 70. c6d6 d8e8 71. d6c6 e8d8 72. c6d6 d8e8 73. d6c6
+ e8d8 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "61"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/3ub1mu4/2m3b5/3*4*3/4**6/12/2X2S1D4/4C7 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "43"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1f2 c7c6 d1c2 g7g6 h1h2 f7g7"]
+[TimeMs "2179"]
+
+1. h2h3 f8f7 2. c2e2 g6f5 3. h3g3 g7g6 4. e1e3 f5f6 5. e2f3 e7d6 6. f3g4 d6c5 7. g4h3
+ g8f8 8. g3g4 h7h6 9. f2h2 h8h7 10. h3g3 c6d6 11. h2i3 f8g8 12. g3h4 h7i6 13. i3i4
+ h6h7 14. g4g5 g6g7 15. g5h5 i6i7 16. i4k4 e8c8 17. k4i6 c5c4 18. i6h7 g8f8 19. h4g5
+ g7g8 20. g5f6 f8e8 21. h7g8 c4b3 22. g8f7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "65"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mub1b5/5m6/3*2u1*3/4**6/12/3X2S5/4C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "23"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1g2 f7f6 d1d3 h7h6 d3d2 h6g5"]
+[TimeMs "1367"]
+
+1. d2f2 f8f7 2. h1h2 h8h7 3. h2h3 f6f5 4. h3h4 g5h6 5. f2h2 e8c8 6. h2j4 h6i7 7. h4h5
+ f5g5 8. h5g5 c7b7 9. g5g6 c8f8 10. j4j5 e7d6 11. j5h7 i7h7 12. g6h7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "69"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4ab1b4/2mubmtu4/6b5/3*4*3/4**6/12/6S5/1X2C2D4 w - - 6 4"]
+[Termination "Party has no legal response"]
+[PlyCount "200"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1b3 g7h6 g1g2 h6g6 b3b1 g8g7"]
+[TimeMs "8794"]
+
+1. e1e5 d7e6 2. e5g3 g7g8 3. b1d3 h7h6 4. d3f3 f7g7 5. g2h3 f8f7 6. h1g1 e6f6 7. f3g2
+ e7d6 8. g2g4 c7d7 9. g1g2 e8e6 10. g4f3 h8h7 11. h3h4 h7i6 12. g3g1 g6f5 13. g1g3
+ g8f8 14. g3e3 f6e5 15. f3g3 e5f6 16. g2f2 g7g6 17. h4i4 g6g5 18. g3h3 d6c5 19. h3g3
+ i6h5 20. i4h3 c5b4 21. h3i3 b4b5 22. i3j2 g5g6 23. j2i3 f8e8 24. i3h3 g6g5 25. h3i4
+ e8d8 26. g3e1 g5g4 27. e1e2 g4h4 28. i4j5 e6b6 29. e2d3 h6g5 30. d3c4 d8e8 31. j5h7
+ f7g7 32. c4d4 b6c6 33. h7h6 g5g6 34. h6h7 g6f7 35. f2f3 h5h6 36. h7g8 f7g6 37. g8h7
+ g6g5 38. h7j5 f6g6 39. d4c4 h4g4 40. f3f2 h6h5 41. e3e5 f5f6 42. c4a6 e8f8 43. a6c8
+ g6f7 44. j5i6 f6f5 45. i6g8 g5f6 46. g8f7 f6f7 47. e5e3 f5g5 48. e3e5 h5i4 49. c8a6
+ g5g6 50. f2g2 f7e7 51. a6c4 e7e6 52. e5e3 e6f6 53. c4d4 f6f5 54. d4d3 f5f6 55. d3d4
+ f6f5 56. d4d3 f5f6 57. d3d4 f6f5 58. g2f2 g4g5 59. d4d3 i4j4 60. d3f1 f5g4 61. f1g2
+ g5h5 62. f2f3 g4h4 63. f3g3 b5b4 64. g2f2 h4g5 65. f2h2 j4i4 66. g3h3 i4h4 67. h2j4
+ f8e8 68. j4h2 h4g4 69. h2f2 g6h7 70. f2f3 b4b5 71. h3g3 g7f7 72. f3e2 h7g6 73. e2c4
+ d7d6 74. c4a6 c6c7 75. a6b5 c7e7 76. b5d3 f7g7 77. d3f1 e8d8 78. f1h3 d8c8 79. h3f3
+ g4f5 80. f3d3 c8d8 81. d3c3 g6h7 82. g3h3 h7i7 83. h3g3 g7g6 84. g3f3 g5h4 85. c3e1
+ h5g5 86. e1f2 d6e6 87. f3g3 h4h5 88. e3h3 g5g4 89. g3g4 h5g4 90. f2g2 g4h4 91. h3f1
+ e7f7 92. g2e2 h4g5 93. f1d3 e6f6 94. e2f3 f5e6 95. d3g3 g6h5 96. f3f2 d8e8 97. f2g2
+ g5h4 98. g3g1 i7h7 99. g2f2 h4g4 100. f2h4 g4h4 0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "73"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2m1bm2u3/4ub6/3*4*3/4**6/12/12/4CXSD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "185"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1f1 h7i7 h1i1 g7f6 i1h1 d7e6"]
+[TimeMs "8207"]
+
+1. f1h3 f6f5 2. g1f2 h8h7 3. e1g3 e7d6 4. h1h2 e6f6 5. h3h5 g8h8 6. f2f3 f6g6 7. h5i4
+ f7f6 8. f3g4 d6c5 9. h2h3 e8e6 10. h3h4 f8f7 11. h4h5 g6h5 12. i4h5 f5g5 13. g4h4
+ h7h6 14. h4j4 h8g8 15. j4j6 g8f8 16. j6i7 e6e7 17. h5h6 f8e8 18. i7g7 f6e6 19. g7f8
+ e7d7 20. f8d6 e8d8 21. d6c5 g5f5 22. h6f8 d8c8 23. f8f7 d7e7 24. f7h5 c7d7 25. c5a7
+ c8d8 26. h5g5 e6f6 27. g5g4 d7d6 28. a7b6 d6e6 29. b6c7 d8e8 30. c7a5 e8d8 31. a5c3
+ e7g7 32. g4e2 g7f7 33. e2g4 f5g5 34. c3c5 d8e8 35. c5c7 f7d7 36. c7c5 f6f5 37. g4e2
+ d7e7 38. c5e3 g5h5 39. e3f2 e6f6 40. f2h2 e7g7 41. h2h3 e8f8 42. e2f3 h5h6 43. f3e3
+ f5g5 44. e3f3 f6f5 45. g3e3 f8f7 46. f3f2 g7g6 47. f2d4 g6e6 48. d4c5 f5f6 49. e3i3
+ f7g7 50. c5c7 f6f7 51. c7c6 e6e7 52. c6c5 e7e6 53. c5c6 e6e7 54. c6c5 e7e6 55. c5c6
+ e6e7 56. c6c5 e7e6 57. c5c6 e6e7 58. c6c5 e7e6 59. c5e3 g5h5 60. h3f3 h6g5 61. f3f2
+ g5h4 62. e3f3 e6h6 63. f3f5 h6g6 64. f5h3 f7f8 65. f2f3 f8g8 66. f3g4 h5g5 67. g4i6
+ h4g4 68. h3g3 g5f5 69. g3h4 g7f7 70. i6h5 g8g7 71. h5g4 f5g4 72. h4g4 g6f6 73. g4f3
+ g7g6 74. f3g4 f7f8 75. g4i4 f8e8 76. i4g4 e8d8 77. g4e2 d8e8 78. e2c4 e8f8 79. c4c6
+ f6f7 80. i3i6 g6f6 81. c6c5 f8g8 82. c5e3 f7i7 83. i6i4 i7g7 84. e3d4 g8h8 85. d4c5
+ h8h7 86. c5e3 g7g4 87. e3f2 f6f5 88. f2h2 h7h8 89. h2j4 g4g7 90. j4j6 h8g8 91. j6i7
+ g7h7 92. i7h7 g8f8 93. h7g8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "77"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/4bm1u4/2m1u2b4/3*C3*3/4**6/12/5S6/2X4D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "67"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1c1 c7c6 e1e5 d7e6 g1f2 g7h6"]
+[TimeMs "3176"]
+
+1. e5g3 e6f5 2. f2f3 h7i6 3. c1d2 e7f6 4. d2f2 i6h5 5. h1h2 h5i4 6. f2g2 i4h4 7. g3e3
+ f7g7 8. f3g3 h4g5 9. g2i4 g7h7 10. h2h3 e8e7 11. h3h4 g5g6 12. g3g4 e7e6 13. g4f5
+ e6f5 14. i4h3 h8i7 15. e3i3 g8g7 16. h4g4 f5g4 17. h3g4 c6d6 18. i3i6 h6g5 19. i6g8
+ g7f7 20. g4h4 g5h5 21. g8e8 f8g8 22. h4g4 f7e7 23. e8h5 g8g7 24. h5f3 i7i6 25. g4g3
+ f6g5 26. g3e3 e7f7 27. e3d4 d6d7 28. d4b6 i6i7 29. b6b7 d7d8 30. b7b8 d8e8 31. b8c8
+ e8e7 32. c8d8 e7e8 33. d8e8 f7f6 34. e8e6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "81"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mu1mb5/7u4/3*b3*3/4**6/12/12/4CX1DS3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "45"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1f1 e7e6 g1h2 e6e5 h2i1 h7h6"]
+[TimeMs "2331"]
+
+1. e1e5 g7f6 2. e5g3 d7d6 3. f1h3 e8e5 4. h1h2 h8i7 5. h3j5 f8e7 6. j5j6 h6h7 7. j6j7
+ h7h8 8. j7i6 g8f8 9. i6h6 f8e8 10. h6h8 e8d8 11. h8g8 d6d7 12. g3e5 f6e6 13. g8f7
+ d8c8 14. h2h3 i7j8 15. i1g3 e7e8 16. g3g4 j8i8 17. g4f5 i8i7 18. f5e6 d7d8 19. e5b8
+ e8d7 20. b8d8 c8b8 21. f7e7 c7c6 22. e7d7 c6c7 23. d7c8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "85"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3a1btb4/2mu1m1u4/3b1b6/3*4*3/4**6/6S5/1X10/4C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "79"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1c1 e8d8 g1g3 e7d6 c1b2 g7f6"]
+[TimeMs "3739"]
+
+1. h1h2 h7g6 2. h2h3 d7e6 3. h3h4 f8g7 4. b2d4 c7d7 5. d4e3 d7e7 6. e3f3 e6f5 7. h4g4
+ e7e6 8. f3h3 g8f8 9. h3i4 f8e8 10. e1h4 g6h6 11. g4f5 e6f5 12. i4j4 h6g6 13. g3f2
+ h8h7 14. j4i4 g6h6 15. i4h3 h6g5 16. h4h2 h7h6 17. h3j5 e8e7 18. f2d4 d6e6 19. d4c5
+ d8f8 20. c5d6 e7d7 21. d6c6 d7d6 22. c6c5 d6d7 23. c5c6 d7d6 24. c6c5 d6d7 25. c5c6
+ d7d6 26. c6c5 d6d7 27. c5c6 d7d8 28. c6c7 d8c8 29. c7b7 c8c7 30. b7b6 c7d7 31. b6c6
+ d7d6 32. c6c7 d6d7 33. c7c6 d7c7 34. j5h3 c7c8 35. h3f3 f8d8 36. f3d3 d8d6 37. d3c4
+ c8d8 38. c4a6 d8e8 39. a6c8 e8e7 40. c8d8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "89"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2m1bmb5/1u6u3/3*C3*3/4**6/12/6S5/1X5D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "1"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "g1g2 d7c6 d1b1 h7i6 e1e5 c6b6"]
+[TimeMs "368"]
+
+1. e5e8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "93"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3uabtb4/2m1bm2u3/6b2C2/3*4*3/4**6/12/1X10/6SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "135"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1b3 d7d8 e1j6 h7i7 b3b2 g7g6"]
+[TimeMs "6115"]
+
+1. j6h4 i7h6 2. g1g3 e7f6 3. b2d4 d8d7 4. h1h2 h6h5 5. h4f2 d7d6 6. d4e3 e8e5 7. g3g5
+ d6e6 8. h2h3 e5f5 9. h3h4 h5g4 10. h4g4 f5g4 11. g5i7 h8h7 12. e3g1 f8g7 13. g1h2
+ c7d7 14. h2j4 g8f8 15. j4i4 f8e8 16. i4g4 d7e7 17. i7i6 f6e5 18. i6h7 e6f6 19. h7h5
+ g7h7 20. g4f3 f6g5 21. h5i6 h7h6 22. f3e3 g5f6 23. i6h5 e5e6 24. e3g3 f7g7 25. h5g5
+ g6f5 26. g5i3 e7f7 27. i3h3 g7g6 28. h3i3 g6g5 29. i3h2 h6h5 30. h2h3 e8f8 31. h3h1
+ f5g6 32. h1g2 h5h4 33. g3h3 h4g4 34. h3g3 f8e8 35. g2i2 f6f5 36. g3e3 f5f6 37. f2d4
+ e8f8 38. i2h3 e6e5 39. e3c5 g5f5 40. d4f6 f5f6 41. c5c6 f7e7 42. c6c7 f6f7 43. c7e5
+ g4f3 44. e5g3 f3e2 45. g3e3 e2d1 46. e3c1 d1d2 47. c1d2 f7f6 48. d2e2 e7f7 49. e2e3
+ g6h6 50. h3h4 h6g6 51. h4h5 g6g5 52. h5g4 g5g6 53. e3c5 f8g8 54. c5c6 f7f8 55. c6d6
+ f6f7 56. g4h5 g6h6 57. d6c5 f7g7 58. c5e3 f8f7 59. e3g5 g7h7 60. h5h4 g8h8 61. g5h5
+ f7g7 62. h4f6 h8g8 63. f6g7 h7g7 64. h5i6 g8f8 65. i6i7 g7f7 66. i7h8 f8e8 67. h8g8
+ e8e7 68. g8f7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "97"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt1b3/3u1mbu4/2m2b3C2/3*4*3/4**6/12/3X2S5/7D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "165"]
+[Depth "8"]
+[RuleSet "v7g-d8-no-leader-brute-mK"]
+[Rules "baseline"]
+[Opening "d1d2 e7f6 g1g2 h8i8 e1j6 c7c6"]
+[TimeMs "7390"]
+
+1. g2g3 h7i6 2. j6h4 i6h5 3. h4f2 g7h6 4. h1h2 e8e5 5. h2g2 d7e6 6. d2e2 e5g5 7. e2f1
+ h5g4 8. g3h3 g4h4 9. f1f3 i8h7 10. g2g3 h4h3 11. f3h3 f8e8 12. h3j5 g5g7 13. g3g4
+ h6g6 14. j5i6 g8f8 15. i6h5 f6e5 16. f2j6 e8d7 17. h5h3 f7f6 18. j6h4 f8e8 19. h3f3
+ e8d8 20. f3d3 d8e8 21. d3c4 c6d6 22. c4d4 h7i7 23. h4j6 d7c6 24. d4d3 g7f7 25. g4h4
+ f6f5 26. j6h8 f7h7 27. h8j6 h7h6 28. h4h3 f5g5 29. j6h8 g6f7 30. d3d4 i7i6 31. d4b6
+ d6d7 32. h8d4 h6h5 33. b6c5 f7g6 34. h3g3 e5f5 35. c5c3 i6j5 36. c3e3 g5g4 37. g3g2
+ h5h4 38. d4f2 f5g5 39. e3d4 j5i4 40. d4c3 i4h3 41. c3e3 h3i3 42. f2h2 i3h3 43. h2f2
+ c6d6 44. e3e2 d7e7 45. e2c4 e8f8 46. c4c5 h3i4 47. c5e3 f8g8 48. e3e2 e6f6 49. e2d3
+ d6e6 50. d3d2 e7f7 51. d2b4 i4h3 52. b4d2 h3i4 53. d2e3 g8h8 54. g2h2 f7e7 55. e3g1
+ e6d6 56. h2g2 h8g8 57. g2h2 g8h8 58. h2i2 h4h6 59. i2i3 g5f5 60. g1h2 h6i6 61. f2i2
+ i4h5 62. h2j4 f6g5 63. j4k5 f5f6 64. i3h3 g5h6 65. h3g4 f6f7 66. k5k6 i6i7 67. k6i4
+ h5i6 68. i4h4 i7g7 69. g4g5 h6h7 70. h4g4 f7f8 71. i2f5 d6c6 72. f5h5 h8i8 73. g4i4
+ i6h6 74. i4k6 i8h8 75. k6j7 h8g8 76. h5h7 f8f7 77. g5g6 g8f8 78. g6g7 f8e8 79. j7i7
+ f7e6 80. i7h6 e7f7 81. h7f7 e8d8 82. h6f6 d8d7 83. f6d6 1-0
+

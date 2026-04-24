@@ -29,6 +29,12 @@ internal sealed class Options
     public string? SweepOutDir { get; set; }
     public List<string> RulesList { get; } = new();
 
+    // --- tune (SPSA) options -------------------------------------------- //
+    public string? BaseRulesPath { get; set; }
+    public int? Iterations { get; set; }
+    public double? SpsaC { get; set; }
+    public double? SpsaA { get; set; }
+
     public static Options Parse(string[] args)
     {
         var o = new Options();
@@ -59,6 +65,10 @@ internal sealed class Options
                 case "--parallel":    o.Parallel = int.Parse(Next()); break;
                 case "--out":         o.SweepOutDir = Next(); break;
                 case "--add-rules":   o.RulesList.Add(Next()); break;
+                case "--base-rules":  o.BaseRulesPath = Next(); break;
+                case "--iterations":  o.Iterations = int.Parse(Next()); break;
+                case "--c":           o.SpsaC = double.Parse(Next(), System.Globalization.CultureInfo.InvariantCulture); break;
+                case "--a":           o.SpsaA = double.Parse(Next(), System.Globalization.CultureInfo.InvariantCulture); break;
                 default:
                     throw new ArgumentException($"unknown option: {a}");
             }

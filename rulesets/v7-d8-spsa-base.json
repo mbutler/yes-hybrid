@@ -1,0 +1,11 @@
+{
+  "name": "v7-d8-spsa-base",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "pieceValueMg": "d:300 s:350 c:900 l:200 x:400 b:250 a:400 u:300 m:100",
+    "pieceValueEg": "d:300 s:350 c:900 l:200 x:400 b:250 a:400 u:300 m:100"
+  },
+  "searchDepth": 8,
+  "maxPlies": 600
+}

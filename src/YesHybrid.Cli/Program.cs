@@ -23,6 +23,7 @@ internal static class Program
                 "batch"    => await BatchCommand.RunAsync(rest),
                 "match"    => await MatchCommand.RunAsync(rest),
                 "sweep"    => await SweepCommand.RunAsync(rest),
+                "tune"     => await TuneCommand.RunAsync(rest),
                 "bestmove" => await BestMoveCommand.RunAsync(rest),
                 "info"     => InfoCommand.Run(rest),
                 _          => Unknown(command),
@@ -59,6 +60,8 @@ internal static class Program
               play         Run a single game in the terminal (engine vs engine, or human vs engine)
               batch        Run N quiet self-play games and append to a PGN file
               match        Evaluate one rule set (JSON) over N randomized-opening games
+              sweep        Evaluate many rule sets back-to-back; emit a ranked summary
+              tune         SPSA-tune piece values (pieceValueMg) against a balance objective
               bestmove     Print the engine's best move for a single position, then exit
               info         Print the variant definition (pieces, FEN, board layout)
               help         Show this help
@@ -93,6 +96,22 @@ internal static class Program
               --opening-plies K   Random plies from start per opening  (default: 6)
               --seed N            RNG seed for the opening book        (default: 0xC0FFEE)
               --pgn PATH          Append every game to this PGN file
+
+            'sweep' OPTIONS:
+              --add-rules PATH    Ruleset JSON file (repeatable)       (required; >= 1)
+              --games N           Games per rule set                   (default: 1)
+              --parallel N        Worker games in flight               (default: 1)
+              --out DIR           Output directory for logs & summary  (default: reports/sweep-<ts>)
+
+            'tune' OPTIONS:
+              --base-rules PATH   Starting ruleset JSON with pieceValueMg baseline  (required)
+              --iterations N      SPSA iterations (each = 2 matches)   (default: 20)
+              --games N           Games per SPSA eval                  (default: 1; use 100+)
+              --c F               Perturbation magnitude (piece-value units)  (default: 40)
+              --a F               Gain / step size                     (default: 8)
+              --seed N            Base RNG seed                        (default: 0xC0FFEE)
+              --parallel N        Worker games per eval                (default: 1)
+              --out DIR           Output directory                     (default: reports/tune-<ts>)
 
             EXAMPLES:
               yes-hybrid info

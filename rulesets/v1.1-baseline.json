@@ -1,0 +1,8 @@
+{
+  "name": "v1.1-baseline",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {},
+  "searchDepth": 8,
+  "maxPlies": 600
+}

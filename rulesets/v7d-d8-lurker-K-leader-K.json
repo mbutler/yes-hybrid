@@ -1,0 +1,15 @@
+{
+  "name": "v7d-d8-lurker-K-leader-K",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "customPiece4": "l:K",
+    "customPiece8": "u:K",
+    "customPiece9": "m:WfcF",
+    "nMoveRule": "0",
+    "nFoldRule": "0"
+  },
+  "startFen": "4abtba3/2mubmbu4/12/3*4*3/4**6/12/12/3XCLSD4 w - - 0 1",
+  "searchDepth": 8,
+  "maxPlies": 600
+}

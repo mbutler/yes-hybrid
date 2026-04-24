@@ -1,0 +1,2643 @@
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "2"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2m1abtbu3/4bmb5/2u9/3*4*3/4**6/12/3X2SD4/4C7 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "157"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1d2 h7i8 h1h2 d7c6 g1g2 c7c8"]
+[TimeMs "6930"]
+
+1. g2f2 h8h6 2. d2e2 i8h7 3. e1g3 g8h8 4. h2h3 c8c7 5. e2g4 c7d7 6. g4i4 c6d6 7. f2g2
+ f8f6 8. g2f3 d6e6 9. h3h4 g7g5 10. h4g5 f6g5 11. i4k6 h8g8 12. g3e3 e6f5 13. k6j5
+ f7f6 14. j5j4 h6h4 15. j4j2 h7g6 16. j2j4 g8f8 17. f3f2 f5g4 18. f2e2 g4g3 19. e2d3
+ g3f3 20. e3c3 e7g7 21. j4k4 e8e6 22. k4j5 e6b6 23. d3c2 b6b4 24. c2d2 f3g4 25. c3e1
+ b4b1 26. d2b4 b1b3 27. b4c5 b3d3 28. c5c3 d3c3 29. j5j3 c3f3 30. j3h1 g5g3 31. h1j1
+ f3f1 32. e1h4 g3h4 33. j1j3 d7e7 34. j3j4 f1f3 35. j4j5 e7e6 36. j5j3 f6f5 37. j3l5
+ e6f6 38. l5l7 f3i3 39. l7k8 f8e8 40. k8i6 e8d8 41. i6k6 d8d7 42. k6j7 h4h6 43. j7j6
+ i3f3 44. j6l4 g7g5 45. l4j2 d7d6 46. j2j4 f3g3 47. j4k5 g3h3 48. k5k4 g6g7 49. k4k5
+ f6g6 50. k5k4 g7f6 51. k4k6 f6e7 52. k6k7 h6h4 53. k7j6 h3f3 54. j6k6 g6f6 55. k6k4
+ e7f7 56. k4j5 f6g6 57. j5j6 f3h3 58. j6i6 d6c6 59. i6j6 h4h6 60. j6k5 h6f6 61. k5l4
+ c6c5 62. l4l5 c5c4 63. l5k4 c4d4 64. k4j4 f6h6 65. j4j6 f7f6 66. j6j8 f6f7 67. j8j6
+ g6f6 68. j6l4 f7g7 69. l4j2 g7f7 70. j2j3 h3f3 71. j3h1 f3f2 72. h1i1 f2f3 73. i1g1
+ d4c4 74. g1f1 f3c3 75. f1e1 c3d3 76. e1c1 d3d2 77. c1d2 c4c5 78. d2b4 c5c6 79. b4c5
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "1"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3uabt5/2m1bmb1u3/7b4/3*4*3/4**6/12/4XS6/2C4D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "257"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "e1c1 h7i7 d1e2 d7d8 g1f2 h8h6"]
+[TimeMs "11127"]
+
+1. c1i1 g7g5 2. e2g2 d8d7 3. i1g1 d7e6 4. h1h2 i7h7 5. g2g3 h7g6 6. g3i3 g6h5 7. h2h3
+ c7d7 8. f2h4 f8f6 9. h4i4 h6h4 10. i3i2 h4i4 11. h3i4 h5g4 12. i4i3 g4h5 13. i2g2
+ e7g7 14. i3i4 h5g6 15. g2g3 e6f5 16. i4h4 g5h4 17. g3h4 e8e6 18. h4h2 g7g5 19. h2f2
+ f5g4 20. g1e3 g5g3 21. f2d2 g4f3 22. e3c1 d7e7 23. d2c3 f3g4 24. c1c4 g8h8 25. c3e3
+ h8i8 26. e3g1 g4h4 27. g1e3 i8i7 28. e3d2 i7i8 29. d2c3 h4g4 30. c3e3 i8j8 31. e3g1
+ g4h4 32. g1e3 e6e5 33. e3d2 e7e6 34. d2e2 e5g5 35. c4f1 h4g4 36. e2c4 g5h5 37. f1b5
+ h5h4 38. b5d3 g3e3 39. d3b5 f6d6 40. c4b4 h4h5 41. b4c5 g4f3 42. c5b4 d6d4 43. b4b6
+ e3c3 44. b6c6 d4b4 45. c6b6 b4b5 46. b6b5 c3e3 47. b5b6 e3e5 48. b6c5 f7f6 49. c5c7
+ f3g4 50. c7d8 h5h7 51. d8c8 j8j7 52. c8a6 f6f5 53. a6c4 j7j6 54. c4b5 e6f6 55. b5a4
+ e5g5 56. a4c4 h7h4 57. c4c5 j6i6 58. c5b5 h4h6 59. b5c4 h6h4 60. c4c5 f5e5 61. c5d6
+ h4h5 62. d6d7 e5f5 63. d7d6 h5h7 64. d6d8 h7h6 65. d8f8 h6h7 66. f8d8 h7h5 67. d8d6
+ h5h7 68. d6d4 g5e5 69. d4f2 g4h3 70. f2f3 h7h4 71. f3h1 h4i4 72. h1j1 i6h6 73. j1l3
+ h6h5 74. l3k4 h5h4 75. k4k3 h4g4 76. k3i1 i4i2 77. i1k3 i2g2 78. k3k5 g4g3 79. k5i7
+ g3f3 80. i7i8 e5g5 81. i8i7 f3e3 82. i7i6 e3f3 83. i6g8 g6f7 84. g8i8 g2g3 85. i8h7
+ h3g4 86. h7i6 f3e3 87. i6i4 g3h3 88. i4j4 f7g6 89. j4j2 h3f3 90. j2i3 f3f2 91. i3h2
+ g5g3 92. h2i2 f2h2 93. i2i4 e3d3 94. i4i6 g6f7 95. i6k4 f7g6 96. k4j3 d3d4 97. j3j5
+ h2f2 98. j5j4 f2f3 99. j4j3 f3f1 100. j3h1 f1f2 101. h1i2 d4c4 102. i2h1 c4d4 103. h1i2
+ d4c4 104. i2j3 f2f3 105. j3h1 f3f2 106. h1j3 c4c5 107. j3j5 c5c6 108. j5k6 g3g5
+109. k6i6 f2f3 110. i6g8 g6f7 111. g8h8 f3g3 112. h8i7 g3h3 113. i7j7 h3h6 114. j7j5
+ f6g6 115. j5j4 h6h3 116. j4k4 c6d6 117. k4j3 h3h5 118. j3h1 f7e7 119. h1h2 d6e6
+120. h2f2 g5e5 121. f2e3 e7d6 122. e3d2 d6c5 123. d2c3 c5d4 124. c3a5 h5h8 125. a5c7
+ h8f8 126. c7d7 e6f6 127. d7d8 f6e6 128. d8f8 e5e3 129. f8d6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "3"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mu2b5/5m2u3/3*b3*3/4**6/1X10/12/4C1SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "271"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1c1 f7f6 c1a3 e7e5 a3b3 h7i6"]
+[TimeMs "11731"]
+
+1. h1h2 i6h5 2. b3d3 h8h6 3. h2h3 d7e6 4. g1i3 e5g5 5. d3f3 f6f5 6. f3f2 c7d7 7. e1g3
+ h5g6 8. f2h2 e6f7 9. h3h4 f8f6 10. h2f2 g5h4 11. f2h4 e8e6 12. h4f2 f5g5 13. f2g2
+ d7e7 14. i3h3 h6h4 15. g3g1 g6h5 16. h3g3 h4h6 17. g3i3 g5g4 18. g2f3 f7g6 19. f3d3
+ e7f7 20. d3d4 g4g3 21. i3j3 e6c6 22. j3j1 h6h4 23. j1k1 g8h8 24. d4c4 h4h2 25. g1l1
+ c6e6 26. k1j2 h8i8 27. j2l4 g6f5 28. l1l5 g7g5 29. l4j6 h2h4 30. c4c6 e6e7 31. c6b5
+ g3g4 32. j6j7 i8i7 33. l5i8 h4h6 34. j7j8 i7h7 35. b5b6 h6h8 36. j8j7 h8i8 37. j7i8
+ h7i7 38. i8g8 i7i6 39. g8f7 e7f7 40. b6c5 h5h4 41. c5e3 f7e7 42. e3g1 i6h6 43. g1g2
+ h6g6 44. g2h1 h4i3 45. h1i1 i3h3 46. i1j2 h3h4 47. j2j4 h4h5 48. j4j5 f6h6 49. j5j4
+ e7g7 50. j4k5 g6f6 51. k5i3 g7g6 52. i3g1 f6f7 53. g1e3 g6f6 54. e3d3 f6e6 55. d3b5
+ f7g7 56. b5c4 g7h7 57. c4c3 g4g3 58. c3c4 h6h4 59. c4c6 e6e7 60. c6c7 f5f6 61. c7c6
+ h5g4 62. c6c5 h7i7 63. c5e3 i7i6 64. e3e2 f6g6 65. e2c2 g6h5 66. c2e2 h5g6 67. e2f1
+ h4h2 68. f1e2 g6f5 69. e2c4 h2h4 70. c4c5 e7e6 71. c5c7 e6f6 72. c7d7 f5g6 73. d7d8
+ f6f7 74. d8d6 f7g7 75. d6e5 g7f7 76. e5c3 f7f6 77. c3c2 f6f7 78. c2d2 f7f6 79. d2d4
+ f6f5 80. d4b6 f5f6 81. b6b7 f6f7 82. b7c7 f7f6 83. c7c5 g6f5 84. c5a5 f6f7 85. a5c3
+ f5g6 86. c3e5 f7f6 87. e5c7 f6f7 88. c7d6 i6j6 89. d6e5 g4h5 90. e5c3 g3g4 91. c3e3
+ h5i4 92. e3g1 j6i6 93. g1i1 i6h6 94. i1h1 g6h5 95. h1g1 i4h3 96. g1e3 f7f5 97. e3c5
+ h5g6 98. c5c7 h6i6 99. c7c8 f5f7 100. c8c7 f7g7 101. c7d7 g7h7 102. d7b7 h7h5 103. b7a6
+ h5h7 104. a6c6 h7i7 105. c6c5 i7f7 106. c5d4 f7f6 107. d4f2 f6f5 108. f2g1 h3g3
+109. g1h1 g6h7 110. h1f1 h4h2 111. f1e2 h7g6 112. e2d3 g3g2 113. d3d4 g2h3 114. d4d6
+ f5f7 115. d6d4 h2h4 116. d4d6 h4h6 117. d6d4 g6f5 118. d4e3 h6f6 119. e3g1 i6h6
+120. g1h1 f7g7 121. h1j3 h6g6 122. j3j5 f6h6 123. j5l5 g5g3 124. l5j3 g4g5 125. j3h1
+ h6h4 126. h1g1 h3g4 127. g1e1 g7f7 128. e1d2 g6h6 129. d2d4 h6i6 130. d4e3 f7f6
+131. e3g1 f6e6 132. g1i1 h4j4 133. i1j2 g3i3 134. j2l4 i6i7 135. l4j6 i7i8 136. j6i7
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "4"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/1um1bmbu4/12/3*4*3/4**6/12/5S6/2CX3D4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "e1c1 d7c8 g1h2 c8b8 h2f2 b8b7"]
+[TimeMs "25558"]
+
+1. c1e1 h8h6 2. d1f3 g7g5 3. h1h2 e7g7 4. e1g3 h7g6 5. g3e3 c7d7 6. h2h3 f8f6 7. f2g3
+ e8e6 8. h3h4 g5h4 9. g3h4 b7c7 10. h4j2 c7c6 11. f3f2 c6d6 12. j2i1 d6e5 13. i1g3
+ e5f5 14. f2h4 g6h5 15. h4f2 g7g5 16. g3f3 f7g7 17. f2h2 d7e7 18. h2j4 g8f8 19. j4h2
+ f5e5 20. h2f2 g7g6 21. f2e2 e5f5 22. e2f2 e7f7 23. f3g3 f8g8 24. f2h2 g8f8 25. h2g1
+ f5g4 26. g1g2 h6h4 27. g3h4 h5h4 28. g2f2 g5g3 29. f2d2 h4g5 30. e3c1 g5f5 31. d2c3
+ f8g8 32. c3b2 g8h8 33. b2d2 h8i8 34. c1e3 i8i7 35. d2c3 g4f3 36. e3b3 i7j7 37. c3c4
+ f3g4 38. c4b5 j7k7 39. b5d3 g3g5 40. b3e3 g5g3 41. d3c3 g4f3 42. e3b3 f3f2 43. c3b2
+ g3g5 44. b2c3 f2e2 45. c3b2 e2d3 46. b3b1 k7j7 47. b2b3 d3e3 48. b3b5 e3f3 49. b1b6
+ f3g3 50. b5b4 e6c6 51. b6b3 g3h4 52. b4c4 f6d6 53. c4c3 c6c5 54. b3d3 j7i7 55. c3c2
+ d6d4 56. d3b1 c5c3 57. c2d1 i7i6 58. d1f1 c3c1 59. b1f5 g6f5 60. f1f2 d4b4 61. f2h2
+ i6h6 62. h2j4 h6g6 63. j4j6 f7f8 64. j6h8 g5g7 65. h8i7 g6f6 66. i7i6 c1c3 67. i6j6
+ h4g4 68. j6j5 f6e6 69. j5k4 b4d4 70. k4k5 f8f7 71. k5k7 f7f6 72. k7l6 e6d6 73. l6k5
+ f6g6 74. k5k4 d6c6 75. k4i4 g7g5 76. i4j5 g5g7 77. j5j3 c3e3 78. j3h1 c6d6 79. h1g2
+ d6e6 80. g2f1 g7g5 81. f1e1 e3f3 82. e1d1 f3c3 83. d1f1 d4d6 84. f1d1 e6e7 85. d1e1
+ c3c5 86. e1f1 c5c3 87. f1e1 c3c4 88. e1f2 c4c3 89. f2e2 g5g3 90. e2e3 c3c6 91. e3e1
+ c6c4 92. e1d1 d6d4 93. d1e1 g6g5 94. e1c1 e7e6 95. c1d2 c4c3 96. d2c1 g5h5 97. c1d1
+ f5g5 98. d1e1 h5h4 99. e1f1 g5f5 100. f1d1 f5g5 101. d1f1 g5f5 102. f1h1 d4d6 103. h1j3
+ c3c5 104. j3h1 c5c4 105. h1f1 d6d4 106. f1e1 g3g5 107. e1g1 g5g3 108. g1e1 d4d6
+109. e1g1 d6d4 110. g1e1 f5g5 111. e1g1 d4d6 112. g1h1 d6f6 113. h1g1 f6d6 114. g1e3
+ d6d4 115. e3g1 d4d6 116. g1h1 g5f5 117. h1f1 d6d4 118. f1g1 d4d6 119. g1e1 f5g5
+120. e1e3 d6d4 121. e3g1 g5f5 122. g1h1 c4c7 123. h1f1 d4d6 124. f1d3 c7c5 125. d3e3
+ d6d4 126. e3g1 f5g5 127. g1h1 d4d6 128. h1g1 g5f5 129. g1e1 g3g5 130. e1g1 c5c3
+131. g1h1 c3c5 132. h1j3 c5c7 133. j3h1 d6f6 134. h1g1 c7c5 135. g1f2 g5g3 136. f2g1
+ f6d6 137. g1e3 g3g5 138. e3g1 d6d4 139. g1h1 c5c8 140. h1i2 d4d6 141. i2g2 c8c5
+142. g2h1 c5c6 143. h1i1 c6c5 144. i1i2 c5c7 145. i2h1 c7c5 146. h1h2 d6f6 147. h2h1
+ f6d6 148. h1i2 d6f6 149. i2j3 g5g3 150. j3h1 f6d6 151. h1j3 c5c7 152. j3h1 c7c4
+153. h1j3 d6f6 154. j3k4 c4c7 155. k4j3 f6d6 156. j3h1 c7c5 157. h1j3 d6f6 158. j3k4
+ c5c7 159. k4j3 g3g5 160. j3k4 e6d6 161. k4j3 d6e6 162. j3j5 c7e7 163. j5j3 e7c7
+164. j3h1 f6d6 165. h1j3 c7c8 166. j3h1 c8c5 167. h1h2 c5c7 168. h2j4 c7f7 169. j4h2
+ f7c7 170. h2j4 g5g3 171. j4j3 c7e7 172. j3h1 e7c7 173. h1i1 c7c5 174. i1h1 g3g5
+175. h1h2 g5g3 176. h2j4 d6f6 177. j4j3 g3g1 178. j3j5 c5c7 179. j5j3 g1g3 180. j3h1
+ c7c5 181. h1j3 c5c4 182. j3h1 c4c2 183. h1f1 f6d6 184. f1e2 c2c3 185. e2e3 c3c5
+186. e3d3 g3g5 187. d3e3 g5e5 188. e3c3 e5g5 189. c3a5 d6b6 190. a5c3 b6d6 191. c3a5
+ e6f6 192. a5a3 f6g6 193. a3c3 c5c7 194. c3e1 c7e7 195. e1g1 h4h5 196. g1e3 d6f6
+197. e3c3 f6h6 198. c3a3 e7f7 199. a3a5 h6h4 200. a5c3 h4h6 201. c3e3 h6f6 202. e3d3
+ f6h6 203. d3e3 h6f6 204. e3e2 f6h6 205. e2d3 f7e7 206. d3e3 h6f6 207. e3c5 g4f3
+208. c5b5 e7h7 209. b5c5 g6h6 210. c5d4 h7j7 211. d4d2 h6i6 212. d2e1 f3g4 213. e1f2
+ j7j4 214. f2d2 h5h6 215. d2d3 j4i4 216. d3e3 h6g6 217. e3d4 i4h4 218. d4d3 h4j4
+219. d3d2 j4i4 220. d2e3 i4h4 221. e3g1 h4h3 222. g1h1 h3i3 223. h1j1 i3k3 224. j1k1
+ k3k6 225. k1i3 i6i7 226. i3i4 k6j6 227. i4k4 i7h7 228. k4l4 j6i6 229. l4k4 i6j6
+230. k4j4 j6i6 231. j4i4 f6h6 232. i4k6 i6i7 233. k6l5 h7g7 234. l5l4 i7h7 235. l4j4
+ g7f7 236. j4h2 h6f6 237. h2g1 f7g7 238. g1f2 g5e5 239. f2e2 h7h4 240. e2c4 g7h7
+241. c4c6 h7i7 242. c6c5 f6d6 243. c5e3 h4h1 244. e3f2 d6d4 245. f2f1 h1i1 246. f1f2
+ i1i3 247. f2g2 d4d6 248. g2g1 i3h3 249. g1h1 h3k3 250. h1i2 g4h4 251. i2h2 k3i3
+252. h2i1 i3j3 253. i1j1 j3j6 254. j1j3 h4h5 255. j3j4 h5i6 256. j4l6 i7h7 257. l6l4
+ d6f6 258. l4l6 e5g5 259. l6j8 g5g7 260. j8i8 h7h6 261. i8j8 h6h5 262. j8l6 i6j5
+263. l6l4 g7g5 264. l4k3 j5i4 265. k3k4 j6j5 266. k4l4 j5j3 267. l4l6 j3i3 268. l6k6
+ f6h6 269. k6j6 i3h3 270. j6l4 h3j3 271. l4j6 f5f6 272. j6k6 h5h4 273. k6l5 j3h3
+274. l5l3 h4g4 275. l3j1 g5g3 276. j1i1 f6f5 277. i1k1 i4i3 278. k1k2 g3g5 279. k2k1
+ h3h2 280. k1j1 h6h4 281. j1l3 h2h3 282. l3k4 h4h6 283. k4k3 h6h4 284. k3i1 h3h2
+285. i1k3 g4g3 286. k3k4 i3i4 287. k4i6 i4h5 288. i6k4 g3f3 289. k4k3 f3e3 290. k3j2
+ g5g3 291. j2j3 h5g4 292. j3j5 h4h6 293. j5j6 h6f6 294. j6i6 e3f3 295. i6g8 g3g5
+296. g8f8 h2h1 297. f8h8 h1j1 298. h8g8 j1j3 299. g8f8 f3g3 300. f8h8 j3j5 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "6"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt5/2m1b1bu4/3u1m1b4/3*4*1S1/4**6/12/12/1X2C2D4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1i3 h8h6 d1b1 d7d6 i3k5 f7f6"]
+[TimeMs "25491"]
+
+1. b1d3 h7g6 2. h1h2 g7g5 3. k5i3 c7d7 4. h2h3 d6e6 5. d3e2 e6f5 6. e1e3 e7g7 7. e2g2
+ d7e7 8. h3h4 e7f7 9. g2i4 e8e6 10. i3h3 g5h4 11. i4h4 g6h5 12. h4i3 h6h4 13. i3j3
+ f6g6 14. h3f3 f8f6 15. f3e2 g8f8 16. e2f2 f8e8 17. f2e2 g7g5 18. j3h1 f6d6 19. e3e1
+ d6d4 20. e2d2 d4d6 21. d2e2 d6f6 22. h1f1 e8f8 23. e2f2 f8g8 24. f1e2 g8h8 25. e1e3
+ h8i8 26. f2f3 h5i4 27. e2g2 i4h3 28. g2e2 i8j8 29. e2f1 f7g7 30. f1e1 j8j7 31. e1f2
+ g5g3 32. f2e2 h3i4 33. f3f2 g3g5 34. e2g2 i4h3 35. g2e2 f5g4 36. f2f3 g4f5 37. f3f2
+ h3i4 38. f2f3 g7f7 39. e2f1 i4h3 40. f1g1 h4h2 41. g1f1 h2h4 42. f1g1 f6d6 43. g1f2
+ g5g3 44. f2e2 g3f3 45. e2f3 d6d4 46. f3e2 d4e3 47. e2e3 j7i7 48. e3e1 i7i6 49. e1f1
+ h3i3 50. f1g2 g6g5 51. g2g1 f5g4 52. g1i1 i3j4 53. i1j2 j4k4 54. j2k2 k4j5 55. k2k3
+ h4j4 56. k3i1 e6g6 57. i1h1 j5i4 58. h1j1 i4j3 59. j1l3 j3k4 60. l3j1 g6e6 61. j1k1
+ k4k3 62. k1j1 j4j2 63. j1h1 k3j3 64. h1g2 j3i3 65. g2f1 j2h2 66. f1d3 h2h4 67. d3e2
+ i3j3 68. e2g2 g4f5 69. g2g1 j3i3 70. g1e1 i3h3 71. e1f1 h4h2 72. f1e2 h3g2 73. e2e1
+ e6g6 74. e1e3 h2h4 75. e3e2 h4h2 76. e2e3 g6e6 77. e3c5 h2h4 78. c5c7 g2h3 79. c7c6
+ e6e7 80. c6c5 f5g4 81. c5e3 f7f6 82. e3c5 e7f7 83. c5b6 f7g7 84. b6b4 h3g3 85. b4d4
+ g7f7 86. d4d2 g5f5 87. d2e3 g4g5 88. e3g1 h4h2 89. g1f1 f7h7 90. f1e1 h2h4 91. e1c1
+ h4h2 92. c1c2 h2h4 93. c2c4 g3g4 94. c4b4 h7h5 95. b4c5 h5h7 96. c5e7 h7h8 97. e7c5
+ h8h5 98. c5b5 h5h7 99. b5c5 h7h5 100. c5e3 h4h6 101. e3g1 h5h4 102. g1g2 h4j4 103. g2i2
+ j4j5 104. i2k2 h6h4 105. k2j3 j5k5 106. j3h1 f6g6 107. h1g1 k5k4 108. g1e3 g5f6
+109. e3c3 k4k7 110. c3d4 g6g5 111. d4c5 k7h7 112. c5c6 f6g6 113. c6c4 h4h6 114. c4c5
+ h6f6 115. c5c4 h7h4 116. c4c3 f6d6 117. c3d4 d6f6 118. d4f2 h4h3 119. f2g1 f6h6
+120. g1h1 h3i3 121. h1g2 i3h3 122. g2g1 g6f6 123. g1h1 h3k3 124. h1i2 h6h4 125. i2h1
+ g5g6 126. h1g1 k3i3 127. g1e3 f6f7 128. e3d4 g6g5 129. d4d6 h4h6 130. d6c6 h6f6
+131. c6c4 i3f3 132. c4c2 f3h3 133. c2e2 f7g7 134. e2f2 g4g3 135. f2g1 h3h2 136. g1e3
+ h2h4 137. e3g1 h4h2 138. g1e3 h2h4 139. e3e1 h4h2 140. e1f1 g5g6 141. f1e2 h2g2
+142. e2c4 g6g5 143. c4e2 g2h2 144. e2e3 g7g6 145. e3d2 g3f3 146. d2d3 f3g4 147. d3b3
+ h2h4 148. b3d1 h4h2 149. d1f1 g4g3 150. f1e2 h2f2 151. e2d2 g3f3 152. d2b4 f3g4
+153. b4d6 g6f7 154. d6d4 g4g3 155. d4c5 g3g4 156. c5d4 g4g3 157. d4c4 f2f3 158. c4c5
+ f7g6 159. c5d6 g6f7 160. d6c6 g3h4 161. c6c4 f7g6 162. c4c3 f3f2 163. c3d2 h4g3
+164. d2d3 g3g4 165. d3d4 f2f3 166. d4c4 f3f2 167. c4c5 f2f3 168. c5d4 i6j6 169. d4d3
+ f6h6 170. d3f1 f3i3 171. f1h1 j6i6 172. h1j1 i3k3 173. j1i2 h6h4 174. i2i1 k3j3
+175. i1g1 j3g3 176. g1e3 i6j6 177. e3d3 g6f7 178. d3b5 h4h6 179. b5c6 h6f6 180. c6c5
+ g3f3 181. c5a5 f3h3 182. a5b5 j6j5 183. b5d3 f6h6 184. d3f1 h6h4 185. f1h1 h3k3
+186. h1i1 h4j4 187. i1i2 f7g6 188. i2g2 k3h3 189. g2f1 j4j2 190. f1e2 j2h2 191. e2c4
+ h2h4 192. c4c6 j5j4 193. c6e8 h4h6 194. e8c6 h6f6 195. c6e8 g6g7 196. e8c6 g7g6
+197. c6e8 g6g7 198. e8c6 h3h4 199. c6c5 g7g6 200. c5c4 h4h3 201. c4d3 j4i4 202. d3f1
+ g4g3 203. f1h1 i4h4 204. h1j3 g3g2 205. j3j5 f6h6 206. j5j3 h4g4 207. j3j5 g4g3
+208. j5j6 f5f6 209. j6h8 f6f7 210. h8g8 f7g7 211. g8e8 h6f6 212. e8d7 g3g4 213. d7e8
+ g6f7 214. e8d8 g4h4 215. d8c8 f7g6 216. c8e8 g6f7 217. e8c6 h4i4 218. c6b5 f7g6
+219. b5c5 h3h4 220. c5d6 g2g3 221. d6d4 g6f5 222. d4e3 h4h2 223. e3c3 f6h6 224. c3d3
+ g7g6 225. d3e3 h2h4 226. e3g1 h4h2 227. g1e3 h2f2 228. e3d2 f2h2 229. d2b4 h6f6
+230. b4c5 h2h5 231. c5e3 h5h4 232. e3d2 h4h2 233. d2d4 g3g2 234. d4b6 g2g3 235. b6d6
+ h2h4 236. d6d4 h4h2 237. d4e3 h2h4 238. e3d2 h4h2 239. d2d4 h2h5 240. d4d3 f5g4
+241. d3d2 g5f5 242. d2e1 h5h2 243. e1e3 f5g5 244. e3e1 g5f5 245. e1e3 g4g5 246. e3c3
+ g5g4 247. c3e3 f5g5 248. e3c5 g5f5 249. c5e3 h2h5 250. e3c5 g6g5 251. c5d6 h5h4
+252. d6b4 h4h6 253. b4d4 h6h7 254. d4e3 h7h4 255. e3c5 h4h5 256. c5b6 g5g6 257. b6d6
+ h5h7 258. d6c5 f6h6 259. c5e3 h6h4 260. e3d4 h7f7 261. d4c5 h4h2 262. c5a5 i4j4
+263. a5b6 h2h4 264. b6b4 h4h2 265. b4d4 h2h4 266. d4b6 j4i4 267. b6d6 h4h6 268. d6b4
+ g6g5 269. b4d2 h6h4 270. d2b4 h4h6 271. b4d4 f7h7 272. d4d3 h6h4 273. d3d4 h7h5
+274. d4d6 h5h7 275. d6c7 h4h6 276. c7c5 h7f7 277. c5e3 g3g2 278. e3e2 g4g3 279. e2e3
+ g3g4 280. e3d4 g2g3 281. d4b6 f7g7 282. b6c6 h6f6 283. c6b6 f6h6 284. b6c5 g7h7
+285. c5e3 h6h4 286. e3d4 h4h2 287. d4d6 h2h4 288. d6e6 h4h6 289. e6f7 h7g7 290. f7e6
+ h6h4 291. e6e7 h4h6 292. e7c5 h6h4 293. c5c3 g7h7 294. c3d4 h7f7 295. d4c4 f7g7
+296. c4d3 h4h2 297. d3d4 g7d7 298. d4d3 d7e7 299. d3e3 e7e5 300. e3c5 f5f6 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "8"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mubmbu4/12/3*4*3/4**6/12/12/2SXC3D3 w - - 6 4"]
+[Termination "Party has no legal response"]
+[PlyCount "184"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1e3 e8b8 e3c1 b8c8 h1i1 c8e8"]
+[TimeMs "8085"]
+
+1. d1f1 h8h6 2. c1e3 d7e6 3. e3f2 h7g6 4. f1f3 c7d7 5. i1h1 f8f6 6. h1h2 g7g5 7. h2h3
+ e6f5 8. f2h4 g8h8 9. h4g4 f5e6 10. f3g3 h8i8 11. h3h4 e8h8 12. g4f3 e7g7 13. f3e2
+ g5h4 14. g3h4 h8h7 15. h4j4 d7e7 16. e2g4 h7i7 17. j4i4 i7h7 18. g4h4 i8h8 19. i4g2
+ g7g5 20. h4g5 h6g5 21. g2i4 h7k7 22. i4k4 e6f5 23. k4i6 k7h7 24. i6i4 e7e6 25. i4k6
+ h8g8 26. k6j7 e6e7 27. e1j6 g8f8 28. j7j5 e7e6 29. j6j4 f8e8 30. j4j6 e8d8 31. j5j4
+ h7k7 32. j6j3 k7h7 33. j4j5 h7h5 34. j3j6 h5h4 35. j5k4 h4g4 36. k4j4 g4g2 37. j4k5
+ d8c8 38. k5k4 c8d8 39. k4j5 d8d7 40. j6j4 g2g3 41. j5i4 f5g4 42. i4j5 e6e5 43. j5j6
+ e5f5 44. j4j7 g3h3 45. j6k5 h3h5 46. k5l5 f7g7 47. l5j5 d7d6 48. j5k4 g7h7 49. k4k6
+ h5h4 50. j7l5 d6d7 51. l5j7 d7c7 52. k6k5 g6h5 53. k5k7 h7h6 54. j7l7 c7c8 55. k7i7
+ g5g7 56. i7h8 h4i4 57. h8j6 h6g6 58. j6k7 i4i3 59. k7l6 c8c7 60. l7l5 f6h6 61. l6j6
+ g7g5 62. j6k5 i3i1 63. k5i3 i1h1 64. i3k5 h1h4 65. k5l6 h4i4 66. l5l7 i4i2 67. l6k7
+ i2i4 68. k7j8 c7c6 69. j8l6 c6c7 70. l6k7 g5g7 71. l7j7 c7c8 72. j7l7 g7g5 73. k7l6
+ c8d8 74. l6j4 d8c8 75. j4i3 h6j6 76. i3j4 j6h6 77. j4i3 h6j6 78. i3j4 j6h6 79. j4i3
+ g4f3 80. i3k5 h6h4 81. k5k7 h4h6 82. k7j7 f3g4 83. j7l5 i4j4 84. l5j3 j4j7 85. j3l5
+ h6j6 86. l5l4 c8c7 87. l7l3 j6h6 88. l4j4 g4f3 89. j4h2 h6h4 90. h2f2 j7h7 91. f2f3
+ h7f7 92. f3h5 h4h5 0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "7"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2m1a1tb4/4bmbu4/4ub6/3*4*3/4**6/1X10/12/4C1SD4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1d3 c7c8 d3c4 f8f6 c4b3 d7e6"]
+[TimeMs "25481"]
+
+1. g1f2 h7g6 2. b3c4 c8d8 3. f2g3 d8d7 4. h1h2 e6f5 5. h2h3 h8h6 6. g3g4 f5e6 7. c4e2
+ e8d8 8. e1e3 d8c8 9. h3h4 c8c6 10. g4g2 g8f8 11. e2f3 e7e5 12. h4g4 f8e8 13. g2e2
+ c6c4 14. e3g3 c4a4 15. e2d3 e8d8 16. f3f2 d8c8 17. d3c4 a4b4 18. c4d3 e5g5 19. g4g5
+ g6g5 20. d3f3 b4b5 21. f2e2 e6f5 22. e2d3 b5c5 23. d3c3 f6d6 24. f3f2 g5g4 25. g3e1
+ f7f6 26. f2e3 f5e5 27. c3d3 d7e7 28. d3e2 g4g5 29. e2f2 f6g6 30. f2d2 e7e6 31. e3f3
+ g5h5 32. f3h3 h6h4 33. h3h1 h5g4 34. d2e2 g4h5 35. h1f3 e5f5 36. e2d2 c8d8 37. d2e3
+ g7g5 38. e3c3 e6e5 39. f3f2 d8e8 40. c3a5 e8f8 41. f2g1 c5c4 42. a5b6 c4c7 43. b6b5
+ d6f6 44. b5c4 c7f7 45. c4e2 f8e8 46. g1f2 e8f8 47. e1e3 e5e6 48. f2f3 f8g8 49. e2f2
+ g5g3 50. e3g3 h4g3 51. f2g3 g6g5 52. g3e3 h5g6 53. e3f2 f7h7 54. f2h2 h7h5 55. h2j4
+ g8f8 56. j4j6 f8e8 57. j6h8 g6g7 58. h8j6 h5h4 59. j6j5 e8d8 60. f3h3 g7f7 61. j5j3
+ f7g6 62. j3i2 d8d7 63. i2g2 d7e7 64. g2f3 g6h5 65. f3g2 g5g4 66. h3g4 h4g4 67. g2g1
+ h5h4 68. g1h1 g4g3 69. h1j3 g3g5 70. j3h1 g5g4 71. h1i2 h4g5 72. i2h2 g4h4 73. h2g2
+ g5g4 74. g2i2 h4h3 75. i2k4 h3h5 76. k4j4 h5h7 77. j4i3 h7h5 78. i3i2 e6e5 79. i2k4
+ f5g6 80. k4i2 e5f5 81. i2h2 h5h3 82. h2f2 e7f7 83. f2d4 f7g7 84. d4b4 g7h7 85. b4b6
+ h7h6 86. b6b4 g6h7 87. b4b6 h7g7 88. b6d6 h6i6 89. d6c5 i6j6 90. c5d6 j6j5 91. d6b4
+ j5j4 92. b4d6 g7f7 93. d6c5 j4i4 94. c5e3 h3h1 95. e3c5 f7g6 96. c5b4 h1g1 97. b4d6
+ g1g2 98. d6f8 g6g7 99. f8d6 g7f7 100. d6b4 f7g6 101. b4d4 g6g5 102. d4d6 f6h6 103. d6f8
+ g2j2 104. f8d6 j2h2 105. d6c5 h6f6 106. c5c4 h2h3 107. c4d4 g5g6 108. d4d3 h3h1
+109. d3e3 h1h2 110. e3d4 g6g5 111. d4d6 g5g6 112. d6b6 g6g5 113. b6d6 g5g6 114. d6b4
+ g6g7 115. b4d6 g7g6 116. d6c5 h2h3 117. c5c4 f6h6 118. c4d4 h3g3 119. d4d6 g6f6
+120. d6f8 f6g7 121. f8e8 h6f6 122. e8d8 f6h6 123. d8d7 h6f6 124. d7d6 g3f3 125. d6b6
+ g7g6 126. b6d6 g6f7 127. d6c5 f7g7 128. c5d4 g7f7 129. d4d3 i4h4 130. d3f1 h4h5
+131. f1h1 f3i3 132. h1i1 i3h3 133. i1k3 f6h6 134. k3j4 f7g7 135. j4j3 h5g5 136. j3h1
+ h6h4 137. h1g1 g5g6 138. g1f2 g6h6 139. f2d4 h6i6 140. d4d6 f5g5 141. d6b4 h4h6
+142. b4c4 h6f6 143. c4d3 h3i3 144. d3d4 i3h3 145. d4c5 g7g6 146. c5e3 h3h1 147. e3d4
+ g5f5 148. d4f2 f5g5 149. f2f1 h1h3 150. f1g1 g5f5 151. g1i1 i6h6 152. i1k3 g6g7
+153. k3k4 h3h5 154. k4j3 h6g6 155. j3i2 h5h3 156. i2i1 f6h6 157. i1g1 h3f3 158. g1f1
+ g6g5 159. f1d3 g5h5 160. d3f1 h6h4 161. f1h1 f3i3 162. h1g1 g7g6 163. g1i1 h4j4
+164. i1h1 f5e5 165. h1f1 e5f5 166. f1g1 i3j3 167. g1e3 j4h4 168. e3d4 g6g5 169. d4f2
+ g5g6 170. f2d4 g6g5 171. d4d6 h4h6 172. d6d4 h6f6 173. d4c5 h5h4 174. c5d4 f6h6
+175. d4e3 h4h5 176. e3d4 h6h4 177. d4d6 j3j6 178. d6f8 h4h6 179. f8d6 j6j7 180. d6d4
+ j7g7 181. d4f2 h6h4 182. f2g1 g7f7 183. g1h2 h5h6 184. h2j4 h6g6 185. j4h2 f7g7
+186. h2i2 g7h7 187. i2h2 g6h6 188. h2g2 h6g6 189. g2g1 h7e7 190. g1f1 h4h6 191. f1g2
+ h6h4 192. g2h2 h4h6 193. h2i2 h6h4 194. i2g2 e7h7 195. g2f1 h7g7 196. f1g1 h4h6
+197. g1i3 h6h4 198. i3j4 g7h7 199. j4j3 g6f6 200. j3h1 h7j7 201. h1i1 f6g6 202. i1i2
+ j7h7 203. i2j2 h7f7 204. j2j3 g6f6 205. j3j4 f7g7 206. j4h2 g7g8 207. h2g2 g8g7
+208. g2h2 g7e7 209. h2h1 e7e8 210. h1f1 e8e7 211. f1f2 h4h6 212. f2g2 e7f7 213. g2f2
+ f6g6 214. f2d2 h6f6 215. d2f2 f6h6 216. f2g2 g6f6 217. g2f2 f7h7 218. f2h2 h6h4
+219. h2g2 f6g6 220. g2f2 h7h5 221. f2d2 h4h6 222. d2d4 h6f6 223. d4f2 f6h6 224. f2d4
+ h6f6 225. d4d6 h5h7 226. d6d4 f6h6 227. d4e3 h7f7 228. e3f2 f7h7 229. f2g2 h6h4
+230. g2h2 h7f7 231. h2j2 h4h6 232. j2h2 h6h4 233. h2f2 f7h7 234. f2h2 h7h5 235. h2j4
+ h5h7 236. j4h2 h7g7 237. h2f2 g7h7 238. f2g2 h7f7 239. g2f1 h4h6 240. f1f2 f7h7
+241. f2g2 h6h4 242. g2g1 h7e7 243. g1f2 e7f7 244. f2g2 f7e7 245. g2i2 e7f7 246. i2j3
+ f7g7 247. j3j4 g6f6 248. j4h2 h4h6 249. h2g1 h6h4 250. g1f2 h4h6 251. f2d2 h6h4
+252. d2f2 g4g3 253. f2d4 f6g6 254. d4d6 g6h6 255. d6e7 g5g6 256. e7e8 f5g5 257. e8e6
+ h6i6 258. e6c8 g3g4 259. c8c6 i6j6 260. c6b5 j6k6 261. b5d3 k6j6 262. d3c4 g6h5
+263. c4d3 g7f7 264. d3c4 j6i6 265. c4c3 f7f8 266. c3d3 f8f7 267. d3c4 i6j6 268. c4d4
+ h5i4 269. d4e5 i4h5 270. e5d4 f7g7 271. d4f2 g4h3 272. f2d4 g7g6 273. d4f2 h5g4
+274. f2d4 g4f5 275. d4f2 g6g7 276. f2d4 j6i6 277. d4f2 g7f7 278. f2f3 h3i3 279. f3f1
+ i3i4 280. f1h1 f5g4 281. h1h2 f7g7 282. h2j2 i6h6 283. j2h2 g4g3 284. h2h1 g3g4
+285. h1g1 i4h3 286. g1i1 h6g6 287. i1k3 g6f6 288. k3k5 h3g3 289. k5i7 h4h6 290. i7j6
+ f6e6 291. j6j4 e6d6 292. j4k3 d6c6 293. k3j3 h6h4 294. j3h1 g3f2 295. h1i1 g4g3
+296. i1j2 c6c5 297. j2l4 f2f3 298. l4j6 f3g4 299. j6i6 g4f5 300. i6i7 g7g6 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "10"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3ba1tb4/3ubmb5/2m5uC2/3*4*3/4**6/8S3/12/5X1D4 w - - 6 4"]
+[Termination "Party extinct"]
+[PlyCount "142"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1f1 h7i6 e1j6 f8d8 g1i3 c7c6"]
+[TimeMs "6252"]
+
+1. j6h4 h8h6 2. h1h2 d7e6 3. h4j2 i6h5 4. j2g2 g7g5 5. h2h3 d8d6 6. i3i4 h5g6 7. f1f2
+ g8h8 8. h3h4 f7f6 9. i4h3 g5e5 10. h4g4 e5g5 11. f2h2 e7g7 12. g4h4 e6f5 13. h3i3
+ h8g8 14. h2j4 g8f8 15. j4i4 g5h4 16. i3h4 g6h5 17. i4i3 g7g5 18. h4g5 f6g5 19. i3h2
+ e8e7 20. h2h3 f5g4 21. h3j5 e7h7 22. j5j3 g4g3 23. j3h1 g3g2 24. h1g2 f8f7 25. g2f1
+ h6h4 26. f1d3 h7h6 27. d3d4 h6g6 28. d4c4 h5g4 29. c4c3 g6e6 30. c3d4 c6c5 31. d4f2
+ e6e7 32. f2h2 f7f6 33. h2j4 f6e6 34. j4h2 e6e5 35. h2f2 d6d4 36. f2e2 e5e6 37. e2g2
+ e6e5 38. g2h2 g4h3 39. h2f2 h3g4 40. f2d2 g4g3 41. d2c2 e7g7 42. c2a4 e5e6 43. a4a5
+ g7d7 44. a5a7 e6f6 45. a7a6 f6g6 46. a6a4 d7d6 47. a4c2 c5c4 48. c2c1 d6f6 49. c1b2
+ f6f7 50. b2d2 f7f8 51. d2e1 f8h8 52. e1g1 g6f6 53. g1h1 g3h3 54. h1j3 h3i4 55. j3h1
+ i4h3 56. h1j3 h3i4 57. j3i2 h8g8 58. i2k4 g8g7 59. k4i2 i4h3 60. i2h1 f6e6 61. h1f1
+ h3g4 62. f1g2 c4c3 63. g2f1 g7g6 64. f1d1 g6j6 65. d1f1 j6j3 66. f1h1 j3i3 67. h1f1
+ d4d2 68. f1g2 h4h2 69. g2f2 c3d3 70. f2f1 d3e3 71. f1d1 d2d1 0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "12"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mub2ub3/6m5/3*4*3/4**6/6S5/7D4/3XC7 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "249"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1g2 g7i7 g2g3 f7f6 h1h2 f6g6"]
+[TimeMs "10740"]
+
+1. d1f1 d7e6 2. h2h3 g6g5 3. g3f2 h8h6 4. f1g1 c7d7 5. f2e2 e6f5 6. g1g3 h7g6 7. e1e3
+ i7g7 8. e2g4 g5g4 9. h3g4 f5f6 10. g4h4 d7d6 11. g3h3 e7e5 12. h3f3 e8e7 13. e3g3
+ g8h8 14. f3h3 f6e6 15. h3i3 f8f6 16. i3h3 g7g5 17. h4g4 e7f7 18. g4h4 g5h4 19. h3h4
+ f7i7 20. h4g4 e5g5 21. g4f3 e6e5 22. f3e3 d6e6 23. g3d3 e5f5 24. e3c1 h6h4 25. c1c2
+ f5g4 26. c2c1 i7g7 27. c1c2 g7h7 28. c2e2 e6e5 29. d3f1 g4h3 30. e2d1 e5f5 31. f1c1
+ h3g4 32. d1d2 f6d6 33. c1e3 d6f6 34. d2d4 h8g8 35. d4d2 h7e7 36. d2d3 g8h8 37. e3c3
+ h8h7 38. d3b3 h7i7 39. b3d3 i7i6 40. c3e3 e7g7 41. d3c3 i6j6 42. e3b3 j6j5 43. c3d3
+ g6h5 44. b3e3 j5j6 45. d3d1 g5g3 46. d1d2 g4f3 47. e3c1 g3g5 48. d2e1 h5g4 49. c1f1
+ g7f7 50. f1d1 j6k6 51. e1d2 f7i7 52. d2c2 i7g7 53. c2b3 g4g3 54. d1a4 f3g4 55. a4c2
+ g3h3 56. b3d3 k6k7 57. d3c3 k7j7 58. c2c4 j7j8 59. c3d3 g7g6 60. d3e2 h3g3 61. c4f1
+ g6j6 62. e2e1 j6j3 63. e1e2 j3i3 64. f1d3 i3h3 65. e2c4 g4h5 66. c4c6 h5g6 67. c6d7
+ g6f7 68. d7c7 g5e5 69. c7c6 g3f2 70. c6b5 f6d6 71. d3a6 f7f6 72. b5a4 e5c5 73. a6a3
+ d6d4 74. a4a2 d4b4 75. a3c5 f6g5 76. c5a3 b4a3 77. a2a3 j8j7 78. a3c5 j7j6 79. c5c6
+ j6j5 80. c6e8 h3k3 81. e8g8 h4h6 82. g8e6 j5j4 83. e6g8 k3k5 84. g8e6 f2g3 85. e6c4
+ k5k7 86. c4e6 k7i7 87. e6c4 i7g7 88. c4d3 g7i7 89. d3e3 h6h4 90. e3g1 h4h2 91. g1e3
+ i7g7 92. e3c3 g7f7 93. c3d3 h2h4 94. d3f1 h4h2 95. f1d1 h2h4 96. d1f1 h4h2 97. f1d1
+ h2h4 98. d1f1 h4h2 99. f1d1 g5g4 100. d1c1 f7f6 101. c1c3 f5g5 102. c3d4 g4f5 103. d4d3
+ f6h6 104. d3c3 h6h3 105. c3e3 h2h4 106. e3e1 f5g6 107. e1c3 g3g4 108. c3c4 g5f5
+109. c4e6 h4h6 110. e6e8 h3f3 111. e8c8 f3h3 112. c8e8 g6h7 113. e8c8 h6f6 114. c8d7
+ h7g7 115. d7c7 g7g6 116. c7b6 h3g3 117. b6c6 g3h3 118. c6b5 h3g3 119. b5c5 g3h3
+120. c5e3 f6d6 121. e3g1 d6f6 122. g1i1 j4i4 123. i1j2 h3j3 124. j2j3 i4h4 125. j3i4
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "11"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3a1btb4/2mubm2b3/7u4/3*4*3/4**6/1X10/5S6/4C3D3 w - - 6 4"]
+[Termination "Party extinct"]
+[PlyCount "390"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1f2 h7h6 d1b3 e8d8 h1i1 g7i7"]
+[TimeMs "16662"]
+
+1. i1i2 c7c6 2. i2i3 f8f6 3. b3c4 c6d6 4. c4d3 h6g6 5. e1g3 h8h6 6. d3f3 g8h8 7. i3h3
+ d6e6 8. h3h4 h8i8 9. f2d4 d7d6 10. d4d3 e6e5 11. f3h3 e5f5 12. h3i4 f5g5 13. i4k6
+ i8h8 14. h4h3 g6h5 15. d3f3 d6e6 16. k6k4 d8g8 17. k4k5 g8g7 18. g3e3 e6f5 19. h3g3
+ g7g6 20. k5i3 h8g8 21. i3k5 g5g4 22. g3g2 g4f3 23. g2f3 h5g4 24. f3f2 i7g7 25. k5i3
+ e7e5 26. i3j4 h6h4 27. j4j6 g8f8 28. j6j4 e5g5 29. e3g1 f7e7 30. f2g2 e7e6 31. g2f2
+ g7e7 32. j4j6 f8e8 33. j6k5 h4h2 34. g1e3 f6d6 35. f2e2 g6f6 36. k5i7 g5g3 37. e2d2
+ d6d4 38. e3c1 e8d8 39. i7j6 h2h4 40. d2d1 f6g6 41. j6k6 d4d6 42. d1e1 d8c8 43. c1f1
+ g3g1 44. f1d1 g1g3 45. e1f1 d6f6 46. k6k4 h4h2 47. k4j3 g3i3 48. j3j5 i3g3 49. j5l3
+ e7e5 50. f1e1 h2h4 51. l3j5 e6e7 52. d1f1 g3e3 53. f1d1 e5g5 54. j5j4 g4h3 55. j4k5
+ e7f7 56. d1f1 h4h2 57. k5k4 h3g4 58. k4k6 h2h4 59. k6k5 h4h2 60. k5k6 c8d8 61. k6j5
+ d8c8 62. f1k6 g4h5 63. j5j7 g6i6 64. j7k7 h2h4 65. k7l6 f7e7 66. l6k7 h5g4 67. k6k8
+ e7f7 68. k7k6 g4h5 69. k8k5 h4j4 70. e1f1 j4k5 71. k6k5 h5h4 72. k5l4 i6g6 73. f1e1
+ c8c7 74. l4j4 c7c6 75. e1f1 h4g4 76. j4h2 g4f3 77. h2j2 c6c5 78. j2i3 c5c4 79. f1g1
+ c4d4 80. g1h1 f5g4 81. h1h2 g4h4 82. i3i2 f6h6 83. h2h3 h4h5 84. i2h2 f7f6 85. h3g3
+ f3e2 86. h2g2 f6f5 87. g2h3 f5f6 88. h3g2 f6f5 89. g2h3 f5f6 90. h3i2 g6g7 91. i2j2
+ f6g6 92. j2j4 g7e7 93. g3h3 e7f7 94. h3g3 f7f5 95. j4h2 f5f7 96. h2g2 f7f6 97. g2h3
+ f6f5 98. g3g2 h5g4 99. h3i2 f5f8 100. i2k4 h6h4 101. k4k6 g4h5 102. k6j6 h5g4 103. j6j5
+ g6h6 104. j5j4 h6h5 105. j4h2 f8f5 106. h2i2 f5f6 107. g2g1 g4h3 108. i2h1 e2f3
+109. g1f1 h4h2 110. h1j3 h3i4 111. j3j1 h5h4 112. j1k2 i4h5 113. k2l3 e3g3 114. l3j3
+ h4g4 115. j3j4 h2h4 116. j4j5 f6i6 117. j5j4 i6g6 118. j4k3 h4h2 119. k3j4 g6f6
+120. j4l2 h2h4 121. l2j4 d4c4 122. j4k3 h5i4 123. k3k5 f6g6 124. k5i7 h4h6 125. i7h8
+ g6g7 126. h8j6 i4h5 127. j6k5 h6h4 128. f1g1 h5i4 129. k5i7 h4h6 130. i7k5 g7f7
+131. k5k6 h6h4 132. k6j6 i4h5 133. j6j7 h4h6 134. j7j6 h6h4 135. j6k5 f7f6 136. k5i7
+ f6f7 137. i7h7 h5g6 138. h7h8 g6h6 139. h8j6 c4c5 140. g1h1 h6h5 141. j6j5 f3f2
+142. h1i1 g3i3 143. j5h7 h5g6 144. h7j5 c5c6 145. j5k5 f2g2 146. k5j6 c6d6 147. j6j5
+ g6f5 148. j5h7 f5f6 149. h7i6 f6g6 150. i6i7 f7f6 151. i7j6 f6f5 152. j6k5 f5f6
+153. k5j5 d6d7 154. j5j6 g2h3 155. j6j5 g6f5 156. j5j6 f5g6 157. i1h1 d7d6 158. h1g1
+ g6f7 159. g1f1 i3g3 160. f1e1 g3e3 161. j6k5 d6d7 162. k5k4 h3i3 163. k4k5 i3i4
+164. k5k4 i4h5 165. k4j3 g4g3 166. j3h1 g3f3 167. h1f1 f6c6 168. f1d1 c6c3 169. e1f1
+ f7g6 170. d1c1 c3b3 171. c1b1 b3b4 172. b1d1 h5g4 173. f1g1 b4b2 174. g1f1 h4h2
+175. f1e1 h2f2 176. e1f1 f2d2 177. d1d2 e3d2 178. f1g1 d7d6 179. g1h1 g5g3 180. h1i1
+ d2f2 181. i1i2 f2h2 182. i2j2 b2e2 183. j2j3 h2h4 184. j3j2 g6h5 185. j2j3 e2g2
+186. j3j4 g2f2 187. j4j3 f2g2 188. j3j4 g2f2 189. j4j3 g3g5 190. j3j2 h5i4 191. j2j1
+ i4i3 192. j1k1 i3j3 193. k1j1 f2h2 194. j1k1 h2k2 195. k1j1 k2j1 0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "16"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mub3u3/5m6/3*2b1*3/4**6/6S5/12/2CX2D5 w - - 6 4"]
+[Termination "Party extinct"]
+[PlyCount "262"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1g3 h7i7 e1c1 g7g5 h1g1 f7f6"]
+[TimeMs "11288"]
+
+1. d1d3 h8h6 2. g3h2 d7e6 3. d3f1 c7d7 4. g1g2 e6f5 5. h2i3 i7h7 6. c1g1 e7g7 7. g2g3
+ e8e6 8. f1f2 f6g6 9. g1e3 f8f6 10. g3h3 d7e7 11. i3i4 e7f7 12. i4j3 g8h8 13. j3j5
+ f5e5 14. j5j3 h8i8 15. j3j5 e5f5 16. f2g3 g7i7 17. j5j3 i8j8 18. j3i4 f6d6 19. g3f3
+ i7g7 20. f3f2 j8i8 21. i4h4 h6f6 22. e3i3 h7h6 23. f2g3 i8h8 24. h4g4 g5g4 25. h3g4
+ f5e5 26. g3h3 g6g5 27. i3g3 h8g8 28. h3i4 g5g4 29. i4g4 g8f8 30. g4g2 h6g5 31. g3g1
+ g5g6 32. g2f2 e5f5 33. g1e3 f5g4 34. e3g1 f6h6 35. f2e2 g7g5 36. e2d1 f7f6 37. d1c1
+ h6h4 38. c1e1 f8g8 39. e1f2 f6f5 40. f2e1 h4h2 41. g1d1 g4f3 42. e1d2 d6f6 43. d2d3
+ g5g3 44. d3c2 h2h4 45. c2d2 g8h8 46. d2c2 f3g4 47. c2b3 h8i8 48. b3c4 f5g5 49. c4b3
+ g5f5 50. b3c4 e6e7 51. c4d3 i8i7 52. d3b3 e7e6 53. b3d3 e6e7 54. d3f1 h4h2 55. f1d3
+ h2f2 56. d3b3 f2h2 57. b3c4 g3g5 58. c4d4 e7f7 59. d4d3 g5e5 60. d3e2 e5g5 61. e2e1
+ g4f3 62. e1c3 f3e2 63. d1d6 g5e5 64. c3c2 e2f2 65. d6g6 f7g6 66. c2d2 f2f3 67. d2d1
+ f3f2 68. d1c1 h2h4 69. c1c2 i7i6 70. c2b2 f2f3 71. b2d2 g6g3 72. d2e1 f3g4 73. e1c3
+ e5g5 74. c3b4 i6j6 75. b4c5 g3f3 76. c5c6 f3h3 77. c6c8 j6j5 78. c8e8 g5g7 79. e8c6
+ j5j4 80. c6e8 j4j5 81. e8d7 g7e7 82. d7b5 j5j4 83. b5b7 h3g3 84. b7c7 f6d6 85. c7b8
+ e7e5 86. b8a7 e5g5 87. a7b6 g5e5 88. b6d8 e5e7 89. d8b6 e7e5 90. b6b4 f5g5 91. b4b6
+ g5f5 92. b6b4 g4f3 93. b4b6 d6f6 94. b6c5 j4i4 95. c5c3 g3g2 96. c3d3 f3g4 97. d3e2
+ h4h2 98. e2d3 e5g5 99. d3b5 g5e5 100. b5d7 e5e7 101. d7c7 e7g7 102. c7c8 g7g5 103. c8d8
+ g5g7 104. d8b6 g2g1 105. b6c7 h2h4 106. c7d8 g1g2 107. d8e8 h4h2 108. e8c6 g7g5
+109. c6b6 h2h4 110. b6d4 g2g3 111. d4c3 g3g1 112. c3d2 g1g2 113. d2b2 g2g3 114. b2c3
+ g3g1 115. c3d2 g1g2 116. d2e1 h4h2 117. e1c3 h2h4 118. c3c5 g2g3 119. c5d6 g4h5
+120. d6c6 g3g2 121. c6d7 g2g1 122. d7c6 h5g4 123. c6e8 g5g7 124. e8d7 g7e7 125. d7c7
+ g1g3 126. c7c8 f6d6 127. c8a6 g3g1 128. a6c8 d6b6 129. c8b8 e7c7 130. b8a8 i4j4
+131. a8a6 b6a6 0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "15"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtbu3/2mubmb5/12/3*4*3/4**6/8S3/3X8/2C4D4 w - - 6 4"]
+[Termination "Party extinct"]
+[PlyCount "188"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1i3 f7f6 e1c1 h7i8 d1d2 f6f7"]
+[TimeMs "8192"]
+
+1. c1i1 i8h7 2. h1h2 h7g6 3. i1g3 d7e6 4. d2f2 h8h6 5. f2h4 f8f6 6. h2h3 c7d7 7. h4i4
+ g8f8 8. h3h4 e8b8 9. h4g4 f8e8 10. i3h2 e7e5 11. h2h3 b8c8 12. h3h5 h6h5 13. g4h5
+ g6f5 14. h5h4 c8c6 15. i4h5 c6c4 16. h5f3 c4b4 17. f3h3 e8d8 18. h4g4 f5g6 19. h3i3
+ b4d4 20. i3h3 d7d6 21. h3f3 d8c8 22. g4h4 e6d7 23. h4g4 d6e6 24. g4h4 d7d6 25. h4g4
+ d4d2 26. f3h3 d6c5 27. g3i3 f6h6 28. h3i2 e6f6 29. g4g3 c5c4 30. i2h2 f6f5 31. h2h3
+ h6f6 32. g3f3 g7g5 33. f3g3 d2d3 34. h3h2 d3e3 35. h2g1 c4d4 36. g1f1 f6h6 37. f1h3
+ g6h5 38. h3j3 h6h4 39. g3h4 h5h4 40. i3k3 c8c7 41. j3j4 e3g3 42. j4k4 f7f6 43. k4j4
+ g5g7 44. j4k5 g3g6 45. k5k4 h4g4 46. k4j4 g7g5 47. j4j2 g5g3 48. k3i1 g6h6 49. i1k3
+ h6h4 50. j2j4 h4h5 51. j4j5 f6g6 52. j5h7 e5e7 53. h7j5 e7g7 54. j5j7 h5h4 55. j7j5
+ h4h5 56. j5j4 d4e5 57. j4k5 g7g5 58. k5k4 e5f6 59. k3k5 h5h4 60. k4k6 h4j4 61. k5k7
+ g5e5 62. k6i6 j4h4 63. i6j6 g3g5 64. j6k5 h4h5 65. k7k4 c7c8 66. k5i3 h5h4 67. i3k5
+ h4h5 68. k4k6 h5h6 69. k5j5 h6h5 70. j5k4 h5h4 71. k4j5 h4h6 72. k6i4 h6h4 73. i4k6
+ h4h6 74. k6i4 c8c7 75. j5k4 c7c8 76. i4l4 c8d8 77. l4j4 d8d7 78. k4i4 h6h3 79. i4j5
+ h3h5 80. j5j6 h5h7 81. j6k5 d7d6 82. k5k6 g5g3 83. k6i4 h7h4 84. i4k4 g3i3 85. j4l4
+ g4h3 86. k4k5 h4j4 87. k5l6 i3k3 88. l4l7 k3k5 89. l6k7 j4j6 90. k7j8 k5k7 91. j8i8
+ f6g7 92. i8h7 k7l7 93. h7i8 l7j7 94. i8g6 g7g6 0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "20"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2u1abtb4/2m1bm1u4/12/3*2b1*3/1X2**6/12/12/2C3SD4 w - - 6 4"]
+[Termination "Party extinct"]
+[PlyCount "168"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "e1c1 d7d8 d1d2 d8c8 d2b4 g7g5"]
+[TimeMs "7336"]
+
+1. c1g5 h7g6 2. g5e3 c8d7 3. b4d4 h8h6 4. h1h2 d7e6 5. h2h3 c7d7 6. d4f2 f8f6 7. g1i3
+ e7g7 8. i3h4 e8c8 9. h3g3 g7g5 10. g3h3 e6f5 11. f2g2 d7e7 12. h4g4 f5e5 13. g2f2
+ c8c6 14. g4h4 e5f5 15. h4j4 g8h8 16. h3h4 f7g7 17. j4k3 g5h4 18. f2h4 h8g8 19. h4f2
+ f5g5 20. k3i3 c6e6 21. f2h2 e7f7 22. i3g3 g6f5 23. h2j4 f5g4 24. g3g2 h6h4 25. g2e2
+ g8f8 26. j4j5 g4g3 27. e2d2 g3f2 28. e3c1 f2e2 29. d2b2 e6b6 30. b2c3 b6b3 31. c3d4
+ e2d2 32. c1e3 b3d3 33. e3g5 d3d4 34. g5g8 g7g8 35. j5j4 g8g7 36. j4h4 d2e3 37. h4j2
+ f8e8 38. j2i2 e8e7 39. i2i4 g7g6 40. i4i6 e7e6 41. i6g4 e6d6 42. g4i6 g6g5 43. i6h7
+ d4c4 44. h7i6 e3f3 45. i6i7 f3g4 46. i7j6 c4c7 47. j6j4 c7c5 48. j4h2 c5c3 49. h2i3
+ c3f3 50. i3g1 f7g7 51. g1e1 f3d3 52. e1d1 d3c3 53. d1c1 c3c6 54. c1c3 d6d7 55. c3c4
+ c6b6 56. c4d4 b6c6 57. d4c4 c6b6 58. c4d4 b6c6 59. d4c4 c6c7 60. c4b5 d7d8 61. b5d3
+ f6d6 62. d3d1 d8d7 63. d1d3 d7e7 64. d3b3 c7c5 65. b3a4 d6b6 66. a4c2 e7e6 67. c2d3
+ g5f5 68. d3d2 b6d6 69. d2e2 g7g6 70. e2g2 d6f6 71. g2f1 g6g5 72. f1g1 f6d6 73. g1h2
+ c5c3 74. h2j4 c3c6 75. j4i4 c6c4 76. i4j5 d6f6 77. j5i6 g4h5 78. i6i8 c4c7 79. i8g8
+ e6e5 80. g8e8 h5h6 81. e8g8 h6i7 82. g8f8 c7e7 83. f8g8 e7f7 84. g8e6 f6e6 0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "14"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3ba1tb4/2mubmb5/7u1C2/3*4*3/4**6/4S7/4X7/7D4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "e1j6 h7i7 g1e3 i7h6 d1e2 f8d8"]
+[TimeMs "25442"]
+
+1. e3f2 h6g5 2. e2e3 f7f6 3. f2h4 g5g4 4. h4j2 e7e5 5. j6j1 d8d6 6. j1g1 g7g5 7. h1h2
+ h8h6 8. j2i3 g8f8 9. i3h3 g4h5 10. h3i2 h5g6 11. i2i3 e8e7 12. h2h3 d7e6 13. h3h4
+ c7d7 14. e3f2 e6f5 15. h4g5 f6g5 16. i3h2 e7g7 17. h2g3 g5g4 18. g3i3 d7e7 19. i3j2
+ d6f6 20. f2e3 h6h4 21. e3f2 g6h5 22. j2h2 e5g5 23. f2e2 g4g3 24. h2g3 h4g3 25. e2d3
+ h5g4 26. d3c2 g7h7 27. c2d1 h7h4 28. g1c1 f8g8 29. d1c2 e7e6 30. c1c3 g8h8 31. c2d2
+ g5e5 32. d2b4 f6d6 33. c3a5 d6d4 34. b4b6 e6f6 35. b6b5 h8i8 36. b5b6 i8j8 37. b6c7
+ j8j7 38. c7c5 d4d6 39. c5b6 f6g6 40. b6b5 g6g5 41. b5b6 g3e3 42. b6b4 e3g3 43. b4b6
+ j7j8 44. b6b5 g5g6 45. b5b6 g3e3 46. b6a7 j8j7 47. a5a8 d6f6 48. a7c5 f6f8 49. c5e3
+ f8d8 50. e3c5 d8b8 51. c5c6 e5g5 52. a8c8 b8c8 53. c6c8 j7j6 54. c8e8 g5g7 55. e8c6
+ g7g5 56. c6b5 g5g3 57. b5b3 j6j5 58. b3d1 j5j4 59. d1c1 j4j5 60. c1e3 j5j4 61. e3c5
+ g6f6 62. c5e7 h4h7 63. e7d6 h7h6 64. d6e7 h6h7 65. e7c7 h7h6 66. c7c5 h6h5 67. c5e3
+ h5h2 68. e3c3 f6g6 69. c3c5 h2f2 70. c5c7 g3g5 71. c7d7 f2f3 72. d7e8 g5g7 73. e8c6
+ g7g5 74. c6c5 j4i4 75. c5e7 i4j4 76. e7d7 g6f6 77. d7d6 f6g6 78. d6c5 g5e5 79. c5e7
+ e5g5 80. e7d6 g5g7 81. d6e7 g7g5 82. e7d6 g5g7 83. d6e7 g7g5 84. e7d7 g6f6 85. d7d6
+ f6g6 86. d6b4 g6f6 87. b4c3 f3f2 88. c3d4 f2f1 89. d4e3 f1h1 90. e3c3 h1h2 91. c3e3
+ f5g6 92. e3d4 f6f5 93. d4c3 h2f2 94. c3d4 g5g3 95. d4b4 g3g5 96. b4c4 g6f6 97. c4c5
+ f2h2 98. c5c3 f6g6 99. c3c5 h2h4 100. c5c4 h4h3 101. c4d4 g6f6 102. d4e3 h3h1 103. e3f2
+ j4j3 104. f2f1 h1h2 105. f1d3 h2h1 106. d3d4 h1h4 107. d4c3 h4h2 108. c3b3 h2h1
+109. b3c3 j3j4 110. c3e1 j4i4 111. e1f2 g5g3 112. f2e1 h1h2 113. e1e3 h2f2 114. e3c3
+ f2e2 115. c3c2 e2h2 116. c2d3 h2h4 117. d3c3 h4h2 118. c3c5 h2h4 119. c5e3 h4h1
+120. e3c5 h1h2 121. c5d4 h2h4 122. d4e3 h4h2 123. e3c5 g3g5 124. c5e3 g5g3 125. e3c3
+ h2h1 126. c3c4 g3g5 127. c4c6 h1h2 128. c6c4 h2h3 129. c4d3 i4j4 130. d3d4 h3h2
+131. d4e3 g5g3 132. e3d2 g3g5 133. d2e3 g5g3 134. e3c5 g3g5 135. c5e3 g5g3 136. e3e1
+ h2h3 137. e1g1 h3h2 138. g1e1 h2f2 139. e1c3 j4i4 140. c3c5 g3g5 141. c5b5 f2h2
+142. b5a5 h2h3 143. a5c7 h3h4 144. c7d6 i4j4 145. d6c7 h4h3 146. c7d6 h3h4 147. d6b4
+ h4h2 148. b4d2 h2h3 149. d2e1 g5g3 150. e1e3 h3h2 151. e3c5 g3g5 152. c5c3 h2f2
+153. c3d4 f2f3 154. d4c3 f3h3 155. c3e1 h3h2 156. e1e3 h2h1 157. e3f2 g5g3 158. f2e3
+ j4i4 159. e3c3 i4j4 160. c3d2 j4i4 161. d2b4 h1h2 162. b4d6 g3g5 163. d6f8 g5g7
+164. f8d6 h2f2 165. d6d4 f2g2 166. d4c4 g7g5 167. c4c5 g2h2 168. c5c4 h2h4 169. c4c6
+ h4h2 170. c6c4 h2h4 171. c4c3 h4h5 172. c3e3 g5g3 173. e3g1 h5h2 174. g1e1 h2f2
+175. e1c3 i4j4 176. c3d2 f2h2 177. d2c3 h2g2 178. c3e3 g2f2 179. e3c5 g3g5 180. c5c7
+ g5g3 181. c7b6 g3g5 182. b6c6 f2h2 183. c6d6 j4i4 184. d6c5 h2h4 185. c5a5 h4h2
+186. a5c3 h2h4 187. c3e1 h4h2 188. e1f2 g5g3 189. f2e3 h2h3 190. e3c5 h3h2 191. c5e3
+ h2f2 192. e3d4 f2h2 193. d4d3 h2f2 194. d3d4 f2h2 195. d4d3 h2h4 196. d3c3 g3g5
+197. c3e1 h4h2 198. e1f2 g5g3 199. f2e1 i4j4 200. e1e3 g3g5 201. e3e1 g5g3 202. e1e3
+ g3g5 203. e3c5 g5g3 204. c5e3 h2f2 205. e3d3 g3g5 206. d3c4 f2h2 207. c4d4 h2h3
+208. d4c3 h3h4 209. c3d4 h4h2 210. d4e3 g5g3 211. e3c5 j4i4 212. c5c4 g3g5 213. c4c3
+ g5g3 214. c3d3 h2h3 215. d3e3 h3h2 216. e3d4 h2h3 217. d4c3 h3h2 218. c3c5 f6g6
+219. c5c3 h2h4 220. c3c5 g3g5 221. c5c3 h4h3 222. c3c4 h3h4 223. c4c3 h4h3 224. c3c5
+ h3h4 225. c5e7 h4h5 226. e7f8 g5g7 227. f8e8 h5h3 228. e8c6 g7g5 229. c6d7 h3h4
+230. d7e8 h4h5 231. e8c6 h5h3 232. c6b6 h3h5 233. b6d4 h5h3 234. d4f2 h3h1 235. f2d4
+ h1h3 236. d4f2 h3h1 237. f2f1 h1h2 238. f1d3 h2h5 239. d3b5 h5h3 240. b5c6 g5g3
+241. c6e8 h3h5 242. e8f8 h5h7 243. f8d6 g3g5 244. d6d4 h7h5 245. d4d6 h5h2 246. d6e6
+ h2h5 247. e6e7 h5h3 248. e7c7 h3h5 249. c7c5 h5h3 250. c5d4 h3h5 251. d4e3 g5g3
+252. e3e1 h5h2 253. e1e3 h2h3 254. e3e1 h3h2 255. e1d2 h2h5 256. d2e3 h5h3 257. e3g1
+ h3h2 258. g1e3 h2h3 259. e3c5 g3g5 260. c5e3 h3h2 261. e3f2 g5g3 262. f2e3 g3g5
+263. e3d4 h2h3 264. d4f2 g5g3 265. f2g1 h3h2 266. g1e3 h2h5 267. e3e1 h5h2 268. e1e3
+ g3g5 269. e3f2 g5g3 270. f2e3 g6f6 271. e3c5 h2h4 272. c5d4 h4h3 273. d4c5 h3h5
+274. c5e3 h5h2 275. e3c5 g3g5 276. c5c3 h2h1 277. c3d2 g5g3 278. d2e1 f6g6 279. e1e3
+ g6f6 280. e3e1 h1h2 281. e1f1 h2g2 282. f1e1 g3g5 283. e1c3 g5g3 284. c3e3 g3g5
+285. e3e1 g5g3 286. e1e3 g3g5 287. e3c5 g5g3 288. c5e3 g2h2 289. e3c3 g3g5 290. c3d3
+ h2g2 291. d3d4 g2h2 292. d4e3 g5g3 293. e3c3 h2e2 294. c3c5 e2h2 295. c5e3 g3g5
+296. e3e2 i4j4 297. e2f2 g5g3 298. f2e1 h2f2 299. e1d2 f2h2 300. d2c3 h2h3 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "24"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3ma1tb4/3ubmbu4/5b6/3*4*3/4**6/8S3/12/1X5DC3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "133"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1b1 c7c8 g1i3 f8f6 e1i1 c8d8"]
+[TimeMs "5873"]
+
+1. h1h2 d7e6 2. i1g3 h7g6 3. b1d3 g7g5 4. d3f3 d8d7 5. h2h3 h8h6 6. f3g2 e7g7 7. i3h4
+ e6f5 8. h4g5 f6g5 9. g2f3 h6h4 10. g3e3 h4h3 11. f3h3 f5g4 12. h3g2 g6f5 13. g2f1
+ f7f6 14. f1e2 e8e6 15. e3e1 d7e7 16. e1e3 e7f7 17. e2f2 f7e7 18. e3g1 g5g3 19. f2d4
+ g4f3 20. d4d2 f3g2 21. d2e1 g2g1 22. e1g1 f5g4 23. g1i1 f6f5 24. i1i3 e7f7 25. i3i1
+ e6g6 26. i1j2 f7f6 27. j2l4 g8f8 28. l4l5 f8f7 29. l5k5 g7g5 30. k5i3 g6h6 31. i3j4
+ f7e7 32. j4j5 e7e6 33. j5j4 h6h4 34. j4j6 g5g7 35. j6j8 f6g6 36. j8i7 e6d6 37. i7j6
+ d6c6 38. j6l4 c6c5 39. l4l5 g3i3 40. l5l3 h4h2 41. l3j5 h2h5 42. j5k6 c5c4 43. k6k5
+ h5h4 44. k5j6 c4c3 45. j6i7 c3d3 46. i7k5 g7g5 47. k5k4 i3g3 48. k4i2 g3g1 49. i2k4
+ d3d4 50. k4j5 h4h5 51. j5j3 h5h2 52. j3i4 h2h5 53. i4i3 h5h2 54. i3i4 d4c4 55. i4j5
+ g6f6 56. j5h7 h2e2 57. h7g7 e2b2 58. g7e7 b2b5 59. e7d7 b5c5 60. d7c7 c5b5 61. c7b7
+ b5c5 62. b7a6 c4d4 63. a6a5 c5c4 64. a5a4 c4c3 65. a4b5 g1e1 66. b5c5 d4d3 67. c5c3
+1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "19"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2m1abtb4/4bmb5/2u5u3/3*C3*3/4**6/12/5S1D4/3X8 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "h1h2 c7c8 g1f2 h7i6 e1e5 d7c6"]
+[TimeMs "25484"]
+
+1. e5e3 h8h6 2. h2h3 g7g5 3. f2h4 i6h5 4. h4g5 h6g5 5. e3e5 f8f6 6. e5g3 c8c7 7. d1d2
+ c7d7 8. d2e1 c6d6 9. e1d1 h5h4 10. h3h4 g5h4 11. d1f3 h4g3 12. f3g3 d6e6 13. g3g4
+ e7g7 14. g4i6 g8f8 15. i6j5 e6f5 16. j5k4 e8e6 17. k4k3 g7g5 18. k3k2 f8e8 19. k2k4
+ e8d8 20. k4i6 d7e7 21. i6k4 f7g7 22. k4j3 d8d7 23. j3h3 e6b6 24. h3f3 b6b4 25. f3f2
+ g5e5 26. f2d2 b4b5 27. d2d3 b5b6 28. d3e2 e7e6 29. e2d1 b6b4 30. d1d3 g7g6 31. d3d2
+ e5c5 32. d2e3 g6g5 33. e3e1 c5e5 34. e1g3 b4c4 35. g3f3 c4d4 36. f3d1 d4b4 37. d1c2
+ e5e3 38. c2b1 e3e5 39. b1d3 g5g6 40. d3f3 b4c4 41. f3h1 g6g5 42. h1f3 g5g6 43. f3d1
+ c4b4 44. d1f3 b4d4 45. f3h1 g6g5 46. h1j3 g5g6 47. j3h1 e5g5 48. h1g1 g5e5 49. g1f2
+ d4c4 50. f2h2 g6g5 51. h2i2 c4c3 52. i2h1 c3e3 53. h1h2 e3f3 54. h2h3 g5g4 55. h3h5
+ f5g6 56. h5j3 e5g5 57. j3h1 g6f5 58. h1i2 f6h6 59. i2h1 d7e7 60. h1g1 e7f7 61. g1h1
+ h6h4 62. h1j3 e6f6 63. j3j5 f5g6 64. j5k6 f7e7 65. k6i8 e7d7 66. i8g8 g6f7 67. g8i6
+ f3h3 68. i6i7 d7c7 69. i7j6 f6f5 70. j6h8 c7c6 71. h8h7 f5f6 72. h7j5 h3i3 73. j5j6
+ c6c5 74. j6i6 i3k3 75. i6j5 h4h6 76. j5i4 k3h3 77. i4j3 f7g6 78. j3h1 c5c6 79. h1f1
+ h3e3 80. f1d1 e3c3 81. d1c1 c3c4 82. c1a3 c6d6 83. a3a5 c4c6 84. a5a6 c6c7 85. a6c4
+ c7d7 86. c4b5 d6e6 87. b5d7 e6e5 88. d7d6 e5f5 89. d6d7 f5e5 90. d7d6 e5f5 91. d6d7
+ f5e5 92. d7c7 e5f5 93. c7d7 f5e5 94. d7c7 e5f5 95. c7d7 f5e5 96. d7c7 e5f5 97. c7d7
+ f5e5 98. d7d6 e5f5 99. d6d7 f5e5 100. d7d6 e5f5 101. d6d7 f5e5 102. d7d6 e5f5 103. d6d7
+ f5e5 104. d7d6 e5f5 105. d6d7 f5e5 106. d7d6 e5f5 107. d6d7 f5e5 108. d7c7 e5f5
+109. c7d7 f5e5 110. d7d6 e5f5 111. d6d7 f5e5 112. d7d6 e5f5 113. d6d7 f5e5 114. d7d6
+ e5f5 115. d6d7 f5e5 116. d7d6 e5f5 117. d6d7 f5e5 118. d7d6 e5f5 119. d6d7 f5e5
+120. d7d6 e5f5 121. d6d7 f5e5 122. d7d6 e5f5 123. d6d7 f5e5 124. d7e7 e5f5 125. e7d7
+ f5e5 126. d7e7 e5f5 127. e7d7 f5e5 128. d7d6 e5f5 129. d6d7 f5e5 130. d7d6 e5f5
+131. d6d7 f5e5 132. d7d6 e5f5 133. d6d7 f5e5 134. d7d6 e5f5 135. d6d7 f5e5 136. d7c7
+ e5f5 137. c7d7 f5e5 138. d7d6 e5f5 139. d6d7 f5e5 140. d7c7 e5f5 141. c7d7 f5e5
+142. d7c7 e5f5 143. c7d7 f5e5 144. d7c7 e5f5 145. c7d7 f5e5 146. d7c7 e5f5 147. c7d7
+ f5e5 148. d7d6 e5f5 149. d6d7 f5e5 150. d7d6 e5f5 151. d6d7 f5e5 152. d7d6 e5f5
+153. d6d7 f5e5 154. d7d6 e5f5 155. d6d7 f5e5 156. d7e7 e5f5 157. e7d7 f5e5 158. d7d6
+ e5f5 159. d6d7 f5e5 160. d7e7 e5f5 161. e7d7 f5e5 162. d7d6 e5f5 163. d6d7 f5e5
+164. d7e7 e5f5 165. e7d7 f5e5 166. d7c7 e5f5 167. c7d7 f5e5 168. d7e7 e5f5 169. e7d7
+ f5e5 170. d7d6 e5f5 171. d6d7 f5e5 172. d7c7 e5f5 173. c7d7 f5e5 174. d7e7 e5f5
+175. e7d7 f5e5 176. d7c7 e5f5 177. c7d7 f5e5 178. d7c7 e5f5 179. c7d7 f5e5 180. d7c7
+ e5f5 181. c7d7 f5e5 182. d7d6 e5f5 183. d6d7 f5e5 184. d7d6 e5f5 185. d6d7 f5e5
+186. d7d6 e5f5 187. d6d7 f5e5 188. d7c7 e5f5 189. c7d7 f5e5 190. d7c7 e5f5 191. c7d7
+ f5e5 192. d7c7 e5f5 193. c7d7 f5e5 194. d7c7 e5f5 195. c7d7 f5e5 196. d7e7 e5f5
+197. e7d7 f5e5 198. d7e7 e5f5 199. e7d7 f5e5 200. d7d6 e5f5 201. d6d7 f5e5 202. d7c7
+ e5f5 203. c7d7 f5e5 204. d7d6 e5f5 205. d6d7 f5e5 206. d7c7 e5f5 207. c7d7 f5e5
+208. d7d6 e5f5 209. d6d7 f5e5 210. d7d6 e5f5 211. d6d7 f5e5 212. d7d6 e5f5 213. d6d7
+ f5e5 214. d7e7 e5f5 215. e7d7 f5e5 216. d7d6 e5f5 217. d6d7 f5e5 218. d7d6 e5f5
+219. d6d7 f5e5 220. d7c7 e5f5 221. c7d7 f5e5 222. d7c7 e5f5 223. c7d7 f5e5 224. d7e7
+ e5f5 225. e7d7 f5e5 226. d7e7 e5f5 227. e7d7 f5e5 228. d7e7 e5f5 229. e7d7 f5e5
+230. d7d6 e5f5 231. d6d7 f5e5 232. d7e7 e5f5 233. e7d7 f5e5 234. d7e7 e5f5 235. e7d7
+ f5e5 236. d7c7 e5f5 237. c7d7 f5e5 238. d7d6 e5f5 239. d6d7 f5e5 240. d7c7 e5f5
+241. c7d7 f5e5 242. d7e7 e5f5 243. e7d7 f5e5 244. d7c7 e5f5 245. c7d7 f5e5 246. d7c7
+ e5f5 247. c7d7 f5e5 248. d7c7 e5f5 249. c7d7 f5e5 250. d7c7 e5f5 251. c7d7 f5e5
+252. d7c7 e5f5 253. c7d7 f5e5 254. d7c7 e5f5 255. c7d7 f5e5 256. d7d6 e5f5 257. d6d7
+ f5e5 258. d7d6 e5f5 259. d6d7 f5e5 260. d7c7 e5f5 261. c7d7 f5e5 262. d7c7 e5f5
+263. c7d7 f5e5 264. d7c7 e5f5 265. c7d7 f5e5 266. d7e7 e5f5 267. e7d7 f5e5 268. d7c7
+ e5f5 269. c7d7 f5e5 270. d7c7 e5f5 271. c7d7 f5e5 272. d7c7 e5f5 273. c7d7 f5e5
+274. d7c7 e5f5 275. c7d7 f5e5 276. d7c7 e5f5 277. c7d7 f5e5 278. d7c7 e5f5 279. c7d7
+ f5e5 280. d7d6 e5f5 281. d6d7 f5e5 282. d7c7 e5f5 283. c7d7 f5e5 284. d7d6 e5f5
+285. d6d7 f5e5 286. d7c7 e5f5 287. c7d7 f5e5 288. d7c7 e5f5 289. c7d7 f5e5 290. d7c7
+ e5f5 291. c7d7 f5e5 292. d7e7 e5f5 293. e7d7 f5e5 294. d7c7 e5f5 295. c7d7 f5e5
+296. d7c7 e5f5 297. c7d7 f5e5 298. d7c7 e5f5 299. c7d7 f5e5 300. d7e7 e5f5 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "18"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3a1btb4/2m1bmbu4/1Cu9/3*4*3/4**6/12/12/3X2S1D3 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "h1i1 e8b8 e1j6 d7c6 j6b6 b8d8"]
+[TimeMs "25466"]
+
+1. b6d8 e7d8 2. i1i2 h8h6 3. i2i3 d8d6 4. i3i4 c7d7 5. d1f3 h7g6 6. f3g4 d7e7 7. g1f1
+ c6d7 8. i4h4 f8f6 9. f1f3 f7f8 10. g4i4 f8f7 11. f3h5 g6h7 12. h5g4 d7e6 13. h4h5
+ g8f8 14. h5h6 h7h6 15. g4f3 f8e8 16. f3e3 g7g5 17. i4j4 h6h5 18. e3f3 e6f5 19. f3h3
+ h5h4 20. h3i3 h4g4 21. j4j5 f7g7 22. j5j3 g5g3 23. j3j5 e7e6 24. j5j6 f5g6 25. j6h8
+ g6f7 26. h8i7 g3g5 27. i7i6 f6h6 28. i6i4 e8e7 29. i4g2 f7g6 30. g2f1 g6h5 31. i3h3
+ g4h4 32. h3g2 g7g6 33. f1f3 e7f7 34. f3d3 g5e5 35. g2f2 d6f6 36. f2d4 e5e7 37. d4e3
+ h4g5 38. e3f3 g5f5 39. f3e3 h6h4 40. d3b5 h4h6 41. b5c4 h5g4 42. e3c5 f7g7 43. c4d3
+ g7f7 44. c5d4 e7g7 45. d4f2 g7g5 46. d3e3 g4h4 47. f2g2 h4h5 48. e3f2 e6e7 49. f2h2
+ h5g4 50. g2h3 g5g3 51. h3g4 g3h2 52. g4i4 h2h4 53. i4k2 f6d6 54. k2j2 g6g5 55. j2j4
+ f7g7 56. j4k5 h6f6 57. k5k6 e7e6 58. k6j7 e6e5 59. j7h7 d6d4 60. h7i6 f5g4 61. i6k4
+ g7f7 62. k4i2 f7e7 63. i2j3 e7e6 64. j3k4 e6d6 65. k4i6 d6c6 66. i6h7 c6c5 67. h7g8
+ f6f8 68. g8h8 e5f5 69. h8h6 c5c4 70. h6j6 f8f6 71. j6h8 f6f8 72. h8j6 d4b4 73. j6h6
+ c4c5 74. h6j8 b4d4 75. j8j7 f8f6 76. j7j6 d4d2 77. j6k5 c5c4 78. k5i7 c4c3 79. i7j6
+ c3d3 80. j6k5 g5g6 81. k5j4 g6g5 82. j4h2 h4j4 83. h2h1 d3c3 84. h1i1 g4h3 85. i1k1
+ h3g4 86. k1i1 c3c4 87. i1h1 c4d4 88. h1i1 d2f2 89. i1j1 d4c4 90. j1k1 f2d2 91. k1j2
+ j4h4 92. j2k3 c4d4 93. k3l4 d4c4 94. l4j6 h4h2 95. j6k5 d2f2 96. k5j6 c4c3 97. j6k6
+ f2d2 98. k6i6 h2h4 99. i6j6 c3d3 100. j6l4 d2f2 101. l4j6 f2d2 102. j6h6 d2d4 103. h6f8
+ d4d2 104. f8d8 d2b2 105. d8f8 d3d4 106. f8h8 d4c4 107. h8f8 h4h6 108. f8d6 b2b4
+109. d6f8 b4d4 110. f8d6 g5g6 111. d6b4 h6h4 112. b4b5 c4c3 113. b5b6 f5g5 114. b6b4
+ c3d3 115. b4d2 g4f5 116. d2e2 d3c3 117. e2d2 c3c4 118. d2b4 d4d2 119. b4b5 c4c3
+120. b5c4 d2d4 121. c4b4 c3d3 122. b4d2 f5g4 123. d2c2 d3e3 124. c2d2 e3f3 125. d2e2
+ f3g3 126. e2g2 d4b4 127. g2i2 g5f5 128. i2i1 g3f3 129. i1h1 f3e3 130. h1h2 b4d4
+131. h2f2 e3d3 132. f2d2 d4b4 133. d2e2 d3e3 134. e2f2 e3f3 135. f2h2 g6g5 136. h2f2
+ b4d4 137. f2h2 g4g3 138. h2j4 d4d2 139. j4l4 f3e3 140. l4j6 d2d4 141. j6j5 d4d2
+142. j5j6 g3g4 143. j6i7 d2d4 144. i7h7 d4d2 145. h7j5 e3f3 146. j5j6 g4h5 147. j6j4
+ f3g3 148. j4j5 g3h3 149. j5j6 h5g4 150. j6j4 d2d4 151. j4j2 g4h5 152. j2j4 h5g4
+153. j4j6 d4d2 154. j6j4 d2d4 155. j4j2 h4j4 156. j2i2 h3i3 157. i2h1 j4h4 158. h1h2
+ i3j3 159. h2j4 g5h5 160. j4k4 j3j4 161. k4k5 j4j5 162. k5k4 j5j6 163. k4k5 j6i6
+164. k5j5 i6h6 165. j5k5 h5g5 166. k5j4 h6g6 167. j4j6 g6g7 168. j6h8 g7f7 169. h8f8
+ d4d2 170. f8d8 f7g7 171. d8f8 g7h7 172. f8h6 d2d4 173. h6i7 g5g6 174. i7k5 h7g7
+175. k5j4 g7f7 176. j4j6 f7e7 177. j6h8 e7e6 178. h8f8 e6d6 179. f8d8 g6g5 180. d8d7
+ d4d2 181. d7b7 g5g6 182. b7c6 f5g5 183. c6d7 d2d4 184. d7d8 d4d2 185. d8d7 d2d4
+186. d7b5 g5f5 187. b5b7 d4d2 188. b7d7 g6g5 189. d7b5 g5h5 190. b5c6 d2d4 191. c6b6
+ f5g5 192. b6b5 g5f5 193. b5b7 d4d2 194. b7c6 d2f2 195. c6b6 h5g5 196. b6c5 d6c6
+197. c5d6 g5h5 198. d6b4 h5g5 199. b4d6 g5g6 200. d6c5 f2d2 201. c5d6 d2d4 202. d6b4
+ g6g5 203. b4b6 d4d2 204. b6d4 h4h6 205. d4c5 g5g6 206. c5b5 c6c5 207. b5b4 c5c4
+208. b4b5 c4c3 209. b5b4 c3d3 210. b4d4 d2f2 211. d4c4 d3e3 212. c4c5 h6h4 213. c5b6
+ e3f3 214. b6d8 g6g5 215. d8e8 f3g3 216. e8f8 f2d2 217. f8h6 g3h3 218. h6j6 h4j4
+219. j6h6 h3i3 220. h6j8 g5h5 221. j8i8 j4h4 222. i8h8 i3i4 223. h8j6 h4j4 224. j6l4
+ d2d4 225. l4l3 g4g5 226. l3l2 g5g4 227. l2l4 f5g5 228. l4j6 g5f5 229. j6l4 h5g5
+230. l4j2 g5g6 231. j2l2 d4d2 232. l2l4 d2d4 233. l4j2 d4d2 234. j2l2 d2d4 235. l2l4
+ g6g5 236. l4j6 d4d2 237. j6k6 j4j6 238. k6l6 j6j4 239. l6l4 g5g6 240. l4l6 j4h4
+241. l6k5 d2f2 242. k5j5 i4j4 243. j5k4 f5g5 244. k4j5 f2d2 245. j5k5 j4j5 246. k5k6
+ j5k5 247. k6j6 k5j5 248. j6k6 j5j6 249. k6k7 j6k6 250. k7l7 k6k5 251. l7l6 k5k4
+252. l6l5 k4k3 253. l5l4 k3k2 254. l4l3 k2k1 255. l3j1 d2d4 256. j1k2 g5f5 257. k2j1
+ f6h6 258. j1k2 h6f6 259. k2j1 h4h6 260. j1k2 f5g5 261. k2j1 g5f5 262. j1k2 h6h4
+263. k2j1 h4h6 264. j1k2 h6h4 265. k2j1 d4d2 266. j1k2 g6g5 267. k2j1 d2d4 268. j1k2
+ d4d2 269. k2j1 d2d4 270. j1k2 d4d2 271. k2j1 h4j4 272. j1k2 j4j2 273. k2l2 k1j1
+274. l2l1 d2d4 275. l1l3 j2j4 276. l3l1 j1j2 277. l1k2 j4h4 278. k2l2 j2j3 279. l2k3
+ f5e5 280. k3k5 d4b4 281. k5j5 j3i3 282. j5j7 e5f5 283. j7j5 h4j4 284. j5j6 i3i4
+285. j6l4 g5g6 286. l4j2 b4d4 287. j2l2 g6g5 288. l2l4 f5e5 289. l4l2 e5f5 290. l2l4
+ d4d2 291. l4j6 d2d4 292. j6i6 d4d2 293. i6i7 d2d4 294. i7h6 i4i3 295. h6j6 d4d2
+296. j6l4 f5e5 297. l4j6 d2d4 298. j6l4 g4f5 299. l4j2 i3i4 300. j2l2 i4h4 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "28"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/3ubmbu4/2m9/3*4*3/4**6/12/5S6/4CX2D3 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1f2 e7e5 d1f1 c7c6 h1i1 e5e7"]
+[TimeMs "25492"]
+
+1. e1g3 h7g6 2. i1i2 f8f6 3. f2f3 h8h6 4. f1h3 c6c5 5. i2i3 g7g5 6. g3e3 c5c4 7. h3i4
+ g8f8 8. i4h3 g6h5 9. h3g2 e7g7 10. e3g3 d7e6 11. g3j3 e6f5 12. i3i4 g5g3 13. j3h5
+ g3g2 14. f3g2 h6h5 15. i4h5 e8e6 16. g2g4 f5e5 17. g4h4 f8e8 18. h5g5 f6d6 19. h4h5
+ e8d8 20. h5i6 d8d7 21. g5h5 f7f6 22. h5h4 f6f5 23. i6h5 g7e7 24. h4g4 d6d4 25. h5h3
+ e5f6 26. g4f5 f6f5 27. h3g3 e7e5 28. g3e1 e6g6 29. e1g1 g6g3 30. g1f1 d7d6 31. f1h1
+ d6c6 32. h1j3 d4d6 33. j3i2 d6f6 34. i2k4 g3g6 35. k4j3 f6d6 36. j3h1 g6g4 37. h1g2
+ d6f6 38. g2h2 c4d4 39. h2g2 c6c5 40. g2i2 d4d3 41. i2j3 g4h4 42. j3k3 c5c4 43. k3k1
+ d3e3 44. k1k2 e3f3 45. k2k1 f3g3 46. k1j2 g3g4 47. j2j4 e5g5 48. j4h2 c4c3 49. h2f2
+ c3d3 50. f2d2 f5g6 51. d2d1 d3e3 52. d1e2 h4h3 53. e2d2 e3f3 54. d2e2 f3f2 55. e2e1
+ f2e2 56. e1f1 e2d2 57. f1d1 h3e3 58. d1c2 e3e1 59. c2c4 e1f1 60. c4d3 f1d1 61. d3c4
+ d1b1 62. c4c5 d2d3 63. c5e3 b1e1 64. e3d4 e1d1 65. d4e3 g6f5 66. e3c5 d1d2 67. c5c6
+ d2f2 68. c6c4 d3e3 69. c4c2 e3f3 70. c2c1 f3g3 71. c1c3 f2f3 72. c3c1 g3h3 73. c1c3
+ h3i3 74. c3e1 i3j3 75. e1g1 f3h3 76. g1e1 f6h6 77. e1f2 j3j4 78. f2g1 h6f6 79. g1e3
+ h3f3 80. e3g1 f3h3 81. g1h1 f5g6 82. h1j3 h3i3 83. j3k4 j4i4 84. k4k5 i4h4 85. k5j5
+ h4h5 86. j5k4 i3h3 87. k4j5 h5h6 88. j5k5 g6f5 89. k5k3 g5e5 90. k3i1 h6i6 91. i1g1
+ g4g5 92. g1e1 h3h4 93. e1g1 h4h3 94. g1i1 f5g4 95. i1j2 i6j6 96. j2l4 g4f5 97. l4k5
+ j6j7 98. k5k6 j7i7 99. k6j6 i7h7 100. j6i6 h7g7 101. i6h6 g7f7 102. h6h8 f5g4 103. h8i8
+ g5f5 104. i8j7 f7e7 105. j7i7 e7e6 106. i7i6 f6h6 107. i6k4 e6f6 108. k4j3 f6g6
+109. j3j1 h3i3 110. j1l3 f5f6 111. l3j5 f6f5 112. j5j7 e5g5 113. j7k6 f5f6 114. k6k4
+ f6f5 115. k4k3 i3h3 116. k3l3 h3j3 117. l3j5 j3j4 118. j5k6 f5f6 119. k6i8 j4h4
+120. i8g8 h4h2 121. g8f8 h2h4 122. f8h8 h4h3 123. h8f8 g5g7 124. f8e8 f6f5 125. e8e7
+ h6f6 126. e7c5 g7g5 127. c5c3 h3h4 128. c3d3 g6h6 129. d3f1 h4h2 130. f1e1 h6i6
+131. e1e3 i6j6 132. e3f2 j6j5 133. f2e3 h2g2 134. e3c5 j5j4 135. c5c7 g2g3 136. c7c5
+ g3f3 137. c5c7 f3g3 138. c7d6 g3h3 139. d6f8 h3f3 140. f8d6 f3h3 141. d6c5 h3h6
+142. c5e3 h6h7 143. e3g1 h7h5 144. g1i3 j4j3 145. i3i2 j3k3 146. i2j2 k3k4 147. j2j3
+ k4k5 148. j3j4 k5l5 149. j4k4 l5l6 150. k4k5 l6k6 151. k5j5 k6k7 152. j5k6 g5e5
+153. k6j7 h5h7 154. j7k6 h7i7 155. k6l5 k7j7 156. l5k5 e5g5 157. k5k6 j7j6 158. k6k5
+ j6j5 159. k5k4 j5j4 160. k4k3 j4j3 161. k3k2 j3j2 162. k2k1 j2i2 163. k1j1 i2h2
+164. j1i1 h2h3 165. i1i2 h3h4 166. i2i3 h4h5 167. i3k5 i7f7 168. k5i3 f7e7 169. i3i2
+ e7h7 170. i2j3 h5h4 171. j3j2 f6h6 172. j2i3 h4i4 173. i3j3 i4j4 174. j3k3 j4j3
+175. k3k2 j3j2 176. k2k1 j2i2 177. k1j1 i2h2 178. j1i1 h2g2 179. i1h1 g2f2 180. h1g1
+ f2e2 181. g1f1 e2d2 182. f1e1 d2c2 183. e1d1 c2c3 184. d1d2 c3c4 185. d2d3 c4d4
+186. d3e3 d4d3 187. e3e2 d3e3 188. e2f2 e3f3 189. f2g2 f3f2 190. g2f1 h7f7 191. f1g1
+ f2e2 192. g1f1 e2d2 193. f1d3 h6h4 194. d3f1 f7f6 195. f1d1 d2d3 196. d1e2 d3d2
+197. e2e1 d2c2 198. e1d2 g5e5 199. d2c3 f6e6 200. c3d2 e5g5 201. d2c3 e6b6 202. c3e3
+ b6b5 203. e3c3 b5b6 204. c3e1 b6b4 205. e1e2 b4d4 206. e2d1 c2c3 207. d1e2 f5f6
+208. e2c2 d4d2 209. c2a4 d2f2 210. a4b4 c3c4 211. b4c3 f6f5 212. c3b3 c4d4 213. b3c3
+ d4d3 214. c3d2 f2f1 215. d2c2 d3e3 216. c2d2 e3f3 217. d2b4 f3g3 218. b4d6 g3h3
+219. d6e7 f1f3 220. e7f7 h3i3 221. f7g8 f3g3 222. g8g7 h4h6 223. g7g8 g3h3 224. g8i8
+ h6f6 225. i8j7 h3h6 226. j7j6 h6h7 227. j6j5 h7f7 228. j5k6 i3h3 229. k6k5 f7e7
+230. k5l5 e7g7 231. l5k5 h3g3 232. k5j4 g7g6 233. j4h2 g3h3 234. h2i3 f6h6 235. i3j2
+ h6h4 236. j2i2 h3h2 237. i2j3 h2g2 238. j3l5 g2f2 239. l5j5 f2f3 240. j5k6 f3e3
+241. k6j5 e3d3 242. j5l5 g6f6 243. l5j7 h4j4 244. j7h7 d3e3 245. h7i6 f6c6 246. i6j7
+ c6e6 247. j7j6 e6h6 248. j6l4 h6h3 249. l4l6 e3d3 250. l6j6 j4h4 251. j6j4 h4h6
+252. j4j5 d3d4 253. j5j4 h3g3 254. j4k3 h6f6 255. k3i3 g3h3 256. i3k3 h3e3 257. k3j3
+ e3g3 258. j3j4 g3e3 259. j4j3 e3h3 260. j3j4 h3e3 261. j4j5 e3g3 262. j5j6 g3h3
+263. j6j5 h3h1 264. j5j6 h1h4 265. j6j4 h4h3 266. j4j5 h3h4 267. j5k6 h4j4 268. k6j6
+ j4h4 269. j6k6 h4h3 270. k6i8 h3h4 271. i8h7 h4h6 272. h7g8 h6h4 273. g8h8 h4h3
+274. h8f8 f6d6 275. f8h8 h3h4 276. h8j8 d6f6 277. j8i8 f6d6 278. i8k6 d6f6 279. k6i8
+ f6d6 280. i8g8 h4h6 281. g8e8 h6h7 282. e8d8 h7e7 283. d8b6 d4d3 284. b6b4 e7h7
+285. b4c4 d3e3 286. c4e2 d6f6 287. e2f2 e3e2 288. f2f1 e2f2 289. f1e2 f2g2 290. e2f1
+ g2g3 291. f1h1 g3h3 292. h1j3 h7h4 293. j3j4 h3g3 294. j4j5 h4h3 295. j5h7 g3f3
+296. h7h8 g5g7 297. h8j6 f3e3 298. j6l4 h3i3 299. l4l5 g7g5 300. l5k5 i3i4 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "32"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2bm1mbu4/3u8/3*4*3/4**6/8S3/12/3XC2D4 w - - 6 4"]
+[Termination "Party extinct"]
+[PlyCount "142"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1i3 d7d6 d1f3 c7d7 f3d1 e7c7"]
+[TimeMs "6270"]
+
+1. d1f1 h8h6 2. e1g1 h7g6 3. f1g2 d6e6 4. h1h2 c7c5 5. h2h3 c5e5 6. h3h4 d7e7 7. g1g3
+ f8f6 8. g2i4 g8f8 9. i4g2 e8d8 10. h4g4 d8d6 11. i3h3 f8e8 12. g2e2 g7g5 13. g3j6
+ g5g4 14. h3g4 e5g5 15. g4h3 e6f5 16. e2f2 d6e6 17. f2h2 g6h7 18. h2j4 h7i6 19. j6j3
+ e8d8 20. h3i4 f7g7 21. j4h2 e7f7 22. h2f2 g7g6 23. f2e3 e6e7 24. j3d3 h6h4 25. i4g2
+ i6h5 26. e3f3 f6d6 27. f3f2 e7e5 28. f2d2 d8e8 29. d2e2 e8f8 30. g2f3 f8g8 31. f3e3
+ d6f6 32. e3f3 h5i4 33. f3g2 f5g4 34. e2f2 g5g3 35. f2e2 h4h2 36. g2g1 h2g1 37. e2e1
+ g1i1 38. e1c3 g3g5 39. d3b3 e5f5 40. c3d2 i1i3 41. d2c3 i4h4 42. b3d3 i3g3 43. d3b3
+ g8h8 44. c3d3 h8i8 45. b3e3 g5e5 46. d3c3 f6d6 47. c3b3 d6d4 48. e3a3 f7f6 49. b3a2
+ f5h5 50. a2b3 g4f5 51. b3b4 h4h3 52. b4b6 h3g4 53. b6b4 h5h4 54. b4a5 i8i7 55. a5a7
+ i7j7 56. a3a8 h4h7 57. a8a6 j7i7 58. a6a8 h7g7 59. a7c5 g7g8 60. c5b6 g8e8 61. b6b7
+ e5c5 62. b7b8 d4b4 63. b8c8 e8f8 64. c8d8 f6f7 65. a8e8 f8e8 66. d8c8 i7j7 67. c8e8
+ g6g7 68. e8c8 b4b6 69. c8d7 c5c7 70. d7e8 b6b8 71. e8c6 c7c6 0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "23"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3a1btb4/2m1bmbu4/5u6/3*C3*3/4**6/12/12/X5SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "523"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1c1 d7e6 c1a1 e8d8 e1e5 e6f6"]
+[TimeMs "22276"]
+
+1. e5e3 f6f5 2. a1c3 h7g6 3. h1h2 c7c6 4. g1g3 f8f6 5. h2h3 g7g5 6. c3d4 h8h6 7. g3h4
+ c6d6 8. d4f2 d6e6 9. f2g3 g6h5 10. g3i3 f7g7 11. h3g3 g7g6 12. i3j4 d8f8 13. h4i4
+ h5i6 14. j4h2 e7e5 15. i4h4 f8f7 16. h2f2 f7h7 17. h4i3 i6h5 18. g3h3 f6d6 19. i3i4
+ h5i6 20. e3i3 f5g4 21. h3g4 g5g4 22. i4j3 h6h4 23. i3i6 h7i6 24. f2h2 g6g5 25. h2j4
+ g8g7 26. j3i3 h4h6 27. i3h2 i6i7 28. j4i4 g7f7 29. h2j4 e6f6 30. j4h2 h6h4 31. i4i2
+ f6f5 32. h2i3 h4h6 33. i2h2 d6f6 34. i3h3 g4g6 35. h2g2 f6d6 36. g2g3 h6h4 37. g3h2
+ d6f6 38. h3g3 h4h6 39. h2f2 g5g4 40. g3f3 g4g5 41. f3e3 i7k7 42. e3g3 k7j7 43. g3h3
+ j7g7 44. h3g3 f7e7 45. g3h4 g5g4 46. h4i3 e7d7 47. i3g3 g7h7 48. g3e3 f6d6 49. f2d2
+ g6e6 50. d2c3 e6c6 51. e3d4 e5g5 52. c3c4 d7e7 53. c4a4 e7f7 54. d4e3 f7g7 55. a4b4
+ h6f6 56. e3f2 h7h5 57. b4d4 h5h4 58. d4c3 h4h3 59. f2d4 f6h6 60. c3c4 h6h4 61. d4f2
+ c6e6 62. c4d3 h3f3 63. f2e2 f3g3 64. d3d2 d6f6 65. d2e3 e6g6 66. e3c5 g7h7 67. e2c4
+ h7i7 68. c4b5 g6e6 69. c5c6 f6d6 70. c6e8 g5g7 71. b5c5 d6f6 72. c5c7 g3i3 73. c7d7
+ e6g6 74. d7e7 f6e7 75. e8e7 h4h6 76. e7e8 i7i6 77. e8d7 i6j6 78. d7b5 i3h3 79. b5d7
+ h3f3 80. d7d8 j6j5 81. d8b8 f3h3 82. b8c7 j5j4 83. c7e7 g7g5 84. e7e8 g5g7 85. e8c6
+ g7g5 86. c6c8 j4i4 87. c8d8 h3h2 88. d8e8 g5g7 89. e8d7 h6f6 90. d7d8 i4j4 91. d8b6
+ g7g5 92. b6a6 h2h3 93. a6a5 j4i4 94. a5a4 h3h6 95. a4c6 i4j4 96. c6c4 j4i4 97. c4d4
+ i4j4 98. d4d3 h6h5 99. d3d4 j4j5 100. d4f2 h5h3 101. f2d4 h3h6 102. d4f2 g5g3 103. f2g1
+ h6h3 104. g1i1 h3j3 105. i1k1 g3i3 106. k1j1 j3k3 107. j1l1 k3k4 108. l1j1 g4g5
+109. j1i1 k4j4 110. i1j1 i3k3 111. j1i1 g6g4 112. i1h1 j4j2 113. h1f1 k3i3 114. f1e2
+ j2h2 115. e2c4 i3g3 116. c4c6 h2h4 117. c6e8 h4h7 118. e8c8 g5g6 119. c8a6 j5j4
+120. a6b6 g3g5 121. b6a7 h7h4 122. a7c5 g5g3 123. c5c3 g3g5 124. c3e3 g5g3 125. e3d4
+ g3g5 126. d4d6 h4h7 127. d6d4 h7h5 128. d4f2 g5g3 129. f2f1 h5h2 130. f1e2 h2h4
+131. e2e1 h4h2 132. e1e2 g3g1 133. e2e1 h2f2 134. e1c3 f6h6 135. c3c4 h6f6 136. c4c6
+ g6g7 137. c6e8 g4g6 138. e8f8 g6g8 139. f8d8 g1g3 140. d8c7 f2h2 141. c7b7 g3g5
+142. b7c6 h2f2 143. c6e8 g5e5 144. e8c8 f2f1 145. c8c6 f1f3 146. c6c8 f3f1 147. c8d8
+ e5g5 148. d8e8 f1f2 149. e8c6 g7f7 150. c6e8 g5g7 151. e8c8 j4i4 152. c8d7 g8g6
+153. d7d6 g7g5 154. d6c5 i4h4 155. c5d4 f2e2 156. d4c4 e2f2 157. c4d4 f2e2 158. d4c3
+ h4h5 159. c3c2 e2e3 160. c2d1 g6g4 161. d1f1 g4i4 162. f1h1 e3g3 163. h1j1 g3j3
+164. j1h1 f7g7 165. h1f3 h5h6 166. f3h1 j3h3 167. h1j1 h6g6 168. j1h1 i4g4 169. h1j1
+ f6h6 170. j1i1 h3f3 171. i1h2 f3g3 172. h2j4 g3h3 173. j4j5 g6f6 174. j5j6 g7h7
+175. j6j7 h3h4 176. j7j6 f6e6 177. j6j7 e6d6 178. j7i8 h6h8 179. i8k8 h8h6 180. k8j7
+ h6h8 181. j7j6 h8h6 182. j6k6 h6h8 183. k6j5 d6c6 184. j5j4 g5g3 185. j4j3 h4h2
+186. j3l3 h8h6 187. l3j5 g3g5 188. j5j4 h2h3 189. j4j6 h3g3 190. j6j8 h6h8 191. j8k7
+ h8h6 192. k7j7 g3h3 193. j7j8 c6c5 194. j8k8 h6h8 195. k8j8 c5c4 196. j8j6 h8h6
+197. j6j8 c4b4 198. j8i8 h6h8 199. i8k6 h7g7 200. k6j6 g7h7 201. j6l4 h8h6 202. l4j2
+ h7g7 203. j2j3 g4g2 204. j3j5 b4b5 205. j5k6 g7h7 206. k6k8 h6h8 207. k8j8 h3h5
+208. j8j7 g2g4 209. j7j6 h8h6 210. j6j8 h5h4 211. j8j6 h6f6 212. j6j7 f6h6 213. j7j8
+ b5c5 214. j8j7 c5c4 215. j7j5 c4d4 216. j5j4 g5g3 217. j4j6 d4c4 218. j6k6 g3g5
+219. k6i8 h6h8 220. i8j7 h8h6 221. j7j6 g4i4 222. j6j7 h4h3 223. j7i8 h6h8 224. i8j7
+ c4d4 225. j7l5 h7g7 226. l5k6 g7g6 227. k6j6 g5g7 228. j6k7 i4g4 229. k7k5 d4c4
+230. k5k3 g7g5 231. k3j3 h8h6 232. j3h1 g4g2 233. h1i1 c4d4 234. i1j2 g2g4 235. j2k3
+ g4g2 236. k3i1 d4d3 237. i1j1 h3h5 238. j1i2 g5g3 239. i2j3 g6g5 240. j3j5 g5g6
+241. j5j6 g3g5 242. j6h8 g5g7 243. h8i8 g2g4 244. i8k6 h5h3 245. k6j6 g4i4 246. j6l6
+ h3h5 247. l6k6 g7g5 248. k6k4 i4g4 249. k4i2 h5h3 250. i2h1 g4g2 251. h1j1 h3h5
+252. j1l3 g2i2 253. l3k4 i2i4 254. k4i2 h5h3 255. i2h1 h3e3 256. h1f1 d3d4 257. f1e1
+ e3d3 258. e1d1 d3c3 259. d1f3 d4c4 260. f3e3 c4b4 261. e3c3 b4b5 262. c3c5 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "36"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3a1btb4/2mubmbu4/9C2/3*4*3/4**6/12/4X7/5S1D4 w - - 6 4"]
+[Termination "Party extinct"]
+[PlyCount "304"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1e2 e8d8 e1j6 c7b7 g1f1 b7c7"]
+[TimeMs "13043"]
+
+1. h1h2 g7g5 2. f1h3 h7i7 3. h3h4 g5g7 4. j6h8 i7h8 5. e2g4 h8h7 6. h2g2 e7e5 7. g2g3
+ f7f6 8. g4i4 d7e6 9. h4h5 d8d6 10. g3g4 h7h6 11. i4h4 f6g6 12. h5g5 h6h7 13. g5h5
+ g6h6 14. h5g5 h7g6 15. g5h6 g6h6 16. g4g5 h6h7 17. h4i3 c7d7 18. g5g4 d7e7 19. g4g5
+ e7f7 20. i3h2 f7f6 21. g5h5 e6f5 22. h5h4 f6f7 23. h2h3 f8f6 24. h4h5 d6b6 25. h3g2
+ g8f8 26. g2e2 f8e8 27. e2c4 b6d6 28. c4d3 e8d8 29. d3b5 d8e8 30. b5c4 d6b6 31. c4d3
+ b6c6 32. d3e2 e8d8 33. e2c4 f6d6 34. c4e2 d8d7 35. h5h4 f5g6 36. e2f3 g6f5 37. f3d3
+ f7f6 38. d3e2 d6d4 39. e2f3 f5g6 40. h4h5 g6f5 41. h5h4 c6c3 42. f3h3 c3e3 43. h4h5
+ e3d3 44. h3i4 d3f3 45. h5h4 f3c3 46. i4h3 f5g6 47. h4g4 h7h6 48. h3i4 d7d6 49. i4h3
+ c3e3 50. h3h4 d6c6 51. g4g3 h6g5 52. h4i4 g6f5 53. g3h3 g5h6 54. h3h4 f5g6 55. i4j4
+ f6e6 56. j4j5 e3d3 57. j5i4 d3a3 58. i4i3 e6f6 59. h4g4 a3c3 60. i3h3 c3e3 61. h3g3
+ e3c3 62. g3i3 c3e3 63. i3h2 c6d6 64. h2g3 d6c6 65. g3i3 c6c7 66. g4h4 e3d3 67. i3j4
+ d3c3 68. j4j6 c3d3 69. j6j5 d3e3 70. h4h3 e3c3 71. j5j4 c3d3 72. j4j5 d3e3 73. h3h4
+ e3f3 74. j5h3 f3e3 75. h3i4 e3d3 76. i4g4 d3c3 77. g4f3 c7d7 78. f3h3 c3e3 79. h4g4
+ e3d3 80. h3f3 d3c3 81. f3h3 c3e3 82. h3j3 d7c7 83. j3j4 e3c3 84. j4i3 c3e3 85. g4g3
+ e3d3 86. i3h3 d3e3 87. g3g4 e3c3 88. h3g3 c3d3 89. g3f3 d3c3 90. f3g2 c3d3 91. g2h3
+ c7d7 92. g4h4 d3e3 93. h3g3 e3d3 94. g3g2 d3c3 95. g2g3 c3d3 96. h4g4 d3c3 97. g3h4
+ c3c5 98. h4f2 c5c8 99. f2g3 c8e8 100. g3h3 e8f8 101. h3f3 f8i8 102. f3h3 i8f8 103. h3h4
+ f8g8 104. h4g3 g8f8 105. g4h4 f8g8 106. h4g4 g8f8 107. g4h4 f8h8 108. g3h3 h8g8
+109. h3g3 g8f8 110. h4g4 f8h8 111. g3h4 h8g8 112. h4f2 g8f8 113. f2d2 d7e7 114. d2b4
+ f8c8 115. b4a5 c8c6 116. a5a6 c6c7 117. a6b5 h6h7 118. b5a5 c7c6 119. a5a4 c6c5
+120. a4c2 e5e3 121. c2a4 h7h6 122. a4c2 c5c6 123. c2a4 c6c7 124. a4a5 c7d7 125. a5a4
+ e3c3 126. a4a6 d7c7 127. a6a4 c7b7 128. a4b5 b7c7 129. b5a4 e7e6 130. a4a3 c7b7
+131. g4g3 b7b4 132. a3b4 c3b4 133. g3g2 f6f5 134. g2g3 d4d6 135. g3g2 h6g5 136. g2f2
+ d6f6 137. f2f1 g5g4 138. f1e1 g4f3 139. e1f1 g7g5 140. f1e1 f3e3 141. e1d1 e3f2
+142. d1d2 b4d4 143. d2d1 g5e5 144. d1c1 f2e2 145. c1b1 e2f3 146. b1b2 e5e3 147. b2b3
+ f3g4 148. b3b4 e3c3 149. b4b5 c3c5 150. b5a5 d4b4 151. a5a6 b4b6 152. a6a5 b6a5
+0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "22"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtbu3/2m1bm6/2u9/3*2b1*3/4**6/12/12/3XC1SD4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1h2 h7i8 h2g2 g7g5 g2g1 d7c6"]
+[TimeMs "25441"]
+
+1. h1h2 i8h7 2. h2h3 h7g6 3. d1f3 c6d6 4. f3f2 c7d7 5. e1g3 f8f6 6. h3h4 d6e6 7. f2h2
+ e7g7 8. g1e3 h8h6 9. e3f3 g5h4 10. h2h4 e6f5 11. h4j4 e8e6 12. j4h4 g7g5 13. h4f2
+ h6h4 14. g3e3 g5g3 15. e3g3 h4g3 16. f2g3 g6g5 17. g3h3 g8f8 18. h3g2 f7g7 19. f3h3
+ d7e7 20. g2h2 g7g6 21. h3h4 g5g4 22. h4h3 g4f3 23. h3g2 f3g4 24. g2h3 g4h5 25. h2g2
+ g6g5 26. h3f3 e7f7 27. g2f2 f7g7 28. f3h3 f8f7 29. f2h2 e6c6 30. h2g2 g7g6 31. g2h2
+ c6b6 32. h2g2 h5h4 33. h3g3 h4h5 34. g2f2 b6e6 35. f2g2 e6c6 36. g2i2 f6h6 37. g3g2
+ c6e6 38. i2h2 h5g4 39. h2f2 h6h4 40. g2h2 e6e8 41. f2e2 h4h6 42. h2f2 e8e6 43. f2f3
+ g4g3 44. e2e3 h6h4 45. f3f2 g3g4 46. f2g2 f7g7 47. g2f3 g4h3 48. e3c5 g7h7 49. c5c6
+ e6e7 50. c6c4 h7h6 51. c4c5 e7f7 52. f3f2 h6i6 53. f2f3 h4h6 54. c5c4 h6h4 55. c4c3
+ g5g4 56. f3f1 g6g5 57. f1d3 h3g3 58. c3e3 f7g7 59. e3c5 g7f7 60. d3e2 f7g7 61. c5c3
+ f5g6 62. c3d3 g6f5 63. d3e3 g7f7 64. e3c3 g3h3 65. e2c4 f7g7 66. c3d3 g7f7 67. c4c6
+ f5e5 68. d3e3 f7f6 69. e3c3 f6d6 70. c6e8 e5f5 71. c3d4 f5e5 72. d4c4 e5f5 73. e8f7
+ d6f6 74. f7g8 i6j6 75. c4d4 f6e6 76. g8i6 e6h6 77. i6j7 j6j5 78. j7j6 h6i6 79. j6k6
+ j5j4 80. k6k5 j4i4 81. k5k6 h4j4 82. d4d6 i6i7 83. d6c5 g4g3 84. c5d4 i7i6 85. k6i8
+ h3g4 86. i8g8 i6i7 87. g8g7 i7h7 88. g7e7 h7f7 89. e7d6 g4h3 90. d4e3 j4h4 91. e3c5
+ h3g4 92. c5c4 f7g7 93. c4d4 g7f7 94. d4c4 f7g7 95. c4d3 g7h7 96. d3e3 h7f7 97. e3g1
+ h4h2 98. g1e3 h2h4 99. e3d4 f7g7 100. d4c3 g7f7 101. c3c5 f7g7 102. c5e7 h4h6 103. d6e5
+ f5g6 104. e7c5 g7f7 105. c5c4 h6h4 106. e5e6 f7g7 107. e6d6 h4h2 108. c4c5 h2h4
+109. c5d4 g6f6 110. d6f8 g7g6 111. f8g8 g4h5 112. g8h7 g6g7 113. h7j5 i4i3 114. j5j4
+ i3h3 115. d4d3 h4h2 116. d3d4 h3h4 117. j4j6 g5f5 118. d4c4 h4h3 119. j6j5 h2h4
+120. j5j4 h4h2 121. c4d4 h5g4 122. d4c5 h3h4 123. j4j3 h2j2 124. j3j4 g7j7 125. j4k5
+ j7j5 126. k5i7 f6g7 127. c5e7 g7h7 128. i7k7 h7g6 129. e7e6 g6h6 130. e6g8 j5j7
+131. k7k5 j7h7 132. g8e6 h6g6 133. k5j4 h7f7 134. e6c6 f7f6 135. c6c7 f6f7 136. c7c6
+ g6g5 137. c6c5 j2h2 138. j4j5 f7f6 139. j5j3 h2j2 140. j3j4 f6i6 141. c5d6 i6h6
+142. d6e6 h6j6 143. e6g8 f5f6 144. j4k4 j2j4 145. k4i6 h4i4 146. g8i8 i4i3 147. i6i7
+ j6j5 148. i8h8 f6g6 149. h8i8 g4h5 150. i8h8 j5j7 151. i7i8 j7j5 152. h8g8 h5h6
+153. i8h8 j5j7 154. g8e6 j4h4 155. e6c6 j7h7 156. h8j6 h4j4 157. c6b6 h6h5 158. b6c5
+ h7f7 159. c5e3 g5g4 160. e3g1 i3h3 161. g1i1 h5i4 162. j6k5 h3h4 163. i1j2 h4h5
+164. k5j4 h5g5 165. j4j3 i4h5 166. j2i2 g5f5 167. j3i4 h5g5 168. i2h1 g5h4 169. i4i2
+ g6g5 170. h1g1 f5f6 171. i2k4 g3f3 172. g1e1 h4h5 173. k4j4 f6g6 174. j4j5 g6h6
+175. e1g1 h6g6 176. g1h1 h5h4 177. j5j6 g6f6 178. h1f1 f7g7 179. f1d3 f6g6 180. d3d4
+ g7f7 181. j6h8 g6h6 182. h8g8 f7g7 183. g8h8 g7f7 184. h8g8 f7g7 185. d4e5 g5g6
+186. g8i6 h4g5 187. i6j6 h6i6 188. j6k6 g7f7 189. k6j6 i6h6 190. j6i6 g6f6 191. e5c5
+ f6f5 192. i6k6 f7g7 193. k6i8 g7i7 194. i8k6 g5f6 195. k6k5 i7g7 196. k5j5 g7g8
+197. j5i6 g8g5 198. i6j6 g5g8 199. j6i6 g8g7 200. i6k6 g7g5 201. k6k7 g5g7 202. k7i7
+ h6h5 203. c5c3 g7h7 204. i7j7 h5h6 205. c3d3 h7i7 206. j7k6 f6g5 207. k6i4 g5f6
+208. d3f1 f3g3 209. f1g1 h6g6 210. g1e3 i7h7 211. i4j5 g6h6 212. j5j7 h6g6 213. e3c5
+ h7i7 214. j7k6 g6h6 215. c5e3 i7h7 216. k6j5 h6g6 217. e3c5 g6h6 218. c5c4 h7g7
+219. c4c5 g3f3 220. j5i6 g7f7 221. i6j5 f7h7 222. c5c4 f3g3 223. c4c6 g4f3 224. j5j6
+ g3g4 225. j6j5 h7g7 226. j5i4 g4h4 227. i4j3 g7j7 228. j3j5 f3g4 229. c6c5 g4g5
+230. j5h7 j7i7 231. h7j5 i7f7 232. c5e3 f7h7 233. j5j3 g5g4 234. j3h1 h6i6 235. h1f3
+ g4h3 236. e3g1 h4g4 237. f3g2 h3i4 238. g1i1 i4j3 239. i1j1 j3k4 240. j1k2 k4j4
+241. k2j2 j4k4 242. j2i2 k4j4 243. i2j2 j4k4 244. j2i2 k4j4 245. i2j2 j4k4 246. g2i4
+ f6g6 247. j2i2 k4k5 248. i2j3 g6g5 249. i4j4 i6h6 250. j4k5 h6g6 251. j3j5 h7g7
+252. k5i3 g6f6 253. i3g1 f6e6 254. j5k4 g5g6 255. g1g2 g4g3 256. g2i4 g3g4 257. i4i2
+ f5g5 258. k4i4 g7h7 259. i4j5 h7f7 260. i2i4 f7h7 261. j5j3 h7h4 262. j3j5 e6d6
+263. i4g2 d6c6 264. g2i4 c6c5 265. j5j4 c5c4 266. j4j3 g5f5 267. i4i2 h4h2 268. i2i3
+ h2f2 269. j3j5 f5g5 270. i3j3 c4d4 271. j3j4 g6f5 272. j5i6 d4d3 273. i6h6 d3e3
+274. h6f8 e3f3 275. j4h2 f2g2 276. h2j2 g2f2 277. j2j4 f2g2 278. f8e7 g4h4 279. j4j6
+ f5g6 280. e7e5 g2e2 281. j6j5 g6f5 282. e5e7 f3g3 283. j5h7 g3h3 284. e7f8 e2g2
+285. h7f7 h4g4 286. f8e7 g5g6 287. f7e6 f5f6 288. e7d6 g2g3 289. e6e7 f6g5 290. d6f8
+ g4h4 291. e7e6 g6f6 292. e6d6 g3g2 293. d6e7 f6g6 294. f8g8 g5h5 295. g8e6 g6g5
+296. e7f7 g2g3 297. e6e5 g3d3 298. e5g7 d3g3 299. g7h7 g3g1 300. h7h8 g1g4 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "27"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "1a3btb4/2m1bmb1u3/3u8/3*4*3/4**6/12/4X2S4/4C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "125"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1c2 d7d6 c2e2 e8b8 g1h2 h7i7"]
+[TimeMs "5534"]
+
+1. e2f3 h8h6 2. f3f2 g7g5 3. e1g3 h6h4 4. g3i1 i7h6 5. i1g1 h6g6 6. h2g3 g6h5 7. f2g2
+ h5g4 8. h1h2 d6e6 9. g3h3 g4h5 10. h3i3 b8e8 11. i3h4 g5h4 12. h2h3 h4h6 13. g1g3
+ c7d7 14. g2f2 f8f6 15. h3h4 h5g6 16. f2g2 e8c8 17. g2f1 g8f8 18. f1g2 e7g7 19. g3g1
+ f8e8 20. g1g3 c8c6 21. h4g4 e8d8 22. g2h3 g7g5 23. g3i3 d7e7 24. h3g3 g5g4 25. g3g4
+ e6f5 26. g4f3 h6h4 27. i3e3 c6c3 28. f3e2 f5g4 29. e3e1 f6d6 30. e2f2 c3d3 31. f2g1
+ d6f6 32. g1e3 d3d1 33. e3g1 d1e1 34. g1e1 d8e8 35. e1d2 e8f8 36. d2b2 f8g8 37. b2b3
+ e7e6 38. b3b4 g8g7 39. b4c5 g6g5 40. c5c6 e6e5 41. c6d7 g7h7 42. d7b5 e5f5 43. b5d7
+ h7h6 44. d7c6 f7e7 45. c6b5 h6i6 46. b5b4 e7f7 47. b4b2 i6j6 48. b2b4 f7g7 49. b4d6
+ g7f7 50. d6c6 j6j5 51. c6d6 g5g6 52. d6b6 g6g5 53. b6d6 g5g6 54. d6d4 g4g3 55. d4b2
+ f5g5 56. b2b4 g6f5 57. b4c5 j5j4 58. c5d4 j4j5 59. d4d6 f7e7 60. d6f8 h4h2 61. f8h6
+ j5k5 62. h6j6 k5k4 63. j6l4 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "31"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "a4btb4/2mubmb1u3/12/3*4*3/4**6/3X8/12/4C1SD4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "281"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1f2 e8c8 f2g1 h7i7 d1d3 c8a8"]
+[TimeMs "12125"]
+
+1. g1f2 d7e6 2. e1g3 g7g5 3. h1h2 f8f6 4. h2h3 a8d8 5. f2g2 h8h6 6. g2i2 h6h4 7. g3c3
+ i7h7 8. h3h4 g5h4 9. i2j3 h7g6 10. c3e3 c7d7 11. e3c3 e6f5 12. j3h1 d8e8 13. d3e3
+ e7e5 14. h1f3 e8e6 15. f3g3 h4h6 16. g3f3 f6d6 17. e3f2 d6d4 18. c3g3 e5e3 19. g3e3
+ d4e3 20. f2e3 g6h5 21. e3e2 f5g5 22. e2f1 e6g6 23. f3h3 g5h4 24. h3h1 d7e7 25. f1g2
+ e7e6 26. h1f1 h4g5 27. g2h2 e6f6 28. f1h3 f6f5 29. h2g2 g6g7 30. h3i4 h5g6 31. g2f2
+ g5g4 32. f2h2 f7f6 33. i4i3 g7f7 34. i3h3 g4h5 35. h3h4 f5g5 36. h4f2 f6f5 37. f2e3
+ h6h4 38. e3d3 g5g4 39. d3c3 f5g5 40. c3d4 f7f5 41. d4c3 f5f7 42. h2j4 h5i4 43. j4k4
+ i4h3 44. k4i6 g8f8 45. c3c5 f7h7 46. i6j6 f8f7 47. c5e7 h3g3 48. j6k5 g3h3 49. k5j6
+ h3g3 50. j6k5 g3h3 51. k5k4 h3i4 52. k4k5 i4h3 53. k5j5 h7h6 54. j5k5 h6h7 55. k5k4
+ h3i4 56. k4k5 i4h3 57. k5j6 h3g3 58. j6k6 g3h3 59. k6j6 h3g3 60. j6j5 h7h5 61. j5k5
+ g3h3 62. k5j6 h5h7 63. j6k6 h7h5 64. k6j6 h5h7 65. j6j5 h7g7 66. j5i6 g7h7 67. i6j7
+ h7g7 68. j7j6 g7h7 69. j6j5 h7h5 70. j5l3 h4j4 71. l3l4 h3i4 72. l4j6 g6g7 73. e7f8
+ g7h7 74. j6j7 h7g8 75. f8e8 f7e7 76. j7j6 g8g7 77. j6i7 g5g6 78. e8d8 e7d7 79. d8c8
+ d7c7 80. c8b8 c7c6 81. b8b7 c6c5 82. b7b6 c5c4 83. b6b5 c4c3 84. b5b4 c3d3 85. b4c4
+ d3e3 86. c4d4 e3f3 87. d4e3 j4h4 88. i7j6 i4h3 89. e3e2 f3e3 90. e2f2 e3d3 91. f2e2
+ d3d4 92. j6j4 g6g5 93. j4j5 d4c4 94. j5j6 h5h7 95. e2d3 c4c5 96. d3b5 g7g6 97. b5b6
+ c5c4 98. b6b5 c4d4 99. b5c5 d4d3 100. c5c4 d3e3 101. c4c5 e3f3 102. c5a5 h7g7 103. a5c3
+ g7f7 104. c3c5 f7g7 105. j6k7 g7f7 106. k7j6 g6f6 107. j6h6 f6g6 108. h6j6 g6f6
+109. c5c4 f7g7 110. c4d4 f6g6 111. d4c5 g7e7 112. j6j4 g6f6 113. j4j2 f6g6 114. c5e3
+ g4g3 115. j2j3 h4h2 116. j3k4 h3i3 117. e3e2 f3e3 118. e2d2 e3d3 119. d2c3 h2h4
+120. c3c4 d3c3 121. k4j5 i3i4 122. j5k4 e7f7 123. c4b4 c3c4 124. b4b5 c4c5 125. b5b4
+ c5c6 126. b4d6 i4h5 127. k4j5 f7d7 128. d6c5 h5g4 129. c5d4 d7g7 130. j5k4 g7h7
+131. d4c5 g6f5 132. k4j3 h7h6 133. j3h1 g4f3 134. h1f1 f3e3 135. f1d1 e3d2 136. d1d2
+ c6c7 137. d2d3 c7c8 138. d3c4 c8d8 139. c5e7 d8c8 140. c4c6 c8b8 141. c6b7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "40"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3ua1tb4/2m1bmbu4/7b4/3*4*3/4**1S4/12/12/2CX3D4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1h2 f8f6 e1c1 d7d8 h2h4 f6h6"]
+[TimeMs "25442"]
+
+1. d1f3 d8d7 2. h4h3 h8f8 3. h3i3 f8f6 4. c1i1 g8h8 5. h1h2 h7g6 6. i1g3 d7e6 7. h2h3
+ c7d7 8. h3h4 e7e5 9. h4g4 e5g5 10. i3h4 g5g4 11. f3g4 g6h5 12. g4h3 e6f5 13. h4i3
+ f5g4 14. h3g2 g4g3 15. g2g3 e8e6 16. i3h4 h5g6 17. g3h3 h8g8 18. h3h2 g8f8 19. h2f2
+ d7e7 20. h4h2 f8e8 21. h2i3 e6e5 22. f2e2 e5h5 23. i3g3 e7e6 24. e2d2 h5g5 25. d2e3
+ g5f5 26. e3c5 e8f8 27. c5e3 f5g5 28. e3e2 f8e8 29. e2f2 g6h5 30. f2e3 g5g6 31. e3c5
+ e8f8 32. c5e3 f8g8 33. g3g2 g8h8 34. e3f3 h6h4 35. f3f2 g6g3 36. f2e2 h5g4 37. g2f2
+ g3f3 38. e2f1 h8h7 39. f2g2 f3i3 40. g2f2 g7g5 41. f2f3 g4h5 42. f1g1 i3h3 43. g1h1
+ h3k3 44. h1i1 k3h3 45. i1k3 h7h6 46. k3k5 g5g7 47. f3e3 h6g6 48. e3e2 g6g5 49. k5k3
+ g5f5 50. k3j4 g7g5 51. j4k3 h3e3 52. e2f1 f7g7 53. k3k4 g7g6 54. f1g1 h5i4 55. g1g3
+ h4j4 56. k4i2 e3f3 57. g3g2 f3f2 58. g2h2 j4h4 59. i2j1 f2g2 60. j1j2 g5e5 61. j2i1
+ i4j3 62. i1j1 j3i4 63. h2h1 g2g3 64. h1j3 i4j4 65. j1l3 g3i3 66. j3k4 i3k3 67. k4k5
+ k3l3 68. k5j4 l3j3 69. j4j6 e5g5 70. j6j5 j3j4 71. j5j6 j4i4 72. j6k7 e6e7 73. k7k6
+ e7f7 74. k6k4 f5e5 75. k4i6 e5e6 76. i6h7 e6d6 77. h7g8 i4i1 78. g8e8 f7e7 79. e8c6
+ i1i3 80. c6a4 e7f7 81. a4c6 f7e7 82. c6b5 d6e6 83. b5d3 e7f7 84. d3d2 e6d6 85. d2b4
+ d6c6 86. b4d4 i3h3 87. d4f2 c6c5 88. f2e2 c5c4 89. e2d3 c4c5 90. d3d2 h3f3 91. d2b2
+ f3d3 92. b2b3 c5c6 93. b3b5 c6c5 94. b5b3 d3d2 95. b3b5 d2f2 96. b5b4 c5c4 97. b4b3
+ c4c3 98. b3b4 c3d3 99. b4c4 d3e3 100. c4d3 f2g2 101. d3e2 h4h6 102. e2c2 g2d2 103. c2c4
+ h6h4 104. c4d4 e3d3 105. d4c5 d2g2 106. c5d4 g2g1 107. d4c4 d3c3 108. c4b4 c3d3
+109. b4d2 g1g2 110. d2d1 d3c3 111. d1d2 c3b3 112. d2b4 g2e2 113. b4d4 e2g2 114. d4c4
+ b3c3 115. c4b4 c3c4 116. b4c3 g2g1 117. c3d3 c4b4 118. d3c3 b4c4 119. c3d3 c4c3
+120. d3e3 c3b3 121. e3d3 g1g4 122. d3e2 h4h6 123. e2d2 b3b4 124. d2c3 b4c4 125. c3b3
+ c4d4 126. b3c3 d4d3 127. c3c2 d3e3 128. c2d2 e3f3 129. d2e2 f3f2 130. e2e3 f2g2
+131. e3f2 g2h2 132. f2g2 g4g3 133. g2h1 h6h4 134. h1i2 h4j4 135. i2h1 h2h3 136. h1f1
+ j4h4 137. f1h1 h3i3 138. h1j3 h4j4 139. j3l5 g3g4 140. l5l4 g4h4 141. l4l6 h4h5
+142. l6j6 i3i4 143. j6j7 i4h4 144. j7i7 f6h6 145. i7j8 f7f6 146. j8j6 h4g4 147. j6j8
+ h5h3 148. j8h8 f6f5 149. h8j6 h3h5 150. j6j8 h6f6 151. j8j6 g4h4 152. j6h8 h4i4
+153. h8j6 h5h3 154. j6j7 h3g3 155. j7j8 g3h3 156. j8h8 h3g3 157. h8j8 g3f3 158. j8j6
+ f3d3 159. j6l4 d3f3 160. l4j6 f3h3 161. j6l4 h3i3 162. l4l6 i4h4 163. l6k7 h4g4
+164. k7l7 j4h4 165. l7l5 i3g3 166. l5j3 g3h3 167. j3h1 h3g3 168. h1f1 g3g1 169. f1f3
+ g4g3 170. f3e2 g1g2 171. e2d3 g3h3 172. d3e2 h3i3 173. e2d3 i3i4 174. d3e2 g2f2
+175. e2d3 i4i3 176. d3c3 f2e2 177. c3b4 e2c2 178. b4d4 c2c4 179. d4d2 c4c7 180. d2e2
+ c7d7 181. e2g2 d7e7 182. g2h2 i3h3 183. h2g2 h3i3 184. g2h2 i3i4 185. h2j4 h4h6
+186. j4j3 i4h4 187. j3h3 e7h7 188. h3j3 g5g3 189. j3k3 h4g4 190. k3i3 h6h4 191. i3g1
+ h7e7 192. g1e3 e7f7 193. e3e2 f7h7 194. e2d1 h7g7 195. d1c1 h4h6 196. c1d1 g3g5
+197. d1f1 g7f7 198. f1h3 g4g3 199. h3h2 g3f3 200. h2g2 f3e3 201. g2f2 e3d3 202. f2e2
+ d3c3 203. e2d2 c3c4 204. d2d3 c4c5 205. d3d4 c5c6 206. d4c3 h6h4 207. c3d3 c6d6
+208. d3c4 d6e6 209. c4c6 e6d6 210. c6a4 d6e6 211. a4a2 f7e7 212. a2c4 e7g7 213. c4d4
+ g7e7 214. d4f2 e7f7 215. f2e3 f7g7 216. e3f2 g7e7 217. f2e3 e7f7 218. e3c3 f7g7
+219. c3d4 g7f7 220. d4e3 f7g7 221. e3f2 g7e7 222. f2d4 e7g7 223. d4b6 g7e7 224. b6b8
+ h4h6 225. b8b6 e6d6 226. b6b8 d6c6 227. b8b6 g5e5 228. b6b4 e7f7 229. b4b6 f7g7
+230. b6c5 g7h7 231. c5b4 h6h4 232. b4b6 h7h5 233. b6b5 c6d6 234. b5c5 d6e6 235. c5c7
+ e5g5 236. c7d7 e6d6 237. d7e8 d6c6 238. e8d7 c6c5 239. d7d6 c5c4 240. d6c7 h4h6
+241. c7a5 h5h4 242. a5b5 c4d4 243. b5d3 h4i4 244. d3d1 i4g4 245. d1d3 g4g2 246. d3e2
+ h6h4 247. e2d3 g2d2 248. d3c4 h4h6 249. c4b3 d4d3 250. b3a2 d2g2 251. a2c4 d3e3
+252. c4e2 h6h4 253. e2e1 e3f3 254. e1c3 h4h6 255. c3c5 g2g4 256. c5d4 f3g3 257. d4c5
+ g3h3 258. c5b4 h3i3 259. b4c5 i3i4 260. c5c4 g4h4 261. c4d3 h4h5 262. d3f3 h5h2
+263. f3d3 i4i3 264. d3c3 i3i4 265. c3d3 i4i3 266. d3f1 i3i4 267. f1f3 i4j4 268. f3f1
+ h2f2 269. f1h3 j4j3 270. h3h1 j3i3 271. h1h3 f2h2 272. h3f3 i3i4 273. f3f1 i4j4
+274. f1e2 j4i4 275. e2f1 h2h4 276. f1f3 h4h2 277. f3f1 h2h4 278. f1h1 h4g4 279. h1j3
+ i4i3 280. j3j4 i3h3 281. j4i4 h3g3 282. i4g2 g4h4 283. g2f2 g3f3 284. f2e2 f3e3
+285. e2d2 e3d3 286. d2c2 d3d4 287. c2c3 d4c4 288. c3b3 c4c5 289. b3b4 c5c6 290. b4d6
+ h4g4 291. d6b4 c6d6 292. b4c5 d6e6 293. c5b4 g4h4 294. b4b5 h4h3 295. b5c5 h3h5
+296. c5b5 e6d6 297. b5c5 d6d7 298. c5b4 h5h4 299. b4c5 d7e7 300. c5c7 h4g4 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "26"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4a1tb4/1m1ubmb5/5b1u1C2/3*4*3/4**6/12/12/3X1SD5 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1f1 c7b7 h1g1 f8f6 e1j6 h7h6"]
+[TimeMs "25446"]
+
+1. f1h3 g7g5 2. h3j3 g5g3 3. j3j4 h6i6 4. j6j3 i6h5 5. j4j5 h8h6 6. d1e1 h6h4 7. j3j6
+ d7e6 8. g1f1 e7g7 9. j5k5 g7i7 10. j6l4 i7k7 11. e1g1 g3g5 12. k5k3 k7i7 13. l4j2
+ i7g7 14. k3i3 h4i3 15. g1i3 e6f5 16. f1f2 e8e6 17. i3h2 b7c7 18. f2f3 c7d7 19. f3g3
+ g8f8 20. h2i2 f5g6 21. i2g2 f8e8 22. g2f2 e8f8 23. g3f3 f8e8 24. j2e2 e8d8 25. f2d4
+ g7e7 26. d4c4 g6f5 27. c4b5 f7g7 28. b5b6 d8e8 29. f3g3 g7g6 30. b6a6 e8f8 31. a6c4
+ e7e5 32. c4d3 f8e8 33. g3g2 f6d6 34. d3b5 d6f6 35. e2h2 h5h4 36. b5c5 f5g4 37. c5e3
+ d7e7 38. e3c5 e6d6 39. c5b6 d6d7 40. h2f2 e5e3 41. b6b5 e3f2 42. g2f2 e8f8 43. b5a5
+ e7e6 44. f2g2 e6e5 45. a5b5 d7f7 46. g2f2 e5e6 47. b5d3 g4f5 48. d3f1 f7h7 49. f1g2
+ f8f7 50. f2f3 h7k7 51. f3g3 h4h5 52. g2i2 f7e7 53. i2i3 k7j7 54. i3h2 j7h7 55. h2g2
+ h7h6 56. g2h3 h6h7 57. h3h2 e7f7 58. h2i2 f7e7 59. i2g2 h7h8 60. g2f2 e7f7 61. f2d4
+ f7g7 62. d4f2 h8h6 63. g3f3 g7f7 64. f3g3 f7e7 65. f2e3 h6i6 66. e3d4 e7f7 67. d4f2
+ i6h6 68. f2e2 h6j6 69. e2f3 f7g7 70. f3h3 g7f7 71. h3h2 j6h6 72. h2h3 h6h8 73. h3h1
+ g5e5 74. h1j3 h5g5 75. j3j5 h8g8 76. j5h3 g8j8 77. h3g2 f7e7 78. g2e2 j8g8 79. e2f3
+ g8h8 80. f3d3 h8h5 81. d3c4 f6d6 82. c4e2 e7d7 83. e2f2 e6f6 84. f2f3 f6f7 85. f3d3
+ d7e7 86. d3b5 f7f6 87. b5a6 e7f7 88. a6c4 f6e6 89. c4e2 f7e7 90. e2c4 h5h8 91. c4a6
+ e7f7 92. a6c8 e5e7 93. c8a6 d6f6 94. a6b6 e7e5 95. b6d8 e5e7 96. d8b6 e7e5 97. b6b5
+ f7g7 98. b5c4 h8h5 99. c4b5 h5h7 100. b5d3 h7h5 101. d3e2 h5h6 102. e2g2 g7f7 103. g2e2
+ f7g7 104. e2e3 h6h5 105. e3c5 h5h7 106. c5e3 h7j7 107. e3g1 j7j8 108. g1h2 j8h8
+109. h2f2 h8h5 110. f2e3 f6d6 111. e3f2 g7f7 112. f2e3 f7e7 113. e3f2 g6f6 114. f2e3
+ f6g6 115. e3e2 h5h6 116. e2f2 e7f7 117. g3f3 d6f6 118. f2e2 h6h3 119. e2f2 g5h4
+120. f2e3 g6g5 121. e3c5 f6d6 122. c5c3 f7g7 123. c3c4 g7h7 124. c4e2 d6d4 125. f3e3
+ d4b4 126. e3f3 h7h6 127. e2d3 b4d4 128. d3e2 h6i6 129. f3e3 d4d6 130. e3f3 g5g6
+131. f3f2 h4i4 132. f2g2 h3j3 133. g2g3 i4h5 134. e2g2 j3j4 135. g3h3 g6g5 136. g2h2
+ j4k4 137. h2i2 k4k5 138. h3i3 i6i7 139. i3i4 h5g6 140. i2i3 k5k6 141. i4h4 g5h5
+142. h4h5 g6h5 143. i3j4 d6f6 144. j4l4 i7h7 145. l4j4 h7g7 146. j4j3 k6i6 147. j3i2
+ i6g6 148. i2g2 g7f7 149. g2i2 g6g4 150. i2j3 g4g6 151. j3i2 g6i6 152. i2i3 h5g4
+153. i3i4 i6g6 154. i4g2 g6g7 155. g2f1 g7h7 156. f1g1 h7h6 157. g1e3 h6h3 158. e3d3
+ h3f3 159. d3b5 f7g7 160. b5b6 f6d6 161. b6b7 g7h7 162. b7b5 e5c5 163. b5a6 f3i3
+164. a6c8 f5f6 165. c8e8 f6g7 166. e8c8 i3f3 167. c8b8 e6f6 168. b8b7 f6f5 169. b7c8
+ d6f6 170. c8c7 f6d6 171. c7a5 g7g6 172. a5a3 h7i7 173. a3b2 i7i6 174. b2c1 c5e5
+175. c1a3 e5g5 176. a3a4 f3h3 177. a4b5 h3h4 178. b5c4 d6f6 179. c4d3 i6j6 180. d3e3
+ h4h3 181. e3g1 f6h6 182. g1i1 h3j3 183. i1j1 j3j4 184. j1l3 j6i6 185. l3l5 j4j6
+186. l5l7 h6h8 187. l7k8 i6h6 188. k8j8 h6h5 189. j8j6 g6h7 190. j6j4 g5g7 191. j4i4
+ h5g5 192. i4i3 g5g6 193. i3g1 h8h6 194. g1e3 h7i6 195. e3d4 i6h5 196. d4c4 h6f6
+197. c4c6 g7e7 198. c6c4 g6h6 199. c4d3 e7g7 200. d3e3 g7g5 201. e3c1 g5e5 202. c1e3
+ h6g6 203. e3c5 e5g5 204. c5d6 h5h4 205. d6f8 g5g7 206. f8e8 g6h6 207. e8c6 h4h5
+208. c6c4 h6i6 209. c4d4 i6h6 210. d4e3 h6h7 211. e3g1 g7g5 212. g1i3 h7g7 213. i3k5
+ f6h6 214. k5i3 h6f6 215. i3k5 g7f7 216. k5i3 f7g7 217. i3g1 f6h6 218. g1e3 h5g6
+219. e3g1 h6h4 220. g1h2 g6h5 221. h2g1 h5g6 222. g1e3 h4h6 223. e3g1 g6h5 224. g1h2
+ h5g6 225. h2j4 g6h5 226. j4j5 h5g6 227. j5l5 g7f7 228. l5k4 g6g7 229. k4i2 g7g6
+230. i2h2 f5f6 231. h2g1 f6f5 232. g1i3 f7g7 233. i3j2 h6h4 234. j2h2 g6h5 235. h2f2
+ h5g6 236. f2g1 g5g3 237. g1e3 g3g5 238. e3d4 g6f7 239. d4e3 f7g6 240. e3c5 g6f7
+241. c5c4 g7g6 242. c4c6 g5e5 243. c6b5 h4h6 244. b5c5 f7g7 245. c5e3 h6h4 246. e3d2
+ e5g5 247. d2f2 g5g3 248. f2e3 g7f7 249. e3d4 g3g5 250. d4e3 g6h6 251. e3g1 h6h7
+252. g1h2 f7g6 253. h2g1 h4h6 254. g1f2 h6f6 255. f2e3 f6h6 256. e3g1 g6h5 257. g1i3
+ h7g7 258. i3j4 g7f7 259. j4j6 f7e7 260. j6h8 g5g7 261. h8j8 e7d7 262. j8k7 g7g5
+263. k7k5 d7d6 264. k5i3 d6c6 265. i3g1 g4f3 266. g1h1 h5g4 267. h1j3 c6d6 268. j3i3
+ h6f6 269. i3j4 g4h5 270. j4i3 f3f2 271. i3h2 g5g3 272. h2j4 d6e6 273. j4j6 h5g6
+274. j6i6 g6g7 275. i6h5 e6d6 276. h5j3 f5g5 277. j3i4 f6h6 278. i4k6 f2f3 279. k6i4
+ h6h4 280. i4j4 d6c6 281. j4j5 c6c5 282. j5j6 g3i3 283. j6i7 h4h6 284. i7k5 h6h4
+285. k5i7 h4h6 286. i7j7 f3g4 287. j7k8 i3g3 288. k8k6 g7g6 289. k6k5 g4h3 290. k5j4
+ c5c4 291. j4j5 c4d4 292. j5j6 d4d3 293. j6h8 g6g7 294. h8j6 d3d4 295. j6j5 d4d3
+296. j5k5 d3d4 297. k5j4 g7g6 298. j4k5 g5g4 299. k5j6 g3g5 300. j6j5 d4d3 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "5"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3a1btb4/2mubmu1b3/12/3*4*3/4**6/1X10/5S6/4C1D5 w - - 6 4"]
+[Termination "engine timeout"]
+[PlyCount "435"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1f2 e8d8 h1g1 g7i7 d1b3 h7g7"]
+[TimeMs "138610"]
+
+1. b3d1 h8h6 2. g1g2 d7e6 3. d1f3 g7g6 4. g2g3 i7g7 5. g3g4 c7d7 6. e1g3 g8h8 7. f3h3
+ f8f6 8. g4h4 e7e5 9. f2f3 e5g5 10. h3i4 g5h4 11. i4h4 g7i7 12. h4i3 e6f5 13. i3j4
+ d7e7 14. g3e3 e7e6 15. j4i3 i7g7 16. e3g3 f5g5 17. i3h2 h6h4 18. g3e3 e6e5 19. h2j4
+ h4h6 20. f3h3 e5f5 21. j4j6 h8g8 22. h3f3 d8e8 23. j6j4 e8e6 24. j4h2 g5h5 25. f3h3
+ g7g5 26. h2g1 h6h4 27. h3f3 g5g3 28. e3g3 h4g3 29. g1g3 g6g5 30. g3i3 g8f8 31. i3j3
+ f8e8 32. j3h3 f7g7 33. h3f1 e8e7 34. f1d3 g7g6 35. d3c4 e7f7 36. c4e2 h5h4 37. e2g2
+ h4h5 38. g2e2 f7e7 39. f3g3 e7f7 40. e2f2 f7g7 41. g3f3 e6e8 42. f2e2 g7f7 43. f3e3
+ e8e6 44. e2g2 e6e7 45. g2g1 f7g7 46. e3f3 g7f7 47. g1f2 e7e6 48. f3e3 e6e7 49. e3f3
+ f7g7 50. f2g2 e7e6 51. f3h3 g7f7 52. g2f3 f7g7 53. f3g2 g7f7 54. h3f3 e6e8 55. f3h3
+ h5h4 56. g2i2 h4g3 57. h3h2 g3f3 58. h2h3 e8h8 59. i2h1 f3e3 60. h1f1 e3d4 61. f1f2
+ d4e5 62. f2e3 f7g7 63. e3d2 g7f7 64. d2f2 h8h6 65. f2f3 h6h4 66. f3g2 e5d4 67. g2f2
+ d4e5 68. f2g2 e5d4 69. g2h1 f7e7 70. h1h2 h4h6 71. h3h4 g5g4 72. h4h3 g4h5 73. h2f2
+ d4e5 74. f2e3 f6d6 75. e3c3 h5g5 76. c3c4 e7f7 77. h3f3 e5e6 78. f3g2 d6f6 79. c4e2
+ h6h4 80. g2f3 h4h2 81. e2f2 h2h3 82. f2f1 h3h2 83. f1f2 h2h3 84. f3g2 h3h4 85. f2e3
+ g5g4 86. g2f3 g4h3 87. f3h1 f5g5 88. h1f3 f7g7 89. f3e2 g7h7 90. e3c5 h3g4 91. c5e3
+ h7h6 92. e3g1 h6h7 93. g1f1 g4h3 94. e2g2 h3g4 95. g2e2 h4h2 96. e2f2 e6f5 97. f1e2
+ g4h4 98. e2f1 h4h5 99. f2g1 h2h4 100. f1g2 h7g7 101. g2e2 g5g4 102. e2f2 h4h3 103. f2f1
+ g7h7 104. g1g2 h3h2 105. g2g1 h2h4 106. g1f2 h7g7 107. f2e2 g6g5 108. e2f2 g5g6
+109. f1g1 g6g5 110. f2g2 g4g3 111. g2h2 g3h2 112. g1h2 h5g6 113. h2j4 h4h6 114. j4i4
+ h6h5 115. i4i2 h5h6 116. i2i3 h6h4 117. i3j4 h4h3 118. j4j6 g7f7 119. j6h8 g6g7
+120. h8j6 h3h4 121. j6j4 f5g4 122. j4h2 g4g3 123. h2j4 f7e7 124. j4j6 e7e6 125. j6j4
+ e6d6 126. j4j6 d6c6 127. j6k5 g7g6 128. k5j6 c6c5 129. j6h8 h4h7 130. h8j8 h7e7
+131. j8j6 f6h6 132. j6j5 c5c4 133. j5k4 h6h4 134. k4j3 c4d4 135. j3k4 g6h5 136. k4l4
+ e7f7 137. l4j4 h5g4 138. j4h6 g4h5 139. h6h7 f7f8 140. h7j5 d4c4 141. j5h7 h5g6
+142. h7j7 g6h5 143. j7h7 c4d4 144. h7j5 g3h3 145. j5h7 h3g4 146. h7h8 f8f7 147. h8j6
+ f7f5 148. j6h8 f5f7 149. h8j6 h5g6 150. j6k5 g6h5 151. k5j4 g4g3 152. j4j3 h5i4
+153. j3h1 g3f2 154. h1h2 f2f1 155. h2h1 f1f2 156. h1h2 f2f1 157. h2h1 f1f2 158. h1h2
+ f2f1 159. h2i1 f1f2 160. i1h2 f2f1 161. h2h1 f1f2 162. h1h2 f2f1 163. h2h1 f1f2
+164. h1h2 f2f1 165. h2h1 f1f2 166. h1h2 f2f1 167. h2i2 f1f2 168. i2h2 f2f1 169. h2h1
+ f1f2 170. h1h2 f2f1 171. h2h1 f1f2 172. h1h2 f2f1 173. h2h1 f1f2 174. h1h2 f2f1
+175. h2h1 f1f2 176. h1h2 f2f1 177. h2h1 f1f2 178. h1h2 f2f1 179. h2h1 f1f2 180. h1h2
+ f2f1 181. h2h1 f1f2 182. h1h2 f2f1 183. h2h1 f1f2 184. h1h2 f2f1 185. h2h1 f1f2
+186. h1h2 f2f1 187. h2h1 f1f2 188. h1h2 f2f1 189. h2h1 f1f2 190. h1h2 f2f1 191. h2h1
+ f1f2 192. h1h2 f2f1 193. h2h1 f1f2 194. h1h2 f2f1 195. h2h1 f1f2 196. h1h2 f2f1
+197. h2h1 f1f2 198. h1h2 f2f1 199. h2h1 f1f2 200. h1h2 f2f1 201. h2h1 f1f2 202. h1h2
+ f2f1 203. h2h1 f1f2 204. h1h2 f2f1 205. h2h1 f1f2 206. h1h2 f2f1 207. h2h1 f1f2
+208. h1h2 f2f1 209. h2h1 f1f2 210. h1h2 f2f1 211. h2h1 f1f2 212. h1h2 f2f1 213. h2h1
+ f1f2 214. h1h2 f2f1 215. h2h1 f1f2 216. h1h2 f2f1 217. h2h1 f1f2 218. h1h2 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "35"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3ba1tb4/2bu1mbu4/2m9/3*4*3/4**S5/12/12/4CX1D4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1g3 c7c6 d1f1 e7c7 g3g4 f8d8"]
+[TimeMs "25425"]
+
+1. g4h3 h7g6 2. f1f2 g8f8 3. f2f3 h8h6 4. h1h2 e8e6 5. f3f2 d8d6 6. h2g2 f8e8 7. g2g3
+ e8d8 8. g3f3 c7c5 9. e1g3 d7e7 10. g3i3 e7f6 11. f3g3 c5e5 12. g3g4 d6d4 13. f2g2
+ c6c5 14. i3g3 g7g5 15. h3h4 g5g4 16. g2g4 g6h5 17. g4h3 f6f5 18. h4i3 f5g4 19. h3g2
+ g4g3 20. g2g3 d8d7 21. g3f3 e5g5 22. i3g3 f7f6 23. f3e2 f6f5 24. e2f2 d4d6 25. g3e3
+ e6g6 26. e3f3 g6f6 27. f2g1 h6h4 28. f3g3 h4h6 29. g3h3 f6g6 30. g1g2 d6d4 31. g2f2
+ h5h4 32. h3g3 h4g4 33. f2h2 c5c4 34. h2g1 c4c3 35. g3e3 d4d6 36. g1f1 d6f6 37. f1e2
+ g5e5 38. e3d2 c3d2 39. e2d2 d7e7 40. d2b4 f6d6 41. b4b6 e7f7 42. b6d8 e5e7 43. d8b6
+ e7e5 44. b6d8 e5e7 45. d8b6 h6h4 46. b6d4 d6f6 47. d4e3 e7e5 48. e3c3 f7g7 49. c3d3
+ g6g5 50. d3e2 g5h5 51. e2c4 g7h7 52. c4c5 h7i7 53. c5c3 h5g5 54. c3d3 g5g6 55. d3f1
+ g6j6 56. f1h1 h4j4 57. h1g2 j6j5 58. g2h1 j5k5 59. h1g2 k5j5 60. g2i2 i7i6 61. i2h2
+ j5k5 62. h2f2 j4h4 63. f2d2 e5g5 64. d2b2 k5k7 65. b2b4 k7h7 66. b4c5 h7f7 67. c5c4
+ f7g7 68. c4c3 g7e7 69. c3e3 i6h6 70. e3g1 e7f7 71. g1h2 h6g6 72. h2j4 f6h6 73. j4h2
+ f7h7 74. h2j4 h7g7 75. j4k4 g7i7 76. k4l5 i7k7 77. l5j5 k7h7 78. j5j7 h7i7 79. j7k6
+ g6f6 80. k6k5 i7h7 81. k5k4 f6g6 82. k4j4 h6f6 83. j4j6 f6h6 84. j6j4 h7i7 85. j4j5
+ i7h7 86. j5k5 h4h2 87. k5j6 h2h4 88. j6k6 h7i7 89. k6j5 g6f6 90. j5k4 f6e6 91. k4j4
+ g5g3 92. j4k5 i7j7 93. k5k3 j7g7 94. k3k4 g7g5 95. k4j5 h6f6 96. j5k4 e6d6 97. k4i6
+ f6f8 98. i6i8 g5g7 99. i8j7 d6c6 100. j7j5 c6c5 101. j5i6 f5g5 102. i6j6 g5h5 103. j6j4
+ c5c4 104. j4k3 h5g5 105. k3i1 h4h2 106. i1k3 g5f5 107. k3j4 h2h4 108. j4j3 h4h2
+109. j3j4 c4c5 110. j4j5 g3i3 111. j5k5 h2j2 112. k5k7 j2j4 113. k7i7 f8f6 114. i7j8
+ j4h4 115. j8j6 c5c6 116. j6j5 i3g3 117. j5j3 h4h2 118. j3j4 c6d6 119. j4j2 f5g5
+120. j2j4 g5f5 121. j4k4 g3i3 122. k4k6 h2h4 123. k6k7 d6c6 124. k7k5 f5g5 125. k5k3
+ g7f7 126. k3k5 i3g3 127. k5j4 g3i3 128. j4l6 f7e7 129. l6j6 e7g7 130. j6j5 g7e7
+131. j5j6 e7e6 132. j6k5 i3g3 133. k5j5 e6e7 134. j5j3 h4h2 135. j3j5 h2h4 136. j5j3
+ h4h2 137. j3j5 h2h4 138. j5h7 g3i3 139. h7i6 i3g3 140. i6g8 g3i3 141. g8h8 c6c5
+142. h8i7 e7g7 143. i7i6 h4j4 144. i6j6 g4f5 145. j6j7 j4h4 146. j7i6 c5c6 147. i6j7
+ i3g3 148. j7j6 g7f7 149. j6j4 f7g7 150. j4j6 c6c5 151. j6j4 g3i3 152. j4j5 f5g4
+153. j5j6 c5c6 154. j6j5 h4j4 155. j5j6 f6h6 156. j6j8 h6f6 157. j8l6 i3k3 158. l6j6
+ f6h6 159. j6k6 h6f6 160. k6j7 k3i3 161. j7k7 j4h4 162. k7l7 i3i1 163. l7j7 i1i3
+164. j7i7 i3g3 165. i7j6 g3i3 166. j6i6 g5f5 167. i6k6 i3g3 168. k6j5 g3i3 169. j5k5
+ i3g3 170. k5j4 h4h2 171. j4j5 g3i3 172. j5j6 c6d6 173. j6j8 f5g5 174. j8j6 h2h4
+175. j6i7 i3g3 176. i7j6 g3i3 177. j6j5 h4h2 178. j5j6 i3g3 179. j6i6 h2h4 180. i6j6
+ g3g1 181. j6j5 g7e7 182. j5j6 g1g3 183. j6h6 g3i3 184. h6j6 d6e6 185. j6h6 i3g3
+186. h6j6 g3i3 187. j6h8 e7g7 188. h8j6 h4j4 189. j6l4 j4h4 190. l4l6 i3g3 191. l6k5
+ e6e5 192. k5j6 g7f7 193. j6k5 g3i3 194. k5l6 i3g3 195. l6k5 g3i3 196. k5j5 i3g3
+197. j5k6 g3i3 198. k6j6 f7g7 199. j6l4 g7j7 200. l4l5 j7g7 201. l5k5 i3g3 202. k5l4
+ g3i3 203. l4k5 i3g3 204. k5j6 g3i3 205. j6j5 i3g3 206. j5j3 h4h2 207. j3j5 h2h4
+208. j5j6 g3i3 209. j6j5 i3g3 210. j5j6 h4h2 211. j6j4 g3i3 212. j4k4 g7g6 213. k4k6
+ h2h4 214. k6i6 g6g7 215. i6j6 h4j4 216. j6l6 j4h4 217. l6j6 i3g3 218. j6j5 g3i3
+219. j5k5 i3g3 220. k5l4 h4h2 221. l4j4 e5e6 222. j4l4 h2h4 223. l4j6 h4h2 224. j6k5
+ g3i3 225. k5j6 i3g3 226. j6k5 g7f7 227. k5l5 e6d6 228. l5l4 f7g7 229. l4l5 d6e6
+230. l5k5 g3i3 231. k5j6 i3g3 232. j6k5 g3i3 233. k5j6 i3g3 234. j6i7 g3i3 235. i7i6
+ e6d6 236. i6i7 i3g3 237. i7j7 g3i3 238. j7l5 d6e6 239. l5k5 h2h4 240. k5j6 i3g3
+241. j6i7 g3i3 242. i7i6 g5f5 243. i6j6 e6d6 244. j6k5 d6e6 245. k5j6 g7f7 246. j6k5
+ f5g5 247. k5j6 i3g3 248. j6i7 g5f5 249. i7j6 f7g7 250. j6i7 g3i3 251. i7i6 i3g3
+252. i6i8 f5g5 253. i8i7 g3i3 254. i7k7 i3g3 255. k7j7 g3i3 256. j7l5 g5f5 257. l5k6
+ i3g3 258. k6i6 e6d6 259. i6i7 g3i3 260. i7i6 i3g3 261. i6i7 g3i3 262. i7j7 i3g3
+263. j7i7 g3g5 264. i7j7 d6e6 265. j7k6 g5g3 266. k6i8 g3g5 267. i8i7 g5e5 268. i7j7
+ h4h2 269. j7i7 e5g5 270. i7k5 g5g3 271. k5j6 h2h4 272. j6j5 e6d6 273. j5j6 h4h6
+274. j6l4 f5g5 275. l4j6 d6e6 276. j6l4 h6h4 277. l4k5 g3i3 278. k5k3 i3g3 279. k3k2
+ g5g6 280. k2i2 h4h2 281. i2i4 h2h4 282. i4i2 h4h2 283. i2j3 g3i3 284. j3j5 g6g5
+285. j5k6 g5f5 286. k6j7 h2h4 287. j7i7 i3g3 288. i7j6 g7e7 289. j6h6 g3i3 290. h6i7
+ e7g7 291. i7j7 i3g3 292. j7j6 g3i3 293. j6j5 i3g3 294. j5j6 g3g5 295. j6k6 g7f7
+296. k6j6 f7g7 297. j6j4 g5g3 298. j4j6 h4h2 299. j6j7 h2h4 300. j7i8 h4h6 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "44"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2a2btb4/4bmbu4/2mu8/3*4*3/4**6/5S6/12/4CX1D4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1f1 e8c8 f1f3 c7c6 d1f1 d7d6"]
+[TimeMs "25440"]
+
+1. e1g1 g7g5 2. h1h2 h8h6 3. f1f2 e7g7 4. h2h3 h7g6 5. f3g4 d6e5 6. g4h4 c6d6 7. h4g5
+ h6g5 8. f2h2 f8f6 9. g1i3 e5f5 10. h2f2 d6e6 11. f2e2 c8c5 12. h3g3 c5c6 13. i3f3
+ c6c3 14. f3h3 g8f8 15. e2f1 f5g4 16. g3g4 g5g4 17. f1e1 c3f3 18. h3e3 g6f5 19. e1g1
+ g4g2 20. g1e1 g2e2 21. e1g1 e2e3 22. g1f1 g7g5 23. f1g1 f7g7 24. g1i3 f8e8 25. i3i2
+ f3f2 26. i2k2 g7g6 27. k2j2 e8d8 28. j2i2 d8d7 29. i2h2 e3g3 30. h2j4 f2h2 31. j4j6
+ g5e5 32. j6i7 h2h4 33. i7h7 h4h3 34. h7h8 g3g5 35. h8j6 h3h5 36. j6k6 h5h3 37. k6k5
+ h3h2 38. k5j5 d7c7 39. j5j4 h2h4 40. j4h2 f6d6 41. h2g2 c7d7 42. g2e2 d7e7 43. e2c4
+ e6f6 44. c4a6 h4h7 45. a6c8 h7f7 46. c8d8 e7e6 47. d8c8 e6e7 48. c8d8 e7e6 49. d8c8
+ e6e7 50. c8d8 e7e6 51. d8c8 e6e7 52. c8d8 e7e6 53. d8c8 e6e7 54. c8d8 e7e6 55. d8c8
+ e6e7 56. c8d8 e7e6 57. d8c8 e6e7 58. c8d8 e7e6 59. d8c8 e6e7 60. c8d8 e7e6 61. d8c8
+ e6e7 62. c8d8 e7e6 63. d8c8 e6e7 64. c8d8 e7e6 65. d8c8 e6e7 66. c8d8 e7e6 67. d8c8
+ e6e7 68. c8d8 e7e6 69. d8c8 e6e7 70. c8d8 e7e6 71. d8c8 e6e7 72. c8d8 e7e6 73. d8c8
+ e6e7 74. c8d8 e7e6 75. d8c8 e6e7 76. c8d8 e7e6 77. d8c8 e6e7 78. c8d8 e7e6 79. d8c8
+ e6e7 80. c8d8 e7e6 81. d8c8 e6e7 82. c8d8 e7e6 83. d8c8 e6e7 84. c8d8 e7e6 85. d8c8
+ e6e7 86. c8d8 e7e6 87. d8c8 e6e7 88. c8d8 e7e6 89. d8c8 e6e7 90. c8d8 e7e6 91. d8c8
+ e6e7 92. c8d8 e7e6 93. d8c8 e6e7 94. c8d8 e7e6 95. d8c8 e6e7 96. c8d8 e7e6 97. d8c8
+ e6e7 98. c8d8 e7e6 99. d8c8 e6e7 100. c8d8 e7e6 101. d8c8 e6e7 102. c8d8 e7e6 103. d8c8
+ e6e7 104. c8d8 e7e6 105. d8c8 e6e7 106. c8d8 e7e6 107. d8c8 e6e7 108. c8d8 e7e6
+109. d8c8 e6e7 110. c8d8 e7e6 111. d8c8 e6e7 112. c8d8 e7e6 113. d8c8 e6e7 114. c8d8
+ e7e6 115. d8c8 e6e7 116. c8d8 e7e6 117. d8c8 e6e7 118. c8d8 e7e6 119. d8c8 e6e7
+120. c8d8 e7e6 121. d8c8 e6e7 122. c8d8 e7e6 123. d8c8 e6e7 124. c8d8 e7e6 125. d8c8
+ e6e7 126. c8d8 e7e6 127. d8c8 e6e7 128. c8d8 e7e6 129. d8c8 e6e7 130. c8d8 e7e6
+131. d8c8 e6e7 132. c8d8 e7e6 133. d8c8 e6e7 134. c8d8 e7e6 135. d8c8 e6e7 136. c8d8
+ e7e6 137. d8c8 e6e7 138. c8d8 e7e6 139. d8c8 e6e7 140. c8d8 e7e6 141. d8c8 e6e7
+142. c8d8 e7e6 143. d8c8 e6e7 144. c8d8 e7e6 145. d8c8 e6e7 146. c8d8 e7e6 147. d8c8
+ e6e7 148. c8d8 e7e6 149. d8c8 e6e7 150. c8d8 e7e6 151. d8c8 e6e7 152. c8d8 e7e6
+153. d8c8 e6e7 154. c8d8 e7e6 155. d8c8 e6e7 156. c8d8 e7e6 157. d8c8 e6e7 158. c8d8
+ e7e6 159. d8c8 e6e7 160. c8d8 e7e6 161. d8c8 e6e7 162. c8d8 e7e6 163. d8c8 e6e7
+164. c8d8 e7e6 165. d8c8 e6e7 166. c8d8 e7e6 167. d8c8 e6e7 168. c8d8 e7e6 169. d8c8
+ e6e7 170. c8d8 e7e6 171. d8c8 e6e7 172. c8d8 e7e6 173. d8c8 e6e7 174. c8d8 e7e6
+175. d8c8 e6e7 176. c8d8 e7e6 177. d8c8 e6e7 178. c8d8 e7e6 179. d8c8 e6e7 180. c8d8
+ e7e6 181. d8c8 e6e7 182. c8d8 e7e6 183. d8c8 e6e7 184. c8d8 e7e6 185. d8c8 e6e7
+186. c8d8 e7e6 187. d8c8 e6e7 188. c8d8 e7e6 189. d8c8 e6e7 190. c8d8 e7e6 191. d8c8
+ e6e7 192. c8d8 e7e6 193. d8c8 e6e7 194. c8d8 e7e6 195. d8c8 e6e7 196. c8d8 e7e6
+197. d8c8 e6e7 198. c8d8 e7e6 199. d8c8 e6e7 200. c8d8 e7e6 201. d8c8 e6e7 202. c8d8
+ e7e6 203. d8c8 e6e7 204. c8d8 e7e6 205. d8c8 e6e7 206. c8d8 e7e6 207. d8c8 e6e7
+208. c8d8 e7e6 209. d8c8 e6e7 210. c8d8 e7e6 211. d8c8 e6e7 212. c8d8 e7e6 213. d8c8
+ e6e7 214. c8d8 e7e6 215. d8c8 e6e7 216. c8d8 e7e6 217. d8c8 e6e7 218. c8d8 e7e6
+219. d8c8 e6e7 220. c8d8 e7e6 221. d8c8 e6e7 222. c8d8 e7e6 223. d8c8 e6e7 224. c8d8
+ e7e6 225. d8c8 e6e7 226. c8d8 e7e6 227. d8c8 e6e7 228. c8d8 e7e6 229. d8c8 e6e7
+230. c8d8 e7e6 231. d8c8 e6e7 232. c8d8 e7e6 233. d8c8 e6e7 234. c8d8 e7e6 235. d8c8
+ e6e7 236. c8d8 e7e6 237. d8c8 e6e7 238. c8d8 e7e6 239. d8c8 e6e7 240. c8d8 e7e6
+241. d8c8 e6e7 242. c8d8 e7e6 243. d8c8 e6e7 244. c8d8 e7e6 245. d8c8 e6e7 246. c8d8
+ e7e6 247. d8c8 e6e7 248. c8d8 e7e6 249. d8c8 e6e7 250. c8d8 e7e6 251. d8c8 e6e7
+252. c8d8 e7e6 253. d8c8 e6e7 254. c8d8 e7e6 255. d8c8 e6e7 256. c8d8 e7e6 257. d8c8
+ e6e7 258. c8d8 e7e6 259. d8c8 e6e7 260. c8d8 e7e6 261. d8c8 e6e7 262. c8d8 e7e6
+263. d8c8 e6e7 264. c8d8 e7e6 265. d8c8 e6e7 266. c8d8 e7e6 267. d8c8 e6e7 268. c8d8
+ e7e6 269. d8c8 e6e7 270. c8d8 e7e6 271. d8c8 e6e7 272. c8d8 e7e6 273. d8c8 e6e7
+274. c8d8 e7e6 275. d8c8 e6e7 276. c8d8 e7e6 277. d8c8 e6e7 278. c8d8 e7e6 279. d8c8
+ e6e7 280. c8d8 e7e6 281. d8c8 e6e7 282. c8d8 e7e6 283. d8c8 e6e7 284. c8d8 e7e6
+285. d8c8 e6e7 286. c8d8 e7e6 287. d8c8 e6e7 288. c8d8 e7e6 289. d8c8 e6e7 290. c8d8
+ e7e6 291. d8c8 e6e7 292. c8d8 e7e6 293. d8c8 e6e7 294. c8d8 e7e6 295. d8c8 e6e7
+296. c8d8 e7e6 297. d8c8 e6e7 298. c8d8 e7e6 299. d8c8 e6e7 300. c8d8 e7e6 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "30"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt4b/1m1ubmbu4/12/3*4*3/4**6/3X8/12/4C1S1D3 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1f1 h8j8 f1d3 j8l8 h1i1 c7b7"]
+[TimeMs "25459"]
+
+1. i1i2 h7g6 2. d3f3 f8f6 3. i2h2 d7e6 4. g1f2 b7c7 5. e1g3 c7d7 6. f3h3 l8j8 7. f2f3
+ g7g5 8. h2i2 g6h5 9. i2i3 g8f8 10. i3i4 h5h6 11. f3h5 j8h8 12. h5h4 g5h4 13. i4h4
+ e7g7 14. g3i3 e6f5 15. h4g4 f5g6 16. g4h4 g6f5 17. h3f3 f5g6 18. i3e3 e8e6 19. f3h1
+ h6h7 20. h1h3 h8h6 21. h3i3 f8e8 22. e3j3 e8d8 23. j3h3 d7e7 24. i3g3 d8c8 25. g3e3
+ e6c6 26. e3c3 c6c7 27. c3d3 e7e6 28. d3c3 e6e5 29. h4g4 e5f5 30. c3a5 c7b7 31. g4g3
+ f6d6 32. g3f3 g6g5 33. a5c3 g5h4 34. h3e3 h7g6 35. c3d2 b7c7 36. d2f2 h4i4 37. f2d4
+ h6h4 38. d4c3 g7g5 39. f3f2 i4h3 40. f2f3 d6b6 41. c3e1 c7c5 42. e1f2 b6b4 43. f2e2
+ g5g3 44. e3e1 f5g5 45. e2f1 g3f3 46. f1f3 h3g3 47. f3e3 b4d4 48. e3c1 g3f2 49. c1d2
+ f2e1 50. d2e1 c5c3 51. e1e2 d4d2 52. e2f3 c3e3 53. f3g2 e3g3 54. g2i2 f7f6 55. i2h1
+ c8c7 56. h1j3 d2f2 57. j3j5 c7d7 58. j5j7 f2d2 59. j7i6 d7d6 60. i6j5 g6f7 61. j5j6
+ f6g6 62. j6h8 f7g7 63. h8j6 d2f2 64. j6l4 g7f7 65. l4k5 f7f6 66. k5i7 f6g7 67. i7j6
+ g6f6 68. j6k5 f6f7 69. k5i7 g7g6 70. i7j8 f2d2 71. j8j6 d2f2 72. j6j5 f7f6 73. j5k6
+ g6g7 74. k6j6 g7h7 75. j6j8 h7g7 76. j8i8 d6e6 77. i8k6 f6f5 78. k6j7 f5f6 79. j7j6
+ h4h6 80. j6j7 f2h2 81. j7l5 f6g6 82. l5j5 h2h4 83. j5j3 h4h2 84. j3j5 h2h4 85. j5l5
+ e6d6 86. l5k5 h4h2 87. k5l6 d6e6 88. l6l5 h6f6 89. l5l3 h2h4 90. l3l5 g7h6 91. l5j5
+ h6h5 92. j5h7 h5g4 93. h7h8 e6e5 94. h8f8 e5f5 95. f8d6 g5h5 96. d6c5 g6g7 97. c5e3
+ g3f3 98. e3c3 f5g5 99. c3d4 g5g6 100. d4d6 g7f7 101. d6c5 h5g5 102. c5a5 g6h6 103. a5b4
+ h6i6 104. b4c3 f3h3 105. c3c5 h3g3 106. c5d6 g4f5 107. d6c5 f7e7 108. c5c7 g3i3
+109. c7d8 e7f7 110. d8c7 i6j6 111. c7c8 j6j5 112. c8e8 f6f8 113. e8c6 i3g3 114. c6b6
+ j5j4 115. b6c7 j4i4 116. c7c5 f7g7 117. c5d6 g7f7 118. d6d4 f5g4 119. d4b6 f8f6
+120. b6d6 g3i3 121. d6b6 i3g3 122. b6d6 f6f8 123. d6d8 g4f5 124. d8d7 f5g6 125. d7c6
+ g6g7 126. c6c5 f8f6 127. c5d6 g7h6 128. d6b4 h6h7 129. b4d2 h7g6 130. d2d3 h4h2
+131. d3e3 g6h5 132. e3e1 h5g4 133. e1e3 f7g7 134. e3d2 g4f5 135. d2b4 g3h3 136. b4d6
+ h3h6 137. d6b4 h6h5 138. b4d6 g7f7 139. d6c7 h5h3 140. c7d6 h3g3 141. d6c6 h2h4
+142. c6c4 f7g7 143. c4d3 g3i3 144. d3f1 h4h2 145. f1f2 f5g4 146. f2e1 i3g3 147. e1d2
+ g4f5 148. d2e3 h2h4 149. e3c5 h4h2 150. c5d6 g7f7 151. d6b4 g3g2 152. b4c4 f5g6
+153. c4d4 g2g3 154. d4d6 f6h6 155. d6b4 f7e7 156. b4b6 h2h4 157. b6d8 e7f7 158. d8d6
+ g6f5 159. d6d8 h6f6 160. d8c7 f7e7 161. c7d8 e7f7 162. d8b6 f5g6 163. b6d4 f7g7
+164. d4c5 g3g2 165. c5e3 g7f7 166. e3e1 g6f5 167. e1e2 h4h2 168. e2d3 f7g7 169. d3c4
+ h2h4 170. c4e2 h4h2 171. e2d3 g2g3 172. d3f1 f5g6 173. f1d3 g7f7 174. d3c4 h2h4
+175. c4c6 g3g2 176. c6d6 g2g3 177. d6b6 g3g2 178. b6a5 f7g7 179. a5b4 g2g3 180. b4d4
+ g3g2 181. d4b6 g2g3 182. b6c5 h4h6 183. c5d6 g7f7 184. d6c5 h6h4 185. c5d6 g6f5
+186. d6d4 f5e5 187. d4b4 f7g7 188. b4b2 e5e6 189. b2c2 e6f5 190. c2d2 g7f7 191. d2d4
+ h4h2 192. d4d6 g5g6 193. d6c7 h2h4 194. c7d8 g3g5 195. d8b6 g5g3 196. b6b5 f7g7
+197. b5c5 g7f7 198. c5c6 g6g5 199. c6c7 g5g6 200. c7b6 g6g5 201. b6d8 f5g6 202. d8d6
+ g6f5 203. d6b6 f7g7 204. b6d4 f5g4 205. d4b6 g7f7 206. b6d4 f7g7 207. d4e3 h4h2
+208. e3d4 g3f3 209. d4c5 g7f7 210. c5d6 f6f8 211. d6c5 f8f6 212. c5d6 g5f5 213. d6c5
+ h2h4 214. c5d6 f6f8 215. d6c5 f8f6 216. c5d4 f7g7 217. d4d6 g7f7 218. d6c5 f7g7
+219. c5c3 f6d6 220. c3e1 h4h2 221. e1d2 f3h3 222. d2d4 d6f6 223. d4c5 h2h4 224. c5d4
+ h4h2 225. d4d6 g7f7 226. d6b4 h3h5 227. b4d4 h2h4 228. d4d3 h4h2 229. d3f1 h5h3
+230. f1f2 f5g5 231. f2d4 f7g7 232. d4d6 g7f7 233. d6d4 f7g7 234. d4d3 g4f5 235. d3c2
+ h2h4 236. c2d3 h4h2 237. d3d4 h2h4 238. d4d3 h3g3 239. d3f1 h4h2 240. f1e2 g3h3
+241. e2f1 h3e3 242. f1e1 e3h3 243. e1f1 h3g3 244. f1e1 h2h4 245. e1f1 h4h2 246. f1d3
+ g7f7 247. d3d4 f7e7 248. d4e3 h2h4 249. e3c3 e7e6 250. c3c2 h4h2 251. c2c3 h2h4
+252. c3b4 h4h2 253. b4b6 f5g6 254. b6d8 g6f7 255. d8c7 g5f5 256. c7c5 h2h4 257. c5c7
+ h4h2 258. c7c8 f7g6 259. c8a6 h2h4 260. a6c8 f5g5 261. c8c7 g6f5 262. c7c5 e6e7
+263. c5c3 f5g6 264. c3d4 e7e6 265. d4c4 h4h2 266. c4c5 h2h4 267. c5b6 g6f5 268. b6c5
+ f5g4 269. c5c6 e6e7 270. c6c8 g4h5 271. c8d8 h5h6 272. d8b6 h6g7 273. b6c5 g7f7
+274. c5d4 f7g6 275. d4c3 g6f5 276. c3e3 f5g4 277. e3c5 e7f7 278. c5b5 f7e7 279. b5c6
+ g5g6 280. c6c7 g4f5 281. c7c5 f5g4 282. c5c3 g6g5 283. c3c5 e7f7 284. c5e3 h4h2
+285. e3d4 h2h4 286. d4e3 g4f5 287. e3g1 h4h2 288. g1e1 h2f2 289. e1c3 f7e7 290. c3c5
+ e7f7 291. c5a5 f7e7 292. a5b4 f2h2 293. b4b5 e7f7 294. b5c5 f7g7 295. c5b6 f5g6
+296. b6d4 h2h4 297. d4c5 h4h2 298. c5e3 g6f5 299. e3d4 h2h4 300. d4d6 g7f7 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "9"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mubm6/12/3*C1bu*3/4**6/12/7S4/3X3D4 w - - 6 4"]
+[Termination "Party extinct"]
+[PlyCount "386"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1g2 h7h6 g2h2 h6h5 e1e5 g7g5"]
+[TimeMs "16491"]
+
+1. h1g1 h8h6 2. g1g2 d7e6 3. e5e3 f8f6 4. d1f1 c7d7 5. g2g3 e6f5 6. f1h3 d7d6 7. h2i3
+ d6e6 8. i3i4 h5g6 9. h3i3 g8h8 10. i3h3 f6d6 11. h3i3 e8d8 12. e3h3 e7e5 13. i4h4
+ h8g8 14. i3i4 g6h5 15. i4k6 g8f8 16. h4i4 h5g6 17. i4h4 d6f6 18. h4g5 h6g5 19. k6j5
+ g6h5 20. j5j3 f8e8 21. j3i2 f7g7 22. i2g2 g7g6 23. h3f3 e8e7 24. g2g1 h5g4 25. g3g4
+ g5g4 26. f3f5 g4f5 27. g1g3 d8g8 28. g3e3 g8h8 29. e3c5 e7f7 30. c5b6 h8h7 31. b6c5
+ g6g5 32. c5c6 f7g7 33. c6e8 e5e7 34. e8c6 g7g6 35. c6c4 e7e5 36. c4d3 h7h4 37. d3f3
+ g5g4 38. f3e3 g6h6 39. e3c5 h6i6 40. c5a5 g4g5 41. a5c5 g5g4 42. c5e3 h4h3 43. e3d2
+ h3h6 44. d2c3 h6h4 45. c3d2 h4h3 46. d2e2 h3g3 47. e2c4 i6j6 48. c4e2 j6j5 49. e2f1
+ g3j3 50. f1g1 j5j6 51. g1h1 j3j2 52. h1g2 j2j3 53. g2h2 j6i6 54. h2h1 j3j2 55. h1g2
+ j2j3 56. g2h2 f5h5 57. h2h1 j3j2 58. h1h2 j2j3 59. h2h1 j3j2 60. h1h2 j2j3 61. h2h1
+ j3j2 62. h1h2 j2j3 63. h2h1 j3j2 64. h1h2 j2j3 65. h2h1 j3j2 66. h1h2 j2j3 67. h2h1
+ j3j2 68. h1h2 j2j3 69. h2h1 j3j2 70. h1h2 j2j3 71. h2h1 j3j2 72. h1h2 j2j3 73. h2h1
+ j3j2 74. h1h2 j2j3 75. h2h1 j3j4 76. h1h2 j4j3 77. h2h1 j3j2 78. h1h2 j2j3 79. h2h1
+ j3k3 80. h1i1 k3k2 81. i1i3 k2k4 82. i3i2 k4k3 83. i2i3 k3k4 84. i3i2 k4k3 85. i2i3
+ k3k4 86. i3i2 k4k3 87. i2i3 k3k4 88. i3i2 k4j4 89. i2j2 j4k4 90. j2i2 k4j4 91. i2k2
+ h5j5 92. k2j2 j4k4 93. j2i1 j5j3 94. i1h2 e5g5 95. h2g1 e6e5 96. g1g2 e5f5 97. g2e2
+ k4k2 98. e2c4 k2h2 99. c4c5 h2h4 100. c5c7 j3h3 101. c7c5 h4h7 102. c5c7 h7e7 103. c7c5
+ h3f3 104. c5d4 g5e5 105. d4d3 e7h7 106. d3f1 i6h6 107. f1h1 h6g6 108. h1j3 f6h6
+109. j3h1 e5g5 110. h1f1 f3h3 111. f1h1 h7h8 112. h1f1 h8h7 113. f1e2 h7h8 114. e2d1
+ h6h4 115. d1d3 h8h7 116. d3e2 h7g7 117. e2f1 g7f7 118. f1h1 h3h5 119. h1f1 g6h6
+120. f1h1 h6g6 121. h1f1 f7i7 122. f1h1 i7g7 123. h1g1 g6h6 124. g1f1 h6h7 125. f1h1
+ g7g6 126. h1j3 h7g7 127. j3j5 g7f7 128. j5j7 f7f6 129. j7i8 g6g7 130. i8i7 h4h6
+131. i7k5 g7g8 132. k5j4 g8g6 133. j4h2 g6g8 134. h2j2 h5h3 135. j2i1 h6h4 136. i1h1
+ f6g6 137. h1f1 g8g7 138. f1h1 g7d7 139. h1f1 d7f7 140. f1g1 g5g3 141. g1f1 g3g5
+142. f1h1 h4h2 143. h1f1 f7f6 144. f1f2 g6h6 145. f2d4 h2h4 146. d4d6 f6f7 147. d6d7
+ f5f6 148. d7c6 h6i6 149. c6c4 f6g6 150. c4c5 g5g3 151. c5d4 f7g7 152. d4c3 i6j6
+153. c3e3 g6g5 154. e3e5 g7f7 155. e5c7 g5g6 156. c7d7 f7g7 157. d7e7 h3h5 158. e7c7
+ g3g5 159. c7d6 j6j5 160. d6e5 j5j4 161. e5e3 g5g3 162. e3g1 h4h2 163. g1e3 g7f7
+164. e3d3 g6g5 165. d3e2 f7f6 166. e2d3 j4i4 167. d3d4 f6g6 168. d4d3 h2h4 169. d3e2
+ h5h3 170. e2d3 g5f5 171. d3c4 h4h6 172. c4e6 g3g5 173. e6g8 i4h4 174. g8i8 g4g3
+175. i8k6 f5f6 176. k6j5 h4g4 177. j5j3 g6g7 178. j3k4 g5e5 179. k4k3 h6h4 180. k3j2
+ g7g6 181. j2j4 h3h5 182. j4k4 g3h3 183. k4j3 h4h2 184. j3j5 h3i3 185. j5j4 g6i6
+186. j4k3 h5j5 187. k3l4 i6k6 188. l4l3 h2j2 189. l3l4 k6k5 190. l4l3 k5k4 191. l3l2
+ j5j3 192. l2l1 k4k2 193. l1j1 j2j1 0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "34"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3a1btb4/2mu1mb5/6u5/3*b3*3/4**6/6C5/3X1S6/7D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "247"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1f2 h7g6 e1g3 e7e5 d1d2 e8d8"]
+[TimeMs "10670"]
+
+1. g3e5 d7e6 2. e5e3 h8h6 3. d2e1 f8f6 4. e1g3 g7g5 5. g3g2 g6h5 6. h1h2 c7d7 7. h2h3
+ d7e7 8. h3g3 e6f5 9. g2f3 e7e6 10. f3h3 g8f8 11. h3j3 f7g7 12. j3i2 g7g6 13. g3h3
+ d8d7 14. f2g3 f6d6 15. g3e1 h5g4 16. h3g4 f5g4 17. e1f2 g4f3 18. i2h2 f3e3 19. f2e3
+ g5e5 20. e3g3 d7f7 21. g3h3 g6g5 22. h2j4 f7g7 23. h3g3 f8f7 24. g3g2 g5f5 25. g2f3
+ f7e7 26. j4j6 e7d7 27. f3e2 g7g5 28. e2f3 h6f6 29. j6i6 d6d4 30. i6g8 e5e7 31. g8i6
+ d7c7 32. i6j5 f6h6 33. f3g3 e7e5 34. j5j4 c7c6 35. j4h2 h6f6 36. h2f2 e5e3 37. f2g1
+ g5g4 38. g3f2 e3e5 39. f2e3 d4d6 40. e3c3 c6c7 41. g1e3 c7d7 42. c3c5 d7e7 43. c5d6
+ e6d6 44. e3g1 d6e6 45. g1g2 g4g5 46. g2i4 f6h6 47. i4h3 h6h4 48. h3j5 h4h6 49. j5h3
+ h6h4 50. h3h2 g5g3 51. h2j4 g3g5 52. j4j5 h4h6 53. j5h3 h6f6 54. h3f3 g5g6 55. f3e2
+ e5g5 56. e2d2 g6h6 57. d2b4 e7f7 58. b4a4 f7g7 59. a4c6 h6h5 60. c6e8 h5h7 61. e8c6
+ g7g6 62. c6c5 h7h4 63. c5c6 g6h6 64. c6e8 g5g7 65. e8c6 h6h5 66. c6d7 h4g4 67. d7c6
+ g7g5 68. c6c5 h5h6 69. c5e3 g4h4 70. e3g1 h4j4 71. g1g2 h6i6 72. g2i2 f6h6 73. i2j2
+ j4j5 74. j2l4 h6j6 75. l4l6 i6h6 76. l6l5 j5k5 77. l5j3 j6j4 78. j3j2 e6f6 79. j2h2
+ k5k3 80. h2g1 k3i3 81. g1f2 j4h4 82. f2e3 h6i6 83. e3e2 i3g3 84. e2d2 i6j6 85. d2b4
+ j6j5 86. b4d6 h4h6 87. d6d4 g5e5 88. d4e3 g3g2 89. e3e2 g2g3 90. e2e3 h6h4 91. e3c5
+ j5j4 92. c5c3 j4i4 93. c3e3 f5g5 94. e3c1 h4h2 95. c1e3 g5g4 96. e3c1 g3f3 97. c1c2
+ h2h4 98. c2a4 e5g5 99. a4a5 h4h2 100. a5a7 h2h4 101. a7a5 h4h2 102. a5a3 h2h4 103. a3c5
+ f6f5 104. c5e7 h4h6 105. e7e6 h6h8 106. e6e8 i4i3 107. e8f7 i3j3 108. f7f8 g5g7
+109. f8d6 h8h6 110. d6c7 j3j4 111. c7d6 h6f6 112. d6c5 g7g5 113. c5c3 j4j3 114. c3e1
+ j3j4 115. e1g1 f3h3 116. g1i1 h3j3 117. i1j1 j3k3 118. j1i2 g4h4 119. i2i1 k3k4
+120. i1j2 j4j5 121. j2k2 k4k5 122. k2k3 j5j6 123. k3k5 j6j7 124. k5j6 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "39"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2a2btb4/2mubm1u4/12/3*b3*3/4**6/12/12/3XCS1D4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1e3 e7e5 e3e2 g7e7 e2f1 e8c8"]
+[TimeMs "25489"]
+
+1. e1e5 d7e6 2. e5e3 h8h6 3. d1f3 c8e8 4. h1h2 h7g6 5. h2h3 c7d7 6. f1f2 e6f6 7. h3h4
+ d7d6 8. e3g3 g8h8 9. f3h3 e7g7 10. h3j5 g7i7 11. h4g4 d6e6 12. f2d4 e8e7 13. j5h3
+ e7b7 14. h3j5 i7g7 15. j5k6 g7i7 16. k6i4 b7c7 17. g4h4 c7c4 18. d4e3 e6e5 19. e3f3
+ f6e6 20. f3g4 c4c2 21. g4e2 e5f5 22. h4h3 f8f6 23. i4g2 f5g5 24. g3g1 g5h5 25. g2h2
+ i7g7 26. h3g3 e6f5 27. e2f3 h8g8 28. f3f2 h5g5 29. h2g2 h6h4 30. f2f3 c2c5 31. g2f2
+ h4g3 32. f2g3 f6h6 33. g3g2 c5c6 34. f3f2 c6e6 35. g2f1 g6h5 36. f2g3 g5g4 37. g3h2
+ g8h8 38. f1h1 e6g6 39. h2f2 h6h4 40. f2e3 h8g8 41. h1g2 g4g3 42. g2f1 g7g5 43. f1d3
+ g8g7 44. d3c3 g7h7 45. e3d4 h7i7 46. c3c4 g3f3 47. c4b4 f3f2 48. g1e3 f2f3 49. e3c5
+ f5g4 50. b4c4 f7f6 51. c4c6 f6f5 52. c6d7 h4h6 53. d4c3 h6f6 54. c3d3 g5e5 55. d7d8
+ g6g7 56. d8b6 f6d6 57. c5a7 e5c5 58. a7c5 d6c5 59. b6c5 h5g6 60. d3f1 i7i6 61. f1h1
+ f3g3 62. h1i2 g7h7 63. i2i3 h7h5 64. i3j3 h5h2 65. c5e7 h2h5 66. e7e8 h5h7 67. e8c6
+ h7h4 68. c6e6 h4h7 69. j3i3 g3h3 70. i3j4 f5g5 71. e6e5 h3h4 72. e5e3 g4g3 73. e3g1
+ h7k7 74. j4j5 i6h6 75. g1h1 k7h7 76. j5k6 g6g7 77. h1j3 h6g6 78. j3h1 h7h8 79. h1g1
+ g3g4 80. g1e3 h8f8 81. e3d4 f8f7 82. k6j7 g7f6 83. d4f2 g4g3 84. f2d4 g5f5 85. j7h7
+ g6h6 86. h7i7 h6i6 87. i7h8 f5g5 88. h8h7 i6j6 89. h7i7 j6j5 90. i7j7 f6f5 91. j7h7
+ j5j4 92. h7j7 f7f6 93. j7j5 j4j3 94. j5k5 g3f3 95. k5j4 f6e6 96. d4d3 f3g2 97. d3e2
+ h4h3 98. e2e3 e6f6 99. j4k4 j3j4 100. k4k5 j4j3 101. k5j5 h3g3 102. e3c3 g2f3 103. j5j4
+ f6h6 104. c3c5 f3g4 105. j4k4 j3i3 106. c5e3 g3g2 107. k4i4 g4g3 108. e3c5 h6h4
+109. i4j4 i3h3 110. c5d6 f5g6 111. d6f8 h4i4 112. j4k5 i4h4 113. f8e7 g3g4 114. e7f8
+ g4f5 115. f8h8 h4h7 116. h8f8 h7h4 117. k5j4 f5g4 118. j4k5 g4f5 119. f8h8 h4h7
+120. h8f8 h7h4 121. f8d6 h3i3 122. d6f8 i3h3 123. f8d6 g2g3 124. d6c5 g3f3 125. k5k3
+ f5g4 126. k3j2 h4j4 127. c5d6 f3g3 128. d6f8 g6h7 129. f8f7 h7g6 130. f7g8 j4j5
+131. j2i3 j5j3 132. i3k5 j3j5 133. k5i7 j5j7 134. g8h8 g4f5 135. i7i8 j7j5 136. i8h7
+ g6h5 137. h8i8 g3g4 138. i8j7 h5i4 139. j7i7 h3g3 140. i7g7 i4h5 141. g7e7 g3h3
+142. h7f7 g5g6 143. e7f8 f5f6 144. f7e7 f6g5 145. f8h8 j5j2 146. h8j6 h3g3 147. e7c5
+ g3f3 148. j6j4 j2i2 149. j4j5 i2i3 150. c5c3 i3g3 151. j5j6 g6f6 152. j6h8 g3g1
+153. h8f8 g1f1 154. c3d2 h5g6 155. d2c3 f6f5 156. c3c5 f3g3 157. c5e7 f5f6 158. f8h8
+ g3f3 159. e7g7 f6f7 160. g7h7 g6g7 161. h8i7 g5h6 162. i7k5 g7h7 163. k5j4 g4g3
+164. j4i4 f1f2 165. i4i2 f2h2 166. i2k2 h6g5 167. k2k4 f3e3 168. k4k3 h7g6 169. k3k4
+ e3d3 170. k4k3 g5g4 171. k3k5 h2h4 172. k5i7 g4g5 173. i7j7 h4h6 174. j7j5 h6h4
+175. j5j7 f7f6 176. j7i7 h4h7 177. i7j6 f6f5 178. j6j4 h7h4 179. j4j6 d3e3 180. j6h8
+ g6f7 181. h8j6 e3d3 182. j6i6 g3g4 183. i6j5 f7f6 184. j5j4 h4h3 185. j4j6 d3d4
+186. j6h8 f6e7 187. h8i7 e7e6 188. i7g7 f5f6 189. g7f8 e6d7 190. f8g7 d7e8 191. g7h7
+ e8e7 192. h7j5 h3i3 193. j5k5 g5h4 194. k5k3 h4h3 195. k3k5 g4g5 196. k5k3 f6f5
+197. k3k5 e7f6 198. k5l4 h3h4 199. l4k4 f6g6 200. k4k3 i3g3 201. k3i1 g3g2 202. i1i2
+ h4g3 203. i2j3 f5f6 204. j3i4 f6f5 205. i4j4 g3g4 206. j4j6 g6f7 207. j6i7 f7f6
+208. i7h7 g2g3 209. h7g8 f6e7 210. g8g7 e7e8 211. g7g8 e8e7 212. g8h8 e7f7 213. h8h6
+ g3e3 214. h6h7 f5f6 215. h7j5 e3g3 216. j5i4 f6f5 217. i4i2 g3g1 218. i2i1 g1g2
+219. i1i2 g2g1 220. i2i3 g1g2 221. i3i2 g2g1 222. i2i1 g1g2 223. i1i2 g4h3 224. i2j3
+ g2g3 225. j3j4 f7g6 226. j4j3 g3g2 227. j3j2 h3g4 228. j2k3 g2g3 229. k3j4 g3g2
+230. j4j6 f5f6 231. j6h8 g6f7 232. h8h6 g2g3 233. h6j4 f6f5 234. j4i3 g3g2 235. i3j4
+ g2g1 236. j4l4 f7g6 237. l4l6 g1g3 238. l6j6 f5f6 239. j6j4 g4h4 240. j4k3 h4h3
+241. k3j4 g6f7 242. j4j3 f6f5 243. j3h1 g3g2 244. h1j3 f7g6 245. j3j2 g6f6 246. j2j3
+ f6g6 247. j3k2 g2g1 248. k2j1 g5g4 249. j1j3 g4h4 250. j3k4 f5f6 251. k4i6 g1g3
+252. i6j6 g3g5 253. j6h8 g6f7 254. h8j6 f7g6 255. j6i6 g5g3 256. i6g8 g6f7 257. g8h8
+ g3g5 258. h8i8 f7g6 259. i8i7 g6f7 260. i7i8 g5g3 261. i8h8 h3g4 262. h8i8 f7g6
+263. i8h8 g6f7 264. h8j6 f7g6 265. j6h8 g6f7 266. h8h6 g3i3 267. h6h7 f7g6 268. h7h8
+ g6f7 269. h8j8 g4g5 270. j8h8 f6f5 271. h8j8 f7g6 272. j8h8 g6f7 273. h8i8 g5g6
+274. i8i7 g6g5 275. i7k5 f7f6 276. k5k3 i3g3 277. k3j2 g5g4 278. j2j1 g3g2 279. j1i1
+ f6g6 280. i1j1 g4h3 281. j1j3 h3g4 282. j3k4 g2g3 283. k4j3 g3g1 284. j3i2 g6f6
+285. i2i1 g1g2 286. i1i2 g2g1 287. i2j3 g1g2 288. j3j4 g2i2 289. j4k4 i2i1 290. k4k2
+ f5g5 291. k2j3 g4g3 292. j3j5 f6g7 293. j5i6 g3g4 294. i6i7 g5g6 295. i7i6 i1i3
+296. i6i8 g4h5 297. i8i7 d4c4 298. i7k5 i3j3 299. k5i7 c4c5 300. i7j6 g6g5 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "48"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2m1bmb5/5uu5/3*4*3/4**6/1X10/12/4C1SD4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1c2 d7e6 c2c4 h7g6 c4b3 e6f6"]
+[TimeMs "25456"]
+
+1. h1h2 f6f5 2. b3b4 h8h6 3. h2h3 g7g5 4. g1h2 c7d7 5. h2i3 e7g7 6. b4d4 d7e7 7. d4e3
+ e7e6 8. e3f2 f8f6 9. i3h4 g8h8 10. f2g3 g5h4 11. g3h4 e8e7 12. h4g3 h8g8 13. h3h4
+ g8f8 14. h4g4 f5e5 15. g3f2 f8e8 16. f2f3 e8d8 17. e1j6 g7i7 18. j6h4 g6g5 19. g4g5
+ h6g5 20. h4f6 g5f6 21. f3f2 i7g7 22. f2e3 d8e8 23. e3f3 e7c7 24. f3f2 g7g5 25. f2e3
+ e5f5 26. e3c5 c7e7 27. c5e3 f7g7 28. e3f2 g7g6 29. f2d2 e8f8 30. d2e2 e7f7 31. e2g2
+ f7h7 32. g2i4 f8f7 33. i4j5 h7h6 34. j5i4 f7e7 35. i4g2 h6h4 36. g2f3 g5e5 37. f3e3
+ e7f7 38. e3c5 g6g5 39. c5b5 e6e7 40. b5b6 f7g7 41. b6c7 g7h7 42. c7c6 h7h6 43. c6c4
+ f5g4 44. c4e2 e7e6 45. e2g2 h4h3 46. g2h1 h3i3 47. h1i1 i3j3 48. i1h1 j3k3 49. h1j1
+ g5f5 50. j1i2 g4h4 51. i2g2 h6i6 52. g2i2 i6i7 53. i2h1 k3i3 54. h1g2 i3h3 55. g2h1
+ h4i4 56. h1f3 h3j3 57. f3h1 f5g5 58. h1j1 i4j4 59. j1h1 g5g4 60. h1j1 i7j7 61. j1h1
+ j7j6 62. h1j1 e5g5 63. j1l3 j4k4 64. l3j1 j6i6 65. j1h1 f6h6 66. h1f1 j3h3 67. f1d3
+ e6f6 68. d3c4 k4j3 69. c4c5 j3i4 70. c5c6 i4h5 71. c6e8 g5g7 72. e8d7 h5g6 73. d7e8
+ f6f5 74. e8e6 h6f6 75. e6c6 h3f3 76. c6c4 g7g5 77. c4c3 f6h6 78. c3d2 h6h4 79. d2d3
+ i6j6 80. d3d1 f3h3 81. d1d3 j6j5 82. d3c2 h4h2 83. c2d2 j5j4 84. d2c3 f5f6 85. c3d3
+ h3g3 86. d3c4 g3h3 87. c4d3 g6f5 88. d3d1 h2f2 89. d1d3 f5g6 90. d3d4 h3g3 91. d4b6
+ f2h2 92. b6d6 g3h3 93. d6c6 g5g7 94. c6c5 g7g5 95. c5e3 h3f3 96. e3d3 g6f5 97. d3f1
+ f6g6 98. f1d3 g5g3 99. d3b5 h2h4 100. b5d3 g3g1 101. d3d1 h4h6 102. d1e1 f3f2 103. e1d2
+ f2f3 104. d2e1 f3f2 105. e1d2 f2f3 106. d2e1 f3f2 107. e1c1 f2h2 108. c1e1 g1g3
+109. e1e3 j4i4 110. e3d3 i4i3 111. d3b5 h2f2 112. b5d3 i3i4 113. d3b5 g3e3 114. b5a6
+ f2f3 115. a6b6 e3e5 116. b6b5 e5e3 117. b5c6 g4g5 118. c6e8 f3h3 119. e8g8 i4h4
+120. g8i8 e3g3 121. i8k6 h4g4 122. k6k5 h3h4 123. k5k3 h4h2 124. k3l4 g3i3 125. l4j6
+ g4g3 126. j6h8 g3g4 127. h8g8 g5h5 128. g8h8 h2i2 129. h8f8 i3g3 130. f8d6 g4h4
+131. d6c6 i2g2 132. c6b5 f5g4 133. b5c5 h4i4 134. c5d6 g3g5 135. d6d4 g2e2 136. d4c5
+ e2f2 137. c5c3 h6h4 138. c3d4 f2f3 139. d4d2 g5g3 140. d2d3 f3f2 141. d3c4 g3g5
+142. c4e6 g5g7 143. e6c6 g7g5 144. c6c4 h4h6 145. c4c3 g5g3 146. c3d4 f2g2 147. d4d6
+ g3g5 148. d6f8 g5g7 149. f8d6 g2e2 150. d6c5 e2f2 151. c5d4 f2g2 152. d4d6 h5g5
+153. d6d4 g5f5 154. d4d3 g7g5 155. d3e3 h6h4 156. e3e2 g5g3 157. e2d2 g3g5 158. d2c3
+ h4h6 159. c3d4 h6h4 160. d4d2 g5g3 161. d2d3 h4h6 162. d3e3 h6f6 163. e3d2 g3g5
+164. d2d4 g5g3 165. d4d6 g3g5 166. d6f8 g5g7 167. f8d6 f6h6 168. d6d4 g7g5 169. d4b4
+ g2f2 170. b4d2 f2g2 171. d2d3 g5g3 172. d3e2 g2f2 173. e2d2 h6h4 174. d2b2 g3g5
+175. b2d2 g5g3 176. d2b4 g3g5 177. b4d6 f2f3 178. d6e6 g5g7 179. e6c6 f3d3 180. c6d6
+ g7g5 181. d6b4 h4h6 182. b4b5 d3c3 183. b5a5 c3f3 184. a5a4 g5g3 185. a4c4 g3g5
+186. c4e6 g6g7 187. e6e8 h6h8 188. e8f8 g7h7 189. f8f7 g5g7 190. f7d7 h7h6 191. d7b5
+ g7g5 192. b5d3 g5g7 193. d3f1 i4h4 194. f1h1 h4h5 195. h1h2 h5g5 196. h2j4 g5g6
+197. j4l4 g6f6 198. l4j2 h6g6 199. j2j3 h8h6 200. j3l5 h6h4 201. l5l6 f3g3 202. l6l4
+ h4h6 203. l4j4 f6e6 204. j4j5 g3h3 205. j5j4 h6f6 206. j4j3 e6e7 207. j3h1 g7g5
+208. h1f1 g5e5 209. f1h1 f6h6 210. h1g1 e7f7 211. g1e3 e5e7 212. e3g1 h3h5 213. g1h1
+ e7e5 214. h1j3 h5h3 215. j3h1 h6f6 216. h1g1 h3h5 217. g1e3 f7g7 218. e3c5 g7h7
+219. c5c4 h5h4 220. c4c6 h7i7 221. c6c5 h4h5 222. c5e3 h5h2 223. e3f2 g4g3 224. f2f1
+ g3g4 225. f1e2 e5g5 226. e2e1 i7h7 227. e1e3 g5g3 228. e3c5 h7i7 229. c5e3 g3g5
+230. e3f2 g5g3 231. f2e3 h2f2 232. e3d4 i7i6 233. d4d2 i6h6 234. d2d4 h6i6 235. d4b6
+ f2h2 236. b6d6 g3g5 237. d6c6 h2h4 238. c6c5 h4h2 239. c5d6 h2h4 240. d6d4 h4h3
+241. d4f2 h3h1 242. f2f1 h1h2 243. f1f2 h2h1 244. f2d4 h1h2 245. d4d6 h2h3 246. d6d4
+ h3g3 247. d4c5 g3g2 248. c5d6 g5g7 249. d6d4 g7g5 250. d4c5 g2f2 251. c5c6 f2h2
+252. c6e8 g5g7 253. e8c6 h2h5 254. c6c5 g7g5 255. c5e3 g5g3 256. e3g1 h5h2 257. g1e3
+ h2g2 258. e3d4 g2h2 259. d4d6 h2h5 260. d6c5 g3g5 261. c5e3 h5h2 262. e3d4 h2g2
+263. d4d6 g5g7 264. d6b4 g7g5 265. b4d6 g2f2 266. d6c6 g5g7 267. c6d6 f2h2 268. d6c5
+ g7g5 269. c5c6 h2h4 270. c6c5 g5g3 271. c5e3 h4h2 272. e3d3 h2h4 273. d3d4 h4h3
+274. d4d3 h3h4 275. d3e2 h4h2 276. e2d3 h2g2 277. d3e2 g2f2 278. e2d2 g3e3 279. d2b4
+ e3g3 280. b4d4 f2g2 281. d4d3 i6j6 282. d3d4 g2h2 283. d4e3 g3g5 284. e3f2 g5g3
+285. f2d4 h2h5 286. d4d6 j6k6 287. d6f8 h5h7 288. f8d6 k6j6 289. d6b4 j6i6 290. b4d6
+ h7h4 291. d6f8 h4h7 292. f8e8 h7g7 293. e8d7 g3g5 294. d7c6 g7g8 295. c6d6 g8h8
+296. d6d4 h8h5 297. d4f2 g5g3 298. f2g1 h5h2 299. g1e3 g3g5 300. e3f2 g5g3 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "43"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2m1bm6/3u2u5/3*2b1*3/4**6/12/2X2S6/4C2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "285"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1b1 h7g6 g1f2 g7g5 b1c2 d7d6"]
+[TimeMs "12342"]
+
+1. h1h2 h8h6 2. c2e2 f8f6 3. h2h3 c7d7 4. e1e3 g6h5 5. e2g2 d6e5 6. g2h2 f7g7 7. e3g1
+ g8f8 8. f2h4 e5f5 9. h2f2 e7e5 10. h4i4 h5g6 11. f2g2 g7f7 12. i4g4 f5e6 13. g2f2
+ f6d6 14. g4f3 e6f5 15. f3g3 e8e6 16. h3h4 f8e8 17. g3i3 e8d8 18. h4g5 h6g5 19. f2g3
+ d7e7 20. i3h4 f7f6 21. g3f2 d8d7 22. h4g3 g6h5 23. g3h2 e7f7 24. h2h3 f6g6 25. h3g3
+ g6h6 26. g3e3 h6g6 27. e3d4 d6f6 28. d4e5 f5e5 29. f2d2 d7e7 30. d2c3 e6d6 31. c3e1
+ e7e8 32. e1f2 d6e6 33. f2e2 e8f8 34. e2f1 e5f5 35. f1f2 f8g8 36. f2e3 g8h8 37. e3g3
+ f7g7 38. g3f2 h8g8 39. f2h2 g8f8 40. h2g2 f8f7 41. g1g3 g6h6 42. g3g1 h5g4 43. g2f2
+ h6h5 44. f2e3 h5h4 45. e3f2 g4g3 46. f2f1 g7g6 47. g1e1 g5e5 48. e1g1 e5e3 49. f1d1
+ f6d6 50. d1c1 d6d4 51. g1d4 e3d4 52. c1b2 d4d6 53. b2d2 d6f6 54. d2c2 g6g5 55. c2b1
+ g3g4 56. b1d1 g4g3 57. d1b1 g3g4 58. b1d3 f7g7 59. d3d1 g7g6 60. d1f1 g6h6 61. f1h1
+ g5h5 62. h1j3 h6g6 63. j3j5 f6h6 64. j5j6 e6e7 65. j6j4 e7g7 66. j4h2 h5g5 67. h2f2
+ h6f6 68. f2h2 g4g3 69. h2h1 f5g4 70. h1i1 f6h6 71. i1k3 g6f6 72. k3l3 h4h5 73. l3l5
+ h6h4 74. l5j5 g5f5 75. j5j4 f6e6 76. j4j6 g3h3 77. j6j7 e6d6 78. j7i8 h4h6 79. i8j7
+ h3h4 80. j7l5 g7g6 81. l5k5 h4h3 82. k5k7 d6c6 83. k7l8 h3i4 84. l8j8 c6c5 85. j8j6
+ g6g7 86. j6k5 h6h4 87. k5l4 c5c6 88. l4k4 i4h3 89. k4j3 h4h2 90. j3k3 h3g3 91. k3k5
+ f5g5 92. k5i7 g5g6 93. i7j7 h2h4 94. j7j5 c6c5 95. j5j3 g7f7 96. j3h1 g3f2 97. h1h2
+ g4g3 98. h2j4 c5c4 99. j4k4 g3g4 100. k4j5 f7g7 101. j5j3 f2g2 102. j3j5 g6g5 103. j5j6
+ g2h3 104. j6j4 h3i3 105. j4k3 h4h2 106. k3l4 h2h4 107. l4k3 g4g3 108. k3i1 h4h2
+109. i1k3 g7h7 110. k3l3 g3g4 111. l3l4 h7h6 112. l4j6 h6h7 113. j6j7 h5h6 114. j7j5
+ c4d4 115. j5l5 i3i4 116. l5l4 d4c4 117. l4k5 h6g6 118. k5k4 g4h5 119. k4l4 h5g4
+120. l4j2 i4i3 121. j2l4 i3h3 122. l4l5 h2h4 123. l5j7 h7g7 124. j7j5 c4d4 125. j5j3
+ h3g2 126. j3i2 h4h2 127. i2j3 g5h5 128. j3l3 d4c4 129. l3j5 g6g5 130. j5k5 h2h4
+131. k5j6 c4d4 132. j6i6 d4c4 133. i6k4 h4h2 134. k4j4 g7g6 135. j4j5 g2h3 136. j5i6
+ g6f6 137. i6g8 h3i3 138. g8e8 f6d6 139. e8d8 d6c6 140. d8f6 c6c5 141. f6e5 c4b4
+142. e5c3 b4b5 143. c3c5 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "13"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtu4/1m1ubmb5/7b4/1X1*C3*3/4**6/12/12/6SD4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1b3 h8h6 b3b5 h7h8 e1e5 c7b7"]
+[TimeMs "25456"]
+
+1. b5b7 d7e6 2. e5g3 g7g5 3. h1h2 h6h4 4. g3i1 h8h7 5. g1g3 h7g6 6. g3h4 g5h4 7. h2h1
+ f8f6 8. h1g1 e7e5 9. b7c6 e8e7 10. i1f1 e6f5 11. c6b5 e7e6 12. g1g2 g8h8 13. b5b3
+ h8i8 14. b3c4 e6e7 15. c4d3 e5g5 16. g2f2 e7e8 17. f1f3 e8e7 18. f3c3 g6h5 19. c3e3
+ f7g7 20. f2f3 g7g6 21. d3e2 h5i4 22. e2g2 i4h3 23. g2f2 e7e6 24. f2e2 e6e7 25. e2d2
+ h3i3 26. d2f2 i3h3 27. f2f1 h3i3 28. f1f2 i3h3 29. f2e1 h3i3 30. e1c1 i3h3 31. c1c2
+ h3i4 32. c2e2 e7h7 33. e2e1 i4h3 34. e1d2 h7e7 35. d2f2 e7f7 36. f2d4 h3i4 37. d4f2
+ i4h3 38. f2e1 h3i4 39. e1g1 i4h3 40. g1f2 i8i7 41. e3g1 f7c7 42. g1e3 c7e7 43. f2e2
+ i7j7 44. e2d2 e7h7 45. d2e1 j7i7 46. f3f2 i7j7 47. f2f3 h7e7 48. f3f2 e7g7 49. e1e2
+ g7f7 50. f2g2 h3i3 51. e2f2 f5g4 52. f2d2 i3i4 53. g2f2 f7e7 54. d2e2 g4f5 55. e2e1
+ f5g4 56. e1e2 g4f5 57. f2f3 e7h7 58. e2g2 i4h3 59. g2h1 j7j8 60. h1j3 f6h6 61. j3j5
+ j8i8 62. j5l3 g5g3 63. f3g3 h3g3 64. l3j5 g3f3 65. j5j6 h7i7 66. j6h4 f3e3 67. h4g3
+ e3e2 68. g3g2 e2e3 69. g2f1 g6g5 70. f1h3 f5g4 71. h3h2 e3f3 72. h2g1 i8h8 73. g1i3
+ h8g8 74. i3k3 g8f8 75. k3l3 f8f7 76. l3k4 i7g7 77. k4l3 f3g3 78. l3k4 f7f6 79. k4i2
+ h6h4 80. i2i1 g7f7 81. i1g1 f6g6 82. g1e1 g6h6 83. e1c3 h6i6 84. c3d4 i6j6 85. d4d2
+ f7e7 86. d2d3 j6j5 87. d3f1 h4h2 88. f1e2 g5f5 89. e2e3 h2h4 90. e3g1 h4h2 91. g1f1
+ e7g7 92. f1d3 h2h4 93. d3f1 h4h2 94. f1e2 h2h4 95. e2f1 h4h2 96. f1e2 g4g5 97. e2d3
+ g5g4 98. d3d1 j5j4 99. d1d3 g4g5 100. d3c4 j4i4 101. c4e2 g7h7 102. e2d1 g5g4 103. d1d2
+ f5g5 104. d2e3 h2h4 105. e3e5 h7f7 106. e5d6 g3f3 107. d6d4 f3g3 108. d4e5 h4h2
+109. e5e3 f7f6 110. e3d4 f6e6 111. d4d2 e6h6 112. d2c3 g4f5 113. c3c5 h6e6 114. c5b5
+ i4i3 115. b5c4 e6g6 116. c4c6 h2h4 117. c6d6 g6g8 118. d6d4 g8g6 119. d4e3 h4h2
+120. e3d4 h2h4 121. d4d2 g6f6 122. d2e3 h4h2 123. e3d2 i3i4 124. d2d4 f6e6 125. d4c5
+ g3g4 126. c5d4 h2h4 127. d4f2 g4g3 128. f2f1 h4h2 129. f1e2 e6g6 130. e2e3 h2h4
+131. e3d4 g6g8 132. d4c4 g8g6 133. c4e2 g6e6 134. e2f1 h4h2 135. f1e2 h2h4 136. e2c4
+ e6f6 137. c4c2 f6e6 138. c2a4 e6f6 139. a4b5 f6e6 140. b5c4 e6f6 141. c4e2 f6e6
+142. e2e1 e6g6 143. e1e2 g6f6 144. e2d3 f6e6 145. d3f1 h4h2 146. f1e2 e6g6 147. e2c4
+ g6d6 148. c4b5 f5g4 149. b5b6 d6d7 150. b6b5 d7g7 151. b5d3 h2h4 152. d3c4 g7e7
+153. c4c5 e7e6 154. c5c6 g4f5 155. c6e8 i4i3 156. e8f8 g3h2 157. f8e8 h2g2 158. e8g8
+ e6g6 159. g8i6 i3h3 160. i6k4 h3g3 161. k4j3 g3f3 162. j3i2 h4h2 163. i2i4 g6e6
+164. i4i6 g2h3 165. i6g8 h3g4 166. g8e8 f3g3 167. e8c6 g3h3 168. c6c4 h3h4 169. c4d4
+ h4h5 170. d4b6 f5f6 171. b6d4 h5h6 172. d4e3 g4g3 173. e3c1 h2h4 174. c1e1 h6i6
+175. e1e3 i6j6 176. e3d4 f6f5 177. d4e3 e6f6 178. e3g1 h4h2 179. g1e3 f6e6 180. e3c5
+ h2h4 181. c5c6 e6e7 182. c6c4 e7g7 183. c4d4 g7g6 184. d4d6 g6g8 185. d6d4 g3g4
+186. d4f2 g4g3 187. f2e3 g8g6 188. e3d4 g6e6 189. d4c3 e6g6 190. c3e3 g6f6 191. e3g1
+ h4h2 192. g1e3 j6j5 193. e3c5 f5e5 194. c5c6 f6f7 195. c6c7 e5f6 196. c7c6 g3g4
+197. c6c7 f7g7 198. c7b6 j5j4 199. b6d4 f6f5 200. d4f2 g4g3 201. f2d4 h2h4 202. d4c5
+ g7g6 203. c5e7 g6g8 204. e7e8 g8h8 205. e8f8 h8h7 206. f8d6 h7f7 207. d6d7 f7f8
+208. d7c7 f5g4 209. c7e5 f8f7 210. e5e3 g4f3 211. e3e5 h4h6 212. e5d6 g3g4 213. d6c6
+ g4f5 214. c6b6 f7g7 215. b6d4 j4i4 216. d4d6 g7h7 217. d6b6 h6f6 218. b6b4 h7h5
+219. b4d6 f3g4 220. d6c6 f5g6 221. c6c5 h5h2 222. c5e3 h2g2 223. e3d4 g2g1 224. d4e3
+ g1g2 225. e3d4 g2g1 226. d4c5 g1g3 227. c5d4 f6h6 228. d4e5 g3f3 229. e5e7 f3g3
+230. e7e6 g3h3 231. e6d6 g6g7 232. d6e6 g7g6 233. e6g8 g6g7 234. g8i8 g4h5 235. i8k6
+ i4h4 236. k6k4 h3i3 237. k4k3 h5i4 238. k3i1 h4h5 239. i1k3 h5h4 240. k3i1 h4h5
+241. i1g1 g7f7 242. g1e1 h6h4 243. e1f2 i3h3 244. f2d4 g5f5 245. d4d3 f5f6 246. d3c4
+ h5h6 247. c4c6 i4h5 248. c6d7 h6i6 249. d7d8 i6i7 250. d8d7 i7i6 251. d7d8 h5g5
+252. d8d6 h4h2 253. d6c5 h2h4 254. c5d6 h3g3 255. d6d8 g5g6 256. d8b8 g6g5 257. b8c7
+ f6f5 258. c7c5 g5g4 259. c5c6 h4h6 260. c6c7 g3h3 261. c7c5 h6f6 262. c5c3 h3f3
+263. c3e1 i6h6 264. e1g1 f6f8 265. g1i3 h6g6 266. i3g1 f7g7 267. g1f1 f8f6 268. f1h1
+ f3g3 269. h1f1 f6f8 270. f1h1 g3h3 271. h1g1 f8f6 272. g1h1 f6f8 273. h1f1 f8f6
+274. f1f2 f6f8 275. f2f1 f8f6 276. f1f2 h3g3 277. f2g1 f6h6 278. g1f1 g3f3 279. f1g1
+ f3h3 280. g1h1 h3f3 281. h1g1 f3h3 282. g1f1 h3f3 283. f1h1 f3g3 284. h1i2 h6h4
+285. i2h1 f5g5 286. h1f1 g6h6 287. f1h1 g5f5 288. h1j3 h6g6 289. j3h1 g3f3 290. h1g1
+ g6h6 291. g1h1 f3h3 292. h1g1 h3g3 293. g1e3 g7f7 294. e3g1 h6g6 295. g1h1 g3i3
+296. h1g1 g6h6 297. g1h1 f7g7 298. h1i1 f5g5 299. i1g1 i3f3 300. g1f1 h6g6 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "17"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2m1abtb4/3u2bu4/5m6/3*b3*3/4**6/12/12/1X2C1SD4 w - - 6 4"]
+[Termination "Party has no legal response"]
+[PlyCount "100"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1b1 f7f6 g1g2 e7e5 g2g1 c7c8"]
+[TimeMs "4525"]
+
+1. h1h2 h8h6 2. b1c1 h7g6 3. c1e3 e5g5 4. g1f2 d7e6 5. h2h3 e6f5 6. f2g3 c8d8 7. g3g1
+ d8d7 8. g1i3 d7e7 9. e3g3 e7f7 10. i3i4 g8h8 11. i4g4 f5e6 12. g4f3 g6h5 13. f3g4
+ g5g4 14. h3g4 h5g6 15. e1h4 f6f5 16. h4j6 f5g4 17. g3g4 g6g5 18. g4i2 h8g8 19. i2j2
+ e6f5 20. j2j4 f5g6 21. j4j3 f8f6 22. j6j2 e8e6 23. j3i2 g8f8 24. i2h2 g5g4 25. h2j4
+ f8e8 26. j4i4 g7g5 27. i4g2 g5g3 28. g2e2 e8f8 29. j2d2 f8g8 30. e2c2 g8h8 31. c2c1
+ h8h7 32. c1c3 h7i7 33. c3c1 g3g5 34. c1c2 g5g3 35. c2e2 g6f5 36. e2d3 h6h4 37. d3d4
+ f7g7 38. d4c3 g7g6 39. c3e3 g4f3 40. e3c3 e6e8 41. d2b4 f3g4 42. c3d3 e8e7 43. d3c3
+ i7j7 44. c3d2 e7h7 45. d2f2 h7e7 46. f2e2 j7j6 47. e2d2 e7h7 48. d2d4 f6h6 49. d4f6
+ f5e6 50. f6h8 h7h8 0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "38"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4at1b4/3ubmbu4/2m2b6/3*4*3/4**2S3/12/12/3XC2D4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1f1 f8f6 f1h3 g8f8 h3i4 c7c6"]
+[TimeMs "25489"]
+
+1. h1h2 d7e6 2. h2h3 h7g6 3. d1f3 h8h6 4. f3f2 e8b8 5. h3h4 b8b5 6. e1g3 f8e8 7. f2e3
+ e8d8 8. i4h3 g7g5 9. h3i3 g5h4 10. i3h4 e6f5 11. g3d3 g6h5 12. h4h3 e7g7 13. e3c3
+ f5g6 14. h3g3 g7g5 15. g3f3 d8d7 16. c3d4 b5c5 17. d4c3 h6h4 18. f3e3 c6d6 19. c3a5
+ c5c6 20. a5a6 c6c7 21. d3d6 d7e7 22. e3c5 f7g7 23. a6c4 g6f5 24. d6b4 e7f7 25. c4d4
+ g7g6 26. c5c3 g5e5 27. d4c4 c7e7 28. c4d3 e5g5 29. d3c4 f7g7 30. b4d2 h5g4 31. c3e3
+ g7h7 32. c4d3 g5g3 33. d3f1 g6g5 34. f1e1 h7i7 35. e3f2 f5g6 36. e1g1 h4h2 37. g1e1
+ g4f3 38. f2d4 g5f5 39. e1c3 h2h4 40. d4c4 f3g4 41. c4c5 e7h7 42. c3d3 i7j7 43. c5e3
+ h7h5 44. d2d4 j7j8 45. d4d2 h5h7 46. e3g1 h7g7 47. g1h1 j8i8 48. h1j3 g3g5 49. j3h1
+ g5g3 50. h1i2 g3g5 51. i2h2 g5g3 52. h2g3 h4g3 53. d3c3 g7f7 54. c3b4 g3g5 55. b4c5
+ g5g3 56. c5c3 f7e7 57. c3c2 g3e3 58. d2b2 e7f7 59. c2c1 g4f3 60. c1c3 f7h7 61. c3b4
+ f3g4 62. b2b5 h7h5 63. b4c3 e3g3 64. c3d3 i8i7 65. d3d4 i7j7 66. d4c4 h5h2 67. c4e2
+ f6d6 68. e2c4 g3e3 69. c4b4 d6d4 70. b4a5 e3e5 71. a5b4 h2h3 72. b4b6 d4d6 73. b6c5
+ f5g5 74. c5a3 h3e3 75. b5e5 e3e2 76. e5c5 d6c5 77. a3c5 e2h2 78. c5d6 h2h4 79. d6e7
+ j7j6 80. e7d6 j6j5 81. d6f8 h4h7 82. f8d6 j5j4 83. d6d4 h7h4 84. d4b4 h4h1 85. b4d4
+ h1h3 86. d4e3 h3h2 87. e3c3 h2g2 88. c3e5 g2h2 89. e5e6 h2h4 90. e6d6 g6f5 91. d6b6
+ h4h6 92. b6b5 j4i4 93. b5d3 h6h4 94. d3f1 h4h2 95. f1f2 g4g3 96. f2e3 g3g4 97. e3d4
+ h2h3 98. d4f2 g4g3 99. f2f1 h3h2 100. f1d1 f5g4 101. d1e2 g5f5 102. e2e3 h2h4 103. e3c1
+ g4g5 104. c1d2 g3g4 105. d2e3 g4g3 106. e3c5 i4j4 107. c5e3 h4h2 108. e3d4 h2h1
+109. d4c3 h1h4 110. c3d2 g3g4 111. d2d3 h4h3 112. d3c4 h3h6 113. c4c6 h6h4 114. c6b6
+ h4h2 115. b6d6 h2h4 116. d6d4 g4g3 117. d4d2 g5g4 118. d2e2 h4h2 119. e2d3 h2h4
+120. d3b5 h4h2 121. b5d7 g3h4 122. d7f7 h4i4 123. f7h7 j4j3 124. h7i6 g4h5 125. i6h7
+ f5g5 126. h7h8 h2h4 127. h8j6 j3i3 128. j6l4 i4j3 129. l4l3 j3i2 130. l3k3 i3h3
+131. k3k2 i2i1 132. k2k3 i1i2 133. k3k2 i2i1 134. k2k3 i1i2 135. k3k2 i2i1 136. k2k3
+ i1i2 137. k3k2 i2i1 138. k2k3 i1i2 139. k3k2 i2i1 140. k2k3 i1i2 141. k3k2 i2i1
+142. k2k3 i1i2 143. k3k2 i2i1 144. k2k3 i1i2 145. k3k2 i2i1 146. k2k3 i1i2 147. k3k2
+ i2i1 148. k2k3 i1i2 149. k3k2 i2i1 150. k2k3 i1i2 151. k3k2 i2i1 152. k2k3 i1i2
+153. k3k2 i2i1 154. k2k3 i1i2 155. k3k2 i2i1 156. k2k3 i1i2 157. k3k2 i2i1 158. k2k3
+ i1i2 159. k3k2 i2i1 160. k2k3 i1i2 161. k3k2 i2i1 162. k2k3 i1i2 163. k3k2 i2i1
+164. k2k1 i1i2 165. k1k2 i2i1 166. k2k3 i1i2 167. k3k2 i2i1 168. k2k1 i1i2 169. k1k2
+ i2i1 170. k2k1 i1i2 171. k1k2 i2i1 172. k2k3 i1i2 173. k3k2 i2i1 174. k2k1 i1i2
+175. k1k2 i2i1 176. k2k1 i1i2 177. k1k2 i2i1 178. k2k3 i1i2 179. k3k2 i2i1 180. k2k3
+ i1i2 181. k3k2 i2i1 182. k2k3 i1i2 183. k3k2 i2i1 184. k2k3 i1i2 185. k3k2 i2i1
+186. k2k3 i1i2 187. k3k2 i2i1 188. k2k1 i1i2 189. k1k2 i2i1 190. k2k3 i1i2 191. k3k2
+ i2i1 192. k2k3 i1i2 193. k3k2 i2i1 194. k2k3 i1i2 195. k3k2 i2i1 196. k2k3 i1i2
+197. k3k2 i2i1 198. k2k3 i1i2 199. k3k2 i2i1 200. k2k3 i1i2 201. k3k2 i2i1 202. k2k3
+ i1i2 203. k3k2 i2i1 204. k2k1 i1i2 205. k1k2 i2i1 206. k2k3 i1i2 207. k3k2 i2i1
+208. k2k3 i1i2 209. k3k2 i2i1 210. k2k3 i1i2 211. k3k2 i2i1 212. k2k3 i1i2 213. k3k2
+ i2i1 214. k2k3 i1i2 215. k3k2 i2i1 216. k2k3 i1i2 217. k3k2 i2i1 218. k2k3 i1i2
+219. k3k2 i2i1 220. k2k3 i1i2 221. k3k2 i2i1 222. k2k1 i1i2 223. k1k2 i2i1 224. k2k3
+ i1i2 225. k3k2 i2i1 226. k2k3 i1i2 227. k3k2 i2i1 228. k2k3 i1i2 229. k3k2 i2i1
+230. k2k3 i1i2 231. k3k2 i2i1 232. k2k3 i1i2 233. k3k2 i2i1 234. k2k3 i1i2 235. k3k2
+ i2i1 236. k2k3 i1i2 237. k3k2 i2i1 238. k2k3 i1i2 239. k3k2 i2i1 240. k2k3 i1i2
+241. k3k2 i2i1 242. k2k3 i1i2 243. k3k2 i2i1 244. k2k3 i1i2 245. k3k2 i2i1 246. k2k3
+ i1i2 247. k3k2 i2i1 248. k2k3 i1i2 249. k3k2 i2i1 250. k2k3 i1i2 251. k3k2 i2i1
+252. k2k3 i1i2 253. k3k2 i2i1 254. k2k3 i1i2 255. k3k2 i2i1 256. k2k3 i1i2 257. k3k2
+ i2i1 258. k2k3 i1i2 259. k3k2 i2i1 260. k2k1 i1i2 261. k1k2 i2i1 262. k2k1 i1i2
+263. k1k2 i2i1 264. k2k3 i1i2 265. k3k2 i2i1 266. k2k3 i1i2 267. k3k2 i2i1 268. k2k3
+ i1i2 269. k3k2 i2i1 270. k2k3 i1i2 271. k3k2 i2i1 272. k2k3 i1i2 273. k3k2 i2i1
+274. k2k3 i1i2 275. k3k2 i2i1 276. k2k3 i1i2 277. k3k2 i2i1 278. k2k3 i1i2 279. k3k2
+ i2i1 280. k2k3 i1i2 281. k3k2 i2i1 282. k2k3 i1i2 283. k3k2 i2i1 284. k2k3 i1i2
+285. k3k2 i2i1 286. k2k3 i1i2 287. k3k2 i2i1 288. k2k3 i1i2 289. k3k2 i2i1 290. k2k3
+ i1i2 291. k3k2 i2i1 292. k2k3 i1i2 293. k3k2 i2i1 294. k2k3 i1i2 295. k3k2 i2i1
+296. k2k3 i1i2 297. k3k2 i2i1 298. k2k3 i1i2 299. k3k2 i2i1 300. k2k3 i1i2 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "42"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3uabtbu3/1m2bmb5/12/3*4*3/4**6/12/12/1X2CS2D3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "247"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1b1 c7b7 g1f1 h7i8 h1i1 d7d8"]
+[TimeMs "10680"]
+
+1. f1f2 h8h6 2. i1h1 d8d7 3. b1d3 g8h8 4. d3f3 i8h7 5. f3h3 h7g6 6. h1h2 d7e6 7. h3i4
+ b7c7 8. i4k6 g7i7 9. h2h3 f8f6 10. e1g3 g6h5 11. f2f3 e6f5 12. k6l6 e7e5 13. g3e3
+ e8e6 14. l6j4 e5g5 15. h3i3 h5g6 16. i3h3 g6h5 17. h3i3 c7d7 18. i3i4 h5g4 19. f3g2
+ f6d6 20. j4i3 h6h4 21. i3k5 e6h6 22. i4i3 g4g3 23. g2e2 g3f2 24. e2d2 f2e3 25. d2e3
+ h4i3 26. e3f2 i3i1 27. k5i3 i7g7 28. i3i1 d7e7 29. i1j2 d6f6 30. f2g1 e7e6 31. g1i3
+ h6h3 32. j2j3 h3g3 33. i3i2 f5g4 34. i2h1 h8g8 35. h1f1 g5e5 36. f1g1 g8f8 37. j3j4
+ f8e8 38. g1i3 e8d8 39. i3g1 d8d7 40. g1i3 g7g5 41. i3j2 g5g7 42. j2i3 g7g5 43. i3i2
+ f7g7 44. j4j3 g7g6 45. i2i4 g3g2 46. i4i2 g5g3 47. i2i3 d7c7 48. j3j4 g6g5 49. j4j5
+ c7c6 50. j5j6 g2i2 51. j6j4 i2g2 52. i3k3 c6c7 53. k3j2 g5f5 54. j2j3 g2h2 55. j3i3
+ h2h3 56. i3j3 g3i3 57. j4k4 h3h4 58. j3j4 i3g3 59. k4k5 g3g5 60. j4j2 h4h3 61. k5j4
+ h3h6 62. j2i3 h6h3 63. j4j3 g5g3 64. j3j4 g3g5 65. i3g1 g5g3 66. g1i3 g3g5 67. i3i4
+ h3h4 68. i4g2 g4h5 69. j4j5 h4i4 70. j5k6 i4h4 71. k6j5 h4h2 72. g2f3 e5e3 73. f3f1
+ c7d7 74. f1e1 h2h4 75. j5j4 e3e5 76. e1c3 h5g4 77. c3c5 e6e7 78. j4h2 e7e6 79. h2g1
+ d7e7 80. g1e3 e7f7 81. c5d4 e5e7 82. e3c5 f7g7 83. c5e3 h4h3 84. e3e2 g7h7 85. e2c4
+ h7h6 86. c4c3 h6i6 87. d4e3 h3g3 88. c3d3 i6h6 89. d3c3 g3f3 90. c3d3 h6i6 91. e3e2
+ f3f2 92. e2e3 f2g2 93. e3e2 i6j6 94. e2e3 g2g3 95. e3e2 j6j7 96. d3c3 e7e5 97. c3d3
+ j7j6 98. d3c3 j6j7 99. c3e3 g3g2 100. e3d3 g2f2 101. e2e3 f2g2 102. d3c3 g2g3 103. e3e2
+ e5e7 104. c3e3 g3g2 105. e3d3 e7e5 106. d3e3 j7j6 107. e3d2 g2g3 108. d2c3 g3h3
+109. c3d3 h3g3 110. d3d2 j6i6 111. d2e3 g3g2 112. e3d2 g2h2 113. d2e3 h2g2 114. e3d2
+ g2g3 115. d2e3 g3g2 116. e3d3 g2g3 117. d3f1 e5e3 118. e2g2 f6h6 119. f1h1 g4h5
+120. h1j3 h5i4 121. j3i4 i6i7 122. i4j5 i7i8 123. j5j7 i8h8 124. j7i8 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "47"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3a1bt5/2m1bmbu4/4u2b1C2/3*4*3/4**6/2S9/12/3X3D4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "e1j6 e8d8 g1e1 h8h6 e1c3 d7e6"]
+[TimeMs "25498"]
+
+1. h1h2 g7g5 2. h2h3 h7i6 3. j6h4 g5h4 4. h3h4 f8f6 5. d1f3 c7d7 6. c3b3 e7e5 7. b3b4
+ f7g7 8. f3f2 i6h7 9. h4g4 h7g6 10. b4c3 e5e7 11. c3d4 g7f7 12. f2g2 e7g7 13. g2h3
+ d7e7 14. g4g3 d8d6 15. g3g4 g8f8 16. h3f1 f8e8 17. f1d3 d6c6 18. d4f2 e8d8 19. d3c4
+ c6b6 20. f2h4 e6e5 21. h4i3 b6d6 22. c4b5 d8e8 23. i3h3 e7e6 24. h3h4 g7e7 25. b5d3
+ d6d7 26. h4f2 e5d6 27. d3c3 e8d8 28. f2d4 d7b7 29. g4g3 d8c8 30. g3g4 e7g7 31. d4c5
+ d6c6 32. c5d4 c6d6 33. d4c5 d6c6 34. c5d4 b7b5 35. d4c4 b5b6 36. c4d4 c6d6 37. d4c4
+ e6e5 38. c4d4 b6c6 39. d4f2 c6b6 40. c3d3 d6e6 41. d3f3 e5f5 42. g4f5 e6f5 43. f3d3
+ g7g5 44. d3d4 b6c6 45. f2e3 c8d8 46. e3g3 c6c7 47. d4c4 d8e8 48. g3e3 f7g7 49. e3f2
+ g6h5 50. c4c5 c7e7 51. c5d4 g7g6 52. d4c4 e7f7 53. f2g3 h5g4 54. g3f2 h6h4 55. c4d3
+ e8f8 56. d3f1 f8g8 57. f1e2 g8h8 58. f2f3 g4h3 59. f3g2 h3g4 60. g2f3 g4h5 61. e2e3
+ h4h6 62. f3g2 h8i8 63. e3d3 f5g4 64. d3e2 g5g3 65. g2f1 i8i7 66. f1g1 h6h4 67. e2e3
+ i7j7 68. e3d4 f7g7 69. g1f2 g3g5 70. d4e3 j7j8 71. f2e2 g4f5 72. e3f2 f5g4 73. f2h2
+ j8i8 74. h2g1 i8h8 75. e2f2 h8g8 76. g1e3 g4f5 77. e3e2 h4h6 78. e2e3 g7e7 79. f2g3
+ e7c7 80. e3c5 c7f7 81. c5d4 g8h8 82. d4e3 f7c7 83. e3f2 c7e7 84. f2e1 h5g4 85. e1g1
+ h8g8 86. g1e3 e7e6 87. g3f3 g4h5 88. e3g3 e6e8 89. g3e3 g8g7 90. f3g3 g7f7 91. e3e1
+ h5g4 92. e1e3 f7g7 93. g3f3 g4h5 94. e3f2 e8g8 95. f2h2 g8h8 96. h2g2 g7f7 97. g2f2
+ f7g7 98. f3h3 h5h4 99. h3f1 h4g4 100. f2e3 g4h5 101. e3c5 h8g8 102. c5e3 g8e8 103. e3f2
+ h5h4 104. f2e3 h4h5 105. f1f2 e8e6 106. f2f3 e6d6 107. e3g1 d6e6 108. g1f2 e6e8
+109. f2g2 e8e7 110. g2f2 e7e5 111. f3g3 h5g4 112. f2e3 e5e8 113. g3f3 g4h5 114. e3f2
+ e8e7 115. f2h2 e7e5 116. h2g2 h5h4 117. f3f2 e5e7 118. f2f3 e7e6 119. g2f2 g7g8
+120. f3g3 h4h5 121. g3h3 e6e7 122. f2f3 e7g7 123. h3g3 g8f8 124. g3h3 h5h4 125. h3h2
+ g7e7 126. f3g2 f5g4 127. g2g1 f8g8 128. h2g2 e7g7 129. g1e3 g7f7 130. g2f3 g4h3
+131. e3c3 h4h5 132. c3c4 h3g3 133. c4e2 f7e7 134. e2e3 g3h3 135. e3d4 g8h8 136. d4e3
+ h8h7 137. f3f2 h7h8 138. f2g3 h5g4 139. g3f3 g4f5 140. e3e2 e7e5 141. f3g2 h3h4
+142. e2e3 e5e7 143. g2e2 h4h5 144. e2f3 h8g8 145. f3g3 e7h7 146. g3h3 h7g7 147. h3f3
+ g7e7 148. e3g1 g8f8 149. g1i3 f8e8 150. f3g3 h5g4 151. g3h3 h6h4 152. h3g4 h4i3
+153. g4g3 e7h7 154. g3g1 i3g3 155. g1e1 e8e7 156. e1e3 h7h4 157. e3e2 e7e6 158. e2e3
+ h4h5 159. e3e2 f5g4 160. e2d3 f6h6 161. d3c3 e6d6 162. c3c1 d6c6 163. c1b2 h6h4
+164. b2b4 g6f6 165. b4c5 f6f5 166. c5e3 h5h6 167. e3c3 h6g6 168. c3c4 g6f6 169. c4c5
+ f6e6 170. c5b4 e6f6 171. b4b6 f6g6 172. b6c5 g6h6 173. c5b4 h6e6 174. b4c5 e6f6
+175. c5b6 f6g6 176. b6c5 g6h6 177. c5c3 h6g6 178. c3c5 g6h6 179. c5b4 h6g6 180. b4d6
+ g6f6 181. d6c5 f6h6 182. c5c4 c6c5 183. c4d4 c5c6 184. d4c5 h6k6 185. c5b5 c6c5
+186. b5b4 c5c4 187. b4b3 c4c5 188. b3c4 k6h6 189. c4d4 c5c6 190. d4c3 h6f6 191. c3c5
+ f6g6 192. c5d6 g6f6 193. d6c5 f6h6 194. c5d6 h6g6 195. d6c5 g6e6 196. c5e3 e6g6
+197. e3d4 g6h6 198. d4c5 h6e6 199. c5c3 e6f6 200. c3c5 f6g6 201. c5b4 g5e5 202. b4b5
+ c6d6 203. b5c5 d6e6 204. c5c6 g6f6 205. c6c5 e5g5 206. c5d6 g5e5 207. d6c7 f6g6
+208. c7d7 e6e7 209. d7d8 e7d7 210. d8c8 d7c7 211. c8a6 g6e6 212. a6c6 e5c5 213. c6b7
+ e6c6 214. b7c8 g3g5 215. c8a8 c6f6 216. a8b8 c7d7 217. b8c8 d7d8 218. c8d7 f6g6
+219. d7e6 d8e8 220. e6d7 e8f8 221. d7c7 f8f7 222. c7e7 c5e5 223. e7d7 g6f6 224. d7d8
+ g5g3 225. d8f8 e5g5 226. f8d6 f6h6 227. d6f8 h6f6 228. f8d6 f6h6 229. d6e7 h6f6
+230. e7f8 f6h6 231. f8d6 f7f6 232. d6d7 h6g6 233. d7e6 g5e5 234. e6d7 g6g8 235. d7b7
+ f6f7 236. b7c7 g8g6 237. c7e7 e5g5 238. e7d8 g6h6 239. d8f8 h6f6 240. f8d6 f6g6
+241. d6f8 f7f6 242. f8d6 g5e5 243. d6d7 g3g5 244. d7d8 f6f7 245. d8e7 f7g7 246. e7e8
+ g7h7 247. e8g8 h7i7 248. g8i6 g6f6 249. i6j7 i7h7 250. j7i6 h7h6 251. i6h7 g5g3
+252. h7j5 e5g5 253. j5i6 g3i3 254. i6h7 i3g3 255. h7i6 h6g6 256. i6j6 f6f8 257. j6h8
+ g6f6 258. h8i8 f6e6 259. i8k6 f8f6 260. k6j5 e6d6 261. j5j3 g5e5 262. j3h1 g3g1
+263. h1i2 d6c6 264. i2j3 c6c5 265. j3k4 g1g3 266. k4i2 c5c4 267. i2j1 c4d4 268. j1h1
+ g3g1 269. h1j3 e5g5 270. j3j1 g1i1 271. j1l3 h4j4 272. l3l5 i1i3 273. l5l3 d4c4
+274. l3l5 j4h4 275. l5l4 i3g3 276. l4k3 c4d4 277. k3j3 g5e5 278. j3k3 e5g5 279. k3j3
+ h4j4 280. j3i2 g3g1 281. i2j2 j4h4 282. j2j3 f6g6 283. j3k3 d4c4 284. k3j2 g6j6
+285. j2k2 j6j4 286. k2l3 g1g3 287. l3l5 j4j2 288. l5j7 j2h2 289. j7h7 h2f2 290. h7f7
+ c4d4 291. f7h7 d4c4 292. h7i7 f2g2 293. i7h7 g2f2 294. h7g7 f2f1 295. g7f7 f1f3
+296. f7g7 f3d3 297. g7f7 d3f3 298. f7g7 f5f6 299. g7e7 f3f2 300. e7d7 f6f5 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "21"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mubmb1u3/12/3*4*C2/4**6/12/7S4/3X3D4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "e1e5 d7e6 g1h2 e6d7 e5j5 h7i7"]
+[TimeMs "25559"]
+
+1. h2h3 h8h6 2. j5g2 g8h8 3. d1f3 d7e6 4. h1h2 i7h7 5. h3j5 h7g6 6. f3h3 g6h5 7. j5j6
+ h5i6 8. j6j4 c7d7 9. h3i4 i6h5 10. i4j5 h5g6 11. j5k6 g7i7 12. j4j6 f8f6 13. h2h3
+ h8g8 14. j6i7 h6i7 15. k6i4 f6h6 16. i4j3 i7g7 17. j3j5 g8f8 18. g2i4 g7g5 19. j5j6
+ e7g7 20. i4g2 g6h5 21. j6j4 f7f6 22. j4i3 e6f5 23. i3h2 d7e7 24. g2i2 f6g6 25. h2i3
+ e7f7 26. i3h2 f7f6 27. h2i3 f6f7 28. i3h2 e8e6 29. h3g3 h6f6 30. h2f2 g5e5 31. g3h3
+ g7g5 32. h3g3 f6h6 33. g3g2 h6f6 34. f2f3 f5g4 35. f3e3 h5h4 36. g2f2 f6d6 37. e3e1
+ f8g8 38. e1f1 d6d4 39. f1e1 g6f6 40. f2e2 d4d6 41. e2f2 d6d4 42. e1c1 g8f8 43. c1d2
+ f6f5 44. d2e1 e6g6 45. e1d2 f7f6 46. d2e1 f8g8 47. i2e2 g8h8 48. e1d2 h4i4 49. d2e1
+ h8i8 50. e1c1 g6h6 51. c1b2 e5c5 52. b2a3 c5c3 53. e2g2 h6h3 54. a3a5 h3g2 55. f2g2
+ c3c5 56. a5a3 i4h5 57. a3c1 d4d6 58. c1e1 h5h4 59. g2f2 c5e5 60. e1f1 f6g6 61. f1h1
+ h4i4 62. f2f3 g4h5 63. f3g3 d6f6 64. g3h3 i4j4 65. h1h2 j4j5 66. h2g3 i8i7 67. g3i3
+ i7h7 68. h3g3 h7g7 69. i3g1 j5i6 70. g1e3 g7f7 71. e3f3 i6h6 72. f3h3 h6g7 73. h3h2
+ g7h6 74. h2f2 h6g7 75. f2f3 g7h7 76. f3g2 h7h6 77. g2e2 h6i7 78. e2d3 i7h6 79. d3e2
+ h6g7 80. e2g2 g7h7 81. g2h3 f6h6 82. h3f3 h7g7 83. f3e3 h6f6 84. e3f2 g7h6 85. f2h2
+ f6d6 86. g3f3 f7e7 87. h2g3 e7d7 88. g3f2 h6g7 89. f2h2 g7f6 90. h2f2 d7c7 91. f2d2
+ c7d7 92. d2d3 e5c5 93. f3g3 f6e6 94. d3f1 e6f6 95. f1g2 c5e5 96. g2f2 d6d4 97. f2d2
+ d4d6 98. d2d3 e5c5 99. d3e2 d6d4 100. e2c2 d7e7 101. c2a4 d4b4 102. a4c2 e7d7 103. g3f3
+ c5e5 104. f3f2 e5c5 105. f2f3 c5e5 106. c2d2 e5c5 107. d2f2 b4d4 108. f3g3 c5e5
+109. f2e2 e5e3 110. e2c2 d4b4 111. c2d1 e3c3 112. d1f1 b4d4 113. g3f3 d4d6 114. f1h3
+ f6f7 115. h3g3 c3c5 116. g3e3 h5h4 117. e3e2 d6d4 118. f3e3 d4d6 119. e3f3 f7f6
+120. e2g2 d6d4 121. f3g3 h4h5 122. g3f3 d4b4 123. g2e2 c5e5 124. f3g3 b4d4 125. e2f3
+ e5c5 126. f3f1 c5e5 127. f1h3 e5c5 128. h3f3 c5e5 129. f3h3 e5c5 130. h3i2 c5e5
+131. i2g2 e5c5 132. g2h3 c5e5 133. h3g2 d4b4 134. g3h3 e5e3 135. h3g3 e3e5 136. g2h3
+ b4d4 137. h3i2 e5c5 138. i2g2 d4d6 139. g2h1 c5e5 140. h1f3 d6d4 141. f3h3 e5c5
+142. h3j1 c5e5 143. j1h3 e5e3 144. h3j1 e3e5 145. j1h3 e5e3 146. h3g2 e3e5 147. g2h2
+ e5c5 148. h2g2 c5e5 149. g2h2 e5c5 150. h2h3 c5e5 151. h3g2 d4d6 152. g2f2 d6d4
+153. f2f3 e5c5 154. f3h3 c5e5 155. h3h2 e5c5 156. h2h3 c5e5 157. h3h2 d4d6 158. h2h3
+ e5c5 159. h3g2 c5e5 160. g2e2 e5c5 161. e2f3 f6e5 162. f3g2 e5d4 163. g2e2 d6f6
+164. e2f1 f6h6 165. f1f2 c5e5 166. f2h2 e5c5 167. h2g2 c5e5 168. g3f3 d4c4 169. f3g3
+ c4c5 170. g2f1 h6f6 171. f1d3 d7e7 172. d3c2 e5e3 173. c2c3 c5d6 174. c3e3 d6e6
+175. e3d3 g5e5 176. d3e2 e5g5 177. e2d3 g5e5 178. d3e2 e5g5 179. e2c4 e7f7 180. c4e2
+ f7g7 181. e2g2 g7f7 182. g2e2 f7e7 183. e2g2 e7f7 184. g2f2 f6h6 185. f2g2 f7g7
+186. g2f2 g7h7 187. f2f3 e6e5 188. f3f1 e5e6 189. f1h3 e6f6 190. h3i2 f6e6 191. i2g2
+ e6d6 192. g3f3 d6e7 193. f3g3 h6f6 194. g2f3 e7e6 195. f3h3 h7g7 196. h3g2 g7h7
+197. g2f3 f6h6 198. f3h3 e6e5 199. h3h2 e5f6 200. h2f2 f6e5 201. f2g2 h6f6 202. g2f3
+ f6h6 203. f3h1 f5f6 204. h1h3 f6e6 205. h3j5 h7g7 206. j5h3 e5f5 207. h3i2 e6f6
+208. i2h2 f5e5 209. h2h3 f6f5 210. h3f3 g7f7 211. g3h3 h6f6 212. h3g3 e5e6 213. f3e2
+ f7g7 214. e2g2 e6e5 215. g2e2 g7h7 216. e2g2 f6h6 217. g2f2 e5f6 218. f2f1 g5e5
+219. f1h3 h7g7 220. h3j5 g7f7 221. j5j6 f7e7 222. j6h8 f6f7 223. h8j6 e5g5 224. j6j4
+ f7f6 225. j4h2 g5e5 226. h2f2 e7f7 227. f2g2 e5g5 228. g2h1 f6e6 229. h1h2 f5f6
+230. h2f2 e6e5 231. f2f3 e5e6 232. f3g2 e6e5 233. g2f2 e5e6 234. f2g2 e6e5 235. g2f3
+ e5f5 236. f3d3 f7g7 237. d3c4 f5e5 238. c4e2 e5f5 239. e2f2 g5e5 240. f2g2 g6g5
+241. g2h3 g5g4 242. g3g4 f5g4 243. h3j5 g7f7 244. j5j4 e5g5 245. j4h2 f6f5 246. h2f2
+ h5g6 247. f2g2 f7g7 248. g2e2 g5g3 249. e2c4 g6f7 250. c4d4 g7h7 251. d4c3 h7i7
+252. c3b4 h6f6 253. b4d2 f7g6 254. d2d4 g3g5 255. d4d6 g5g7 256. d6c5 g6h5 257. c5b5
+ f6h6 258. b5c4 h6h4 259. c4e2 g7g5 260. e2c4 g5g7 261. c4c6 i7i6 262. c6e6 i6j6
+263. e6c4 j6j5 264. c4e2 g7g5 265. e2f2 g4h3 266. f2e1 j5j4 267. e1e3 h3g3 268. e3g1
+ h4h2 269. g1e3 j4j3 270. e3e1 g3g4 271. e1e3 j3i3 272. e3f2 g5g3 273. f2e2 f5g5
+274. e2c4 g4f5 275. c4c5 h2h4 276. c5d6 i3h3 277. d6f8 g5g6 278. f8h8 g3g5 279. h8j6
+ h5i4 280. j6l4 h4h2 281. l4l3 i4i3 282. l3j1 h3g3 283. j1k1 g3f3 284. k1k3 f3e3
+285. k3k1 e3d3 286. k1k2 h2h4 287. k2k4 d3d4 288. k4k3 h4h2 289. k3k4 g5g3 290. k4i6
+ d4d3 291. i6g8 d3e3 292. g8f8 e3f3 293. f8d6 h2f2 294. d6c6 i3h3 295. c6c4 g3e3
+296. c4c5 f2d2 297. c5c6 h3g4 298. c6c5 d2d4 299. c5d6 f3g3 300. d6e7 e3e5 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "46"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "2m1abtb4/3ub2ub3/5m6/3*4*3/4**6/1X6S3/12/4C1D5 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1i3 f7f6 d1b3 c7c8 h1g1 g7i7"]
+[TimeMs "25584"]
+
+1. g1g2 h8h6 2. i3h3 c8c7 3. b3d3 d7e6 4. d3f1 f6f7 5. g2g3 h7g6 6. g3g4 f8f6 7. f1f2
+ c7d7 8. e1g3 g8f8 9. f2g2 i7g7 10. h3i2 g7g5 11. g4g5 f6g5 12. g3g1 h6h4 13. i2h2
+ e6f5 14. h2g3 e7e5 15. g2h2 h4g3 16. h2g3 f7f6 17. g3f2 e8e6 18. f2g2 d7e7 19. g2f2
+ e7f7 20. g1e3 f5g4 21. f2e2 g5g3 22. e2d3 f8g8 23. d3c3 g6f5 24. c3e1 f6g6 25. e1g1
+ f7f6 26. g1e1 e6e7 27. e1c3 e7g7 28. e3b3 g4f3 29. c3d2 g7f7 30. d2e1 f3g4 31. e1c3
+ f7h7 32. b3d3 g3g5 33. c3e3 g8h8 34. e3e2 h7h6 35. e2g2 e5e3 36. d3f5 f6f5 37. g2i4
+ h8g8 38. i4j5 g8f8 39. j5k4 f8f7 40. k4j4 h6h3 41. j4j6 f7e7 42. j6i6 g5g7 43. i6j5
+ e7e6 44. j5j3 g7g5 45. j3j5 h3h6 46. j5k5 g6f6 47. k5i3 g4f3 48. i3h3 e6d6 49. h3h1
+ e3g3 50. h1f1 g3e3 51. f1e1 d6e6 52. e1c3 f6f7 53. c3c5 e3e5 54. c5c6 e6f6 55. c6c7
+ f6g6 56. c7a5 f3g4 57. a5a3 h6h3 58. a3c5 g6h6 59. c5c6 h3f3 60. c6d7 g5g7 61. d7e8
+ h6h5 62. e8c6 h5h4 63. c6b5 h4i4 64. b5d7 i4j4 65. d7c6 g7g5 66. c6c8 f3d3 67. c8b7
+ d3d4 68. b7c6 g5g7 69. c6b5 e5c5 70. b5b3 c5c3 71. b3d1 d4d3 72. d1e1 c3a3 73. e1c1
+ f7f6 74. c1a3 d3g3 75. a3c1 g3g2 76. c1e1 g2h2 77. e1f1 g7g5 78. f1f2 h2h1 79. f2f1
+ h1h2 80. f1f2 g5g3 81. f2d4 h2h4 82. d4c5 g3g5 83. c5e3 g5g3 84. e3c1 f6g6 85. c1c3
+ h4h2 86. c3c5 h2h4 87. c5e7 g3g5 88. e7c5 g5g3 89. c5c4 g3g5 90. c4c6 h4h1 91. c6e8
+ g5g7 92. e8e6 h1f1 93. e6e8 f1h1 94. e8d7 g7g5 95. d7c6 h1f1 96. c6b6 f1f3 97. b6d4
+ f3h3 98. d4c3 j4i4 99. c3d4 g5g3 100. d4c5 i4j4 101. c5c4 g3g5 102. c4b5 j4j5 103. b5d3
+ g5g3 104. d3e3 h3h4 105. e3g1 h4h2 106. g1e3 h2g2 107. e3c5 g2i2 108. c5b5 i2h2
+109. b5d7 g3g5 110. d7f7 g5g7 111. f7e8 j5j4 112. e8e7 h2h3 113. e7c5 g7g5 114. c5c3
+ g5g3 115. c3c5 h3h4 116. c5d4 h4h3 117. d4c4 g3g5 118. c4c5 h3h2 119. c5b5 h2h3
+120. b5c4 h3h4 121. c4e2 g5g3 122. e2d3 h4h2 123. d3e3 g3g5 124. e3c5 h2h3 125. c5c4
+ h3h2 126. c4e2 g5g3 127. e2d3 g3g5 128. d3c4 h2h4 129. c4c3 g5g3 130. c3e3 h4h2
+131. e3c3 g3g5 132. c3e1 j4i4 133. e1d2 h2h4 134. d2e2 g5g3 135. e2e3 h4h2 136. e3c5
+ g3g5 137. c5b5 g5g3 138. b5a5 g3g5 139. a5c5 h2h3 140. c5b5 h3h2 141. b5d3 h2h3
+142. d3e2 g5g3 143. e2e3 g6f6 144. e3e2 h3h2 145. e2c4 g3g5 146. c4c3 h2h4 147. c3d3
+ h4h2 148. d3f1 g5g3 149. f1e1 h2h3 150. e1g1 h3h2 151. g1f1 g3g5 152. f1e1 f6g6
+153. e1c3 g5g3 154. c3e3 g3g5 155. e3d3 g5g3 156. d3b5 g3g5 157. b5b4 h2h3 158. b4d6
+ h3h2 159. d6c5 h2h5 160. c5e7 h5h6 161. e7e8 g5g7 162. e8e7 h6h5 163. e7c7 g7g5
+164. c7c5 h5h3 165. c5e7 h3h2 166. e7e8 h2h5 167. e8e7 h5h2 168. e7c5 h2h5 169. c5e3
+ h5h2 170. e3c5 h2h3 171. c5c3 h3h2 172. c3e3 g5g3 173. e3c5 h2h5 174. c5e3 h5h2
+175. e3c3 h2e2 176. c3c4 e2e1 177. c4e6 g4h5 178. e6g8 i4h4 179. g8h8 h4g4 180. h8j6
+ e1h1 181. j6j7 h1h2 182. j7k6 h2h3 183. k6j7 h3h2 184. j7j5 f5f6 185. j5j4 f6f5
+186. j4j5 h2h3 187. j5j3 h3h2 188. j3k4 h2h3 189. k4j4 h3h4 190. j4j3 h4h2 191. j3j5
+ g3i3 192. j5h7 h2g2 193. h7j7 g4g3 194. j7h7 g3g4 195. h7g8 h5h6 196. g8h8 h6g7
+197. h8j6 g2h2 198. j6l4 f5g5 199. l4l3 h2h4 200. l3k2 g7f6 201. k2j1 h4h2 202. j1l1
+ f6f5 203. l1l3 g4g3 204. l3j5 g5g4 205. j5h7 f5f6 206. h7g8 g3f3 207. g8e8 f3g3
+208. e8d8 h2g2 209. d8d6 f6f5 210. d6f8 g2h2 211. f8g8 g4h4 212. g8h7 f5f6 213. h7g8
+ f6g7 214. g8e6 g7f6 215. e6g8 f6g7 216. g8e6 g3h3 217. e6e7 g7f6 218. e7d7 i3g3
+219. d7c7 h3i3 220. c7d6 h2g2 221. d6c7 f6f5 222. c7d6 g3g5 223. d6f8 g5g7 224. f8d6
+ g7g5 225. d6c5 i3i4 226. c5b4 h4g4 227. b4c5 g2h2 228. c5c7 h2h3 229. c7e7 h3f3
+230. e7c7 f3h3 231. c7c5 h3f3 232. c5a5 f3h3 233. a5a4 g6f6 234. a4b3 h3f3 235. b3c2
+ f3h3 236. c2c3 h3h5 237. c3c4 g5g3 238. c4d3 h5h2 239. d3f1 h2i2 240. f1g1 i2h2
+241. g1f1 h2g2 242. f1e1 g2f2 243. e1d2 f2h2 244. d2d3 h2h3 245. d3f1 h3h2 246. f1d3
+ h2h3 247. d3c2 g3g5 248. c2c3 h3h2 249. c3d4 h2h3 250. d4d2 f6g6 251. d2f2 h3h1
+252. f2f1 h1h2 253. f1d3 g5g3 254. d3e3 g3g5 255. e3c3 h2h4 256. c3b4 h4h3 257. b4c4
+ g5g3 258. c4c3 g3g5 259. c3d3 g5g3 260. d3c3 h3h2 261. c3c2 g6f6 262. c2d3 g3g5
+263. d3c3 h2h3 264. c3d2 g5g3 265. d2d4 g3g5 266. d4c5 h3h2 267. c5e7 f5g6 268. e7c5
+ g6f5 269. c5e7 f6g6 270. e7f8 g5g7 271. f8e8 h2h5 272. e8c6 g7g5 273. c6c4 g5g3
+274. c4d4 g3g5 275. d4f2 g5g3 276. f2f1 h5h2 277. f1d3 h2h5 278. d3d2 g3g5 279. d2e3
+ g5g3 280. e3g1 h5h2 281. g1e3 h2f2 282. e3c3 f2f3 283. c3a5 g3g5 284. a5c5 f3h3
+285. c5e3 g5g3 286. e3c5 g3g5 287. c5e3 h3h2 288. e3c5 g6f6 289. c5d6 g5g7 290. d6e7
+ f6g6 291. e7c5 g7g5 292. c5c6 h2f2 293. c6b5 g6f6 294. b5d3 f5g6 295. d3c3 g5g3
+296. c3d3 f6f5 297. d3d2 f5f6 298. d2d3 f6f5 299. d3c4 g3g5 300. c4e6 g5g7 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "25"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/1m1ubmb5/9C2/3*1u2*3/4**6/12/12/1X3S1D4 w - - 6 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "e1j6 h7g6 g1f1 c7b7 d1b1 g6f5"]
+[TimeMs "25581"]
+
+1. f1h3 f8f6 2. b1c1 h8f8 3. c1d2 d7e6 4. d2e2 g7i7 5. j6h4 i7g7 6. e2g2 f5g6 7. g2i4
+ f6h6 8. h3g4 g6g5 9. h4j4 b7c7 10. h1g1 f7f6 11. g4h4 g5g6 12. g1g2 f6f5 13. h4f2
+ c7d7 14. i4j5 f8f6 15. g2h2 f5g5 16. f2d4 e6f5 17. j4g1 g5g4 18. j5j3 g7g5 19. j3j4
+ e7g7 20. j4i4 e8e6 21. h2g2 h6h4 22. i4j3 h4h6 23. j3k4 h6h4 24. g2h2 d7e7 25. d4f2
+ e7f7 26. k4j3 h4h6 27. g1e3 g4h4 28. e3g1 g8f8 29. h2g2 f8e8 30. f2e1 e8d8 31. j3h1
+ h4h5 32. h1f1 g7e7 33. g2g3 d8e8 34. e1f2 h5h4 35. g3h4 g5h4 36. f1d3 f5g4 37. g1e3
+ e8f8 38. d3e2 e7g7 39. f2f3 g4h5 40. e2f2 g7g5 41. f2h2 g5g3 42. e3g3 h4g3 43. h2g3
+ f7g7 44. g3f2 g6g5 45. f3h3 f8f7 46. f2e2 g7g6 47. e2g2 g5f5 48. g2g1 f6d6 49. g1g2
+ e6e7 50. g2e2 e7c7 51. e2g2 f5g5 52. h3i4 h5h4 53. i4j3 g5g4 54. g2h2 f7e7 55. j3h1
+ e7e6 56. h1g2 c7e7 57. h2f2 g6g5 58. f2e3 h4h5 59. g2f3 g4f5 60. e3d4 h6h4 61. f3g2
+ e7c7 62. d4e3 c7c5 63. g2g3 h4h6 64. e3e2 e6f6 65. e2f2 f6f7 66. f2g2 f7g7 67. g2f2
+ h5g6 68. g3f3 g7f7 69. f2g3 d6f6 70. g3f2 c5c6 71. f2h2 f7e7 72. f3g3 c6c7 73. g3h3
+ c7d7 74. h3f3 d7c7 75. f3h3 c7c5 76. h2f2 c5c7 77. h3h2 e7f7 78. h2g2 c7e7 79. g2g3
+ e7e6 80. f2e3 f7g7 81. e3f2 e6e7 82. g3g2 e7e6 83. g2g3 e6e8 84. f2h2 e8e7 85. h2i2
+ e7e6 86. i2h2 g7f7 87. h2g2 g6h5 88. g3h3 g5g6 89. h3g3 g6g5 90. g2f3 f7e7 91. f3e3
+ g5g6 92. e3f2 e7f7 93. f2e3 f5g4 94. e3f2 e6e8 95. g3f3 g4f5 96. f2d4 h6h4 97. d4e3
+ f5g5 98. f3g3 h4h6 99. g3f3 h6h4 100. f3g3 h4h6 101. g3f3 h6h4 102. e3f2 h4h6 103. f2h2
+ e8g8 104. h2g3 g8e8 105. g3e3 h6h4 106. f3g3 h4h6 107. e3f3 e8e6 108. f3e3 e6e8
+109. g3f3 g5f5 110. f3g3 h5g4 111. g3g2 e8e7 112. g2g3 g4g5 113. g3g2 g5h5 114. e3f2
+ e7e8 115. g2g3 e8e7 116. g3e3 f5g5 117. e3g3 e7e6 118. f2h2 e6e8 119. h2f2 e8e7
+120. g3f3 e7e6 121. f3g2 e6e8 122. f2f3 e8e6 123. g2h3 e6e8 124. h3i3 e8e6 125. f3g2
+ e6d6 126. i3i4 h5h4 127. i4j5 d6c6 128. j5i4 c6d6 129. i4h3 d6e6 130. h3g3 h4h5
+131. g2f3 g5g4 132. f3g2 f7e7 133. g3h3 g4f5 134. g2h2 e7d7 135. h2f2 e6c6 136. f2h2
+ c6c5 137. h3i3 g6g5 138. i3g3 d7e7 139. h2f2 f6d6 140. g3g2 e7f7 141. f2h2 g5g6
+142. g2h3 c5c3 143. h2j4 c3e3 144. j4j6 f5f6 145. j6j4 e3g3 146. h3i4 h5g5 147. i4i3
+ f7e7 148. i3h2 g3h3 149. h2i3 d6d4 150. i3i4 h3e3 151. i4i3 e3h3 152. j4j3 h3g3
+153. j3j4 e7d7 154. j4j6 g3h3 155. i3j3 g5g4 156. j6k6 h6h4 157. k6j6 d4d6 158. j3j4
+ f6g7 159. j4j5 d6f6 160. j5i6 d7d6 161. i6i7 g6g5 162. j6j4 g7f7 163. i7i6 f7g6
+164. j4j5 h3i3 165. j5j6 i3g3 166. i6h6 g6h7 167. h6i6 h7g6 168. i6h6 g6h7 169. j6j4
+ g4h5 170. h6f8 h7g6 171. f8d8 h5g4 172. d8c7 d6c6 173. j4j6 g3h3 174. c7d6 g6f7
+175. j6h8 h3g3 176. h8j6 f7g6 177. j6h8 g6f7 178. h8i7 g3i3 179. i7h8 f7g7 180. h8j6
+ i3g3 181. d6d7 c6c5 182. d7c6 g4f5 183. c6a4 c5c6 184. a4b5 c6d6 185. b5d7 g3h3
+186. d7c7 d6d7 187. c7c8 d7e7 188. c8d8 e7f7 189. d8e8 f7f8 190. e8c6 h3i3 191. c6a6
+ f8f7 192. a6c6 f6d6 193. c6b7 f5g6 194. b7b8 i3h3 195. b8b6 d6f6 196. b6d8 h3g3
+197. d8e8 f7f8 198. e8c6 g6f5 199. c6e8 g3i3 200. e8c8 f8f7 201. c8e8 f7f8 202. e8c6
+ i3i4 203. j6i7 h4h6 204. i7k5 h6h4 205. c6e8 i4i3 206. e8d8 f8f7 207. k5j6 i3g3
+208. j6i7 f5e6 209. d8e8 f7f8 210. i7j6 e6e7 211. e8c6 e7e6 212. j6i7 f8e8 213. c6c8
+ g7g6 214. i7h8 g6g7 215. h8i7 g3h3 216. c8c7 g7g6 217. c7d8 h3i3 218. i7j6 g6f7
+219. j6h6 i3h3 220. d8b6 f7g7 221. h6j6 e6e5 222. b6d8 h3i3 223. j6i7 e5e6 224. i7k5
+ e6d7 225. d8b8 e8e7 226. k5j6 i3h3 227. j6j5 e7f7 228. j5j6 h3g3 229. j6i7 g3h3
+230. b8b7 d7e6 231. b7c7 f7e7 232. c7d8 e7e8 233. i7k5 h3i3 234. d8b6 g7g6 235. b6c7
+ i3i4 236. c7d8 e6d7 237. d8b6 i4i3 238. k5j6 g6g7 239. j6k5 g7g6 240. k5j6 g6g7
+241. j6k5 d7e6 242. b6d8 i3g3 243. d8c7 e6e5 244. k5j4 g3i3 245. j4k4 g7f7 246. c7d7
+ e8f8 247. k4k5 e5f5 248. k5i7 f7g8 249. i7h6 f8f7 250. h6i6 g8g7 251. d7d6 h4h6
+252. i6j5 f6f8 253. d6d8 h6h4 254. j5i6 f5e5 255. d8d7 i3g3 256. d7c7 g3h3 257. i6j5
+ h3i3 258. j5i6 f8f6 259. c7d7 f6h6 260. i6j6 h6f6 261. d7e8 f7e7 262. e8d8 e7e6
+263. d8d7 e6d6 264. d7c7 d6c6 265. c7b7 c6d6 266. b7c7 d6d7 267. c7c8 d7e7 268. c8d8
+ e7f7 269. j6i7 h4h6 270. i7k5 i3h3 271. k5j4 f7f8 272. j4j5 h6h4 273. d8e8 h3i3
+274. j5j6 e5f5 275. j6k5 f5g6 276. e8d7 i3h3 277. k5j6 h3g3 278. d7e8 g3i3 279. j6k5
+ i3h3 280. k5k3 h3i3 281. k3k5 i3h3 282. k5k7 h3i3 283. k7k5 i3g3 284. k5j6 g3h3
+285. j6j5 g6f5 286. j5j4 f5g6 287. j4k4 h3g3 288. k4k6 g3i3 289. k6k5 i3h3 290. k5k6
+ h3i3 291. k6k5 i3g3 292. k5j4 g3i3 293. j4j6 i3g3 294. j6k6 g3i3 295. k6k4 i3g3
+296. k4k5 g3h3 297. k5k3 h3g3 298. k3k4 g3h3 299. k4j4 h3g3 300. j4j5 g3i3 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "29"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4ab1t4/2mubm1u4/7b4/3*2b1*3/4**6/12/6D5/3XCS6 w - - 6 4"]
+[Termination "Party has no legal response"]
+[PlyCount "54"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "h1h2 g7g5 h2g2 h8h6 g1f1 g8h8"]
+[TimeMs "2577"]
+
+1. d1f3 h7g6 2. g2g3 d7e6 3. f1h3 f8f6 4. g3g4 c7d7 5. f3g3 e7g7 6. g3h2 g5g4 7. h3g4
+ g7g5 8. h2j4 h8g8 9. g4h4 e6f5 10. h4g5 f6g5 11. j4j6 g5g7 12. j6k6 e8e6 13. k6i4
+ g7g5 14. i4g2 d7e7 15. g2f3 f5g4 16. f3e2 h6f6 17. e2f1 g4g3 18. e1g1 g6f5 19. f1e1
+ g3g2 20. g1d1 g5g3 21. e1d2 g2f2 22. d2d3 f7g7 23. d3b3 g3g5 24. d1a4 f2g3 25. b3c4
+ e6e5 26. c4e6 g8f8 27. e6g8 g7g8 0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "33"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abt2b2/2m1bmb5/2u4u4/3*4*3/4**6/12/2X9/4C1S1D3 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "43"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1d2 h8j8 d2c2 h7h6 h1i1 d7c6"]
+[TimeMs "2120"]
+
+1. g1f2 h6h5 2. i1h1 c6d6 3. h1h2 d6e6 4. c2e2 g7g5 5. e1e3 j8h8 6. e2g2 h8h6 7. h2h3
+ c7d7 8. g2h2 e6f5 9. f2h4 d7d6 10. h4i4 h5g6 11. h2g3 d6e6 12. i4g4 f5f6 13. g4h4
+ g6h5 14. h4g5 f6g5 15. g3f2 h6h4 16. h3h4 h5h4 17. e3g1 g8g7 18. f2h2 e6e5 19. h2j4
+ e5e6 20. j4j6 g5h5 21. j6i7 g7g6 22. i7g5 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "37"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3a1btb4/2m1bmbu4/5u6/3*4*3/4**6/6S5/7D4/1X2C7 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "171"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1b1 e8d8 h1h2 d7e6 g1g3 e6f6"]
+[TimeMs "7551"]
+
+1. b1d1 h8h6 2. d1f3 d8d6 3. h2h3 f6g6 4. h3h4 d6e6 5. h4g4 f8f6 6. f3e2 c7d7 7. g3h3
+ g8f8 8. e1e3 f8e8 9. e3i3 e8d8 10. e2d3 g7g5 11. g4g5 g6g5 12. h3f3 h7g6 13. i3e3
+ g6f5 14. f3f2 h6h4 15. f2d2 h4h2 16. d3c3 h2h4 17. c3d3 h4h2 18. d3d4 d8e8 19. d4f2
+ h2h4 20. f2f1 f5g4 21. d2f2 h4h2 22. f1e2 g5f5 23. e3e1 g4h3 24. e2d2 f5g4 25. f2e3
+ h3g2 26. e3d3 h2h4 27. d3e2 e7e5 28. e2c4 e5g5 29. e1c3 e8f8 30. c4d4 g2f3 31. d2d3
+ f8g8 32. d3c2 g8h8 33. c2d2 h8i8 34. d4f2 g4f5 35. f2e2 f3g4 36. d2d3 g5g3 37. d3f1
+ d7e7 38. e2f2 f7g7 39. f2g3 h4g3 40. f1h1 g3g5 41. h1j3 i8h8 42. j3j4 h8g8 43. j4j6
+ g7h7 44. j6j7 g5g7 45. j7l5 g7g5 46. l5j3 e7f7 47. j3h1 e6c6 48. h1j3 h7h6 49. c3k3
+ c6e6 50. j3i4 g8f8 51. i4k6 h6g6 52. k3k7 f8e8 53. k7k5 e8d8 54. k6i6 d8d7 55. i6g8
+ e6e7 56. g8h8 d7d8 57. h8i7 f6h6 58. i7j6 f7f6 59. j6k6 d8d7 60. k5k7 d7d8 61. k6k5
+ d8c8 62. k7k4 e7h7 63. k5j4 h6h4 64. j4j5 h7h5 65. j5k5 c8c7 66. k5j5 g4g3 67. j5h7
+ g5g7 68. h7j5 f5g4 69. j5k5 f6f5 70. k4k6 g3h3 71. k5k7 h3i4 72. k6k8 i4j5 73. k7j7
+ h4j4 74. j7l7 h5h7 75. l7l6 j4j6 76. l6l4 h7k7 77. l4j2 g4h3 78. j2i1 c7b7 79. i1g1
+ h3h2 80. g1h2 j5k4 81. h2f2 f5e5 82. f2e3 b7b8 83. e3e5 b8a8 84. e5c5 a8b8 85. c5c7
+ b8a8 86. c7a7 1-0
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "41"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "a4btb4/2mubmb5/7u4/3*C3*3/4**6/5X6/7D4/6S5 w - - 6 4"]
+[Termination "Party has no legal response"]
+[PlyCount "94"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "e1e5 e8c8 d1f3 h7h6 h1h2 c8a8"]
+[TimeMs "4282"]
+
+1. h2h3 g7g5 2. e5e3 f8f6 3. g1i3 a8d8 4. i3h4 d7e6 5. f3f2 g5h4 6. f2h4 h6g6 7. h4j4
+ c7d7 8. e3i3 e7g7 9. j4h2 g8f8 10. h2g2 h8h6 11. h3g3 d7e7 12. g3g4 d8d6 13. g2g3
+ f8e8 14. g3e3 e8d8 15. e3d3 g7g5 16. g4g5 h6g5 17. i3c3 e6f5 18. c3e3 d6d7 19. d3f1
+ e7e6 20. f1d3 d7e7 21. d3c2 f5g4 22. c2e2 e6e5 23. e2f1 f6d6 24. f1f2 e5f5 25. e3g1
+ g5e5 26. f2e2 g4h3 27. e2e1 h3g4 28. e1c3 g4f3 29. c3e1 d6f6 30. e1d1 f3f2 31. g1c1
+ d8e8 32. d1c2 f2e3 33. c2d1 f6d6 34. d1f1 e3d4 35. f1h1 f7f6 36. c1i1 f6e6 37. i1g1
+ d6f6 38. h1f1 e7h7 39. f1h3 g6g5 40. h3h1 d4e3 41. h1f1 h7h5 42. f1e1 e3f3 43. e1c3
+ g5g4 44. c3c5 f6d6 45. c5b6 e5e7 46. g1a7 e8f8 47. b6d8 e7d8 0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "50"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "*"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "3uabtb4/2m1bmb5/9u2/3*4*3/4**6/12/5X6/6SD4 w - - 0 4"]
+[Termination "ply cap (600)"]
+[PlyCount "600"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1f1 d7d8 e1j6 h7i7 f1f2 i7j6"]
+[TimeMs "25561"]
+
+1. h1h2 d8d7 2. h2h3 f8f6 3. g1i3 j6i7 4. h3h4 h8h6 5. i3i4 d7e6 6. h4h5 h6h8 7. f2h4
+ e7e5 8. h5g5 f6d6 9. h4h5 g8f8 10. h5h3 f7f6 11. h3g4 f6g5 12. g4g5 h8h6 13. g5i3
+ i7h7 14. i4h4 h7g6 15. h4h3 c7d7 16. i3j3 e6f5 17. h3h4 g6h5 18. h4i4 h5g5 19. i4h3
+ f8f7 20. h3g2 d7e7 21. j3i4 h6h4 22. i4i2 g5g4 23. i2j3 d6f6 24. g2i4 e7e6 25. i4i3
+ h4h6 26. i3h3 g4g5 27. j3j4 e8f8 28. h3h4 g5g4 29. j4h2 f7e7 30. h4f2 g7g5 31. f2g3
+ f8g8 32. h2f2 f6d6 33. g3g1 h6h4 34. f2e2 d6f6 35. g1f2 g8g6 36. f2f3 g4h5 37. f3f2
+ e7f7 38. e2e3 h4h6 39. f2f3 f7g7 40. f3g3 g7h7 41. g3f3 h7i7 42. e3f2 h6h4 43. f3g3
+ h4h6 44. f2h2 i7i8 45. h2j4 g6g7 46. g3h2 g7f7 47. h2i3 h5g4 48. j4j5 f7i7 49. i3i4
+ i8h8 50. i4h3 g4g3 51. h3i4 h8g8 52. j5j3 g8f8 53. j3i3 h6h4 54. i3i1 g3g4 55. i4i3
+ h4h6 56. i1i2 g5g3 57. i2h1 i7g7 58. i3h2 g3g5 59. h2h3 g4h4 60. h3h2 f8f7 61. h1g2
+ h4g4 62. h2g3 g7g6 63. g2g1 f6d6 64. g1i3 h6f6 65. i3g1 g6h6 66. g1e3 h6h5 67. g3f2
+ d6d4 68. e3e2 h5h3 69. f2f3 g4g3 70. f3e3 d4d6 71. e2c4 g3g4 72. e3c5 d6d8 73. c4d3
+ h3f3 74. d3b5 e5e7 75. b5b6 e7c7 76. b6a5 f3g3 77. c5b6 c7e7 78. b6c7 d8f8 79. a5b6
+ g5e5 80. c7d8 e7g7 81. d8d7 g7e7 82. d7d8 e7g7 83. b6b7 g7g5 84. b7b6 g3f3 85. d8d7
+ e5e7 86. d7d8 e7e5 87. d8d7 f3h3 88. d7e6 f6e6 89. b6c7 f8f6 90. c7c6 e5e7 91. c6b6
+ h3h4 92. b6c6 f7g7 93. c6b6 g7h7 94. b6b5 h7i7 95. b5c4 e6g6 96. c4b4 h4h3 97. b4c3
+ h3h6 98. c3c4 h6h4 99. c4b4 i7j7 100. b4c4 e7e5 101. c4a4 e5c5 102. a4a5 c5e5 103. a5c3
+ e5e7 104. c3c4 e7e5 105. c4b5 f6d6 106. b5a4 h4h5 107. a4b5 d6f6 108. b5b3 j7j6
+109. b3c4 j6i6 110. c4e2 g5g3 111. e2f1 h5h4 112. f1h1 g3i3 113. h1j1 i3k3 114. j1k1
+ h4j4 115. k1i1 e5g5 116. i1h2 k3i3 117. h2g2 i6i7 118. g2f2 j4h4 119. f2d4 i3g3
+120. d4b4 i7i6 121. b4b3 i6j6 122. b3c3 h4h5 123. c3d3 h5h2 124. d3e3 j6j5 125. e3d4
+ j5j4 126. d4c5 h2f2 127. c5d4 j4i4 128. d4b4 g5e5 129. b4c3 f2h2 130. c3c4 h2h4
+131. c4c3 e5g5 132. c3d2 h4h3 133. d2b4 h3h2 134. b4c4 h2h4 135. c4c3 h4h3 136. c3c5
+ h3h2 137. c5e3 h2h4 138. e3c3 h4h3 139. c3c5 h3h4 140. c5d6 h4h2 141. d6c6 h2h4
+142. c6a6 h4h3 143. a6c4 h3h2 144. c4d3 h2h4 145. d3d2 h4h3 146. d2d4 h3h2 147. d4c4
+ h2h4 148. c4c6 h4h2 149. c6c7 h2h4 150. c7c5 h4h2 151. c5d4 h2h4 152. d4d3 h4h3
+153. d3b3 h3h4 154. b3c3 h4h2 155. c3b4 h2h4 156. b4d6 g5e5 157. d6c7 h4h2 158. c7c5
+ e5g5 159. c5b5 h2h4 160. b5a6 h4h3 161. a6c4 h3h4 162. c4c2 h4h2 163. c2c3 h2h4
+164. c3e1 h4h2 165. e1e3 h2h3 166. e3c3 h3h4 167. c3c4 h4h3 168. c4b5 h3h4 169. b5b7
+ h4h2 170. b7c6 h2h3 171. c6c4 h3h4 172. c4c2 h4h2 173. c2c3 h2h4 174. c3d2 h4h3
+175. d2b4 h3h4 176. b4a3 h4h2 177. a3c3 h2h4 178. c3c4 h4h3 179. c4c6 h3h4 180. c6b7
+ h4h3 181. b7b8 g5e5 182. b8c7 g3g5 183. c7d8 h3h2 184. d8f8 g5g7 185. f8d8 g7g5
+186. d8b6 h2h3 187. b6b5 h3h4 188. b5b6 h4h2 189. b6c5 h2h3 190. c5c6 h3h2 191. c6b6
+ h2h4 192. b6c6 h4h2 193. c6c5 h2h4 194. c5e3 h4h2 195. e3f2 h2h1 196. f2f1 h1h2
+197. f1e1 g5g3 198. e1e3 e5g5 199. e3d4 h2h4 200. d4d3 h4h3 201. d3d2 h3h4 202. d2d4
+ h4h2 203. d4d6 h2g2 204. d6f8 g5g7 205. f8e8 g2h2 206. e8c6 h2h3 207. c6c5 g3g5
+208. c5d6 h3h4 209. d6c5 h4h3 210. c5c4 h3h4 211. c4e2 h4h2 212. e2d2 h2h4 213. d2d3
+ h4h2 214. d3c3 g5g3 215. c3d2 g7g5 216. d2e3 h2h4 217. e3d4 h4h2 218. d4d2 h2h3
+219. d2d3 h3h2 220. d3d2 h2h4 221. d2d3 h4h3 222. d3b5 h3h2 223. b5b6 h2h4 224. b6d6
+ h4h5 225. d6f8 h5h7 226. f8d6 h7h4 227. d6c5 h4h2 228. c5d6 h2h4 229. d6c5 h4h3
+230. c5c6 h3h2 231. c6e8 h2h4 232. e8g8 h4h7 233. g8f8 i4j4 234. f8d6 g5e5 235. d6c5
+ g3g5 236. c5c4 h7h6 237. c4c5 j4k4 238. c5e3 e5c5 239. e3c5 h6h3 240. c5e3 h3h2
+241. e3f2 h2h1 242. f2f1 h1h2 243. f1e1 g5g3 244. e1e3 g3g5 245. e3d4 k4j4 246. d4e3
+ h2h1 247. e3f2 g5g3 248. f2d4 j4k4 249. d4c5 h1h2 250. c5d4 k4j4 251. d4e3 h2h5
+252. e3c5 h5h3 253. c5b6 h3h4 254. b6d4 h4h3 255. d4e3 h3h2 256. e3e1 h2h3 257. e1c3
+ j4j5 258. c3e1 g4f3 259. e1g1 h3h2 260. g1e1 h2g2 261. e1c3 g3g5 262. c3b4 j5j6
+263. b4c4 j6i6 264. c4b5 g2h2 265. b5c6 i6j6 266. c6b6 g5e5 267. b6d8 h2h5 268. d8b6
+ h5h4 269. b6c5 e5g5 270. c5b6 h4h3 271. b6d6 h3h5 272. d6c5 g5g3 273. c5b6 h5h2
+274. b6b4 g3g5 275. b4c5 h2h3 276. c5b4 h3h5 277. b4d4 h5h4 278. d4d3 g5g3 279. d3f1
+ h4h2 280. f1d1 h2h4 281. d1c1 h4h1 282. c1d1 h1h2 283. d1c1 h2h1 284. c1d1 h1h3
+285. d1f1 h3h2 286. f1d1 h2h4 287. d1d2 g3g5 288. d2d1 g5g3 289. d1d3 h4h2 290. d3f1
+ h2g2 291. f1d1 g2e2 292. d1b1 j6i6 293. b1c1 f3g4 294. c1c2 e2g2 295. c2e2 i6j6
+296. e2d2 g2h2 297. d2d3 j6j7 298. d3c4 h2h5 299. c4d3 j7i7 300. d3f1 h5h2 *
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "45"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "0-1"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/2mu1m2b3/7u4/3*b3*3/4**6/12/7S4/3XC2D4 w - - 6 4"]
+[Termination "Party has no legal response"]
+[PlyCount "118"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "d1f3 h7h6 g1h2 g7i7 f3d1 e7e5"]
+[TimeMs "5282"]
+
+1. e1e5 e8e6 2. e5g3 h6g5 3. d1f3 g5h4 4. g3e3 e6g6 5. h1g1 h8h6 6. g1g2 h4g5 7. h2i3
+ i7g7 8. g2g3 d7d6 9. g3g4 g5f6 10. i3h4 c7b7 11. h4h5 h6h5 12. g4h5 b7c7 13. h5g6
+ f7g6 14. e3g3 f6g5 15. f3f2 g5g4 16. g3e1 g7g5 17. f2g2 g4h5 18. g2h3 f8f6 19. h3j5
+ g8f8 20. j5j7 f8e8 21. j7i7 d6e7 22. i7k5 e7e6 23. k5i3 e6f5 24. i3g3 c7d7 25. g3e3
+ d7e7 26. e3d2 e8f8 27. d2d1 f8f7 28. d1d2 f7g7 29. d2d4 e7e6 30. d4e3 f6h6 31. e3e2
+ g7h7 32. e2c4 e6e7 33. c4c5 e7e6 34. c5c6 e6e7 35. c6c5 e7e6 36. c5c6 e6f6 37. c6c4
+ f5g4 38. c4e2 g5g3 39. e2d3 g4f3 40. d3d2 f6f5 41. e1c3 h7i7 42. d2d3 h6f6 43. d3c4
+ g3g5 44. c4c5 f3g3 45. c5c6 g3g4 46. c6e6 g6g7 47. e6e8 h5g6 48. e8c6 i7j7 49. c6c4
+ g6h6 50. c4d4 h6g6 51. d4d3 f6h6 52. c3e3 g6h5 53. e3c3 h6h4 54. d3c4 g7f7 55. c4e6
+ g5g7 56. e6f7 h4h6 57. f7f8 h5g5 58. f8h8 g7i7 59. h8j6 i7j6 0-1
+
+[Event "YES Hybrid self-play"]
+[Site "local"]
+[Date "2026.04.24"]
+[Round "49"]
+[White "Fairy-Stockfish (Party)"]
+[Black "Fairy-Stockfish (Horde)"]
+[Result "1-0"]
+[Variant "theyeshybrid"]
+[SetUp "1"]
+[FEN "4abtb4/3ubmbu4/2m9/3*4*3/4**S5/12/12/3XC2D4 w - - 6 4"]
+[Termination "Treasure checkmated or captured"]
+[PlyCount "91"]
+[Depth "8"]
+[RuleSet "v7f-d8-remove-a-no-leader"]
+[Rules "baseline"]
+[Opening "g1f2 h8h6 f2e2 c7c6 e2g4 h6h8"]
+[TimeMs "4162"]
+
+1. d1f1 f8f6 2. g4h3 h7g6 3. h1g1 h8h6 4. g1g2 g8h8 5. g2g3 g7g5 6. f1g2 d7e6 7. g3g4
+ g5g4 8. h3g4 h6h4 9. g4g3 h4g3 10. g2g3 e6f5 11. g3h4 h8g8 12. h4j6 e7g7 13. j6i7
+ c6d6 14. i7j6 d6d7 15. j6i6 g8f8 16. i6j6 g6h5 17. j6j4 e8e6 18. j4j3 g7g5 19. j3i3
+ f7g7 20. i3h2 g7g6 21. h2f2 d7e7 22. f2f1 h5g4 23. f1e2 e7f7 24. e1e3 g5g3 25. e2d3
+ f8g8 26. e3c3 g8h8 27. d3c4 g3g5 28. c4c6 h8i8 29. c6c4 g5g3 30. c4b5 f6d6 31. b5b4
+ g3e3 32. b4b2 g6g5 33. b2b3 d6d4 34. c3a3 e3e5 35. b3b2 d4d6 36. a3c1 e6h6 37. b2d2
+ d6d4 38. d2f2 h6h3 39. f2g1 g4g3 40. g1i1 g3h4 41. i1k3 h3j3 42. k3j3 h4g4 43. j3j4
+ g4h5 44. j4j5 d4d2 45. j5j6 d2c1 46. j6i7 1-0
+

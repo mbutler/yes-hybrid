@@ -1,0 +1,73 @@
+Match: rule-set 'v2a-d8-10x8-same-pieces'  games=50  depth=8  max-plies=600  openings=50x6plies  seed=20260424  parallel=4
+  variants : /var/folders/rs/77r0skzs579fgb60prc23_mr0000gn/T/yes-hybrid/variants-v2a-d8-10x8-same-pieces-89776-1f627dfe1c47466eb25a2fc9edcbfa5b.ini
+  startFen : 3abtb3/1mubmbu3/10/2*4*2/3**5/10/10/2XC1SD3 w - - 0 1
+  openings : 50 distinct (requested 50)
+
+  [w3]  #4    0-1     Party extinct                       306 plies   13.2s  (1/50)
+  [w0]  #1    0-1     Party extinct                       396 plies   17.0s  (2/50)
+  [w2]  #3    *       ply cap (600)                       600 plies   25.5s  (3/50)
+  [w1]  #2    *       ply cap (600)                       600 plies   25.5s  (4/50)
+  [w3]  #8    0-1     Party extinct                       482 plies   20.7s  (5/50)
+  [w1]  #6    0-1     Party extinct                       270 plies   11.7s  (6/50)
+  [w0]  #5    *       ply cap (600)                       600 plies   25.5s  (7/50)
+  [w2]  #7    *       ply cap (600)                       600 plies   25.5s  (8/50)
+  [w1]  #10   0-1     Party extinct                       502 plies   21.4s  (9/50)
+  [w3]  #12   *       ply cap (600)                       600 plies   25.5s  (10/50)
+  [w2]  #11   0-1     Party extinct                       292 plies   12.6s  (11/50)
+  [w1]  #14   0-1     Party extinct                       112 plies    5.0s  (12/50)
+  [w0]  #9    *       ply cap (600)                       600 plies   25.5s  (13/50)
+  [w1]  #18   0-1     Party extinct                        98 plies    4.4s  (14/50)
+  [w3]  #16   0-1     Party extinct                       200 plies    8.7s  (15/50)
+  [w1]  #22   0-1     Party extinct                       180 plies    7.9s  (16/50)
+  [w0]  #13   0-1     Party has no legal response         290 plies   12.6s  (17/50)
+  [w0]  #17   0-1     Party extinct                       188 plies    8.2s  (18/50)
+  [w2]  #15   *       ply cap (600)                       600 plies   25.5s  (19/50)
+  [w3]  #20   *       ply cap (600)                       600 plies   25.5s  (20/50)
+  [w2]  #19   0-1     Party extinct                       132 plies    5.8s  (21/50)
+  [w0]  #21   0-1     Party extinct                       210 plies    9.1s  (22/50)
+  [w1]  #26   *       ply cap (600)                       600 plies   25.5s  (23/50)
+  [w3]  #24   *       ply cap (600)                       600 plies   25.6s  (24/50)
+  [w2]  #23   *       ply cap (600)                       600 plies   25.6s  (25/50)
+  [w0]  #25   *       ply cap (600)                       600 plies   25.6s  (26/50)
+  [w1]  #30   *       ply cap (600)                       600 plies   25.6s  (27/50)
+  [w3]  #28   0-1     Party extinct                       450 plies   19.2s  (28/50)
+  [w1]  #34   0-1     Party extinct                       316 plies   13.6s  (29/50)
+  [w0]  #29   0-1     Party extinct                       436 plies   18.6s  (30/50)
+  [w1]  #38   0-1     Party extinct                       102 plies    4.6s  (31/50)
+  [w2]  #27   *       ply cap (600)                       600 plies   25.5s  (32/50)
+  [w3]  #32   0-1     Party extinct                       328 plies   14.1s  (33/50)
+  [w0]  #33   0-1     Party extinct                       352 plies   15.1s  (34/50)
+  [w2]  #31   0-1     Party extinct                       500 plies   21.3s  (35/50)
+  [w1]  #42   *       ply cap (600)                       600 plies   25.6s  (36/50)
+  [w3]  #36   0-1     Party extinct                       554 plies   23.6s  (37/50)
+  [w0]  #37   *       ply cap (600)                       600 plies   25.5s  (38/50)
+  [w1]  #46   0-1     Party extinct                       362 plies   15.6s  (39/50)
+  [w2]  #35   *       ply cap (600)                       600 plies   25.6s  (40/50)
+  [w2]  #39   0-1     Party extinct                        84 plies    3.8s  (41/50)
+  [w3]  #40   *       ply cap (600)                       600 plies   25.5s  (42/50)
+  [w2]  #43   0-1     Party extinct                       194 plies    8.5s  (43/50)
+  [w0]  #41   1-0     Treasure checkmated or captured     541 plies   23.0s  (44/50)
+  [w3]  #44   0-1     Party extinct                       160 plies    7.0s  (45/50)
+  [w2]  #47   0-1     Party extinct                       112 plies    5.0s  (46/50)
+  [w1]  #50   *       ply cap (600)                       600 plies   25.5s  (47/50)
+  [w3]  #48   1-0     Treasure checkmated or captured     117 plies    5.3s  (48/50)
+  [w0]  #45   *       ply cap (600)                       600 plies   25.5s  (49/50)
+  [w0]  #49   1-0     Treasure checkmated or captured     137 plies    6.1s  (50/50)
+
+========================================================
+  Rule set    : v2a-d8-10x8-same-pieces
+  Games       : 50
+--------------------------------------------------------
+  Party wins  :    3  (  6.0%)
+  Horde wins  :   27  ( 54.0%)
+  Unfinished  :   20  ( 40.0%)
+--------------------------------------------------------
+  Decisive      :  60.0%
+  Party(decisive):  10.0%   95% CI [  3.5% ..  25.6%]
+  Imbalance     :  80.0%   (0% = perfectly balanced decisive games)
+  Median plies  : 290  (decisive games)
+
+  COMPOSITE SCORE : 0.120   (1.0 = balanced & decisive)
+========================================================
+  total time : 237.5s  (4.75s / game, 4x)
+  pgn        : reports/v2a-10x8-pilot/match-v2a-d8-10x8-same-pieces.pgn

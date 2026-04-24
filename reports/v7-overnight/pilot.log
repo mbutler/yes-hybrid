@@ -1,0 +1,32 @@
+Tune (SPSA): base='v7-d8-spsa-base'  iterations=20  games/eval=100  c=40  a=8  parallel=4  seed0=20260425
+  out    : reports/v7-overnight
+  theta0 : d:300 s:350 c:900 l:200 x:400 b:250 a:400 u:300 m:100
+
+[00/20]  y+ 1681.92  y-  485.89  P%+   9.0  P%-  28.0  Unfin 11.0/ 7.0           elapsed 562.4s    theta_new = [180,230,780,320,520,130,520,180]
+[01/20]  y+  459.18  y-  289.72  P%+  28.6  P%-  33.0  Unfin  9.0/ 6.0           elapsed 595.5s    theta_new = [163,247,763,303,537,147,537,163]
+[02/20]  y+  654.41  y-  544.44  P%+  24.4  P%-  26.7  Unfin 14.0/10.0           elapsed 625.5s    theta_new = [174,236,774,292,548,136,548,174]
+[03/20]  y+  277.78  y-  277.78  P%+  33.3  P%-  33.3  Unfin 13.0/ 4.0           elapsed 603.4s    theta_new = [174,236,774,292,548,136,548,174]
+[04/20]  y+  530.55  y-  212.67  P%+  27.0  P%-  35.4  Unfin 11.0/ 4.0           elapsed 639.7s    theta_new = [142,268,742,324,580,168,516,142]
+[05/20]  y+   71.01  y-  820.92  P%+  41.6  P%-  21.3  Unfin 11.0/11.0           elapsed 621.7s    theta_new = [217,343,667,249,655,93,441,67]
+[06/20]  y+  303.31  y-    4.53  P%+  32.6  P%-  47.9  Unfin 11.0/ 6.0           elapsed 680.5s    theta_new = [247,313,637,279,685,123,471,97]
+[07/20]  y+   60.49  y-   55.45  P%+  42.2  P%-  42.6  Unfin 10.0/ 6.0           elapsed 635.0s    theta_new = [248,312,636,278,686,122,472,98]
+[08/20]  y+   36.53  y-   40.74  P%+  44.0  P%-  43.6  Unfin  9.0/ 6.0           elapsed 628.5s    theta_new = [248,312,636,278,686,122,472,98]
+[09/20]  y+  129.13  y-    0.27  P%+  38.6  P%-  49.5  Unfin 12.0/ 3.0           elapsed 631.6s    theta_new = [261,299,649,265,699,135,485,85]
+[10/20]  y+   29.54  y-   30.86  P%+  44.6  P%-  44.4  Unfin  8.0/10.0           elapsed 636.2s    theta_new = [261,299,649,265,699,135,485,85]
+[11/20]  y+    1.23  y-    4.73  P%+  48.9  P%-  52.2  Unfin 10.0/ 8.0           elapsed 674.9s    theta_new = [261,299,649,265,699,135,485,85]
+[12/20]  y+  129.13  y-   30.86  P%+  38.6  P%-  55.6  Unfin 12.0/10.0           elapsed 701.2s    theta_new = [271,309,639,255,709,145,475,95]
+[13/20]  y+  188.68  y-  199.67  P%+  63.7  P%-  35.9  Unfin  9.0/ 8.0           elapsed 673.0s    theta_new = [270,310,638,254,708,146,476,94]
+[14/20]  y+  100.00  y-    4.73  P%+  40.0  P%-  52.2  Unfin 10.0/ 8.0           elapsed 633.6s    theta_new = [280,320,628,244,698,156,486,104]
+[15/20]  y+  183.04  y-   60.49  P%+  36.5  P%-  42.2  Unfin 15.0/10.0           elapsed 716.2s    theta_new = [268,308,616,256,710,168,498,92]
+[16/20]  y+  104.60  y-    8.26  P%+  39.8  P%-  47.1  Unfin 12.0/13.0           elapsed 713.4s    theta_new = [258,318,626,266,720,158,488,102]
+[17/20]  y+   14.79  y-   46.81  P%+  53.8  P%-  43.2  Unfin  9.0/ 5.0           elapsed 616.8s    theta_new = [261,321,623,263,717,155,485,105]
+[18/20]  y+   22.68  y-    0.00  P%+  45.2  P%-  50.0  Unfin 16.0/10.0           elapsed 816.9s    theta_new = [263,319,625,265,719,153,487,107]
+[19/20]  y+    1.23  y-    1.23  P%+  48.9  P%-  48.9  Unfin 10.0/10.0           elapsed 683.1s    theta_new = [263,319,625,265,719,153,487,107]
+
+Tune complete in 218.2 min.
+  iterations : 20   rejections: 0
+  best y     : 0.00   at iter18-minus
+  best theta : d:301 s:281 c:663 l:303 x:757 b:115 a:525 u:145 m:100
+  best rules : reports/v7-overnight/tune-best.json
+  csv        : reports/v7-overnight/tune-iterations.csv
+  trajectory : reports/v7-overnight/tune-trajectory.md

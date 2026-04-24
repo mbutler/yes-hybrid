@@ -1,0 +1,14 @@
+// SPSA final iterate (theta after iter 19); different from tune-best.json
+// (which is iter18-minus probe). Tests whether the basin minimum
+// confirms inside [48, 52] or reproduces the ~45% baseline.
+{
+  "name": "v7-d8-spsa-final-iterate",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "pieceValueMg": "d:263 s:319 c:625 l:265 x:719 b:153 a:487 u:107 m:100",
+    "pieceValueEg": "d:263 s:319 c:625 l:265 x:719 b:153 a:487 u:107 m:100"
+  },
+  "searchDepth": 8,
+  "maxPlies": 600
+}

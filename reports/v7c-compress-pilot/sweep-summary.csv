@@ -1,0 +1,4 @@
+rank,ruleset,games,party_wins,horde_wins,unfinished,decisive_pct,party_share_decisive_pct,imbalance_pct,composite,party_ci_lo,party_ci_hi,median_plies,elapsed_sec
+1,v7c-d8-lurker-K-compress-5,100,20,32,48,52.0,38.5,23.1,0.400,26.5,52.0,201,467.4
+2,v7c-d8-lurker-K-compress-3,100,17,38,45,55.0,30.9,38.2,0.340,20.3,44.0,184,680.7
+3,v7c-d8-lurker-K-compress-4,100,16,32,52,48.0,33.3,33.3,0.320,21.7,47.5,175,657.2

@@ -1,0 +1,4 @@
+rank,ruleset,games,party_wins,horde_wins,unfinished,decisive_pct,party_share_decisive_pct,imbalance_pct,composite,party_ci_lo,party_ci_hi,median_plies,elapsed_sec
+1,v7b-d8-lurker-K,100,25,23,52,48.0,52.1,4.2,0.460,38.3,65.5,194,668.4
+2,v7b-d8-lurker-fN,100,59,16,25,75.0,78.7,57.3,0.320,68.1,86.4,227,574.9
+3,v7b-d8-lurker-WfN,100,8,43,49,51.0,15.7,68.6,0.160,8.2,28.0,220,564.9

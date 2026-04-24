@@ -1,0 +1,15 @@
+{
+  "name": "v2a-d8-10x8-same-pieces",
+  "variantsIni": "variants/yeshybrid.ini",
+  "flags": { "bloodied": false },
+  "overrides": {
+    "maxFile": "10",
+    "customPiece8": "u:K",
+    "customPiece9": "m:WfcF",
+    "nMoveRule": "0",
+    "nFoldRule": "0"
+  },
+  "startFen": "3abtb3/1mubmbu3/10/2*4*2/3**5/10/10/2XC1SD3 w - - 0 1",
+  "searchDepth": 8,
+  "maxPlies": 600
+}

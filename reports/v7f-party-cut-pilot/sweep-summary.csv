@@ -1,0 +1,3 @@
+rank,ruleset,games,party_wins,horde_wins,unfinished,decisive_pct,party_share_decisive_pct,imbalance_pct,composite,party_ci_lo,party_ci_hi,median_plies,elapsed_sec
+1,v7f-d8-remove-a-no-leader,100,33,23,44,56.0,58.9,17.9,0.460,45.9,70.8,193,514.2
+2,v7f-d8-remove-a-no-skirmisher,100,3,42,55,45.0,6.7,86.7,0.060,2.3,17.9,182,597.4

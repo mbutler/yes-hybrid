@@ -1,0 +1,73 @@
+Match: rule-set 'v1.1-baseline'  games=50  depth=8  max-plies=600  openings=50x6plies  seed=20260507  parallel=4
+  variants : /var/folders/rs/77r0skzs579fgb60prc23_mr0000gn/T/yes-hybrid/variants-v1_1-baseline-86993-a0317ac585e14858988c213b853b3c16.ini
+  startFen : 4abtb4/2mubmbu4/12/3*4*3/4**6/12/12/3XC1SD4 w - - 0 1
+  openings : 50 distinct (requested 50)
+
+  [w0]  #1    1-0     Treasure checkmated or captured      73 plies    3.4s  (1/50)
+  [w1]  #2    0-1     Party extinct                       158 plies    7.0s  (2/50)
+  [w2]  #3    0-1     Party extinct                       190 plies    8.4s  (3/50)
+  [w3]  #4    1-0     Treasure checkmated or captured     355 plies   15.2s  (4/50)
+  [w0]  #5    1-0     Treasure checkmated or captured     283 plies   12.3s  (5/50)
+  [w3]  #8    1-0     Treasure checkmated or captured     139 plies    6.1s  (6/50)
+  [w1]  #6    0-1     Party extinct                       406 plies   17.3s  (7/50)
+  [w2]  #7    0-1     Party extinct                       388 plies   16.6s  (8/50)
+  [w0]  #9    0-1     Party extinct                       252 plies   11.2s  (9/50)
+  [w2]  #11   1-0     Treasure checkmated or captured     173 plies    7.6s  (10/50)
+  [w3]  #12   1-0     Treasure checkmated or captured     277 plies   12.0s  (11/50)
+  [w0]  #13   1-0     Treasure checkmated or captured     313 plies   13.5s  (12/50)
+  [w2]  #15   0-1     Party extinct                       280 plies   12.1s  (13/50)
+  [w0]  #17   0-1     Party extinct                       134 plies    6.0s  (14/50)
+  [w3]  #16   0-1     Party extinct                       332 plies   14.3s  (15/50)
+  [w1]  #10   *       ply cap (600)                       600 plies   25.4s  (16/50)
+  [w0]  #21   0-1     Party extinct                       172 plies    7.6s  (17/50)
+  [w2]  #19   0-1     Party extinct                       218 plies    9.5s  (18/50)
+  [w3]  #20   1-0     Treasure checkmated or captured     307 plies   13.2s  (19/50)
+  [w0]  #25   1-0     Treasure checkmated or captured     179 plies    7.9s  (20/50)
+  [w1]  #14   0-1     Party extinct                       314 plies   13.5s  (21/50)
+  [w2]  #23   1-0     Treasure checkmated or captured     237 plies   10.4s  (22/50)
+  [w0]  #29   0-1     Party extinct                       182 plies    8.0s  (23/50)
+  [w1]  #18   1-0     Treasure checkmated or captured     169 plies    7.4s  (24/50)
+  [w2]  #27   0-1     Party extinct                       260 plies   11.4s  (25/50)
+  [w0]  #33   1-0     Treasure checkmated or captured     155 plies    7.1s  (26/50)
+  [w1]  #22   0-1     Party extinct                       148 plies    6.5s  (27/50)
+  [w0]  #37   0-1     Party extinct                       132 plies    5.9s  (28/50)
+  [w1]  #26   0-1     Party extinct                       206 plies    9.0s  (29/50)
+  [w3]  #24   *       ply cap (600)                       600 plies   25.5s  (30/50)
+  [w2]  #31   1-0     Treasure checkmated or captured     259 plies   11.2s  (31/50)
+  [w0]  #41   1-0     Treasure checkmated or captured     125 plies    5.6s  (32/50)
+  [w2]  #35   0-1     Party has no legal response          60 plies    2.8s  (33/50)
+  [w3]  #28   0-1     Party extinct                       128 plies    5.7s  (34/50)
+  [w1]  #30   0-1     Party extinct                       206 plies    9.0s  (35/50)
+  [w0]  #45   0-1     Party extinct                       192 plies    8.4s  (36/50)
+  [w1]  #34   1-0     Treasure checkmated or captured      89 plies    4.0s  (37/50)
+  [w2]  #39   1-0     Treasure checkmated or captured     241 plies   10.4s  (38/50)
+  [w1]  #38   0-1     Party extinct                        88 plies    4.0s  (39/50)
+  [w2]  #43   0-1     Party extinct                        98 plies    4.4s  (40/50)
+  [w1]  #42   1-0     Treasure checkmated or captured     155 plies    6.8s  (41/50)
+  [w2]  #47   1-0     Treasure checkmated or captured     169 plies    7.5s  (42/50)
+  [w3]  #32   *       ply cap (600)                       600 plies   25.9s  (43/50)
+  [w0]  #49   *       ply cap (600)                       600 plies   25.7s  (44/50)
+  [w1]  #46   1-0     Treasure checkmated or captured     367 plies   15.8s  (45/50)
+  [w3]  #36   0-1     Party extinct                       268 plies   11.6s  (46/50)
+  [w3]  #40   1-0     Treasure checkmated or captured     115 plies    5.2s  (47/50)
+  [w1]  #50   1-0     Treasure checkmated or captured     245 plies   10.9s  (48/50)
+  [w3]  #44   0-1     Party extinct                       240 plies   10.5s  (49/50)
+  [w3]  #48   1-0     Treasure checkmated or captured     101 plies    4.6s  (50/50)
+
+========================================================
+  Rule set    : v1.1-baseline
+  Games       : 50
+--------------------------------------------------------
+  Party wins  :   22  ( 44.0%)
+  Horde wins  :   24  ( 48.0%)
+  Unfinished  :    4  (  8.0%)
+--------------------------------------------------------
+  Decisive      :  92.0%
+  Party(decisive):  47.8%   95% CI [ 34.1% ..  61.9%]
+  Imbalance     :   4.3%   (0% = perfectly balanced decisive games)
+  Median plies  : 192  (decisive games)
+
+  COMPOSITE SCORE : 0.880   (1.0 = balanced & decisive)
+========================================================
+  total time : 150.0s  (3.00s / game, 4x)
+  pgn        : reports/v1.1-ship-verify/verify.pgn

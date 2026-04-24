@@ -1,19 +1,39 @@
 # The YES Hybrid
 
-A tactical wargame layered on top of [Fairy-Stockfish](https://github.com/ianfab/Fairy-Stockfish). The engine enforces all rules, search, and AI; this repo provides the variant definition and a C# (.NET 8) terminal driver.
+A finished v1.1 tactical board game layered on top of [Fairy-Stockfish](https://github.com/ianfab/Fairy-Stockfish). The goal is a chesslike, perfect-information tactics game with some of the role flavor of D&D combat.
 
-See [`# PROJECT SPEC: THE YES HYBRID.md`](./%23%20PROJECT%20SPEC%3A%20THE%20YES%20HYBRID.md) for the design intent.
+For tabletop play, start with [`RULES.md`](./RULES.md). For the original design intent, see [`# PROJECT SPEC: THE YES HYBRID.md`](./%23%20PROJECT%20SPEC%3A%20THE%20YES%20HYBRID.md).
 
-## What's in here
+## v1.1 Status
 
+v1.1 is the current final design. Testing is complete unless human playtesting reveals a major issue.
+
+Final 500-game depth-8 self-play confirmation:
+
+```text
+Party wins  : 216  (43.2%)
+Horde wins  : 233  (46.6%)
+Unfinished  :  51  (10.2%)
+P%(decisive): 48.1%   95% CI [43.5, 52.7]
+Imbalance   : 3.8%
+Median plies: 199
 ```
-variants/yeshybrid.ini       custom Fairy-Stockfish variant (12x8, 10 piece types, terrain, extinction win)
-scripts/download-engine.sh   downloads a Fairy-Stockfish "largeboard" binary into ./engine/
+
+The design keeps chess-style stall rules as gameplay rules: 50 full moves without a capture is a draw, and threefold repetition is a draw.
+
+## What's In Here
+
+```text
+RULES.md                    human-readable over-the-board rules
+variants/yeshybrid.ini       custom Fairy-Stockfish variant (12x8, terrain, asymmetric goals)
+rulesets/v1.1-baseline.json  final v1.1 validation ruleset
+reports/v1.1-500-confirm/    final 500-game confirmation
+scripts/download-engine.sh   downloads/builds Fairy-Stockfish into ./engine/
 src/YesHybrid.Engine/        UCI client + FEN/board model + ASCII renderer
 src/YesHybrid.Cli/           `yes-hybrid` command-line driver
 ```
 
-## Quick start
+## Quick Start
 
 ```bash
 # 1. Get the engine (one-time)
@@ -32,9 +52,9 @@ dotnet run --project src/YesHybrid.Cli -- play --depth 8
 dotnet run --project src/YesHybrid.Cli -- play --mode human-vs-engine --side white --depth 10
 ```
 
-Moves are entered in long algebraic notation (e.g. `d1d3`). At each prompt, `yes-hybrid` asks the engine for the current legal-move list and shows the first 40.
+Moves are entered in long algebraic notation, for example `d1d3`. At each prompt, `yes-hybrid` asks the engine for the current legal-move list and shows the first 40.
 
-### macOS (Apple Silicon)
+### macOS Apple Silicon
 
 Fairy-Stockfish does not ship a native arm64 binary. `download-engine.sh` will print build-from-source instructions; the short version is:
 
@@ -42,61 +62,54 @@ Fairy-Stockfish does not ship a native arm64 binary. `download-engine.sh` will p
 git clone https://github.com/ianfab/Fairy-Stockfish.git /tmp/fsf
 cd /tmp/fsf/src
 make -j build ARCH=apple-silicon largeboards=yes all=yes
-cp stockfish ~/Desktop/yes-hybrid/engine/fairy-stockfish
+cp stockfish /path/to/yes-hybrid/engine/fairy-stockfish
 ```
 
-## What v1 covers (and what it doesn't)
+## Game Summary
 
-Implemented per the [agreed scope](./%23%20PROJECT%20SPEC%3A%20THE%20YES%20HYBRID.md):
+- Board: 12x8, files `a` through `l`, ranks `1` through `8`.
+- Party / White: Defender, Striker, Controller, Skirmisher.
+- Horde / Black: Treasure, four Brutes, one Artillery, two Lurkers, two Minions.
+- Terrain: blocked squares at `d5`, `i5`, `e4`, and `f4`.
+- Party wins by checkmating or capturing the Treasure.
+- Horde wins by eliminating all Party pieces or leaving Party with no legal move.
+- Draws use the chess-style quiet-move and repetition rules.
 
-- 12x8 board with two pillar holes and a short wall fragment (`*` squares).
-- All 10 spec pieces (D, S, C, L, X, B, A, U, M, T) defined via Betza, with each spec-vs-engine translation documented inline in [`variants/yeshybrid.ini`](./variants/yeshybrid.ini).
-- Asymmetric extinction win: Party loses if D/S/C/L/X are all captured; Horde loses if T is captured.
-- Engine-vs-engine and human-vs-engine play loop with ASCII board.
+## Betza Translation Table
 
-**Deferred for v1** (per the clarifying questions, easy to layer on later):
+| Role | Sym | Used Betza | Notes |
+|------|-----|------------|-------|
+| Defender | D | `WcK` | Moves orthogonally, captures adjacent. |
+| Striker | S | `mK2cF` | Mobile mover, diagonal-only capture. |
+| Controller | C | `gQ` | Grasshopper queen. |
+| Skirmisher | X | `KAD` | Adjacent plus radius-2 leaper coverage. |
+| Brute | B | `mDcK` | Dabbabah movement, adjacent captures. |
+| Artillery | A | `mR3cK` | Orthogonal movement up to 3, adjacent captures. |
+| Lurker | U | `K` | v1.1 balanced form: one square any direction. |
+| Minion | M | `WfcF` | Orthogonal mover, forward-diagonal capture. |
+| Treasure | T | `mW` | Royal objective piece, move-only Wazir. |
 
-- Section 6 hybrid mechanics: Multi-Capture (Bloodied promotion), Multi-Move per turn, Forced Movement.
-- Section 7 SPSA tuning harness.
-- 4e database mapping (we use the abstract D/S/C/L/X/B/A/U/M/T symbols only).
+The original spec also included the Party Leader (`L`). v1.1 removes the Leader from the starting setup for balance, though the engine definition remains in the INI for experimentation.
 
-## Betza translation table
+## CLI Commands
 
-| Role        | Sym | Spec Betza  | Used Betza | Why                                                                        |
-|-------------|-----|-------------|------------|----------------------------------------------------------------------------|
-| Defender    | D   | `WcK`       | `WcK`      | Valid as-is.                                                               |
-| Striker     | S   | `(mK2)cF`   | `mK2cF`    | Parens aren't Betza syntax.                                                |
-| Controller  | C   | `gQ`        | `gQ`       | Valid as-is (grasshopper modifier).                                        |
-| Leader      | L   | `WfF`       | `WfF`      | Valid as-is.                                                               |
-| Skirmisher  | X   | `K2`        | `KAD`      | `K2` is a slider; spec wants hit-and-run, so use leapers covering radius 2. |
-| Brute       | B   | `W2mK`      | `mDcK`     | "Leaps 2" = Dabbabah jump; "attacks adjacent" = capture-only K.             |
-| Artillery   | A   | `R3cK`      | `mR3cK`    | Slide up to 3, capture adjacent only.                                      |
-| Lurker      | U   | `p[N]`      | `N`        | `[]` not Betza; `pN` rejected. v1 uses plain knight; revisit later.         |
-| Minion      | M   | `W1`        | `W`        | `W` already has range 1.                                                   |
-| Treasure    | T   | `W1(m)`     | `mW`       | Move-only Wazir.                                                           |
-
-> The Lurker letter is `U`/`u` instead of `K`/`k` because `k` is reserved for the royal piece in Fairy-Stockfish (this variant has no royal piece).
-
-## Project layout
-
-```
-src/YesHybrid.Engine/
-  Uci/UciEngine.cs        subprocess UCI client (handshake, position, go, legalmoves, quit)
-  Game/Variant.cs         constants (variant name, default FEN, board size)
-  Game/PieceCatalog.cs    in-process mirror of the variants.ini piece roster
-  Game/Position.cs        FEN parser + extinction-victory evaluator
-  Game/BoardRenderer.cs   ASCII renderer
-src/YesHybrid.Cli/
-  Program.cs              entry point + help text
-  Commands/CommonOptions.cs   long-flag parser
-  Commands/InfoCommand.cs     `yes-hybrid info`
-  Commands/BestMoveCommand.cs `yes-hybrid bestmove`
-  Commands/PlayCommand.cs     `yes-hybrid play`
+```text
+info       print variant information
+play       run a single game in the terminal
+batch      run repeated self-play games to PGN
+match      evaluate one ruleset over randomized openings
+sweep      evaluate multiple rulesets and rank them
+tune       SPSA-tune piece values for experiments
+bestmove   ask the engine for one move
 ```
 
-## Next steps (suggested)
+## Deferred Ideas
 
-1. Run a quick smoke test: `yes-hybrid info` (no engine needed) → `yes-hybrid play --depth 4` → look for any FEN/Betza errors.
-2. If the Skirmisher / Lurker translations don't feel right in play, iterate on the Betza in `variants/yeshybrid.ini`.
-3. Add Multi-Capture (Bloodied promotion) by uncommenting and filling in the `promotedPieceType` hook at the bottom of the variant file, and adding the `Db`, `Sb`, etc. piece definitions.
-4. Stand up the SPSA tuning harness (Section 7) by scripting repeated `bestmove` runs and writing PGN.
+These are not part of v1.1:
+
+- Multi-Capture / Bloodied pieces.
+- Multi-move turns.
+- Forced movement or push effects.
+- 4e database mapping.
+
+They are preserved as design hooks, but v1.1 is considered complete without them.

@@ -1,0 +1,73 @@
+Match: rule-set 'v7f-d8-remove-a-no-leader'  games=50  depth=8  max-plies=600  openings=50x6plies  seed=20260507  parallel=4
+  variants : /var/folders/rs/77r0skzs579fgb60prc23_mr0000gn/T/yes-hybrid/variants-v7f-d8-remove-a-no-leader-90870-ef9c5a4a9a894abe813c6b729f6805ae.ini
+  startFen : 4abtb4/2mubmbu4/12/3*4*3/4**6/12/12/3XC1SD4 w - - 0 1
+  openings : 50 distinct (requested 50)
+
+  [w1]  #2    1-0     Treasure checkmated or captured     157 plies    6.9s  (1/50)
+  [w0]  #1    1-0     Treasure checkmated or captured     257 plies   11.1s  (2/50)
+  [w2]  #3    1-0     Treasure checkmated or captured     271 plies   11.7s  (3/50)
+  [w3]  #4    *       ply cap (600)                       600 plies   25.6s  (4/50)
+  [w1]  #6    *       ply cap (600)                       600 plies   25.5s  (5/50)
+  [w3]  #8    0-1     Party has no legal response         184 plies    8.1s  (6/50)
+  [w2]  #7    *       ply cap (600)                       600 plies   25.5s  (7/50)
+  [w1]  #10   0-1     Party extinct                       142 plies    6.3s  (8/50)
+  [w3]  #12   1-0     Treasure checkmated or captured     249 plies   10.7s  (9/50)
+  [w2]  #11   0-1     Party extinct                       390 plies   16.7s  (10/50)
+  [w3]  #16   0-1     Party extinct                       262 plies   11.3s  (11/50)
+  [w2]  #15   0-1     Party extinct                       188 plies    8.2s  (12/50)
+  [w3]  #20   0-1     Party extinct                       168 plies    7.3s  (13/50)
+  [w1]  #14   *       ply cap (600)                       600 plies   25.4s  (14/50)
+  [w3]  #24   1-0     Treasure checkmated or captured     133 plies    5.9s  (15/50)
+  [w2]  #19   *       ply cap (600)                       600 plies   25.5s  (16/50)
+  [w1]  #18   *       ply cap (600)                       600 plies   25.5s  (17/50)
+  [w3]  #28   *       ply cap (600)                       600 plies   25.5s  (18/50)
+  [w3]  #32   0-1     Party extinct                       142 plies    6.3s  (19/50)
+  [w2]  #23   1-0     Treasure checkmated or captured     523 plies   22.3s  (20/50)
+  [w3]  #36   0-1     Party extinct                       304 plies   13.0s  (21/50)
+  [w1]  #22   *       ply cap (600)                       600 plies   25.4s  (22/50)
+  [w2]  #27   1-0     Treasure checkmated or captured     125 plies    5.5s  (23/50)
+  [w2]  #31   1-0     Treasure checkmated or captured     281 plies   12.1s  (24/50)
+  [w3]  #40   *       ply cap (600)                       600 plies   25.4s  (25/50)
+  [w1]  #26   *       ply cap (600)                       600 plies   25.4s  (26/50)
+  [w0]  #5    *       engine timeout                      435 plies  138.6s  (27/50)
+  [w2]  #35   *       ply cap (600)                       600 plies   25.4s  (28/50)
+  [w3]  #44   *       ply cap (600)                       600 plies   25.4s  (29/50)
+  [w1]  #30   *       ply cap (600)                       600 plies   25.5s  (30/50)
+  [w0]  #9    0-1     Party extinct                       386 plies   16.5s  (31/50)
+  [w1]  #34   1-0     Treasure checkmated or captured     247 plies   10.7s  (32/50)
+  [w2]  #39   *       ply cap (600)                       600 plies   25.5s  (33/50)
+  [w3]  #48   *       ply cap (600)                       600 plies   25.5s  (34/50)
+  [w2]  #43   1-0     Treasure checkmated or captured     285 plies   12.3s  (35/50)
+  [w0]  #13   *       ply cap (600)                       600 plies   25.5s  (36/50)
+  [w0]  #17   0-1     Party has no legal response         100 plies    4.5s  (37/50)
+  [w1]  #38   *       ply cap (600)                       600 plies   25.5s  (38/50)
+  [w1]  #42   1-0     Treasure checkmated or captured     247 plies   10.7s  (39/50)
+  [w2]  #47   *       ply cap (600)                       600 plies   25.5s  (40/50)
+  [w0]  #21   *       ply cap (600)                       600 plies   25.6s  (41/50)
+  [w1]  #46   *       ply cap (600)                       600 plies   25.6s  (42/50)
+  [w0]  #25   *       ply cap (600)                       600 plies   25.6s  (43/50)
+  [w0]  #29   0-1     Party has no legal response          54 plies    2.6s  (44/50)
+  [w0]  #33   1-0     Treasure checkmated or captured      43 plies    2.1s  (45/50)
+  [w0]  #37   1-0     Treasure checkmated or captured     171 plies    7.6s  (46/50)
+  [w0]  #41   0-1     Party has no legal response          94 plies    4.3s  (47/50)
+  [w1]  #50   *       ply cap (600)                       600 plies   25.6s  (48/50)
+  [w0]  #45   0-1     Party has no legal response         118 plies    5.3s  (49/50)
+  [w0]  #49   1-0     Treasure checkmated or captured      91 plies    4.2s  (50/50)
+
+========================================================
+  Rule set    : v7f-d8-remove-a-no-leader
+  Games       : 50
+--------------------------------------------------------
+  Party wins  :   14  ( 28.0%)
+  Horde wins  :   13  ( 26.0%)
+  Unfinished  :   23  ( 46.0%)
+--------------------------------------------------------
+  Decisive      :  54.0%
+  Party(decisive):  51.9%   95% CI [ 34.0% ..  69.3%]
+  Imbalance     :   3.7%   (0% = perfectly balanced decisive games)
+  Median plies  : 184  (decisive games)
+
+  COMPOSITE SCORE : 0.520   (1.0 = balanced & decisive)
+========================================================
+  total time : 273.3s  (5.47s / game, 4x)
+  pgn        : reports/v1.1-stall-rule-ab/match-v7f-explicit-zero-seed20260507.pgn

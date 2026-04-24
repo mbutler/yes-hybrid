@@ -1,0 +1,3 @@
+rank,ruleset,games,party_wins,horde_wins,unfinished,decisive_pct,party_share_decisive_pct,imbalance_pct,composite,party_ci_lo,party_ci_hi,median_plies,elapsed_sec
+1,v7i-d8-brute-mDcF,100,47,11,42,58.0,81.0,62.1,0.220,69.1,89.1,222,652.1
+2,v7i-d8-brute-mDcW,100,71,7,22,78.0,91.0,82.1,0.140,82.6,95.6,307,633.7

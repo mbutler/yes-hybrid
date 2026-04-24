@@ -21,8 +21,8 @@ public static class PieceCatalog
         new('X', "Skirmisher", "Party",  Side.White, "KAD"),
         new('B', "Brute",      "Horde",  Side.Black, "mDcK"),
         new('A', "Artillery",  "Horde",  Side.Black, "mR3cK"),
-        new('U', "Lurker",     "Horde",  Side.Black, "N"),
-        new('M', "Minion",     "Horde",  Side.Black, "W"),
+        new('U', "Lurker",     "Horde",  Side.Black, "K"),
+        new('M', "Minion",     "Horde",  Side.Black, "WfcF"),
         new('T', "Treasure",   "Horde",  Side.Black, "mW"),
         // Bloodied Party pieces (spec Section 6.1; only visible when --bloodied is on).
         new('E', "Defender*",   "Party (bloodied)", Side.White, "W"),
