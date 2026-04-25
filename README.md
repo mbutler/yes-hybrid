@@ -31,6 +31,7 @@ reports/v1.1-500-confirm/    final 500-game confirmation
 scripts/download-engine.sh   downloads/builds Fairy-Stockfish into ./engine/
 src/YesHybrid.Engine/        UCI client + FEN/board model + ASCII renderer
 src/YesHybrid.Cli/           `yes-hybrid` command-line driver
+src/YesHybrid.Desktop/       Avalonia UI (board, move list, engine modes)
 ```
 
 ## Quick Start
@@ -53,6 +54,18 @@ dotnet run --project src/YesHybrid.Cli -- play --mode human-vs-engine --side whi
 ```
 
 Moves are entered in long algebraic notation, for example `d1d3`. At each prompt, `yes-hybrid` asks the engine for the current legal-move list and shows the first 40.
+
+## Running the desktop app
+
+The GUI lives in `src/YesHybrid.Desktop`. It needs the same Fairy-Stockfish binary and `variants/yeshybrid.ini` as the CLI, so run `./scripts/download-engine.sh` first if you have not already.
+
+```bash
+dotnet run --project src/YesHybrid.Desktop
+```
+
+Run that from the **repository root** (or anywhere under it): the app looks for `engine/fairy-stockfish` and `variants/yeshybrid.ini` by walking up from the process directory, so a normal `dotnet run` from the root Just Works. The **Rules…** command expects `RULES.md` at the repo root for the best experience.
+
+**Modes (dropdown):** Human vs engine (choose Party or Horde), human vs human on the same device, or engine vs engine at a watchable speed. Use **New game** to reset.
 
 ### macOS Apple Silicon
 
