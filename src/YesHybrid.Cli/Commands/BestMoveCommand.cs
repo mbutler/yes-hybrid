@@ -12,8 +12,7 @@ internal static class BestMoveCommand
         await using var engine = await UciEngine.StartAsync(o.EnginePath, o.VariantsPath, Variant.Name);
         engine.Verbose = o.Verbose;
 
-        await engine.SetPositionAsync(o.Fen);
-        var move = await engine.GoBestMoveAsync(o.Depth, TimeSpan.FromMinutes(2));
+        var move = await engine.GoSearchBestMoveOnlyAsync(o.Fen, o.Depth, TimeSpan.FromMinutes(2));
 
         Console.WriteLine(move);
         return 0;

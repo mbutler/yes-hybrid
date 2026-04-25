@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:md="https://github.com/whistyun/Markdown.Avalonia.Tight"
+        x:Class="YesHybrid.Desktop.RulesWindow"
+        Title="YES Hybrid — Rules"
+        Width="720"
+        Height="600"
+        MinWidth="400"
+        MinHeight="320">
+  <DockPanel>
+    <TextBlock DockPanel.Dock="Top"
+               Margin="12,12,12,0"
+               FontWeight="Bold"
+               Text="RULES.md (v1.1 tabletop; engine matches these rules)"/>
+    <TextBlock x:Name="ErrorBody"
+               DockPanel.Dock="Top"
+               Margin="12,8,12,0"
+               TextWrapping="Wrap"
+               Foreground="Crimson"
+               IsVisible="False" />
+    <md:MarkdownScrollViewer x:Name="MdBody"
+                             Margin="12"
+                             MarkdownStyleName="MarkdownStyleFluentAvalonia"
+                             IsVisible="False" />
+  </DockPanel>
+</Window>

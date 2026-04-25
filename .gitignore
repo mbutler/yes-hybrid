@@ -1,0 +1,6 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+
+# Opt-in click trace (set YES_HYBRID_DEBUG_CLICKS=1) — do not commit session logs
+reports/yes-hybrid-click-debug.log

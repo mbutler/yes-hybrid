@@ -49,19 +49,18 @@ public sealed class GameLoop
         {
             ct.ThrowIfCancellationRequested();
 
-            await Engine.SetPositionAsync(fen, Array.Empty<string>(), ct);
-
             string move;
+            string? after;
             try
             {
-                move = await Engine.GoBestMoveAsync(Depth, MoveTimeout, ct);
+                (move, after) = await Engine.GoBestGetFenAsync(fen, Depth, MoveTimeout, ct);
             }
             catch (TimeoutException)
             {
                 return new Outcome(GameResult.Unfinished, "engine timeout", moves.Count, moves, fen);
             }
 
-            if (move is "(none)" or "0000")
+            if (move is "(none)" or "0000" || after is null)
             {
                 // Engine reports no legal move for the side to move -> they lose.
                 var loser = prev.SideToMove;
@@ -69,10 +68,6 @@ public sealed class GameLoop
                 var reason = DescribeTermination(result, prev, treasureAtStart);
                 return new Outcome(result, reason, moves.Count, moves, fen);
             }
-
-            // Apply the move on the engine side and read back the new FEN.
-            await Engine.SetPositionAsync(fen, new[] { move }, ct);
-            var after = await ReadFenAsync(ct) ?? fen;
             var afterPos = Position.Parse(after);
 
             bool triggered = false;
@@ -102,23 +97,6 @@ public sealed class GameLoop
         }
 
         return new Outcome(GameResult.Unfinished, $"ply cap ({MaxPlies})", moves.Count, moves, fen);
-    }
-
-    private async Task<string?> ReadFenAsync(CancellationToken ct)
-    {
-        await Engine.SendAsync("d", ct);
-        await Engine.SendAsync("isready", ct);
-        var deadline = DateTime.UtcNow + TimeSpan.FromSeconds(3);
-        while (DateTime.UtcNow < deadline)
-        {
-            try
-            {
-                var line = await Engine.WaitForAsync("Fen:", TimeSpan.FromMilliseconds(400), ct);
-                return line["Fen:".Length..].Trim();
-            }
-            catch (TimeoutException) { }
-        }
-        return null;
     }
 
     /// <summary>

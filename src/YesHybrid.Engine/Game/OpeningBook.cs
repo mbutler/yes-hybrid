@@ -42,15 +42,13 @@ public static class OpeningBook
             var moves = new List<string>();
             for (int p = 0; p < pliesPerOpening; p++)
             {
-                await engine.SetPositionAsync(startFen, moves, ct);
-                var legal = await engine.GetLegalMovesAsync(ct);
+                var legal = await engine.GetLegalMovesFromSetupAsync(startFen, moves, ct);
                 if (legal.Count == 0) break; // mate/stalemate; short opening is fine
                 var pick = legal[rng.Next(legal.Count)];
                 moves.Add(pick);
             }
 
-            await engine.SetPositionAsync(startFen, moves, ct);
-            var fen = await ReadFenAsync(engine, ct) ?? startFen;
+            var fen = await engine.SetPositionGetFenAsync(startFen, moves, ct) ?? startFen;
 
             if (seen.Add(fen))
                 result.Add(new Entry(fen, moves));
@@ -62,22 +60,5 @@ public static class OpeningBook
             result.Add(new Entry(startFen, Array.Empty<string>()));
 
         return result;
-    }
-
-    private static async Task<string?> ReadFenAsync(UciEngine engine, CancellationToken ct)
-    {
-        await engine.SendAsync("d", ct);
-        await engine.SendAsync("isready", ct);
-        var deadline = DateTime.UtcNow + TimeSpan.FromSeconds(3);
-        while (DateTime.UtcNow < deadline)
-        {
-            try
-            {
-                var line = await engine.WaitForAsync("Fen:", TimeSpan.FromMilliseconds(300), ct);
-                return line["Fen:".Length..].Trim();
-            }
-            catch (TimeoutException) { }
-        }
-        return null;
     }
 }

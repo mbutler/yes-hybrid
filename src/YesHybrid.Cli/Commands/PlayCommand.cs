@@ -84,8 +84,6 @@ internal static class PlayCommand
 
         for (int ply = 0; ply < o.MaxPlies; ply++)
         {
-            await engine.SetPositionAsync(fen);
-
             var pos = Position.Parse(fen, Variant.Files, Variant.Ranks);
             Console.Clear();
             Console.WriteLine($"=== YES Hybrid  -  ply {ply + 1}  (human-vs-engine{(o.Bloodied ? " +bloodied" : "")}) ===\n");
@@ -100,16 +98,19 @@ internal static class PlayCommand
             }
 
             string move;
+            string newFen;
             if (pos.SideToMove == humanColor)
             {
-                move = await PromptHumanMoveAsync(engine);
+                move = await PromptHumanMoveAsync(engine, fen);
                 if (move is "quit" or "resign") { Console.WriteLine("Resigned."); return 0; }
+                newFen = await engine.SetPositionGetFenAsync(fen, new[] { move }) ?? fen;
             }
             else
             {
                 Console.WriteLine($"\n  Engine thinking (depth {o.Depth})...");
-                move = await engine.GoBestMoveAsync(o.Depth, TimeSpan.FromMinutes(2));
-                if (move is "(none)" or "0000")
+                var (m, nf) = await engine.GoBestGetFenAsync(fen, o.Depth, TimeSpan.FromMinutes(2));
+                move = m;
+                if (move is "(none)" or "0000" || nf is null)
                 {
                     var winner = pos.SideToMove == 'w'
                         ? "Horde (Black) wins  -  Party has no legal response."
@@ -117,12 +118,10 @@ internal static class PlayCommand
                     Console.WriteLine($"GAME OVER: {winner}");
                     return 0;
                 }
+                newFen = nf;
                 Console.WriteLine($"  -> {move}");
                 if (o.PauseMs > 0) await Task.Delay(o.PauseMs);
             }
-
-            await engine.SetPositionAsync(fen, new[] { move });
-            var newFen = await ReadFenAsync(engine) ?? fen;
             var afterPos = Position.Parse(newFen, Variant.Files, Variant.Ranks);
 
             if (o.Bloodied)
@@ -160,9 +159,9 @@ internal static class PlayCommand
         writer.Write(rec);
     }
 
-    private static async Task<string> PromptHumanMoveAsync(UciEngine engine)
+    private static async Task<string> PromptHumanMoveAsync(UciEngine engine, string fen)
     {
-        var legal = await engine.GetLegalMovesAsync();
+        var legal = await engine.GetLegalMovesAsync(fen);
         Console.WriteLine();
         if (legal.Count == 0)
             Console.WriteLine("  (engine reports no legal moves)");
@@ -181,23 +180,6 @@ internal static class PlayCommand
             if (legal.Count == 0 || legal.Contains(input)) return input;
             Console.WriteLine($"  '{input}' is not a legal move.  Try again.");
         }
-    }
-
-    private static async Task<string?> ReadFenAsync(UciEngine engine)
-    {
-        await engine.SendAsync("d");
-        await engine.SendAsync("isready");
-        var deadline = DateTime.UtcNow + TimeSpan.FromSeconds(3);
-        while (DateTime.UtcNow < deadline)
-        {
-            try
-            {
-                var line = await engine.WaitForAsync("Fen:", TimeSpan.FromMilliseconds(300));
-                return line["Fen:".Length..].Trim();
-            }
-            catch (TimeoutException) { }
-        }
-        return null;
     }
 
     private static string Describe(GameLoop.GameResult r) => r switch
