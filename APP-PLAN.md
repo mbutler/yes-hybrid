@@ -27,8 +27,8 @@ Use `piece-mapping.md` as the presentation mapping for the playable app:
 | `C` | Controller | Mage |
 | `X` | Skirmisher | Rogue |
 | `T` | Treasure | Trove |
-| `B` | Brute | Brute |
-| `A` | Artillery | Wraith |
+| `B` | Brute | Wraith |
+| `A` | Artillery | Brute |
 | `U` | Lurker | Fiend |
 | `M` | Minion | Spawn |
 | `#` / `*` | Blocked terrain | Blocked |

@@ -9,8 +9,8 @@ THE PARTY (The Heroes)
 
 THE HORDE (The Monsters)
 [T] Trove      (1-Orth move, No capture)
-[B] Brute      (2-Orth leap, 1-Any capture)
-[A] Wraith     (3-Orth slide, 1-Any capture)
+[B] Wraith     (2-Orth leap, 1-Any capture)
+[A] Brute      (3-Orth slide, 1-Any capture)
 [U] Fiend      (1-Any move/capture)
 [M] Spawn      (1-Orth move, 1-Diag-Forward capture)
 
