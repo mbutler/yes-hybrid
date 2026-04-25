@@ -8,6 +8,8 @@ internal enum DesktopPlayMode
 {
     HumanVsEngine,
     HumanVsHuman,
+    /// <summary>Both sides use the UCI engine; for spectators.</summary>
+    EngineVsEngine,
 }
 
 /// <summary>Which side the human controls in <see cref="DesktopPlayMode.HumanVsEngine"/> (Party = White).</summary>

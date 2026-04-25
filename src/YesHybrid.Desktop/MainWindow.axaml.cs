@@ -32,11 +32,15 @@ public partial class MainWindow : Window
     private readonly SemaphoreSlim _boardInteraction = new(1, 1);
     private bool _gameOver;
     private string? _endMessage;
+    /// <summary>Incremented on each new game so a running EVE loop can exit when the user restarts or changes mode.</summary>
+    private int _playEpoch;
 
     private static readonly object ClickDebugLogLock = new();
     /// <summary>Set env <c>YES_HYBRID_DEBUG_CLICKS=1</c> to append one JSON line per cell click to temp and to <c>reports/yes-hybrid-click-debug.log</c> under the repo when found (so Cursor can read it).</summary>
     private const string ClickDebugEnv = "YES_HYBRID_DEBUG_CLICKS";
     private const string ClickDebugFile = "yes-hybrid-click-debug.log";
+    /// <summary>Pause after each EVE move so the board is readable; excludes engine think time.</summary>
+    private const int EngineVsEnginePlyDelayMs = 450;
 
     private static readonly IBrush LightSq = new SolidColorBrush(Color.Parse("#EEE8DC"));
     private static readonly IBrush DarkSq = new SolidColorBrush(Color.Parse("#A0826D"));
@@ -63,6 +67,11 @@ public partial class MainWindow : Window
         {
             Content = "Human vs Human",
             Tag = DesktopPlayMode.HumanVsHuman,
+        });
+        ModeCombo.Items.Add(new ComboBoxItem
+        {
+            Content = "Engine vs Engine",
+            Tag = DesktopPlayMode.EngineVsEngine,
         });
         ModeCombo.SelectedIndex = 0;
         SideCombo.Items.Add(new ComboBoxItem { Content = "Party (white)", Tag = DesktopHumanSide.Party });
@@ -109,11 +118,9 @@ public partial class MainWindow : Window
         _selected = null;
         _legalDests.Clear();
         _allLegals = Array.Empty<string>();
-        await WithBoardExclusiveAsync(async () =>
-        {
-            await _session.NewGameAsync();
-            await AfterAnyPlyAsync();
-        });
+        Interlocked.Increment(ref _playEpoch);
+        await WithBoardExclusiveAsync(() => _session.NewGameAsync());
+        await AfterAnyPlyWithCorrectLockingAsync();
     }
 
     private async Task OnHumanSideChangedAsync()
@@ -127,11 +134,9 @@ public partial class MainWindow : Window
         _selected = null;
         _legalDests.Clear();
         _allLegals = Array.Empty<string>();
-        await WithBoardExclusiveAsync(async () =>
-        {
-            await _session.NewGameAsync();
-            await AfterAnyPlyAsync();
-        });
+        Interlocked.Increment(ref _playEpoch);
+        await WithBoardExclusiveAsync(() => _session.NewGameAsync());
+        await AfterAnyPlyWithCorrectLockingAsync();
     }
 
     private void UpdateSideComboEnabled()
@@ -139,11 +144,17 @@ public partial class MainWindow : Window
         if (ModeCombo.SelectedItem is not ComboBoxItem { Tag: DesktopPlayMode mode })
         {
             SideCombo.IsEnabled = false;
+            YouPlayLabel.IsVisible = true;
+            SideCombo.IsVisible = true;
             return;
         }
         var hve = mode == DesktopPlayMode.HumanVsEngine;
+        var hideSideRow = mode == DesktopPlayMode.EngineVsEngine;
+        YouPlayLabel.IsVisible = !hideSideRow;
+        SideCombo.IsVisible = !hideSideRow;
         SideCombo.IsEnabled = hve;
-        YouPlayLabel.Opacity = hve ? 0.85 : 0.35;
+        if (!hve) YouPlayLabel.Opacity = 0.35;
+        else YouPlayLabel.Opacity = 0.85;
     }
 
     private void ApplyHumanSideFromUi()
@@ -271,11 +282,9 @@ public partial class MainWindow : Window
         _selected = null;
         _legalDests.Clear();
         _allLegals = Array.Empty<string>();
-        await WithBoardExclusiveAsync(async () =>
-        {
-            await _session.NewGameAsync();
-            await AfterAnyPlyAsync();
-        });
+        Interlocked.Increment(ref _playEpoch);
+        await WithBoardExclusiveAsync(() => _session.NewGameAsync());
+        await AfterAnyPlyWithCorrectLockingAsync();
     }
 
     private async Task InitializeEngineAndBoardAsync()
@@ -311,11 +320,9 @@ public partial class MainWindow : Window
         };
         UpdateSideComboEnabled();
         _vm.ErrorText = "";
-        await WithBoardExclusiveAsync(async () =>
-        {
-            await _session.NewGameAsync();
-            await AfterAnyPlyAsync();
-        });
+        Interlocked.Increment(ref _playEpoch);
+        await WithBoardExclusiveAsync(() => _session.NewGameAsync());
+        await AfterAnyPlyWithCorrectLockingAsync();
     }
 
     private async Task OnWindowClosingAsync()
@@ -334,6 +341,7 @@ public partial class MainWindow : Window
     private async Task OnCellClickAsync(int x, int y)
     {
         if (_session is null || _engine is null || _gameOver) return;
+        if (_session.Mode == DesktopPlayMode.EngineVsEngine) return;
 
         await _boardInteraction.WaitAsync();
         try
@@ -512,7 +520,7 @@ public partial class MainWindow : Window
         try
         {
             await _session.ApplyUserMoveUciAsync(uci);
-            await AfterAnyPlyAsync();
+            await AfterPlyHvEOrHvHAsync();
         }
         catch (InvalidOperationException ex)
         {
@@ -533,7 +541,149 @@ public partial class MainWindow : Window
         }
     }
 
-    private async Task AfterAnyPlyAsync()
+    private async Task AfterAnyPlyWithCorrectLockingAsync()
+    {
+        if (_session?.Mode == DesktopPlayMode.EngineVsEngine)
+            await AfterAnyPlyEngineVsEngineAsync();
+        else
+            await WithBoardExclusiveAsync(AfterPlyHvEOrHvHAsync);
+    }
+
+    private async Task AfterAnyPlyEngineVsEngineAsync()
+    {
+        if (_session is null) return;
+        while (true)
+        {
+            if (_session.Mode != DesktopPlayMode.EngineVsEngine) return;
+            await _boardInteraction.WaitAsync();
+            var epochSnapshot = _playEpoch;
+            try
+            {
+                if (_session is null || _engine is null) return;
+                if (_session.Mode != DesktopPlayMode.EngineVsEngine) return;
+                if (_playEpoch != epochSnapshot) return;
+
+                var legals = await _session.GetLegalMovesAuthoritativeAsync();
+                var pos = _session.GetPosition();
+                RebuildMoveList();
+                RefreshView(pos);
+                UpdateResultDisplay(pos);
+
+                if (GameResultHelper.TryTerminalMessage(pos, out var term))
+                {
+                    _gameOver = true;
+                    _endMessage = term;
+                    _vm.StatusText = term;
+                    _vm.ResultText = term;
+                    return;
+                }
+
+                if (DrawRules.IsHalfmoveDraw(pos))
+                {
+                    const string d = "Draw: 50-move rule (100 halfmoves with no reset).";
+                    _gameOver = true;
+                    _endMessage = d;
+                    _vm.StatusText = d;
+                    _vm.ResultText = d;
+                    return;
+                }
+
+                if (_session.IsTripleRepetitionDraw)
+                {
+                    const string d = "Draw: same position (board + turn + rights) three times.";
+                    _gameOver = true;
+                    _endMessage = d;
+                    _vm.StatusText = d;
+                    _vm.ResultText = d;
+                    return;
+                }
+
+                if (legals.Count == 0)
+                {
+                    var noMove = GameResultHelper.NoLegalMovesForSideToMoveMessage(pos.SideToMove);
+                    _gameOver = true;
+                    _endMessage = noMove;
+                    _vm.StatusText = noMove;
+                    _vm.ResultText = noMove;
+                    return;
+                }
+
+                _vm.StatusText = pos.SideToMove == 'w'
+                    ? "Party (engine) thinking…"
+                    : "Horde (engine) thinking…";
+                var sideBeforeEngine = pos.SideToMove;
+                var mv = await _session.EngineBestMoveAsync();
+
+                if (mv is "(none)" or "0000")
+                {
+                    var noMove2 = GameResultHelper.NoLegalMovesForSideToMoveMessage(sideBeforeEngine);
+                    _gameOver = true;
+                    _endMessage = noMove2;
+                    _vm.StatusText = noMove2;
+                    RebuildMoveList();
+                    RefreshView(_session.GetPosition());
+                    UpdateResultDisplay(_session.GetPosition());
+                    _vm.ResultText = noMove2;
+                    return;
+                }
+
+                pos = _session.GetPosition();
+                if (GameResultHelper.TryTerminalMessage(pos, out term))
+                {
+                    _gameOver = true;
+                    _endMessage = term;
+                    _vm.StatusText = term;
+                    RebuildMoveList();
+                    RefreshView(pos);
+                    _vm.ResultText = term;
+                    return;
+                }
+
+                if (DrawRules.IsHalfmoveDraw(pos))
+                {
+                    const string d2 = "Draw: 50-move rule (100 halfmoves with no reset).";
+                    _gameOver = true;
+                    _endMessage = d2;
+                    _vm.StatusText = d2;
+                    _vm.ResultText = d2;
+                    return;
+                }
+
+                if (_session.IsTripleRepetitionDraw)
+                {
+                    const string d2 = "Draw: same position (board + turn + rights) three times.";
+                    _gameOver = true;
+                    _endMessage = d2;
+                    _vm.StatusText = d2;
+                    _vm.ResultText = d2;
+                    return;
+                }
+
+                var leg2 = await _session.GetLegalMovesAuthoritativeAsync();
+                if (leg2.Count == 0)
+                {
+                    var nm = GameResultHelper.NoLegalMovesForSideToMoveMessage(pos.SideToMove);
+                    _gameOver = true;
+                    _endMessage = nm;
+                    _vm.StatusText = nm;
+                    _vm.ResultText = nm;
+                    return;
+                }
+            }
+            finally
+            {
+                _boardInteraction.Release();
+            }
+
+            if (_session is null) return;
+            if (_playEpoch != epochSnapshot) return;
+            if (_session.Mode != DesktopPlayMode.EngineVsEngine) return;
+            if (_gameOver) return;
+            await Task.Delay(EngineVsEnginePlyDelayMs);
+        }
+    }
+
+    private async Task AfterPlyHvEOrHvHAsync()
     {
         if (_session is null) return;
 
@@ -595,14 +745,14 @@ public partial class MainWindow : Window
 
                 if (mv is "(none)" or "0000")
                 {
-                    var noMove = GameResultHelper.NoLegalMovesForSideToMoveMessage(sideBeforeEngine);
+                    var noMove2 = GameResultHelper.NoLegalMovesForSideToMoveMessage(sideBeforeEngine);
                     _gameOver = true;
-                    _endMessage = noMove;
-                    _vm.StatusText = noMove;
+                    _endMessage = noMove2;
+                    _vm.StatusText = noMove2;
                     RebuildMoveList();
                     RefreshView(_session.GetPosition());
                     UpdateResultDisplay(_session.GetPosition());
-                    _vm.ResultText = noMove;
+                    _vm.ResultText = noMove2;
                     return;
                 }
 
@@ -620,21 +770,21 @@ public partial class MainWindow : Window
 
                 if (DrawRules.IsHalfmoveDraw(pos))
                 {
-                    const string d = "Draw: 50-move rule (100 halfmoves with no reset).";
+                    const string d2 = "Draw: 50-move rule (100 halfmoves with no reset).";
                     _gameOver = true;
-                    _endMessage = d;
-                    _vm.StatusText = d;
-                    _vm.ResultText = d;
+                    _endMessage = d2;
+                    _vm.StatusText = d2;
+                    _vm.ResultText = d2;
                     return;
                 }
 
                 if (_session.IsTripleRepetitionDraw)
                 {
-                    const string d = "Draw: same position (board + turn + rights) three times.";
+                    const string d2 = "Draw: same position (board + turn + rights) three times.";
                     _gameOver = true;
-                    _endMessage = d;
-                    _vm.StatusText = d;
-                    _vm.ResultText = d;
+                    _endMessage = d2;
+                    _vm.StatusText = d2;
+                    _vm.ResultText = d2;
                     return;
                 }
 
