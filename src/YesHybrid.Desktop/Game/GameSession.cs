@@ -29,6 +29,13 @@ internal sealed class GameSession
     public DesktopHumanSide HumanSide { get; set; } = DesktopHumanSide.Party;
     public int EngineSearchDepth { get; set; } = 6;
 
+    /// <summary>
+    /// In Engine vs Engine, each engine ply searches at a depth drawn uniformly from
+    /// <c>[max(1, <see cref="EngineSearchDepth"/> − W), <see cref="EngineSearchDepth"/> + W]</c> with W = this value.
+    /// Keeps the standard start FEN while avoiding identical replay every game. Set 0 for fixed depth (fully deterministic).
+    /// </summary>
+    public int EngineVsEngineDepthHalfWidth { get; set; } = 3;
+
     private readonly Dictionary<string, int> _repetitionCounts = new();
 
     public GameSession(UciEngine engine) => Engine = engine;
@@ -94,7 +101,16 @@ internal sealed class GameSession
     /// <summary>Engine plays the current side; returns the UCI move, or <c>(none)</c> if the engine reports no move.</summary>
     public async Task<string> EngineBestMoveAsync(CancellationToken ct = default)
     {
-        var (move, newFen) = await Engine.GoBestGetFenAsync(Fen, EngineSearchDepth, TimeSpan.FromMinutes(1), ct);
+        int depth = EngineSearchDepth;
+        if (Mode == DesktopPlayMode.EngineVsEngine && EngineVsEngineDepthHalfWidth > 0)
+        {
+            int w = EngineVsEngineDepthHalfWidth;
+            int lo = Math.Max(1, EngineSearchDepth - w);
+            int hi = EngineSearchDepth + w + 1; // Random.Next upper bound is exclusive
+            depth = Random.Shared.Next(lo, hi);
+        }
+
+        var (move, newFen) = await Engine.GoBestGetFenAsync(Fen, depth, TimeSpan.FromMinutes(1), ct);
         if (move is "(none)" or "0000")
             return move;
         if (newFen is null)
